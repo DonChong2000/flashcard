@@ -1,5 +1,4 @@
 import { readdir, readFile, writeFile, mkdir } from "fs/promises";
-import { existsSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -20,12 +19,16 @@ function humanize(slug) {
 }
 
 async function main() {
-  if (!existsSync(DATA_DIR)) {
-    console.log("No data/ directory found, skipping data processing.");
-    return;
+  let files;
+  try {
+    files = (await readdir(DATA_DIR)).filter((f) => f.endsWith(".json"));
+  } catch (e) {
+    if (e.code === "ENOENT") {
+      console.log("No data/ directory found, skipping data processing.");
+      return;
+    }
+    throw e;
   }
-
-  const files = (await readdir(DATA_DIR)).filter((f) => f.endsWith(".json"));
   if (files.length === 0) {
     console.log("No JSON files found in data/, skipping.");
     return;
@@ -53,17 +56,19 @@ async function main() {
     const outSlugDir = path.join(OUT_DIR, slug);
     await mkdir(outSlugDir, { recursive: true });
 
-    for (const topic of topics) {
-      const topicQuestions = topicMap.get(topic);
-      const outFile = path.join(outSlugDir, `topic-${topic}.json`);
-      await writeFile(outFile, JSON.stringify({ topic, questions: topicQuestions }, null, 2));
-      console.log(`  Wrote ${outFile} (${topicQuestions.length} questions)`);
-    }
+    await Promise.all(
+      topics.map((topic) => {
+        const topicQuestions = topicMap.get(topic);
+        const outFile = path.join(outSlugDir, `topic-${topic}.json`);
+        return writeFile(outFile, JSON.stringify({ topic, questions: topicQuestions }))
+          .then(() => console.log(`  Wrote ${outFile} (${topicQuestions.length} questions)`));
+      })
+    );
 
     // Write all-topics file for "Start All"
     await writeFile(
       path.join(outSlugDir, "all.json"),
-      JSON.stringify({ questions }, null, 2)
+      JSON.stringify({ questions })
     );
 
     datasets.push({
@@ -77,7 +82,7 @@ async function main() {
   }
 
   const manifest = { datasets };
-  await writeFile(path.join(OUT_DIR, "manifest.json"), JSON.stringify(manifest, null, 2));
+  await writeFile(path.join(OUT_DIR, "manifest.json"), JSON.stringify(manifest));
   console.log(`Wrote manifest.json with ${datasets.length} dataset(s)`);
 }
 

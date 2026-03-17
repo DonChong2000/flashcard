@@ -1,5 +1,13 @@
 import type { ProgressStore, QuestionProgress } from "./types";
 
+const DEFAULT_PROGRESS: QuestionProgress = {
+  status: "unseen",
+  selectedAnswer: [],
+  attempts: 0,
+  lastAttempted: "",
+  bookmarked: false,
+};
+
 function key(slug: string) {
   return `flashcard_progress_${slug}`;
 }
@@ -24,26 +32,14 @@ export function setQuestionProgress(
   data: Partial<QuestionProgress>
 ): void {
   const store = getProgress(slug);
-  const existing = store[qNum] ?? {
-    status: "unseen",
-    selectedAnswer: [],
-    attempts: 0,
-    lastAttempted: "",
-    bookmarked: false,
-  };
+  const existing = store[qNum] ?? { ...DEFAULT_PROGRESS };
   store[qNum] = { ...existing, ...data };
   save(slug, store);
 }
 
 export function toggleBookmark(slug: string, qNum: number): boolean {
   const store = getProgress(slug);
-  const existing = store[qNum] ?? {
-    status: "unseen" as const,
-    selectedAnswer: [],
-    attempts: 0,
-    lastAttempted: "",
-    bookmarked: false,
-  };
+  const existing = store[qNum] ?? { ...DEFAULT_PROGRESS };
   const newBookmarked = !existing.bookmarked;
   store[qNum] = { ...existing, bookmarked: newBookmarked };
   save(slug, store);

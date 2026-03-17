@@ -31,6 +31,7 @@ export function QuestionCard({
   const isMulti = question.correct_answer.length > 1;
   const [selected, setSelected] = useState<string[]>([]);
   const [revealed, setRevealed] = useState(false);
+  const [isCorrectAnswer, setIsCorrectAnswer] = useState(false);
   const [discussionOpen, setDiscussionOpen] = useState(false);
   const isBookmarked = progress?.bookmarked ?? false;
 
@@ -38,6 +39,7 @@ export function QuestionCard({
   useEffect(() => {
     setSelected([]);
     setRevealed(false);
+    setIsCorrectAnswer(false);
     setDiscussionOpen(false);
   }, [question.question_number]);
 
@@ -61,6 +63,7 @@ export function QuestionCard({
     const correct =
       selected.length === question.correct_answer.length &&
       selected.every((s) => question.correct_answer.includes(s));
+    setIsCorrectAnswer(correct);
     setRevealed(true);
     onAnswer(selected, correct);
   }
@@ -88,8 +91,7 @@ export function QuestionCard({
         return;
       }
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [optionKeys, selected, revealed]
+    [optionKeys, selected, revealed, onNext, onBookmark]
   );
 
   useEffect(() => {
@@ -111,11 +113,6 @@ export function QuestionCard({
   }
 
   const sortedDiscussion = [...(question.discussion ?? [])].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3);
-
-  const isCorrectAnswer =
-    revealed &&
-    selected.length === question.correct_answer.length &&
-    selected.every((s) => question.correct_answer.includes(s));
 
   return (
     <Card className="w-full">

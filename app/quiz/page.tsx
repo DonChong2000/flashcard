@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 import { ArrowLeft, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -26,7 +26,9 @@ function QuizContent() {
 
   const slug = params.get("dataset") ?? "";
   const topicParam = params.get("topic") ?? "all";
-  const filter = (params.get("filter") ?? "all") as QuizFilter;
+  const VALID_FILTERS: QuizFilter[] = ["all", "incorrect", "bookmarked", "bookmarked+incorrect"];
+  const filterRaw = params.get("filter") ?? "all";
+  const filter: QuizFilter = VALID_FILTERS.includes(filterRaw as QuizFilter) ? (filterRaw as QuizFilter) : "all";
   const topic: number | "all" = topicParam === "all" ? "all" : parseInt(topicParam);
 
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -35,7 +37,6 @@ function QuizContent() {
   const [error, setError] = useState<string | null>(null);
   const [progress, setProgress] = useState<Record<number, QuestionProgress>>({});
   const [sessionResults, setSessionResults] = useState<{ correct: number; total: number } | null>(null);
-  const [sessionScore, setSessionScore] = useState({ correct: 0, total: 0 });
 
   useEffect(() => {
     if (!slug) return;
@@ -48,16 +49,7 @@ function QuizContent() {
         setProgress(prog);
 
         // Fetch questions
-        let qs: Question[] = [];
-        if (topic === "all") {
-          // Fetch manifest to get all topics, then fetch all
-          const res = await fetch(`${BASE_PATH}/data/${slug}/all.json`);
-          if (!res.ok) throw new Error("Failed to load questions");
-          const data = await res.json();
-          qs = data.questions;
-        } else {
-          qs = await fetchTopicQuestions(BASE_PATH, slug, topic);
-        }
+        const qs: Question[] = await fetchTopicQuestions(BASE_PATH, slug, topic);
 
         // Apply filter
         if (filter === "incorrect") {
@@ -74,7 +66,6 @@ function QuizContent() {
 
         setQuestions(qs);
         setCurrent(0);
-        setSessionScore({ correct: 0, total: 0 });
         setSessionResults(null);
       } catch (e: unknown) {
         setError(e instanceof Error ? e.message : "Unknown error");
@@ -135,7 +126,7 @@ function QuizContent() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center space-y-3">
           <p className="text-destructive font-medium">Error: {error}</p>
-          <Button variant="outline" onClick={() => router.push(BASE_PATH + "/")}>
+          <Button variant="outline" onClick={() => router.push("/")}>
             ← Back
           </Button>
         </div>
@@ -148,7 +139,7 @@ function QuizContent() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center space-y-3">
           <p className="text-muted-foreground">No questions match this filter.</p>
-          <Button variant="outline" onClick={() => router.push(BASE_PATH + "/")}>
+          <Button variant="outline" onClick={() => router.push("/")}>
             ← Back
           </Button>
         </div>
@@ -183,7 +174,7 @@ function QuizContent() {
               >
                 Restart Session
               </Button>
-              <Button variant="outline" onClick={() => router.push(BASE_PATH + "/")}>
+              <Button variant="outline" onClick={() => router.push("/")}>
                 ← Home
               </Button>
             </div>
@@ -201,7 +192,7 @@ function QuizContent() {
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => router.push(BASE_PATH + "/")}
+            onClick={() => router.push("/")}
             className="gap-1"
           >
             <ArrowLeft className="h-4 w-4" />

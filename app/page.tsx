@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { DatasetSelector } from "@/components/DatasetSelector";
@@ -58,24 +58,24 @@ export default function HomePage() {
   useEffect(() => {
     if (!dataset) return;
     const load = async () => {
-      const stats: TopicStats[] = [];
       const prog = getProgress(selectedSlug);
-      for (const topic of dataset.topics) {
-        try {
-          const questions = await fetchTopicQuestions(BASE_PATH, selectedSlug, topic);
-          const qNums = questions.map((q) => q.question_number);
-          let correct = 0, incorrect = 0, unseen = 0;
-          for (const qn of qNums) {
-            const s = prog[qn]?.status ?? "unseen";
-            if (s === "correct") correct++;
-            else if (s === "incorrect") incorrect++;
-            else unseen++;
+      const stats = await Promise.all(
+        dataset.topics.map(async (topic) => {
+          try {
+            const questions = await fetchTopicQuestions(BASE_PATH, selectedSlug, topic);
+            let correct = 0, incorrect = 0, unseen = 0;
+            for (const q of questions) {
+              const s = prog[q.question_number]?.status ?? "unseen";
+              if (s === "correct") correct++;
+              else if (s === "incorrect") incorrect++;
+              else unseen++;
+            }
+            return { topic, total: questions.length, correct, incorrect, unseen };
+          } catch {
+            return { topic, total: 0, correct: 0, incorrect: 0, unseen: 0 };
           }
-          stats.push({ topic, total: questions.length, correct, incorrect, unseen });
-        } catch {
-          stats.push({ topic, total: 0, correct: 0, incorrect: 0, unseen: 0 });
-        }
-      }
+        })
+      );
       setTopicStats(stats);
     };
     load();
@@ -90,7 +90,7 @@ export default function HomePage() {
 
   function go(topic: number | "all", filter: string) {
     router.push(
-      `${BASE_PATH}/quiz?dataset=${selectedSlug}&topic=${topic}&filter=${filter}`
+      `/quiz?dataset=${selectedSlug}&topic=${topic}&filter=${filter}`
     );
   }
 
