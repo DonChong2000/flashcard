@@ -45,7 +45,7 @@ export function QuestionCard({
 
   const optionKeys = Object.keys(question.options).filter((k) => OPTION_KEYS.includes(k));
 
-  const totalVotes = Object.values(question.community_votes).reduce((a, b) => a + b, 0);
+  const totalVotes = Object.values(question.community_votes ?? {}).reduce((a, b) => a + b, 0);
 
   function toggleOption(key: string) {
     if (revealed) return;
