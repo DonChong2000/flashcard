@@ -3,7 +3,7 @@
 import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { ArrowLeft, Trophy } from "lucide-react";
+import { ArrowLeft, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/QuestionCard";
@@ -33,6 +33,7 @@ function QuizContent() {
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
+  const [navInput, setNavInput] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [progress, setProgress] = useState<Record<number, QuestionProgress>>({});
@@ -98,6 +99,19 @@ function QuizContent() {
     const q = questions[current];
     toggleBookmark(slug, q.question_number);
     setProgress(getProgress(slug));
+  }
+
+  useEffect(() => {
+    setNavInput(String(current + 1));
+  }, [current]);
+
+  function handlePrev() {
+    if (current > 0) setCurrent((c) => c - 1);
+  }
+
+  function handleJump(oneBased: number) {
+    const idx = oneBased - 1;
+    if (idx >= 0 && idx < questions.length) setCurrent(idx);
   }
 
   function handleNext() {
@@ -211,6 +225,54 @@ function QuizContent() {
           topic={topic}
           filter={filter}
         />
+        </div>
+
+        {/* Question navigation */}
+        <div className="px-4 sm:px-0 flex items-center justify-between gap-3">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handlePrev}
+            disabled={current === 0}
+            className="gap-1"
+          >
+            <ChevronLeft className="h-4 w-4" />
+            Prev
+          </Button>
+
+          <div className="flex items-center gap-1.5 text-sm">
+            <input
+              type="number"
+              min={1}
+              max={questions.length}
+              value={navInput}
+              onChange={(e) => setNavInput(e.target.value)}
+              onBlur={() => {
+                const val = parseInt(navInput);
+                if (!isNaN(val)) handleJump(val);
+                else setNavInput(String(current + 1));
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  const val = parseInt(navInput);
+                  if (!isNaN(val)) handleJump(val);
+                }
+              }}
+              className="w-16 h-9 rounded-md border border-input bg-background px-2 text-center text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            />
+            <span className="text-muted-foreground">/ {questions.length}</span>
+          </div>
+
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => setCurrent((c) => c + 1)}
+            disabled={current + 1 >= questions.length}
+            className="gap-1"
+          >
+            Next
+            <ChevronRight className="h-4 w-4" />
+          </Button>
         </div>
 
         {/* Question */}
