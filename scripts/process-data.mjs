@@ -42,7 +42,11 @@ async function main() {
     const slug = slugify(file);
     const raw = await readFile(path.join(DATA_DIR, file), "utf-8");
     const data = JSON.parse(raw);
-    const questions = data.questions ?? [];
+    const allQuestions = data.questions ?? [];
+    const questions = allQuestions.filter((q) => Array.isArray(q.correct_answer) && q.correct_answer.length > 0);
+    if (questions.length < allQuestions.length) {
+      console.log(`  Skipped ${allQuestions.length - questions.length} questions with missing correct_answer`);
+    }
 
     // Group by topic
     const topicMap = new Map();

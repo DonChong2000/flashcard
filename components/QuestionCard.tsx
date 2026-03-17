@@ -28,7 +28,7 @@ export function QuestionCard({
   onNext,
   isLast,
 }: QuestionCardProps) {
-  const isMulti = question.correct_answer.length > 1;
+  const isMulti = (question.correct_answer?.length ?? 0) > 1;
   const [selected, setSelected] = useState<string[]>([]);
   const [revealed, setRevealed] = useState(false);
   const [isCorrectAnswer, setIsCorrectAnswer] = useState(false);
