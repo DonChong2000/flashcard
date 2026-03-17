@@ -191,7 +191,7 @@ export default function HomePage() {
         {/* Header */}
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <BookOpen className="h-7 w-7 text-primary" />
+            <BookOpen className="h-7 w-7 text-secondary-foreground" />
             <div>
               <h1 className="text-2xl font-bold">AWS Cert Flashcards</h1>
               {dataset && (
@@ -219,7 +219,7 @@ export default function HomePage() {
         {/* Quick actions */}
         {dataset && (
           <div className="flex flex-wrap gap-2">
-            <Button onClick={() => go("all", "all")} className="gap-2">
+            <Button onClick={() => go("all", "all")} className="gap-2 bg-secondary-foreground text-secondary hover:bg-secondary-foreground/90">
               <Play className="h-4 w-4" />
               Start All
             </Button>

@@ -4,48 +4,78 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    /* Palette aliases */
+    --color-timberwolf:     #d6d8d3;
+    --color-timberwolf-50:  #fafaf9;
+    --color-timberwolf-100: #f7f7f6;
+    --color-timberwolf-200: #eff0ee;
+    --color-timberwolf-300: #e7e8e5;
+    --color-timberwolf-400: #dfe0dc;
+    --color-timberwolf-500: #d6d8d3;
+    --color-timberwolf-550: #C1C4BD;
+    --color-timberwolf-600: #acb0a6;
+    --color-timberwolf-700: #828879;
+    --color-timberwolf-800: #575b51;
+    --color-timberwolf-900: #2b2d28;
+
+    --color-charcoal:     #3B4458;
+    --color-charcoal-100: #d4d8e2;
+    --color-charcoal-200: #a8b1c5;
+    --color-charcoal-300: #7d8aa8;
+    --color-charcoal-400: #586684;
+    --color-charcoal-460: #404A5F;
+    --color-charcoal-500: #3b4458;
+    --color-charcoal-600: #2f3747;
+    --color-charcoal-700: #232935;
+    --color-charcoal-750: #1E222C;
+    --color-charcoal-800: #181b23;
+    --color-charcoal-850: #12151B;
+    --color-charcoal-900: #0c0e12;
+
+    /* Semantic tokens — light mode */
+    --background: var(--color-timberwolf-50);
+    --foreground: var(--color-charcoal-800);
+    --card: #ffffff;
+    --card-foreground: var(--color-charcoal-800);
+    --popover: #ffffff;
+    --popover-foreground: var(--color-charcoal-800);
+    --primary: var(--color-charcoal-460);
+    --primary-foreground: #ffffff;
+    --secondary: var(--color-timberwolf-200);
+    --secondary-foreground: var(--color-charcoal-460);
+    --muted: var(--color-timberwolf-100);
+    --muted-foreground: var(--color-charcoal-400);
+    --accent: var(--color-timberwolf-200);
+    --accent-foreground: var(--color-charcoal-700);
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: var(--color-timberwolf-300);
+    --input: var(--color-timberwolf-300);
+    --ring: #0ea5e9;
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.3% 48%;
+    /* Semantic tokens — dark mode */
+    --background: var(--color-charcoal-800);
+    --foreground: var(--color-timberwolf-500);
+    --card: var(--color-charcoal-750);
+    --card-foreground: var(--color-timberwolf-500);
+    --popover: var(--color-charcoal-750);
+    --popover-foreground: var(--color-timberwolf-500);
+    --primary: var(--color-timberwolf-300);
+    --primary-foreground: var(--color-charcoal-800);
+    --secondary: var(--color-charcoal-700);
+    --secondary-foreground: var(--color-timberwolf-500);
+    --muted: var(--color-charcoal-700);
+    --muted-foreground: var(--color-charcoal-300);
+    --accent: var(--color-charcoal-600);
+    --accent-foreground: var(--color-timberwolf-500);
+    --destructive: #f87171;
+    --destructive-foreground: var(--color-timberwolf-500);
+    --border: var(--color-charcoal-600);
+    --input: var(--color-charcoal-600);
+    --ring: #38bdf8;
   }
 }
 
