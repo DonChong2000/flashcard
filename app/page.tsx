@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -15,8 +15,11 @@ import {
   getBookmarkedIds,
   getIncorrectIds,
   resetProgress,
+  exportProgress,
+  importProgress,
+  type ProgressExport,
 } from "@/lib/progress";
-import type { DatasetMeta, ProgressStore, Question } from "@/lib/types";
+import type { DatasetMeta, ProgressStore } from "@/lib/types";
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/flashcard";
 
@@ -36,6 +39,8 @@ export default function HomePage() {
   const [topicStats, setTopicStats] = useState<TopicStats[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; slug: string; totalQuestions: number } | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     fetchManifest(BASE_PATH)
@@ -100,6 +105,64 @@ export default function HomePage() {
       setProgress({});
       setTopicStats((prev) => prev.map((t) => ({ ...t, correct: 0, incorrect: 0, unseen: t.total })));
     }
+  }
+
+  function handleExport() {
+    if (!dataset) return;
+    const data = exportProgress(selectedSlug, dataset.totalQuestions);
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    const dateStr = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = `${selectedSlug}-progress-${dateStr}.json`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 0);
+  }
+
+  function handleImportClick() {
+    fileInputRef.current?.click();
+  }
+
+  function handleFileChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file || !dataset) return;
+    // Reset so the same file can be re-selected
+    e.target.value = "";
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      try {
+        const raw = JSON.parse(ev.target?.result as string);
+        // Validate shape
+        if (raw.version !== 1) {
+          alert(`Unknown export version "${raw.version}". Cannot import.`);
+          return;
+        }
+        if (!("question_set" in raw && "date" in raw && "correct" in raw && "incorrect" in raw && "bookmarked" in raw)) {
+          alert("Invalid progress file: missing required fields.");
+          return;
+        }
+        const hexRe = /^[0-9a-fA-F]*$/;
+        if (!hexRe.test(raw.correct) || !hexRe.test(raw.incorrect) || !hexRe.test(raw.bookmarked)) {
+          alert("Invalid progress file: hex strings contain invalid characters.");
+          return;
+        }
+        if (raw.question_set !== selectedSlug) {
+          if (!confirm(`This file is for "${raw.question_set}" but current dataset is "${selectedSlug}". Import anyway?`)) return;
+        }
+        setPendingImport({ data: raw as ProgressExport, slug: selectedSlug, totalQuestions: dataset.totalQuestions });
+      } catch {
+        alert("Failed to parse file. Make sure it is a valid JSON progress export.");
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  function handleImportConfirm(mode: "replace" | "merge") {
+    if (!pendingImport) return;
+    importProgress(pendingImport.slug, pendingImport.data, pendingImport.totalQuestions, mode === "merge");
+    setPendingImport(null);
+    window.location.reload();
   }
 
   if (loading) {
@@ -191,7 +254,40 @@ export default function HomePage() {
               <RefreshCw className="h-4 w-4" />
               Reset Progress
             </Button>
+            <Button variant="outline" onClick={handleExport} className="gap-2">
+              <Download className="h-4 w-4" />
+              Export
+            </Button>
+            <Button variant="outline" onClick={handleImportClick} className="gap-2">
+              <Upload className="h-4 w-4" />
+              Import
+            </Button>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept=".json"
+              className="hidden"
+              onChange={handleFileChange}
+            />
           </div>
+        )}
+
+        {/* Import confirmation dialog */}
+        {pendingImport && (
+          <Card className="border-amber-400">
+            <CardContent className="p-4 space-y-3">
+              <p className="font-medium text-sm">Import progress from <span className="font-mono">{pendingImport.data.question_set}</span> ({new Date(pendingImport.data.date).toLocaleString()})?</p>
+              <p className="text-xs text-muted-foreground">
+                <strong>Replace</strong> — overwrite all current progress.{" "}
+                <strong>Merge</strong> — only fill in questions you haven&apos;t answered yet.
+              </p>
+              <div className="flex gap-2">
+                <Button size="sm" onClick={() => handleImportConfirm("replace")}>Replace</Button>
+                <Button size="sm" variant="outline" onClick={() => handleImportConfirm("merge")}>Merge</Button>
+                <Button size="sm" variant="ghost" onClick={() => setPendingImport(null)}>Cancel</Button>
+              </div>
+            </CardContent>
+          </Card>
         )}
 
         {/* Topic grid */}
