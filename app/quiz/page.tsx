@@ -49,7 +49,7 @@ function QuizContent() {
         setProgress(prog);
 
         // Fetch questions
-        const qs: Question[] = await fetchTopicQuestions(BASE_PATH, slug, topic);
+        let qs: Question[] = await fetchTopicQuestions(BASE_PATH, slug, topic);
 
         // Apply filter
         if (filter === "incorrect") {
