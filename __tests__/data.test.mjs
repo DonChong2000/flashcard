@@ -131,7 +131,7 @@ describe("data/*.json source files", () => {
           const id = `${file} #${q.question_number}`;
           for (const [key, val] of Object.entries(q.community_votes)) {
             check(
-              key.length > 0 && [...key].every((k) => VALID_ANSWER_KEYS.has(k)),
+              key === "other" || (key.length > 0 && [...key].every((k) => VALID_ANSWER_KEYS.has(k))),
               `${id}: community_votes key "${key}" is invalid`
             );
             check(typeof val === "number", `${id}: community_votes["${key}"] must be a number`);

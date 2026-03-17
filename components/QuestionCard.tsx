@@ -45,7 +45,7 @@ export function QuestionCard({
 
   const optionKeys = Object.keys(question.options).filter((k) => OPTION_KEYS.includes(k));
 
-  const totalVotes = Object.values(question.community_votes ?? {}).reduce((a, b) => a + b, 0);
+  const hasVotes = Object.keys(question.community_votes ?? {}).length > 0;
 
   function toggleOption(key: string) {
     if (revealed) return;
@@ -170,9 +170,9 @@ export function QuestionCard({
                     ) : selected.includes(key) ? (
                       <XCircle className="h-4 w-4 text-red-600" />
                     ) : null}
-                    {totalVotes > 0 && question.community_votes[key] !== undefined && (
+                    {hasVotes && question.community_votes[key] !== undefined && (
                       <span className="text-xs text-muted-foreground ml-1">
-                        {Math.round((question.community_votes[key] / totalVotes) * 100)}%
+                        {question.community_votes[key]}%
                       </span>
                     )}
                   </div>
@@ -204,12 +204,12 @@ export function QuestionCard({
         )}
 
         {/* Community votes summary */}
-        {revealed && totalVotes > 0 && (
+        {revealed && hasVotes && (
           <div className="text-xs text-muted-foreground">
-            Community votes ({totalVotes} total):{" "}
+            Community votes:{" "}
             {Object.entries(question.community_votes)
               .sort(([, a], [, b]) => b - a)
-              .map(([k, v]) => `${k}: ${Math.round((v / totalVotes) * 100)}%`)
+              .map(([k, v]) => `${k}: ${v}%`)
               .join(" · ")}
           </div>
         )}
