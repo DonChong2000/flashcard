@@ -115,12 +115,12 @@ export function QuestionCard({
   const sortedDiscussion = [...(question.discussion ?? [])].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3);
 
   return (
-    <Card className="w-full">
-      <CardContent className="p-6 space-y-5">
+    <Card className="w-full rounded-none sm:rounded-lg border-0 sm:border shadow-none sm:shadow-sm">
+      <CardContent className="p-4 sm:p-6 space-y-5">
         {/* Header */}
-        <div className="flex items-start justify-between gap-4">
-          <div className="flex-1">
-            <div className="flex items-center gap-2 mb-3">
+        <div>
+          <div className="flex items-center justify-between gap-4 mb-3">
+            <div className="flex items-center gap-2">
               <Badge variant="outline" className="text-xs">
                 Q{question.question_number}
               </Badge>
@@ -130,19 +130,19 @@ export function QuestionCard({
                 </Badge>
               )}
             </div>
-            <p className="text-base leading-relaxed whitespace-pre-wrap">{question.question}</p>
+            <button
+              onClick={onBookmark}
+              className="text-yellow-500 hover:text-yellow-600 transition-colors flex-shrink-0"
+              title="Bookmark (B)"
+            >
+              {isBookmarked ? (
+                <BookmarkCheck className="h-5 w-5 fill-yellow-500" />
+              ) : (
+                <Bookmark className="h-5 w-5" />
+              )}
+            </button>
           </div>
-          <button
-            onClick={onBookmark}
-            className="text-yellow-500 hover:text-yellow-600 transition-colors flex-shrink-0 mt-1"
-            title="Bookmark (B)"
-          >
-            {isBookmarked ? (
-              <BookmarkCheck className="h-5 w-5 fill-yellow-500" />
-            ) : (
-              <Bookmark className="h-5 w-5" />
-            )}
-          </button>
+          <p className="text-lg sm:text-base leading-relaxed whitespace-pre-wrap">{question.question}</p>
         </div>
 
         {/* Options */}
@@ -153,7 +153,7 @@ export function QuestionCard({
               onClick={() => toggleOption(key)}
               disabled={revealed}
               className={cn(
-                "w-full text-left rounded-lg border-2 p-3 transition-all text-sm",
+                "w-full text-left rounded-lg border-2 p-3 transition-all text-base sm:text-sm",
                 getOptionStyle(key),
                 revealed ? "cursor-default" : "cursor-pointer"
               )}

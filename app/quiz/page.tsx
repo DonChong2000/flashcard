@@ -186,9 +186,9 @@ function QuizContent() {
 
   return (
     <main className="min-h-screen bg-background">
-      <div className="container max-w-3xl py-6 space-y-5">
+      <div className="container max-w-3xl py-6 space-y-5 px-0 sm:px-4">
         {/* Navigation */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 px-4 sm:px-0">
           <Button
             variant="ghost"
             size="sm"
@@ -201,12 +201,14 @@ function QuizContent() {
         </div>
 
         {/* Progress */}
+        <div className="px-4 sm:px-0">
         <ProgressHeader
           current={current + 1}
           total={questions.length}
           topic={topic}
           filter={filter}
         />
+        </div>
 
         {/* Question */}
         {currentQuestion && (
