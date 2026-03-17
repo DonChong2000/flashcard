@@ -65,7 +65,10 @@ function QuizContent() {
         }
 
         setQuestions(qs);
-        setCurrent(0);
+        const firstUnseen = qs.findIndex(
+          (q) => !prog[q.question_number] || prog[q.question_number].status === "unseen"
+        );
+        setCurrent(firstUnseen === -1 ? 0 : firstUnseen);
         setSessionResults(null);
       } catch (e: unknown) {
         setError(e instanceof Error ? e.message : "Unknown error");
