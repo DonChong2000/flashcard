@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -22,6 +22,7 @@ import {
 import type { DatasetMeta, ProgressStore } from "@/lib/types";
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/flashcard";
+const RANDOM_EXAM_SIZE = 65;
 
 interface TopicStats {
   topic: number;
@@ -290,11 +291,27 @@ export default function HomePage() {
           </Card>
         )}
 
-        {/* Topic grid */}
+        {/* Practice Set grid */}
         {topicStats.length > 0 && (
           <div className="space-y-3">
-            <h2 className="text-lg font-semibold">Topics</h2>
+            <h2 className="text-lg font-semibold">Practice Sets</h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {/* Random exam card */}
+              <Card
+                className="cursor-pointer hover:shadow-md transition-shadow border-dashed"
+                onClick={() => router.push(`/quiz?dataset=${selectedSlug}&topic=all&filter=all&random=${RANDOM_EXAM_SIZE}`)}
+              >
+                <CardContent className="p-4 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <Badge variant="secondary" className="gap-1">
+                      <Shuffle className="h-3 w-3" />
+                      Random {RANDOM_EXAM_SIZE}
+                    </Badge>
+                    <span className="text-xs text-muted-foreground">{RANDOM_EXAM_SIZE} Qs</span>
+                  </div>
+                  <p className="text-xs text-muted-foreground">Randomly sampled exam set</p>
+                </CardContent>
+              </Card>
               {topicStats.map((ts) => {
                 const pct = ts.total > 0 ? Math.round((ts.correct / ts.total) * 100) : 0;
                 return (
@@ -305,7 +322,7 @@ export default function HomePage() {
                   >
                     <CardContent className="p-4 space-y-3">
                       <div className="flex items-center justify-between">
-                        <Badge variant="outline">Topic {ts.topic}</Badge>
+                        <Badge variant="outline">Practice Set {ts.topic}</Badge>
                         <span className="text-xs text-muted-foreground">{ts.total} Qs</span>
                       </div>
                       <Progress value={pct} className="h-1.5" />

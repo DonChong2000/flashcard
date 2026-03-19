@@ -9,6 +9,7 @@ interface ProgressHeaderProps {
   topic?: number | "all";
   datasetName?: string;
   filter?: string;
+  label?: string;
 }
 
 export function ProgressHeader({
@@ -17,6 +18,7 @@ export function ProgressHeader({
   topic,
   datasetName,
   filter,
+  label,
 }: ProgressHeaderProps) {
   const pct = total > 0 ? Math.round((current / total) * 100) : 0;
 
@@ -27,9 +29,11 @@ export function ProgressHeader({
           {datasetName && (
             <span className="text-muted-foreground font-medium">{datasetName}</span>
           )}
-          {topic !== undefined && (
+          {label !== undefined ? (
+            <Badge variant="secondary">{label}</Badge>
+          ) : topic !== undefined && (
             <Badge variant="secondary">
-              {topic === "all" ? "All Topics" : `Topic ${topic}`}
+              {topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`}
             </Badge>
           )}
           {filter && filter !== "all" && (

@@ -30,6 +30,8 @@ function QuizContent() {
   const filterRaw = params.get("filter") ?? "all";
   const filter: QuizFilter = VALID_FILTERS.includes(filterRaw as QuizFilter) ? (filterRaw as QuizFilter) : "all";
   const topic: number | "all" = topicParam === "all" ? "all" : parseInt(topicParam);
+  const randomCount = (() => { const n = parseInt(params.get("random") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
+  const quizLabel = randomCount !== null ? `Random ${randomCount}` : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
@@ -65,6 +67,15 @@ function QuizContent() {
           qs = qs.filter((q) => bIds.has(q.question_number) || iIds.has(q.question_number));
         }
 
+        // Apply random shuffle and slice if requested
+        if (randomCount !== null) {
+          for (let i = qs.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [qs[i], qs[j]] = [qs[j], qs[i]];
+          }
+          qs = qs.slice(0, randomCount);
+        }
+
         setQuestions(qs);
         const firstUnseen = qs.findIndex(
           (q) => !prog[q.question_number] || prog[q.question_number].status === "unseen"
@@ -79,7 +90,7 @@ function QuizContent() {
     };
 
     load();
-  }, [slug, topicParam, filter]);
+  }, [slug, topicParam, filter, randomCount]);
 
   function handleAnswer(selected: string[], correct: boolean) {
     if (!questions[current]) return;
@@ -174,7 +185,7 @@ function QuizContent() {
             <div>
               <h2 className="text-2xl font-bold">Session Complete!</h2>
               <p className="text-muted-foreground mt-1">
-                {topic === "all" ? "All Topics" : `Topic ${topic}`}
+                {quizLabel}
                 {filter !== "all" && ` · ${filter}`}
               </p>
             </div>
@@ -222,8 +233,8 @@ function QuizContent() {
         <ProgressHeader
           current={current + 1}
           total={questions.length}
-          topic={topic}
           filter={filter}
+          label={quizLabel}
         />
         </div>
 
