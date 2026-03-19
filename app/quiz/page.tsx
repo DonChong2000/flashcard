@@ -125,6 +125,14 @@ function QuizContent() {
     if (idx >= 0 && idx < questions.length) setCurrent(idx);
   }
 
+  function handleOverride() {
+    if (!questions[current]) return;
+    const q = questions[current];
+    setQuestionProgress(slug, q.question_number, { status: "correct" });
+    setProgress(getProgress(slug));
+    handleNext();
+  }
+
   function handleNext() {
     if (current + 1 >= questions.length) {
       // Session complete
@@ -294,6 +302,7 @@ function QuizContent() {
             onAnswer={handleAnswer}
             onBookmark={handleBookmark}
             onNext={handleNext}
+            onOverride={handleOverride}
             isLast={current + 1 >= questions.length}
           />
         )}

@@ -15,6 +15,7 @@ interface QuestionCardProps {
   onAnswer: (selected: string[], correct: boolean) => void;
   onBookmark: () => void;
   onNext: () => void;
+  onOverride: () => void;
   isLast: boolean;
 }
 
@@ -26,6 +27,7 @@ export function QuestionCard({
   onAnswer,
   onBookmark,
   onNext,
+  onOverride,
   isLast,
 }: QuestionCardProps) {
   const isMulti = (question.correct_answer?.length ?? 0) > 1;
@@ -90,8 +92,12 @@ export function QuestionCard({
         onBookmark();
         return;
       }
+      if ((e.key === "o" || e.key === "O") && revealed && !isCorrectAnswer) {
+        onOverride();
+        return;
+      }
     },
-    [optionKeys, selected, revealed, onNext, onBookmark]
+    [optionKeys, selected, revealed, isCorrectAnswer, onNext, onBookmark, onOverride]
   );
 
   useEffect(() => {
@@ -257,9 +263,16 @@ export function QuestionCard({
                 Check Answer
               </Button>
             ) : (
-              <Button onClick={onNext} size="sm">
-                {isLast ? "Finish" : "Next →"}
-              </Button>
+              <>
+                {!isCorrectAnswer && (
+                  <Button onClick={onOverride} size="sm" variant="outline" className="text-xs">
+                    Override: I&apos;m correct (O)
+                  </Button>
+                )}
+                <Button onClick={onNext} size="sm">
+                  {isLast ? "Finish" : "Next →"}
+                </Button>
+              </>
             )}
           </div>
         </div>
