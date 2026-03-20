@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { DatasetSelector } from "@/components/DatasetSelector";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { StatsOverview } from "@/components/StatsOverview";
 import { fetchManifest, fetchTopicQuestions } from "@/lib/manifest";
 import {
@@ -194,17 +195,20 @@ export default function HomePage() {
           <div className="flex items-center gap-3">
             <BookOpen className="h-7 w-7 text-secondary-foreground" />
             <div>
-              <h1 className="text-2xl font-bold">AWS Cert Flashcards</h1>
+              <h1 className="text-xl md:text-2xl font-bold whitespace-nowrap">AWS Cert Flashcards</h1>
               {dataset && (
                 <p className="text-sm text-muted-foreground">{dataset.totalQuestions} questions</p>
               )}
             </div>
           </div>
-          <DatasetSelector
-            datasets={datasets}
-            selected={selectedSlug}
-            onChange={setSelectedSlug}
-          />
+          <div className="flex items-center gap-2 shrink-0">
+            <DatasetSelector
+              datasets={datasets}
+              selected={selectedSlug}
+              onChange={setSelectedSlug}
+            />
+            <ThemeToggle />
+          </div>
         </div>
 
         {/* Stats */}

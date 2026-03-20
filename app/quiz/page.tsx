@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ProgressHeader } from "@/components/ProgressHeader";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { fetchTopicQuestions } from "@/lib/manifest";
 import {
   getProgress,
@@ -224,7 +225,7 @@ function QuizContent() {
     <main className="min-h-screen bg-background">
       <div className="container max-w-3xl py-6 space-y-5 px-0 sm:px-4">
         {/* Navigation */}
-        <div className="flex items-center gap-3 px-4 sm:px-0">
+        <div className="flex items-center justify-between px-4 sm:px-0">
           <Button
             variant="ghost"
             size="sm"
@@ -234,6 +235,7 @@ function QuizContent() {
             <ArrowLeft className="h-4 w-4" />
             Home
           </Button>
+          <ThemeToggle />
         </div>
 
         {/* Progress */}
