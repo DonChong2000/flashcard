@@ -266,7 +266,7 @@ export function QuestionCard({
               <>
                 {!isCorrectAnswer && (
                   <Button onClick={onOverride} size="sm" variant="outline" className="text-xs">
-                    Override: I&apos;m correct (O)
+                    I'm correct
                   </Button>
                 )}
                 <Button onClick={onNext} size="sm">
