@@ -243,7 +243,7 @@ export function QuestionCard({
                       <span>👍 {d.upvotes}</span>
                     </div>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">{d.comment}</p>
+                  <p className="text-muted-foreground leading-relaxed break-words">{d.comment}</p>
                 </div>
               ))}
             </CollapsibleContent>
