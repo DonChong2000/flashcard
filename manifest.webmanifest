@@ -1,0 +1,25 @@
+{
+  "name": "AWS Cert Flashcards",
+  "short_name": "Flashcards",
+  "description": "Study AWS certification exam questions with flashcards",
+  "start_url": "/flashcard/?source=pwa",
+  "scope": "/flashcard/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fafaf9",
+  "theme_color": "#404A5F",
+  "icons": [
+    {
+      "src": "/flashcard/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/flashcard/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
