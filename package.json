@@ -13,7 +13,9 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "jest": {
-    "testMatch": ["**/__tests__/**/*.test.mjs"]
+    "testMatch": [
+      "**/__tests__/**/*.test.mjs"
+    ]
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.1.3",
