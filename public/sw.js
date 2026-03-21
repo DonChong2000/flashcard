@@ -1,4 +1,4 @@
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE_SHELL  = `flashcard-shell-${VERSION}`;
 const CACHE_STATIC = `flashcard-static-${VERSION}`;
 const CACHE_DATA   = `flashcard-data-${VERSION}`;
@@ -8,6 +8,7 @@ const SHELL_URLS = [
   '/flashcard/',
   '/flashcard/quiz',
   '/flashcard/manifest.webmanifest',
+  '/flashcard/data/manifest.json',
 ];
 
 self.addEventListener('install', (event) => {
