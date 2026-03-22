@@ -75,11 +75,16 @@ async function main() {
       JSON.stringify({ questions })
     );
 
+    const topicQuestions = Object.fromEntries(
+      topics.map((topic) => [topic, topicMap.get(topic).map((q) => q.question_number)])
+    );
+
     datasets.push({
       slug,
       name: humanize(slug),
       totalQuestions: questions.length,
       topics,
+      topicQuestions,
     });
 
     console.log(`Processed ${file} → ${slug} (${questions.length} questions, ${topics.length} topics)`);

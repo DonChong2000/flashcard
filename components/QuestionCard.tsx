@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp, CheckCircle2, XCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -45,7 +45,10 @@ export function QuestionCard({
     setDiscussionOpen(false);
   }, [question.question_number]);
 
-  const optionKeys = Object.keys(question.options).filter((k) => OPTION_KEYS.includes(k));
+  const optionKeys = useMemo(
+    () => Object.keys(question.options).filter((k) => OPTION_KEYS.includes(k)),
+    [question.options]
+  );
 
   const hasVotes = Object.keys(question.community_votes ?? {}).length > 0;
 

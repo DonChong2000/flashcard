@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { BASE_PATH } from "@/lib/constants";
 const inter = Inter({ subsets: ["latin"] });
-
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/flashcard";
 
 export const metadata: Metadata = {
   title: "AWS Cert Flashcards",

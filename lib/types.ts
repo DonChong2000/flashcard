@@ -26,6 +26,7 @@ export interface DatasetMeta {
   name: string;
   totalQuestions: number;
   topics: number[];
+  topicQuestions: Record<number, number[]>;
 }
 
 export interface Manifest {
