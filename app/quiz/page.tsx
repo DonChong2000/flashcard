@@ -18,8 +18,7 @@ import {
   getIncorrectIds,
 } from "@/lib/progress";
 import type { Question, QuestionProgress, QuizFilter } from "@/lib/types";
-
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/flashcard";
+import { BASE_PATH } from "@/lib/constants";
 
 function QuizContent() {
   const router = useRouter();

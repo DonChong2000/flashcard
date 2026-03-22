@@ -28,9 +28,10 @@ self.addEventListener('install', (event) => {
         const resp = await shellCache.match(url);
         if (!resp) return;
         const html = await resp.text();
-        const staticUrls = [...new Set(
-          [...html.matchAll(/"([^"]*\/_next\/static\/[^"]+)"/g)].map(m => m[1])
-        )];
+        const staticUrls = [...new Set([
+          ...[...html.matchAll(/"([^"]*\/_next\/static\/[^"]+)"/g)].map(m => m[1]),
+          ...[...html.matchAll(/'([^']*\/_next\/static\/[^']+)'/g)].map(m => m[1]),
+        ])];
         await Promise.all(staticUrls.map((staticUrl) =>
           fetch(staticUrl)
             .then((r) => { if (r.ok) staticCache.put(staticUrl, r); })
@@ -91,7 +92,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Everything else (cross-origin, other assets): pass through
+  // Everything else: pass through to network
 });
 
 async function cacheFirst(request, cacheName) {

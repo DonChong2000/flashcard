@@ -10,7 +10,7 @@ import { Progress } from "@/components/ui/progress";
 import { DatasetSelector } from "@/components/DatasetSelector";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { StatsOverview } from "@/components/StatsOverview";
-import { fetchManifest, fetchTopicQuestions } from "@/lib/manifest";
+import { fetchManifest } from "@/lib/manifest";
 import {
   getProgress,
   getBookmarkedIds,
@@ -21,8 +21,7 @@ import {
   type ProgressExport,
 } from "@/lib/progress";
 import type { DatasetMeta, ProgressStore } from "@/lib/types";
-
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/flashcard";
+import { BASE_PATH } from "@/lib/constants";
 const RANDOM_EXAM_SIZE = 65;
 
 interface TopicStats {
@@ -61,31 +60,20 @@ export default function HomePage() {
 
   const dataset = datasets.find((d) => d.slug === selectedSlug);
 
-  // Load topic question counts
   useEffect(() => {
     if (!dataset) return;
-    const load = async () => {
-      const prog = getProgress(selectedSlug);
-      const stats = await Promise.all(
-        dataset.topics.map(async (topic) => {
-          try {
-            const questions = await fetchTopicQuestions(BASE_PATH, selectedSlug, topic);
-            let correct = 0, incorrect = 0, unseen = 0;
-            for (const q of questions) {
-              const s = prog[q.question_number]?.status ?? "unseen";
-              if (s === "correct") correct++;
-              else if (s === "incorrect") incorrect++;
-              else unseen++;
-            }
-            return { topic, total: questions.length, correct, incorrect, unseen };
-          } catch {
-            return { topic, total: 0, correct: 0, incorrect: 0, unseen: 0 };
-          }
-        })
-      );
-      setTopicStats(stats);
-    };
-    load();
+    const prog = getProgress(selectedSlug);
+    const stats = dataset.topics.map((topic) => {
+      const qNums = dataset.topicQuestions[topic] ?? [];
+      let correct = 0, incorrect = 0;
+      for (const qNum of qNums) {
+        const s = prog[qNum]?.status;
+        if (s === "correct") correct++;
+        else if (s === "incorrect") incorrect++;
+      }
+      return { topic, total: qNums.length, correct, incorrect, unseen: qNums.length - correct - incorrect };
+    });
+    setTopicStats(stats);
   }, [dataset, selectedSlug]);
 
   const bookmarked = getBookmarkedIds(selectedSlug).length;
