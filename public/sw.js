@@ -1,4 +1,4 @@
-const VERSION = 'v3';
+const VERSION = 'v4';
 const CACHE_SHELL  = `flashcard-shell-${VERSION}`;
 const CACHE_STATIC = `flashcard-static-${VERSION}`;
 const CACHE_DATA   = `flashcard-data-${VERSION}`;
@@ -75,6 +75,13 @@ self.addEventListener('fetch', (event) => {
   // /flashcard/data/** → network-first, cache on success, fallback to cache
   if (path.startsWith('/flashcard/data/')) {
     event.respondWith(networkFirstData(request));
+    return;
+  }
+
+  // RSC navigation prefetch (Next.js App Router) — return 503 offline
+  // so Next.js falls back to client rendering (same behaviour as a server 404)
+  if (url.searchParams.has('_rsc')) {
+    event.respondWith(fetch(request).catch(() => new Response('', { status: 503 })));
     return;
   }
 
