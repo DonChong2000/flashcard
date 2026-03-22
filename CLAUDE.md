@@ -10,6 +10,9 @@ pnpm build         # process data then build static export to out/
 pnpm test          # Jest data-validation tests (no UI tests exist)
 pnpm deploy        # deploy out/ to GitHub Pages via gh-pages
 node scripts/process-data.mjs  # run data processor standalone
+
+# Run a single test file
+node --experimental-vm-modules node_modules/jest/bin/jest.js __tests__/data.test.mjs
 ```
 
 There is no `pnpm start` useful in dev — the app is a static export. `pnpm lint` is broken in interactive terminals (prompts for ESLint config); use `npx tsc --noEmit` instead.
@@ -44,7 +47,7 @@ Slug is derived from the filename (e.g. `SAA-C03.json` → `saa_c03`). To add a 
 
 ### Client data loading
 
-`lib/manifest.ts` fetches and caches `manifest.json` in a module-level singleton (no expiry). Topic JSON files are **not cached** — fetched fresh each quiz start. `BASE_PATH` (`/flashcard`) is prepended to all fetch URLs — set via `NEXT_PUBLIC_BASE_PATH` env var (defaults to `/flashcard`).
+`lib/manifest.ts` fetches and caches `manifest.json` in a module-level singleton (no expiry). Topic JSON files are **not cached** — fetched fresh each quiz start. `BASE_PATH` (`/flashcard`) is prepended to all fetch URLs — set via `NEXT_PUBLIC_BASE_PATH` env var (defaults to `/flashcard`). Import it from `lib/constants.ts`.
 
 ### Progress storage
 
@@ -54,7 +57,9 @@ Slug is derived from the filename (e.g. `SAA-C03.json` → `saa_c03`). To add a 
 
 ### Quiz page pattern
 
-`app/quiz/page.tsx` uses `useSearchParams` which requires a `<Suspense>` boundary for static export compatibility. The actual logic lives in `QuizContent` (inner component), wrapped by the exported `QuizPage`. URL params: `?dataset={slug}&topic={N|all}&filter={all|incorrect|bookmarked|bookmarked+incorrect}`.
+`app/quiz/page.tsx` uses `useSearchParams` which requires a `<Suspense>` boundary for static export compatibility. The actual logic lives in `QuizContent` (inner component), wrapped by the exported `QuizPage`. URL params: `?dataset={slug}&topic={N|all}&filter={all|incorrect|bookmarked|bookmarked+incorrect}&random={N}`.
+
+The `random` param shuffles the filtered question list and slices it to N questions. The home page uses `RANDOM_EXAM_SIZE = 65` for its "Random exam" card.
 
 On mount, `QuizContent` fetches questions, applies the filter (in-memory, one-time), then seeks to the first unseen question. Filtering is not reactive — changing the filter requires a new navigation.
 
@@ -66,7 +71,11 @@ On mount, `QuizContent` fetches questions, applies the filter (in-memory, one-ti
 
 ### basePath
 
-`next.config.ts` sets `basePath: "/flashcard"`. All internal `router.push()` calls and fetch URLs must include this prefix. The constant `BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/flashcard"` is defined at the top of each page file that needs it.
+`next.config.ts` sets `basePath: "/flashcard"`. Next.js automatically prepends this to all `router.push()` calls — do **not** include it manually. Only `fetch()` URLs need the prefix, using `BASE_PATH` imported from `lib/constants.ts`.
+
+### PWA
+
+A manually-written service worker lives at `public/sw.js`. It uses three named caches keyed by a `VERSION` constant at the top of the file. Bump `VERSION` when you need to invalidate all caches (e.g. after changing cached shell URLs or cache strategies).
 
 ### Tests
 
