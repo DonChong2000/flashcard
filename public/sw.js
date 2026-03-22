@@ -1,4 +1,4 @@
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE_SHELL  = `flashcard-shell-${VERSION}`;
 const CACHE_STATIC = `flashcard-static-${VERSION}`;
 const CACHE_DATA   = `flashcard-data-${VERSION}`;
@@ -11,11 +11,35 @@ const SHELL_URLS = [
   '/flashcard/data/manifest.json',
 ];
 
+// HTML pages whose linked _next/static/ assets will be pre-cached at install
+const HTML_SHELL_URLS = ['/flashcard/', '/flashcard/quiz'];
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_SHELL)
-      .then((cache) => cache.addAll(SHELL_URLS))
-      .then(() => self.skipWaiting())
+    (async () => {
+      const shellCache = await caches.open(CACHE_SHELL);
+      await shellCache.addAll(SHELL_URLS);
+
+      // Pre-cache _next/static/ assets linked from each HTML shell page.
+      // These are fetched before the SW activates on first visit, so they
+      // would never enter CACHE_STATIC via the normal fetch handler.
+      const staticCache = await caches.open(CACHE_STATIC);
+      await Promise.all(HTML_SHELL_URLS.map(async (url) => {
+        const resp = await shellCache.match(url);
+        if (!resp) return;
+        const html = await resp.text();
+        const staticUrls = [...new Set(
+          [...html.matchAll(/"([^"]*\/_next\/static\/[^"]+)"/g)].map(m => m[1])
+        )];
+        await Promise.all(staticUrls.map((staticUrl) =>
+          fetch(staticUrl)
+            .then((r) => { if (r.ok) staticCache.put(staticUrl, r); })
+            .catch(() => {})
+        ));
+      }));
+
+      self.skipWaiting();
+    })()
   );
 });
 
@@ -66,12 +90,16 @@ self.addEventListener('fetch', (event) => {
 async function cacheFirst(request, cacheName) {
   const cached = await caches.match(request);
   if (cached) return cached;
-  const response = await fetch(request);
-  if (response.ok) {
-    const cache = await caches.open(cacheName);
-    cache.put(request, response.clone());
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      const cache = await caches.open(cacheName);
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch {
+    return new Response('', { status: 503 });
   }
-  return response;
 }
 
 async function networkFirstData(request) {
