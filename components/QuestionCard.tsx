@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
 import type { Question, QuestionProgress } from "@/lib/types";
+import { OPTION_KEYS } from "@/lib/constants";
 
 interface QuestionCardProps {
   question: Question;
@@ -18,8 +19,6 @@ interface QuestionCardProps {
   onOverride: () => void;
   isLast: boolean;
 }
-
-const OPTION_KEYS = ["A", "B", "C", "D", "E", "F"];
 
 export function QuestionCard({
   question,
@@ -46,11 +45,14 @@ export function QuestionCard({
   }, [question.question_number]);
 
   const optionKeys = useMemo(
-    () => Object.keys(question.options).filter((k) => OPTION_KEYS.includes(k)),
+    () => Object.keys(question.options).filter((k) => (OPTION_KEYS as readonly string[]).includes(k)),
     [question.options]
   );
 
-  const hasVotes = Object.keys(question.community_votes ?? {}).length > 0;
+  const hasVotes = useMemo(
+    () => Object.keys(question.community_votes ?? {}).length > 0,
+    [question.community_votes]
+  );
 
   function toggleOption(key: string) {
     if (revealed) return;
@@ -121,7 +123,10 @@ export function QuestionCard({
     return "border-border opacity-60";
   }
 
-  const sortedDiscussion = [...(question.discussion ?? [])].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3);
+  const sortedDiscussion = useMemo(
+    () => [...(question.discussion ?? [])].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3),
+    [question.discussion]
+  );
 
   return (
     <Card className="w-full rounded-none sm:rounded-lg border-0 sm:border shadow-none sm:shadow-sm">

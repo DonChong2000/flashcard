@@ -1,4 +1,5 @@
 import type { Manifest, Question } from "./types";
+import { OPTION_KEYS } from "./constants";
 
 let cached: Manifest | null = null;
 
@@ -10,7 +11,7 @@ export async function fetchManifest(basePath = ""): Promise<Manifest> {
   return cached!;
 }
 
-const VALID_KEYS = new Set(["A", "B", "C", "D", "E", "F"]);
+const VALID_KEYS = new Set<string>(OPTION_KEYS);
 
 function validateQuestion(q: Question): string | null {
   if (!q.options || typeof q.options !== "object") return "missing options";

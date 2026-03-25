@@ -6,8 +6,6 @@ import { Progress } from "@/components/ui/progress";
 interface ProgressHeaderProps {
   current: number;
   total: number;
-  topic?: number | "all";
-  datasetName?: string;
   filter?: string;
   label?: string;
 }
@@ -15,8 +13,6 @@ interface ProgressHeaderProps {
 export function ProgressHeader({
   current,
   total,
-  topic,
-  datasetName,
   filter,
   label,
 }: ProgressHeaderProps) {
@@ -26,15 +22,8 @@ export function ProgressHeader({
     <div className="space-y-2">
       <div className="flex items-center justify-between text-sm">
         <div className="flex items-center gap-2">
-          {datasetName && (
-            <span className="text-muted-foreground font-medium">{datasetName}</span>
-          )}
-          {label !== undefined ? (
+          {label && (
             <Badge variant="secondary">{label}</Badge>
-          ) : topic !== undefined && (
-            <Badge variant="secondary">
-              {topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`}
-            </Badge>
           )}
           {filter && filter !== "all" && (
             <Badge variant="outline" className="capitalize">

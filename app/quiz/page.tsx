@@ -17,7 +17,7 @@ import {
   getBookmarkedIds,
   getIncorrectIds,
 } from "@/lib/progress";
-import type { Question, QuestionProgress, QuizFilter } from "@/lib/types";
+import { QUIZ_FILTERS, type Question, type QuestionProgress, type QuizFilter } from "@/lib/types";
 import { BASE_PATH } from "@/lib/constants";
 
 function QuizContent() {
@@ -26,9 +26,8 @@ function QuizContent() {
 
   const slug = params.get("dataset") ?? "";
   const topicParam = params.get("topic") ?? "all";
-  const VALID_FILTERS: QuizFilter[] = ["all", "incorrect", "bookmarked", "bookmarked+incorrect"];
   const filterRaw = params.get("filter") ?? "all";
-  const filter: QuizFilter = VALID_FILTERS.includes(filterRaw as QuizFilter) ? (filterRaw as QuizFilter) : "all";
+  const filter: QuizFilter = (QUIZ_FILTERS as readonly string[]).includes(filterRaw) ? (filterRaw as QuizFilter) : "all";
   const topic: number | "all" = topicParam === "all" ? "all" : parseInt(topicParam);
   const randomCount = (() => { const n = parseInt(params.get("random") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
   const quizLabel = randomCount !== null ? `Random ${randomCount}` : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
@@ -95,21 +94,17 @@ function QuizContent() {
   function handleAnswer(selected: string[], correct: boolean) {
     if (!questions[current]) return;
     const q = questions[current];
-    const prog = getProgress(slug);
-    setQuestionProgress(slug, q.question_number, {
+    setProgress(setQuestionProgress(slug, q.question_number, {
       status: correct ? "correct" : "incorrect",
       selectedAnswer: selected,
-      attempts: (prog[q.question_number]?.attempts ?? 0) + 1,
+      attempts: (progress[q.question_number]?.attempts ?? 0) + 1,
       lastAttempted: new Date().toISOString(),
-    });
-    setProgress(getProgress(slug));
+    }));
   }
 
   function handleBookmark() {
     if (!questions[current]) return;
-    const q = questions[current];
-    toggleBookmark(slug, q.question_number);
-    setProgress(getProgress(slug));
+    setProgress(toggleBookmark(slug, questions[current].question_number));
   }
 
   useEffect(() => {
@@ -127,9 +122,7 @@ function QuizContent() {
 
   function handleOverride() {
     if (!questions[current]) return;
-    const q = questions[current];
-    setQuestionProgress(slug, q.question_number, { status: "correct" });
-    setProgress(getProgress(slug));
+    setProgress(setQuestionProgress(slug, questions[current].question_number, { status: "correct" }));
     handleNext();
   }
 

@@ -31,20 +31,21 @@ export function setQuestionProgress(
   slug: string,
   qNum: number,
   data: Partial<QuestionProgress>
-): void {
+): ProgressStore {
   const store = getProgress(slug);
   const existing = store[qNum] ?? { ...DEFAULT_PROGRESS };
   store[qNum] = { ...existing, ...data };
   save(slug, store);
+  return store;
 }
 
-export function toggleBookmark(slug: string, qNum: number): boolean {
+export function toggleBookmark(slug: string, qNum: number): ProgressStore {
   const store = getProgress(slug);
   const existing = store[qNum] ?? { ...DEFAULT_PROGRESS };
   const newBookmarked = !existing.bookmarked;
   store[qNum] = { ...existing, bookmarked: newBookmarked };
   save(slug, store);
-  return newBookmarked;
+  return store;
 }
 
 export function resetProgress(slug: string): void {

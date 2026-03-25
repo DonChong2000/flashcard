@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,14 +13,12 @@ import { StatsOverview } from "@/components/StatsOverview";
 import { fetchManifest } from "@/lib/manifest";
 import {
   getProgress,
-  getBookmarkedIds,
-  getIncorrectIds,
   resetProgress,
   exportProgress,
   importProgress,
   type ProgressExport,
 } from "@/lib/progress";
-import type { DatasetMeta, ProgressStore } from "@/lib/types";
+import type { DatasetMeta, ProgressStore, QuizFilter } from "@/lib/types";
 import { BASE_PATH } from "@/lib/constants";
 const RANDOM_EXAM_SIZE = 65;
 
@@ -37,7 +35,6 @@ export default function HomePage() {
   const [datasets, setDatasets] = useState<DatasetMeta[]>([]);
   const [selectedSlug, setSelectedSlug] = useState<string>("");
   const [progress, setProgress] = useState<ProgressStore>({});
-  const [topicStats, setTopicStats] = useState<TopicStats[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; slug: string; totalQuestions: number } | null>(null);
@@ -58,32 +55,39 @@ export default function HomePage() {
     setProgress(getProgress(selectedSlug));
   }, [selectedSlug]);
 
-  const dataset = datasets.find((d) => d.slug === selectedSlug);
+  const dataset = useMemo(() => datasets.find((d) => d.slug === selectedSlug), [datasets, selectedSlug]);
 
-  useEffect(() => {
-    if (!dataset) return;
-    const prog = getProgress(selectedSlug);
-    const stats = dataset.topics.map((topic) => {
+  const { totalCorrect, totalIncorrect, totalUnseen, bookmarked, incorrect } = useMemo(() => {
+    let correct = 0, incorrect = 0, bookmarked = 0;
+    for (const p of Object.values(progress)) {
+      if (p.status === "correct") correct++;
+      else if (p.status === "incorrect") incorrect++;
+      if (p.bookmarked) bookmarked++;
+    }
+    return {
+      totalCorrect: correct,
+      totalIncorrect: incorrect,
+      totalUnseen: (dataset?.totalQuestions ?? 0) - correct - incorrect,
+      bookmarked,
+      incorrect,
+    };
+  }, [progress, dataset?.totalQuestions]);
+
+  const topicStats = useMemo(() => {
+    if (!dataset) return [];
+    return dataset.topics.map((topic) => {
       const qNums = dataset.topicQuestions[topic] ?? [];
       let correct = 0, incorrect = 0;
       for (const qNum of qNums) {
-        const s = prog[qNum]?.status;
+        const s = progress[qNum]?.status;
         if (s === "correct") correct++;
         else if (s === "incorrect") incorrect++;
       }
       return { topic, total: qNums.length, correct, incorrect, unseen: qNums.length - correct - incorrect };
     });
-    setTopicStats(stats);
-  }, [dataset, selectedSlug]);
+  }, [dataset, progress]);
 
-  const bookmarked = getBookmarkedIds(selectedSlug).length;
-  const incorrect = getIncorrectIds(selectedSlug).length;
-
-  const totalCorrect = Object.values(progress).filter((p) => p.status === "correct").length;
-  const totalIncorrect = Object.values(progress).filter((p) => p.status === "incorrect").length;
-  const totalUnseen = (dataset?.totalQuestions ?? 0) - totalCorrect - totalIncorrect;
-
-  function go(topic: number | "all", filter: string) {
+  function go(topic: number | "all", filter: QuizFilter) {
     router.push(
       `/quiz?dataset=${selectedSlug}&topic=${topic}&filter=${filter}`
     );
@@ -93,7 +97,6 @@ export default function HomePage() {
     if (confirm("Reset all progress for this dataset?")) {
       resetProgress(selectedSlug);
       setProgress({});
-      setTopicStats((prev) => prev.map((t) => ({ ...t, correct: 0, incorrect: 0, unseen: t.total })));
     }
   }
 
