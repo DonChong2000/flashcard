@@ -79,12 +79,22 @@ async function main() {
       topics.map((topic) => [topic, topicMap.get(topic).map((q) => q.question_number)])
     );
 
+    const tagMap = new Map();
+    for (const q of questions) {
+      for (const tag of (q.tags ?? [])) {
+        if (!tagMap.has(tag)) tagMap.set(tag, []);
+        tagMap.get(tag).push(q.question_number);
+      }
+    }
+    const tagQuestions = Object.fromEntries([...tagMap.entries()].sort((a, b) => a[0].localeCompare(b[0])));
+
     datasets.push({
       slug,
       name: humanize(slug),
       totalQuestions: questions.length,
       topics,
       topicQuestions,
+      tagQuestions,
     });
 
     console.log(`Processed ${file} → ${slug} (${questions.length} questions, ${topics.length} topics)`);

@@ -87,6 +87,19 @@ export default function HomePage() {
     });
   }, [dataset, progress]);
 
+  const tagStats = useMemo(() => {
+    if (!dataset?.tagQuestions) return [];
+    return Object.entries(dataset.tagQuestions).map(([tag, qNums]) => {
+      let correct = 0, incorrect = 0;
+      for (const qNum of qNums) {
+        const s = progress[qNum]?.status;
+        if (s === "correct") correct++;
+        else if (s === "incorrect") incorrect++;
+      }
+      return { tag, total: qNums.length, correct, incorrect };
+    });
+  }, [dataset, progress]);
+
   function go(topic: number | "all", filter: QuizFilter) {
     router.push(
       `/quiz?dataset=${selectedSlug}&topic=${topic}&filter=${filter}`
@@ -318,6 +331,38 @@ export default function HomePage() {
                     <CardContent className="p-4 space-y-3">
                       <div className="flex items-center justify-between">
                         <Badge variant="outline">Practice Set {ts.topic}</Badge>
+                        <span className="text-xs text-muted-foreground">{ts.total} Qs</span>
+                      </div>
+                      <Progress value={pct} className="h-1.5" />
+                      <div className="flex justify-between text-xs text-muted-foreground">
+                        <span className="text-green-600">{ts.correct} correct</span>
+                        {ts.incorrect > 0 && <span className="text-red-600">{ts.incorrect} incorrect</span>}
+                        <span>{pct}%</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Practice by Tag */}
+        {tagStats.length > 0 && (
+          <div className="space-y-3">
+            <h2 className="text-lg font-semibold">Practice by Tag</h2>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {tagStats.map((ts) => {
+                const pct = ts.total > 0 ? Math.round((ts.correct / ts.total) * 100) : 0;
+                return (
+                  <Card
+                    key={ts.tag}
+                    className="cursor-pointer hover:shadow-md transition-shadow"
+                    onClick={() => router.push(`/quiz?dataset=${selectedSlug}&topic=all&filter=all&tags=${ts.tag}`)}
+                  >
+                    <CardContent className="p-4 space-y-3">
+                      <div className="flex items-center justify-between">
+                        <Badge variant="outline" className="capitalize">{ts.tag}</Badge>
                         <span className="text-xs text-muted-foreground">{ts.total} Qs</span>
                       </div>
                       <Progress value={pct} className="h-1.5" />

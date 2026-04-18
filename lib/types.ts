@@ -9,6 +9,7 @@ export interface DiscussionEntry {
 export interface Question {
   question_number: number;
   topic: number;
+  tags?: string[];
   question: string;
   options: Record<string, string>;
   correct_answer: string[];
@@ -27,6 +28,7 @@ export interface DatasetMeta {
   totalQuestions: number;
   topics: number[];
   topicQuestions: Record<number, number[]>;
+  tagQuestions: Record<string, number[]>;
 }
 
 export interface Manifest {

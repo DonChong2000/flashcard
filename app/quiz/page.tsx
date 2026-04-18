@@ -30,7 +30,12 @@ function QuizContent() {
   const filter: QuizFilter = (QUIZ_FILTERS as readonly string[]).includes(filterRaw) ? (filterRaw as QuizFilter) : "all";
   const topic: number | "all" = topicParam === "all" ? "all" : parseInt(topicParam);
   const randomCount = (() => { const n = parseInt(params.get("random") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
-  const quizLabel = randomCount !== null ? `Random ${randomCount}` : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
+  const selectedTags = (params.get("tags") ?? "").split(",").filter(Boolean);
+  const quizLabel = randomCount !== null
+    ? `Random ${randomCount}`
+    : selectedTags.length > 0
+    ? `Tags: ${selectedTags.join(", ")}`
+    : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
@@ -66,6 +71,12 @@ function QuizContent() {
           qs = qs.filter((q) => bIds.has(q.question_number) || iIds.has(q.question_number));
         }
 
+        // Apply tag filter
+        if (selectedTags.length > 0) {
+          const tagSet = new Set(selectedTags);
+          qs = qs.filter((q) => q.tags?.some((t) => tagSet.has(t)));
+        }
+
         // Apply random shuffle and slice if requested
         if (randomCount !== null) {
           for (let i = qs.length - 1; i > 0; i--) {
@@ -89,7 +100,8 @@ function QuizContent() {
     };
 
     load();
-  }, [slug, topicParam, filter, randomCount]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug, topicParam, filter, randomCount, params.get("tags")]);
 
   function handleAnswer(selected: string[], correct: boolean) {
     if (!questions[current]) return;
