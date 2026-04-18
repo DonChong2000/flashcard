@@ -36,3 +36,4 @@ next-env.d.ts
 # generated data (regenerated on build)
 /public/data/
 .claude/settings.local.json
+/.playwright-mcp
