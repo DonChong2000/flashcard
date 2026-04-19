@@ -20,7 +20,7 @@ export function DatasetSelector({ datasets, selected, onChange }: DatasetSelecto
 
   return (
     <Select value={selected} onValueChange={onChange}>
-      <SelectTrigger className="w-[240px]">
+      <SelectTrigger className="w-full sm:w-[240px]">
         <SelectValue placeholder="Select dataset" />
       </SelectTrigger>
       <SelectContent>

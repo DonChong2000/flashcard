@@ -195,23 +195,34 @@ export default function HomePage() {
     <main className="min-h-screen bg-background">
       <div className="container max-w-4xl py-8 space-y-8">
         {/* Header */}
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <BookOpen className="h-7 w-7 text-secondary-foreground" />
-            <div>
-              <h1 className="text-xl md:text-2xl font-bold whitespace-nowrap">AWS Cert Flashcards</h1>
-              {dataset && (
-                <p className="text-sm text-muted-foreground">{dataset.totalQuestions} questions</p>
-              )}
+        <div className="space-y-2">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-3 min-w-0">
+              <BookOpen className="h-7 w-7 shrink-0 text-secondary-foreground" />
+              <div className="min-w-0">
+                <h1 className="text-lg sm:text-xl md:text-2xl font-bold">AWS Cert Flashcards</h1>
+                {dataset && (
+                  <p className="text-sm text-muted-foreground">{dataset.totalQuestions} questions</p>
+                )}
+              </div>
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              <div className="hidden sm:block">
+                <DatasetSelector
+                  datasets={datasets}
+                  selected={selectedSlug}
+                  onChange={setSelectedSlug}
+                />
+              </div>
+              <ThemeToggle />
             </div>
           </div>
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="sm:hidden">
             <DatasetSelector
               datasets={datasets}
               selected={selectedSlug}
               onChange={setSelectedSlug}
             />
-            <ThemeToggle />
           </div>
         </div>
 
