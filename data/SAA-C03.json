@@ -173,9 +173,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -338,10 +337,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "management",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -522,8 +519,8 @@
         }
       ],
       "tags": [
-        "management",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -689,10 +686,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -858,9 +853,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -1053,10 +1047,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "security",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -1243,10 +1235,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging"
+        "Messaging"
       ]
     },
     {
@@ -1421,9 +1410,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -1601,8 +1589,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -1768,9 +1756,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking"
+        "Messaging"
       ]
     },
     {
@@ -1978,11 +1964,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -2179,9 +2162,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -2353,12 +2335,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -2527,9 +2505,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Databases"
       ]
     },
     {
@@ -2716,8 +2692,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -2913,10 +2889,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "security",
-        "storage"
+        "Analytics",
+        "Security & IAM"
       ]
     },
     {
@@ -3079,9 +3053,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -3264,10 +3238,9 @@
         "B"
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Compute",
+        "Messaging",
+        "Storage"
       ]
     },
     {
@@ -3424,7 +3397,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -3605,8 +3579,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -3772,10 +3746,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases"
       ]
     },
     {
@@ -3947,7 +3920,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -4134,7 +4107,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -4367,10 +4340,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "storage"
+        "Management"
       ]
     },
     {
@@ -4533,10 +4503,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -4696,10 +4665,8 @@
         }
       ],
       "tags": [
-        "management",
-        "messaging",
-        "security",
-        "storage"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -4917,9 +4884,8 @@
         }
       ],
       "tags": [
-        "management",
-        "networking",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -5095,8 +5061,7 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -5311,8 +5276,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -5482,8 +5447,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -5661,9 +5625,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management"
+        "Management"
       ]
     },
     {
@@ -5829,9 +5791,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -6027,10 +5987,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Analytics",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -6196,7 +6155,7 @@
         }
       ],
       "tags": [
-        "management"
+        "Management"
       ]
     },
     {
@@ -6371,9 +6330,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -6651,8 +6609,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -6848,10 +6806,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -7005,8 +6961,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -7181,7 +7137,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -7375,11 +7332,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "networking",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -7561,10 +7516,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Migration",
+        "Messaging",
+        "Storage"
       ]
     },
     {
@@ -7739,9 +7693,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -7931,9 +7884,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Networking"
       ]
     },
     {
@@ -8157,7 +8109,8 @@
         "D"
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -8335,8 +8288,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -8569,10 +8522,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -8738,7 +8689,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -8904,9 +8855,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -9148,9 +9097,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -9311,8 +9258,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -9532,11 +9479,8 @@
         "E"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -9723,8 +9667,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -9902,8 +9847,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -10084,9 +10029,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -10261,9 +10205,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -10468,8 +10412,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -10626,7 +10570,6 @@
         }
       ],
       "tags": [
-        "compute",
         "ml-ai"
       ]
     },
@@ -10793,7 +10736,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -11010,11 +10953,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Analytics"
       ]
     },
     {
@@ -11177,7 +11116,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -11352,12 +11291,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -11508,10 +11444,8 @@
         }
       ],
       "tags": [
-        "management",
-        "messaging",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -11716,9 +11650,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -11969,8 +11902,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -12139,9 +12072,8 @@
         }
       ],
       "tags": [
-        "compute",
         "ml-ai",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -12423,7 +12355,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -12589,9 +12521,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -12754,7 +12685,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -12935,10 +12866,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -13182,8 +13112,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -13361,8 +13291,7 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Databases"
       ]
     },
     {
@@ -13513,8 +13442,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -13746,8 +13675,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -13953,9 +13882,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -14148,10 +14077,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking"
+        "Migration",
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -14311,10 +14239,8 @@
         }
       ],
       "tags": [
-        "database",
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -14519,10 +14445,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "networking",
-        "storage"
+        "Analytics",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -14709,11 +14634,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "storage"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -14901,8 +14823,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -15092,9 +15013,9 @@
         }
       ],
       "tags": [
-        "migration",
-        "security",
-        "storage"
+        "Compute",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -15296,8 +15217,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -15524,10 +15445,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -15696,9 +15615,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -15915,7 +15833,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -16072,7 +15990,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -16250,10 +16169,8 @@
         }
       ],
       "tags": [
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -16537,10 +16454,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -16761,7 +16677,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -16921,8 +16837,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -17112,7 +17028,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -17272,9 +17188,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -17461,10 +17376,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -17675,7 +17589,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -17853,12 +17768,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "storage"
+        "Storage",
+        "Compute",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -18048,7 +17961,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -18230,8 +18143,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security"
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -18394,8 +18307,9 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Migration",
+        "Security & IAM"
       ]
     },
     {
@@ -18618,9 +18532,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "storage"
+        "Messaging",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -18798,8 +18712,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -19017,9 +18930,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -19182,8 +19094,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -19413,9 +19324,9 @@
         "B"
       ],
       "tags": [
-        "compute",
-        "migration",
-        "storage"
+        "Migration",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -19563,8 +19474,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -19789,9 +19700,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -19969,9 +19879,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -20146,8 +20055,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -20371,11 +20280,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -20608,9 +20515,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Databases",
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -20813,9 +20720,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -21084,10 +20990,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Storage",
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -21250,9 +21155,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -21415,8 +21320,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Migration",
+        "Networking"
       ]
     },
     {
@@ -21625,9 +21531,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "migration"
+        "Migration",
+        "Analytics"
       ]
     },
     {
@@ -21790,10 +21695,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases"
       ]
     },
     {
@@ -21947,9 +21851,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -22139,10 +22042,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Storage",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -22366,9 +22268,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management"
+        "Management",
+        "Analytics"
       ]
     },
     {
@@ -22537,9 +22438,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -22766,8 +22665,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -22955,8 +22854,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -23173,9 +23072,8 @@
         }
       ],
       "tags": [
-        "database",
-        "security",
-        "storage"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -23302,7 +23200,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -23438,10 +23336,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -23592,7 +23489,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -23845,9 +23742,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -24094,7 +23991,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -24309,8 +24206,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -24504,7 +24401,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -24698,9 +24595,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -24872,8 +24769,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -24991,9 +24887,9 @@
         }
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -25171,10 +25067,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -25371,8 +25265,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -25626,10 +25520,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Analytics"
       ]
     },
     {
@@ -25798,7 +25691,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -25998,10 +25891,8 @@
         "D"
       ],
       "tags": [
-        "database",
-        "management",
-        "messaging",
-        "migration"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -26170,7 +26061,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -26312,9 +26204,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -26553,12 +26445,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging",
-        "ml-ai",
-        "storage"
+        "Storage",
+        "Compute",
+        "Messaging",
+        "ml-ai"
       ]
     },
     {
@@ -26765,7 +26655,8 @@
         "C"
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -26980,8 +26871,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -27159,8 +27050,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -27339,8 +27230,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Migration",
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -27509,8 +27401,7 @@
         }
       ],
       "tags": [
-        "database",
-        "management"
+        "Databases"
       ]
     },
     {
@@ -27713,10 +27604,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking"
+        "Compute",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -27931,8 +27821,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -28050,8 +27939,8 @@
         }
       ],
       "tags": [
-        "management",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -28232,8 +28121,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -28396,8 +28285,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -28533,8 +28422,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Management",
+        "Migration"
       ]
     },
     {
@@ -28750,9 +28639,9 @@
         "C"
       ],
       "tags": [
-        "management",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Management",
+        "Networking"
       ]
     },
     {
@@ -28964,11 +28853,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "security"
+        "Databases",
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -29216,7 +29103,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -29421,9 +29308,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -29547,10 +29433,8 @@
         }
       ],
       "tags": [
-        "messaging",
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -29778,10 +29662,8 @@
         "C"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -29999,9 +29881,8 @@
         "E"
       ],
       "tags": [
-        "database",
-        "management",
-        "storage"
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -30180,8 +30061,7 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Networking"
       ]
     },
     {
@@ -30374,9 +30254,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -30566,9 +30446,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -30749,10 +30627,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -30915,9 +30793,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -31098,8 +30975,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -31304,10 +31181,7 @@
         "C"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging"
+        "Messaging"
       ]
     },
     {
@@ -31507,9 +31381,9 @@
         }
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -31618,8 +31492,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -31864,8 +31738,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -32007,8 +31881,7 @@
         }
       ],
       "tags": [
-        "management",
-        "networking"
+        "Security & IAM"
       ]
     },
     {
@@ -32129,8 +32002,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -32254,9 +32127,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -32422,8 +32294,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -32587,7 +32459,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -32762,9 +32635,8 @@
         }
       ],
       "tags": [
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -32879,8 +32751,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -33046,10 +32918,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "networking"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -33212,9 +33082,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -33374,7 +33243,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -33609,9 +33478,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage",
+        "Management",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -33807,10 +33677,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Security & IAM",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -34061,9 +33930,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -34238,9 +34106,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -34421,8 +34288,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -34627,10 +34494,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -34839,8 +34706,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -34973,10 +34840,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Compute",
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -35115,8 +34981,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -35258,8 +35124,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "database"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -35431,10 +35298,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -35649,8 +35514,8 @@
         "E"
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -35822,9 +35687,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Migration",
+        "Compute"
       ]
     },
     {
@@ -36002,7 +35866,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -36176,11 +36040,10 @@
         "D"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
         "ml-ai",
-        "storage"
+        "Compute",
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -36395,9 +36258,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Databases"
       ]
     },
     {
@@ -36609,8 +36470,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -36815,11 +36676,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "networking"
+        "Messaging",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -36991,9 +36850,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -37184,9 +37042,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration"
+        "Migration",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -37340,8 +37198,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Compute",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -37540,10 +37399,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
         "ml-ai",
-        "storage"
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -37727,10 +37585,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -37911,9 +37768,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging"
+        "Messaging",
+        "Analytics"
       ]
     },
     {
@@ -38185,8 +38041,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -38295,10 +38151,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -38479,10 +38333,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Analytics",
+        "Security & IAM",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -38673,9 +38527,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -38866,11 +38720,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -39084,11 +38935,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "networking"
+        "Messaging",
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -39318,10 +39167,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -39490,11 +39338,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -39672,9 +39518,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -39792,10 +39637,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging"
+        "Management"
       ]
     },
     {
@@ -39988,7 +39830,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -40188,10 +40030,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -40381,9 +40221,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -40576,9 +40416,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -40813,9 +40652,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -41000,10 +40838,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -41253,8 +41090,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -41372,8 +41209,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -41491,9 +41328,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -41632,8 +41468,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -41772,7 +41607,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -41907,10 +41742,10 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Networking",
+        "Compute",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -42121,8 +41956,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -42315,10 +42150,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -42458,11 +42292,10 @@
         "E"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Networking",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -42640,9 +42473,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "storage"
+        "Storage",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -42805,9 +42638,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -42901,8 +42735,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -43035,8 +42869,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -43232,8 +43065,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -43444,11 +43278,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking",
-        "security"
+        "Management",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -43670,7 +43502,7 @@
         "B"
       ],
       "tags": [
-        "storage"
+        "Security & IAM"
       ]
     },
     {
@@ -43776,11 +43608,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -43970,8 +43801,8 @@
         }
       ],
       "tags": [
-        "database",
-        "migration"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -44147,9 +43978,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Compute",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -44327,8 +44158,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -44464,10 +44294,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging"
+        "Management"
       ]
     },
     {
@@ -44643,9 +44470,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -44844,7 +44671,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Analytics"
       ]
     },
     {
@@ -45083,8 +44911,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -45226,7 +45054,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -45401,8 +45230,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -45553,10 +45382,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -45780,8 +45609,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -45959,8 +45788,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -46157,7 +45986,7 @@
         "C"
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -46284,11 +46113,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -46430,8 +46257,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -46615,10 +46441,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "management",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -46814,8 +46639,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -46930,8 +46755,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -47016,9 +46840,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -47133,8 +46955,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -47240,10 +47062,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging"
+        "Messaging",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -47382,8 +47203,8 @@
         "D"
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -47583,11 +47404,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Compute",
+        "Analytics",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -47768,9 +47588,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -47921,10 +47741,9 @@
         }
       ],
       "tags": [
-        "database",
-        "management",
-        "migration",
-        "storage"
+        "Databases",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -48108,8 +47927,9 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -48267,8 +48087,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -48374,9 +48194,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -48514,7 +48334,7 @@
         "D"
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -48705,8 +48525,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -48788,8 +48608,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -48928,10 +48749,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -49043,9 +48862,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -49275,9 +49094,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -49368,7 +49186,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -49558,8 +49376,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -49683,7 +49501,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -49786,9 +49604,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -49894,7 +49711,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -50036,8 +49854,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -50273,8 +50091,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -50500,8 +50317,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -50737,8 +50554,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -50904,12 +50721,9 @@
         "D"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging",
-        "security",
-        "storage"
+        "Databases",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -51087,9 +50901,9 @@
         }
       ],
       "tags": [
-        "database",
-        "messaging",
-        "storage"
+        "Databases",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -51246,10 +51060,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -51391,9 +51204,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration"
+        "Databases"
       ]
     },
     {
@@ -51511,8 +51322,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -51681,9 +51493,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "storage"
+        "Migration",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -51768,9 +51580,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "management",
-        "messaging"
+        "Management"
       ]
     },
     {
@@ -51930,11 +51740,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Storage",
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -52052,10 +51860,8 @@
         }
       ],
       "tags": [
-        "database",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -52203,9 +52009,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Migration",
+        "Compute",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -52317,8 +52124,9 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Migration",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -52439,9 +52247,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -52634,7 +52442,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -52860,9 +52668,9 @@
         "E"
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -53058,10 +52866,8 @@
         "B"
       ],
       "tags": [
-        "analytics",
-        "database",
-        "migration",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -53140,8 +52946,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -53220,9 +53026,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -53430,9 +53236,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -53586,8 +53391,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -53741,10 +53545,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -53886,9 +53687,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -54030,8 +53831,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -54221,9 +54022,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Migration",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -54407,8 +54208,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -54582,10 +54383,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -54700,8 +54500,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute"
       ]
     },
     {
@@ -54795,9 +54594,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -54909,10 +54707,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "security",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -55063,7 +54858,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -55178,7 +54974,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -55384,9 +55181,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "management"
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -55552,9 +55348,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "management",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -55636,9 +55431,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -55753,9 +55548,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging"
+        "Messaging"
       ]
     },
     {
@@ -55924,8 +55717,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -56034,9 +55828,9 @@
         }
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -56151,7 +55945,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -56344,9 +56139,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Security & IAM",
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -56461,9 +56256,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -56596,11 +56390,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Databases"
       ]
     },
     {
@@ -56710,9 +56502,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -56908,9 +56699,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Security & IAM",
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -57107,10 +56898,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Analytics",
+        "Compute"
       ]
     },
     {
@@ -57240,7 +57029,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -57403,8 +57193,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -57486,10 +57276,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute",
+        "Databases",
+        "IoT"
       ]
     },
     {
@@ -57689,8 +57479,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -57817,8 +57607,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -58031,7 +57821,7 @@
         "B"
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -58272,9 +58062,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -58474,11 +58263,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Networking",
+        "Messaging"
       ]
     },
     {
@@ -58566,10 +58353,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "security"
+        "Security & IAM",
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -58708,8 +58494,8 @@
         }
       ],
       "tags": [
-        "database",
-        "security"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -58863,9 +58649,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -58980,10 +58765,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -59068,9 +58852,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -59188,11 +58970,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -59385,9 +59165,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -59475,11 +59254,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -59699,8 +59475,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -59912,8 +59687,7 @@
         }
       ],
       "tags": [
-        "database",
-        "migration"
+        "Databases"
       ]
     },
     {
@@ -60070,10 +59844,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -60191,10 +59963,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -60267,10 +60037,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "security",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -60488,9 +60258,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "ml-ai"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -60617,10 +60386,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -60726,8 +60493,8 @@
         }
       ],
       "tags": [
-        "messaging",
-        "storage"
+        "Messaging",
+        "Storage"
       ]
     },
     {
@@ -60833,10 +60600,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -60930,7 +60696,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -61151,7 +60918,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -61320,8 +61087,7 @@
         }
       ],
       "tags": [
-        "database",
-        "management"
+        "Databases"
       ]
     },
     {
@@ -61478,9 +61244,8 @@
         }
       ],
       "tags": [
-        "database",
-        "security",
-        "storage"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -61572,7 +61337,7 @@
         "C"
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -61732,9 +61497,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging"
+        "Compute"
       ]
     },
     {
@@ -61843,7 +61606,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -62033,9 +61796,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Databases",
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -62126,9 +61889,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -62276,7 +62038,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Migration",
+        "Compute"
       ]
     },
     {
@@ -62379,7 +62142,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -62489,10 +62252,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -62571,9 +62332,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -62742,8 +62503,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -62927,8 +62688,7 @@
         }
       ],
       "tags": [
-        "messaging",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -63100,9 +62860,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Databases",
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -63301,9 +63061,8 @@
         "D"
       ],
       "tags": [
-        "analytics",
-        "database",
-        "messaging"
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -63491,7 +63250,7 @@
         }
       ],
       "tags": [
-        "messaging"
+        "Messaging"
       ]
     },
     {
@@ -63662,8 +63421,8 @@
         "D"
       ],
       "tags": [
-        "messaging",
-        "security"
+        "Messaging",
+        "Security & IAM"
       ]
     },
     {
@@ -63757,7 +63516,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -63918,10 +63677,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -64063,7 +63821,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -64160,8 +63919,7 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -64370,9 +64128,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Compute"
       ]
     },
     {
@@ -64466,8 +64222,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -64721,9 +64477,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Compute",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -64944,8 +64700,9 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Databases",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -65111,8 +64868,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "storage"
+        "Storage",
+        "IoT",
+        "ml-ai"
       ]
     },
     {
@@ -65239,7 +64997,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -65321,9 +65079,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging"
+        "Compute"
       ]
     },
     {
@@ -65411,7 +65167,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -65484,7 +65241,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -65563,9 +65321,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -65656,10 +65414,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -65726,9 +65483,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Compute",
+        "Databases",
+        "Migration",
+        "Management"
       ]
     },
     {
@@ -65906,8 +65664,8 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -65983,10 +65741,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -66143,7 +65899,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -66327,8 +66084,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -66428,8 +66185,9 @@
         }
       ],
       "tags": [
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -66556,10 +66314,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging"
+        "Databases"
       ]
     },
     {
@@ -66674,8 +66429,8 @@
         "E"
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -66781,9 +66536,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -66880,8 +66635,7 @@
         }
       ],
       "tags": [
-        "database",
-        "networking"
+        "Databases"
       ]
     },
     {
@@ -67132,11 +66886,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking",
-        "security"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -67308,9 +67060,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage",
+        "Compute",
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -67459,9 +67212,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -67564,11 +67317,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
         "ml-ai",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -67811,10 +67562,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "storage"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -67941,9 +67690,8 @@
         }
       ],
       "tags": [
-        "management",
-        "networking",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -68073,9 +67821,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -68160,10 +67907,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Analytics",
+        "Management"
       ]
     },
     {
@@ -68260,9 +68007,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -68335,10 +68081,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -68447,8 +68191,8 @@
         }
       ],
       "tags": [
-        "database",
-        "messaging"
+        "Databases",
+        "Messaging"
       ]
     },
     {
@@ -68614,9 +68358,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Compute",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -68816,9 +68560,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "Analytics",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -68915,9 +68659,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -69023,9 +68767,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "storage"
+        "Compute",
+        "Messaging",
+        "Storage"
       ]
     },
     {
@@ -69224,8 +68968,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -69365,8 +69109,9 @@
         "D"
       ],
       "tags": [
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -69466,8 +69211,7 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -69597,8 +69341,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute",
+        "Migration",
+        "IoT"
       ]
     },
     {
@@ -69746,10 +69492,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Migration",
+        "Networking"
       ]
     },
     {
@@ -69861,9 +69607,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -69987,8 +69733,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Migration",
+        "Compute"
       ]
     },
     {
@@ -70100,11 +69847,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -70192,8 +69936,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -70333,8 +70077,9 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration",
+        "Analytics"
       ]
     },
     {
@@ -70434,7 +70179,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -70641,9 +70387,9 @@
         "D"
       ],
       "tags": [
-        "database",
-        "networking",
-        "storage"
+        "Networking",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -70746,8 +70492,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking",
+        "Management"
       ]
     },
     {
@@ -70859,8 +70606,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -71042,10 +70789,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -71229,7 +70975,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -71395,10 +71141,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -71501,10 +71246,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking",
-        "storage"
+        "ml-ai",
+        "Compute",
+        "Messaging",
+        "Storage"
       ]
     },
     {
@@ -71574,8 +71319,7 @@
         "B"
       ],
       "tags": [
-        "compute",
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -71781,7 +71525,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -71881,8 +71625,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -72088,9 +71832,10 @@
         }
       ],
       "tags": [
-        "management",
-        "migration",
-        "storage"
+        "Storage",
+        "Migration",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -72205,9 +71950,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -72295,11 +72039,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -72427,8 +72169,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security"
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -72590,8 +72332,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "ml-ai"
       ]
     },
     {
@@ -72721,8 +72464,8 @@
         }
       ],
       "tags": [
-        "database",
-        "networking"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -72834,8 +72577,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "ml-ai"
+        "ml-ai",
+        "Analytics"
       ]
     },
     {
@@ -72941,7 +72684,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -73147,10 +72891,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -73362,9 +73106,9 @@
         }
       ],
       "tags": [
-        "database",
-        "migration",
-        "networking"
+        "Migration",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -73545,7 +73289,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -73720,9 +73464,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -73825,10 +73569,8 @@
         }
       ],
       "tags": [
-        "database",
-        "networking",
-        "security",
-        "storage"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -73931,8 +73673,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -74124,9 +73865,9 @@
         "D"
       ],
       "tags": [
-        "database",
-        "migration",
-        "storage"
+        "Databases",
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -74226,9 +73967,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -74295,8 +74036,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "security"
+        "Analytics",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -74466,10 +74208,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -74566,10 +74307,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -74696,9 +74436,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -74900,7 +74639,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -75114,8 +74854,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -75203,7 +74943,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -75369,8 +75109,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Migration",
+        "Compute"
       ]
     },
     {
@@ -75534,9 +75275,10 @@
         "CEF": 100
       },
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -75678,9 +75420,11 @@
         "BCF": 97
       },
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -75807,8 +75551,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -75929,8 +75673,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -76084,9 +75829,7 @@
         }
       ],
       "tags": [
-        "developer",
-        "management",
-        "messaging"
+        "Management"
       ]
     },
     {
@@ -76220,8 +75963,8 @@
         "ADF": 21
       },
       "tags": [
-        "management",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -76316,9 +76059,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "storage"
+        "Compute",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -76496,11 +76239,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "migration",
-        "security",
-        "storage"
+        "Migration",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -76594,9 +76335,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -76681,8 +76422,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Management"
       ]
     },
     {
@@ -76782,10 +76522,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -76894,9 +76633,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -76966,10 +76705,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -77066,9 +76804,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "IoT",
+        "Compute",
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -77162,9 +76901,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Databases"
       ]
     },
     {
@@ -77378,8 +77115,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -77446,9 +77183,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -77627,8 +77364,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -77734,8 +77471,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -77802,7 +77539,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -77896,8 +77633,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -78003,8 +77739,9 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Compute",
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -78152,7 +77889,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -78219,10 +77956,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -78298,7 +78033,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -78473,8 +78208,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -78625,7 +78361,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -78719,8 +78455,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -78829,9 +78565,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -78937,10 +78672,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking",
+        "Management"
       ]
     },
     {
@@ -79004,10 +78739,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -79098,7 +78833,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -79262,9 +78998,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -79465,8 +79200,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute"
       ]
     },
     {
@@ -79542,8 +79276,8 @@
         "E"
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -79706,7 +79440,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -79800,10 +79534,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases"
       ]
     },
     {
@@ -79891,8 +79624,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -79983,8 +79716,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -80187,9 +79920,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "messaging"
+        "Messaging",
+        "Migration"
       ]
     },
     {
@@ -80340,10 +80072,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "storage"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -80552,9 +80282,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "security"
+        "Compute",
+        "Messaging",
+        "Security & IAM"
       ]
     },
     {
@@ -80663,9 +80393,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Compute",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -80853,8 +80583,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security"
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -80927,9 +80657,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Analytics"
       ]
     },
     {
@@ -81026,8 +80756,8 @@
         "D"
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -81094,9 +80824,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -81181,8 +80911,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -81322,7 +81051,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -81426,8 +81155,8 @@
         "D"
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -81593,10 +81322,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "networking",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -81821,10 +81548,10 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -81924,9 +81651,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -82020,7 +81746,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -82123,7 +81849,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -82223,7 +81949,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -82429,8 +82156,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -82526,8 +82253,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Migration",
+        "Management"
       ]
     },
     {
@@ -82669,8 +82397,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -82869,7 +82597,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -83075,8 +82804,7 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Databases"
       ]
     },
     {
@@ -83152,9 +82880,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security",
-        "storage"
+        "Management",
+        "Storage"
       ]
     },
     {
@@ -83215,11 +82942,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Storage",
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -83419,9 +83144,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -83640,7 +83365,8 @@
         "E"
       ],
       "tags": [
-        "database"
+        "Analytics",
+        "Migration"
       ]
     },
     {
@@ -83738,8 +83464,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -83929,10 +83655,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "management",
-        "messaging",
-        "storage"
+        "Management",
+        "Storage"
       ]
     },
     {
@@ -84044,8 +83768,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -84118,7 +83841,7 @@
         }
       ],
       "tags": [
-        "management"
+        "Management"
       ]
     },
     {
@@ -84306,8 +84029,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -84416,9 +84138,9 @@
         }
       ],
       "tags": [
-        "database",
-        "management",
-        "security"
+        "Databases",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -84498,8 +84220,7 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -84709,10 +84430,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "networking"
+        "Databases",
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -84903,10 +84623,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "security"
+        "Management",
+        "Security & IAM",
+        "Analytics"
       ]
     },
     {
@@ -85018,8 +84737,7 @@
         }
       ],
       "tags": [
-        "management",
-        "ml-ai"
+        "Management"
       ]
     },
     {
@@ -85168,7 +84886,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -85307,10 +85025,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -85461,10 +85178,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "migration",
-        "storage"
+        "Migration",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -85543,11 +85259,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Migration",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -85629,7 +85343,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -85744,9 +85459,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -85849,8 +85563,8 @@
         "ADF": 100
       },
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -86011,9 +85725,8 @@
         }
       ],
       "tags": [
-        "messaging",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -86198,9 +85911,9 @@
         }
       ],
       "tags": [
-        "management",
-        "networking",
-        "storage"
+        "Storage",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -86279,9 +85992,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -86504,7 +86216,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -86686,9 +86398,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -86797,7 +86509,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -87015,9 +86728,8 @@
         }
       ],
       "tags": [
-        "database",
-        "migration",
-        "storage"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -87223,8 +86935,8 @@
         }
       ],
       "tags": [
-        "database",
-        "migration"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -87446,11 +87158,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security",
-        "storage"
+        "Compute",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -87577,8 +87287,9 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -87759,8 +87470,7 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "management"
+        "Management"
       ]
     },
     {
@@ -87878,7 +87588,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -87960,9 +87671,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -88053,7 +87763,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -88199,11 +87910,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "migration",
-        "storage"
+        "Analytics",
+        "Storage",
+        "IoT"
       ]
     },
     {
@@ -88318,7 +88027,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -88391,9 +88101,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -88489,8 +88198,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "security"
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -88675,7 +88384,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -88754,7 +88463,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -88821,9 +88530,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -88878,7 +88586,9 @@
         }
       ],
       "tags": [
-        "database"
+        "Compute",
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -88966,10 +88676,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking",
-        "security"
+        "Networking",
+        "Messaging",
+        "Security & IAM"
       ]
     },
     {
@@ -89096,10 +88805,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Compute",
+        "Databases",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -89290,9 +88999,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -89368,7 +89076,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -89432,8 +89140,7 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "management"
+        "Management"
       ]
     },
     {
@@ -89539,7 +89246,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -89612,8 +89320,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -89806,9 +89514,8 @@
         "B"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -89944,8 +89651,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -90060,9 +89767,9 @@
         }
       ],
       "tags": [
-        "database",
-        "security",
-        "storage"
+        "Storage",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -90141,9 +89848,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -90294,9 +90000,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -90372,10 +90077,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "IoT"
       ]
     },
     {
@@ -90463,9 +90167,8 @@
         }
       ],
       "tags": [
-        "database",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -90647,8 +90350,7 @@
         }
       ],
       "tags": [
-        "management",
-        "messaging"
+        "Management"
       ]
     },
     {
@@ -90736,8 +90438,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute"
       ]
     },
     {
@@ -90934,9 +90635,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -91060,9 +90760,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -91198,7 +90897,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -91340,8 +91039,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -91444,9 +91143,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -91528,8 +91226,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -91617,8 +91315,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -91703,7 +91401,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -91818,8 +91517,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -91907,8 +91606,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -92084,7 +91784,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -92206,7 +91906,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -92366,8 +92067,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -92558,7 +92259,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -92703,7 +92405,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -92854,7 +92557,7 @@
         }
       ],
       "tags": [
-        "management"
+        "Management"
       ]
     },
     {
@@ -92964,10 +92667,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Analytics",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -93049,9 +92752,8 @@
         }
       ],
       "tags": [
-        "database",
-        "migration",
-        "storage"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -93157,10 +92859,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -93218,9 +92919,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -93411,8 +93111,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -93485,10 +93185,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Storage",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -93651,8 +93350,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -93734,7 +93432,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -93807,7 +93506,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -93901,9 +93600,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "ml-ai"
+        "Databases",
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -93988,9 +93687,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -94145,9 +93843,9 @@
         "ACF": 96
       },
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Storage",
+        "Migration",
+        "Analytics"
       ]
     },
     {
@@ -94369,8 +94067,10 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database"
+        "Compute",
+        "Databases",
+        "Migration",
+        "Management"
       ]
     },
     {
@@ -94428,8 +94128,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -94578,8 +94278,8 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -94634,9 +94334,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "storage"
+        "Compute",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -94748,10 +94448,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "storage"
+        "Compute",
+        "Storage",
+        "Analytics",
+        "Migration"
       ]
     },
     {
@@ -94881,8 +94581,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -94961,7 +94661,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -95067,7 +94768,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -95137,9 +94838,10 @@
         }
       ],
       "tags": [
-        "database",
-        "migration",
-        "storage"
+        "Databases",
+        "Storage",
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -95284,10 +94986,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -95393,11 +95094,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "security",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -95527,9 +95226,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -95590,10 +95289,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Networking"
       ]
     },
     {
@@ -95690,9 +95388,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -95783,9 +95481,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -95913,9 +95610,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -96054,10 +95752,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -96157,12 +95853,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking",
-        "security",
-        "storage"
+        "Storage",
+        "Networking",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -96236,8 +95930,8 @@
         "B"
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -96313,8 +96007,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -96387,8 +96082,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -96455,8 +96150,8 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -96538,8 +96233,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -96768,10 +96462,10 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Databases",
+        "Storage",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -96886,8 +96580,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -96987,7 +96681,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -97184,8 +96878,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -97243,8 +96937,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -97332,10 +97026,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "migration",
-        "networking"
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -97402,8 +97094,8 @@
         }
       ],
       "tags": [
-        "management",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -97473,8 +97165,7 @@
         }
       ],
       "tags": [
-        "database",
-        "migration"
+        "Databases"
       ]
     },
     {
@@ -97595,8 +97286,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute"
       ]
     },
     {
@@ -97714,8 +97404,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -97761,8 +97450,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -97820,8 +97509,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -97921,8 +97610,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -98001,8 +97690,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -98060,10 +97749,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "migration",
-        "storage"
+        "Compute",
+        "Messaging",
+        "Storage"
       ]
     },
     {
@@ -98143,9 +97831,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -98364,10 +98052,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -98479,8 +98165,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -98618,9 +98304,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -98669,10 +98355,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "management",
-        "storage"
+        "Management",
+        "Analytics"
       ]
     },
     {
@@ -98730,8 +98414,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -98834,9 +98518,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -98912,8 +98595,8 @@
         "E"
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -99004,7 +98687,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -99068,8 +98751,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -99175,7 +98858,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -99233,7 +98917,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -99300,8 +98985,9 @@
         }
       ],
       "tags": [
-        "database",
-        "storage"
+        "Migration",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -99365,8 +99051,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -99511,7 +99197,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -99599,8 +99285,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute"
+        "Compute",
+        "Analytics"
       ]
     },
     {
@@ -99779,10 +99465,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging"
+        "Management",
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -99837,10 +99522,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -99910,9 +99595,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -100042,8 +99727,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -100125,10 +99809,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -100298,8 +99981,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -100396,9 +100080,9 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -100462,8 +100146,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -100512,8 +100195,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -100574,8 +100257,8 @@
         }
       ],
       "tags": [
-        "management",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -100718,11 +100401,11 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -100877,7 +100560,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -100941,7 +100625,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -101001,10 +100686,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -101176,9 +100860,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -101251,8 +100934,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -101310,11 +100993,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging",
-        "security"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -101415,7 +101095,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -101464,8 +101144,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -101523,8 +101203,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -101622,8 +101302,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -101749,9 +101429,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -101812,9 +101491,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -101884,10 +101563,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "networking"
+        "Networking",
+        "Analytics",
+        "Management"
       ]
     },
     {
@@ -102021,7 +101699,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -102088,9 +101766,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -102242,7 +101919,8 @@
         "F"
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -102324,10 +102002,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -102445,9 +102120,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Compute",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -102520,11 +102195,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "security",
-        "storage"
+        "Compute",
+        "Storage",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -102580,9 +102254,10 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Migration",
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -102674,8 +102349,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Migration",
+        "Networking"
       ]
     },
     {
@@ -102727,9 +102403,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -102796,8 +102472,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -102942,9 +102617,8 @@
         "D"
       ],
       "tags": [
-        "compute",
         "ml-ai",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -103008,8 +102682,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -103067,11 +102741,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "security",
-        "storage"
+        "Storage",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -103163,8 +102835,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -103226,10 +102898,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -103389,7 +103060,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -103480,10 +103151,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -103559,11 +103229,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -103609,11 +103276,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "developer",
-        "management"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -103687,8 +103351,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -103791,8 +103455,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -103871,8 +103535,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -103936,8 +103600,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -104029,7 +103694,8 @@
         "C"
       ],
       "tags": [
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -104117,9 +103783,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -104307,8 +103973,9 @@
         }
       ],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -104363,10 +104030,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -104439,8 +104104,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -104518,9 +104183,8 @@
         "E"
       ],
       "tags": [
-        "database",
-        "migration",
-        "networking"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -104578,7 +104242,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -104654,11 +104318,10 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "networking",
-        "storage"
+        "Networking",
+        "Analytics",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -104722,8 +104385,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -104809,8 +104471,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -104865,10 +104528,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -104938,10 +104600,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "migration"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -105020,7 +104680,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -105081,9 +104742,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Storage",
+        "Databases"
       ]
     },
     {
@@ -105217,9 +104877,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -105329,9 +104988,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -105395,8 +105053,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "networking"
+        "Analytics",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -105518,10 +105177,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "migration",
-        "storage"
+        "Migration",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -105592,11 +105250,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Analytics",
+        "Migration"
       ]
     },
     {
@@ -105757,9 +105412,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -105829,7 +105483,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -105930,7 +105585,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -105988,7 +105644,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -106065,10 +105721,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Compute",
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -106135,7 +105790,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -106187,8 +105842,7 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -106325,8 +105979,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -106378,10 +106032,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging"
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -106506,8 +106158,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -106559,9 +106211,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "ml-ai",
-        "networking"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -106634,8 +106285,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -106687,7 +106338,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -106739,10 +106390,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -106800,10 +106450,9 @@
         }
       ],
       "tags": [
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Databases",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -106858,8 +106507,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -106923,10 +106571,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -106972,8 +106619,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -107055,7 +106702,9 @@
         "B"
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -107173,9 +106822,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -107330,10 +106978,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "networking"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -107409,9 +107055,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -107463,8 +107108,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -107507,11 +107152,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Compute",
+        "Security & IAM",
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -107588,8 +107232,8 @@
         }
       ],
       "tags": [
-        "database",
-        "security"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -107692,8 +107336,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -107754,7 +107398,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -107834,8 +107478,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -107920,9 +107564,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -107983,8 +107626,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -108058,9 +107701,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -108112,8 +107755,7 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -108198,7 +107840,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -108282,8 +107924,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -108429,8 +108071,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -108591,9 +108234,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -108636,7 +108279,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -108708,9 +108351,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "ml-ai"
       ]
     },
     {
@@ -108835,9 +108478,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "storage"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -108898,8 +108540,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -109081,7 +108722,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -109196,8 +108837,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -109291,7 +108932,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -109367,8 +109008,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -109465,9 +109107,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -109564,9 +109205,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Migration",
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -109651,8 +109293,8 @@
         }
       ],
       "tags": [
-        "messaging",
-        "security"
+        "Messaging",
+        "Security & IAM"
       ]
     },
     {
@@ -109725,10 +109367,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "security"
+        "Compute",
+        "Security & IAM",
+        "Networking",
+        "Management"
       ]
     },
     {
@@ -109828,9 +109470,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -109903,9 +109544,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Databases",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -109996,11 +109637,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "management",
-        "messaging",
-        "storage"
+        "Storage",
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -110061,7 +109700,8 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -110116,10 +109756,9 @@
         }
       ],
       "tags": [
-        "database",
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -110242,8 +109881,7 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -110350,9 +109988,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -110419,11 +110056,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -110490,9 +110125,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -110574,7 +110208,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -110646,8 +110281,9 @@
         "C"
       ],
       "tags": [
-        "management",
-        "security"
+        "Compute",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -110735,9 +110371,9 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Migration",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -110844,9 +110480,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -110901,7 +110537,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -110947,7 +110583,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -111020,8 +110657,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -111103,8 +110741,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -111159,10 +110797,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -111293,11 +110929,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -111370,9 +111004,8 @@
         }
       ],
       "tags": [
-        "database",
-        "management",
-        "migration"
+        "Migration",
+        "Management"
       ]
     },
     {
@@ -111433,8 +111066,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -111498,10 +111131,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "migration",
-        "storage"
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -111605,9 +111236,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Management",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -111695,8 +111326,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -111742,8 +111373,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "security"
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -111814,9 +111445,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -111905,10 +111535,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "security"
+        "Security & IAM",
+        "Management",
+        "Messaging"
       ]
     },
     {
@@ -111991,8 +111620,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -112042,9 +111671,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -112090,9 +111719,9 @@
         }
       ],
       "tags": [
-        "compute",
         "ml-ai",
-        "networking"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -112159,7 +111788,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -112226,10 +111855,7 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging"
+        "Messaging"
       ]
     },
     {
@@ -112293,11 +111919,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
         "ml-ai",
-        "storage"
+        "Storage",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -112379,10 +112004,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -112461,8 +112085,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -112526,9 +112150,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Migration"
       ]
     },
     {
@@ -112598,7 +112222,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -112686,9 +112310,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Analytics",
+        "Storage",
+        "ml-ai"
       ]
     },
     {
@@ -112752,8 +112376,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -112826,7 +112450,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -112928,8 +112553,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Messaging",
+        "Management"
       ]
     },
     {
@@ -112978,9 +112604,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Compute",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -113108,9 +112734,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking"
+        "Compute",
+        "Networking",
+        "Messaging",
+        "Security & IAM"
       ]
     },
     {
@@ -113243,8 +112870,8 @@
         }
       ],
       "tags": [
-        "database",
-        "networking"
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -113351,8 +112978,9 @@
         }
       ],
       "tags": [
-        "database",
-        "networking"
+        "Networking",
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -113419,8 +113047,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "storage"
+        "Analytics",
+        "Storage"
       ]
     },
     {
@@ -113475,8 +113103,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -113543,8 +113171,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging",
+        "Migration"
       ]
     },
     {
@@ -113602,8 +113231,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -113652,10 +113281,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -113737,10 +113364,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
         "ml-ai",
-        "storage"
+        "Storage",
+        "Analytics"
       ]
     },
     {
@@ -113802,12 +113428,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "migration",
-        "networking",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -113865,9 +113488,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -113934,8 +113556,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Migration",
+        "Management"
       ]
     },
     {
@@ -113990,10 +113613,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "messaging",
-        "networking"
+        "Migration",
+        "Networking",
+        "Analytics"
       ]
     },
     {
@@ -114069,9 +113691,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -114117,8 +113738,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -114188,9 +113809,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -114342,8 +113962,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -114401,9 +114021,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Migration",
+        "Security & IAM"
       ]
     },
     {
@@ -114501,7 +114120,8 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -114541,8 +114161,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -114591,8 +114211,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -114641,9 +114261,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "storage"
+        "Databases",
+        "Analytics"
       ]
     },
     {
@@ -114692,8 +114311,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -114754,10 +114372,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "migration",
-        "security",
-        "storage"
+        "Migration",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -114836,8 +114453,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -114886,8 +114503,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -114954,8 +114571,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -115010,8 +114627,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -115057,8 +114674,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -115110,10 +114727,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "security",
-        "storage"
+        "Databases",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -115195,9 +114811,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -115300,8 +114916,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -115456,8 +115072,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -115576,9 +115192,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -115651,9 +115266,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Migration",
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -115739,9 +115355,8 @@
         }
       ],
       "tags": [
-        "migration",
-        "networking",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -115796,9 +115411,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Compute",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -115883,10 +115498,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "messaging",
-        "networking"
+        "Compute"
       ]
     },
     {
@@ -115932,10 +115544,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -115990,9 +115600,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration"
+        "Migration",
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -116041,10 +115651,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "storage"
+        "Management",
+        "Storage"
       ]
     },
     {
@@ -116108,7 +115716,9 @@
         }
       ],
       "tags": [
-        "database"
+        "Management",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -116206,8 +115816,9 @@
         }
       ],
       "tags": [
-        "database",
-        "management"
+        "Databases",
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -116253,9 +115864,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -116313,11 +115924,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -116357,10 +115966,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Compute",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -116463,8 +116071,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -116504,8 +116112,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -116596,7 +116204,7 @@
         }
       ],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -116645,7 +116253,7 @@
         }
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -116784,9 +116392,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "management"
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -116862,9 +116469,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -116938,9 +116544,8 @@
         }
       ],
       "tags": [
-        "database",
-        "management",
-        "storage"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -116989,8 +116594,8 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -117030,9 +116635,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management"
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -117094,7 +116698,7 @@
         }
       ],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -117168,11 +116772,8 @@
         "B"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "messaging",
-        "migration"
+        "Analytics",
+        "Compute"
       ]
     },
     {
@@ -117239,9 +116840,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -117296,10 +116897,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -117354,9 +116953,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -117432,10 +117030,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "developer",
-        "management",
-        "messaging"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -117539,7 +117135,7 @@
         }
       ],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -117585,10 +117181,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -117628,9 +117223,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Management",
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -117712,9 +117307,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Management",
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -117800,10 +117395,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "networking"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -117889,9 +117483,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -117991,9 +117584,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -118051,10 +117643,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -118119,7 +117710,8 @@
         }
       ],
       "tags": [
-        "management"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -118174,9 +117766,9 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "database",
-        "messaging"
+        "Messaging",
+        "Compute",
+        "Databases"
       ]
     },
     {
@@ -118234,11 +117826,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "management",
-        "migration",
-        "networking",
-        "storage"
+        "Management",
+        "Analytics"
       ]
     },
     {
@@ -118365,9 +117954,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -118441,8 +118029,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking",
+        "Management"
       ]
     },
     {
@@ -118510,10 +118099,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "ml-ai",
-        "security"
+        "Management",
+        "Security & IAM"
       ]
     },
     {
@@ -118578,9 +118165,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Databases"
       ]
     },
     {
@@ -118630,7 +118217,8 @@
         "D"
       ],
       "tags": [
-        "compute",
+        "Compute",
+        "Management",
         "ml-ai"
       ]
     },
@@ -118701,8 +118289,8 @@
         "D"
       ],
       "tags": [
-        "database",
-        "migration"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -118770,11 +118358,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "management",
-        "migration",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -118841,8 +118427,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute"
+        "Analytics",
+        "Compute"
       ]
     },
     {
@@ -118882,9 +118468,8 @@
         }
       ],
       "tags": [
-        "management",
-        "security",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -119021,7 +118606,7 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -119082,7 +118667,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -119186,9 +118772,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Migration",
+        "Compute"
       ]
     },
     {
@@ -119292,8 +118877,9 @@
         }
       ],
       "tags": [
-        "management",
-        "networking"
+        "Management",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -119358,10 +118944,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -119410,8 +118995,7 @@
         }
       ],
       "tags": [
-        "compute",
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -119469,8 +119053,8 @@
         }
       ],
       "tags": [
-        "database",
-        "migration"
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -119519,9 +119103,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "migration"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -119570,11 +119153,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "migration",
-        "storage"
+        "Security & IAM",
+        "Analytics"
       ]
     },
     {
@@ -119647,7 +119227,8 @@
         }
       ],
       "tags": [
-        "networking"
+        "Migration",
+        "Networking"
       ]
     },
     {
@@ -119729,8 +119310,8 @@
         "B"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -119779,11 +119360,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Migration",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -119838,9 +119417,10 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Compute",
+        "Migration",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -119923,7 +119503,8 @@
         }
       ],
       "tags": [
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -120002,9 +119583,9 @@
         }
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "storage"
+        "Compute",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -120024,8 +119605,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -120043,10 +119624,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "security",
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -120064,9 +119643,9 @@
       ],
       "discussion": [],
       "tags": [
-        "management",
-        "networking",
-        "storage"
+        "Management",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -120084,10 +119663,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "security"
+        "Security & IAM",
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -120105,9 +119683,8 @@
       ],
       "discussion": [],
       "tags": [
-        "database",
-        "migration",
-        "ml-ai"
+        "Databases",
+        "Analytics"
       ]
     },
     {
@@ -120125,11 +119702,9 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "management",
-        "storage"
+        "Compute",
+        "Management",
+        "Databases"
       ]
     },
     {
@@ -120147,10 +119722,9 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "storage"
+        "Compute",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -120168,9 +119742,9 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "compute",
-        "storage"
+        "Storage",
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -120188,10 +119762,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Compute",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -120209,10 +119782,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -120230,10 +119803,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -120251,8 +119822,8 @@
       ],
       "discussion": [],
       "tags": [
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage"
       ]
     },
     {
@@ -120270,10 +119841,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking"
+        "Compute",
+        "Networking",
+        "Messaging",
+        "Databases"
       ]
     },
     {
@@ -120291,8 +119862,8 @@
       ],
       "discussion": [],
       "tags": [
-        "migration",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -120310,9 +119881,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Storage",
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -120330,10 +119901,10 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Migration",
+        "Networking"
       ]
     },
     {
@@ -120351,8 +119922,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database"
+        "Compute",
+        "Databases",
+        "Migration"
       ]
     },
     {
@@ -120370,7 +119942,7 @@
       ],
       "discussion": [],
       "tags": [
-        "security"
+        "Security & IAM"
       ]
     },
     {
@@ -120390,9 +119962,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -120410,8 +119981,8 @@
       ],
       "discussion": [],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -120429,7 +120000,8 @@
       ],
       "discussion": [],
       "tags": [
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -120447,8 +120019,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Management"
       ]
     },
     {
@@ -120466,11 +120038,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -120488,8 +120057,8 @@
       ],
       "discussion": [],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -120511,10 +120080,9 @@
         "F"
       ],
       "tags": [
-        "compute",
-        "messaging",
-        "networking",
-        "security"
+        "Compute",
+        "Messaging",
+        "Security & IAM"
       ]
     },
     {
@@ -120532,9 +120100,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "ml-ai"
       ]
     },
     {
@@ -120554,11 +120122,8 @@
         "C"
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "messaging",
-        "security",
-        "storage"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -120576,8 +120141,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -120595,10 +120161,7 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "migration",
-        "networking"
+        "Databases"
       ]
     },
     {
@@ -120616,8 +120179,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -120651,9 +120214,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Compute",
+        "Networking",
+        "Databases"
       ]
     },
     {
@@ -120673,9 +120236,8 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -120693,9 +120255,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management",
-        "storage"
+        "Compute",
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -120713,9 +120275,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -120733,7 +120295,7 @@
       ],
       "discussion": [],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -120764,8 +120326,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -120785,8 +120347,8 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "security"
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -120804,9 +120366,9 @@
       ],
       "discussion": [],
       "tags": [
-        "management",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -120824,8 +120386,7 @@
       ],
       "discussion": [],
       "tags": [
-        "database",
-        "management"
+        "Management"
       ]
     },
     {
@@ -120843,10 +120404,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -120864,8 +120425,9 @@
       ],
       "discussion": [],
       "tags": [
-        "management",
-        "networking"
+        "Networking",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -120883,7 +120445,7 @@
       ],
       "discussion": [],
       "tags": [
-        "database"
+        "Databases"
       ]
     },
     {
@@ -120901,10 +120463,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Compute",
+        "Databases",
+        "Migration",
+        "Security & IAM"
       ]
     },
     {
@@ -120935,9 +120497,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "database",
-        "migration"
+        "Migration",
+        "Databases"
       ]
     },
     {
@@ -120968,8 +120529,8 @@
         }
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -121000,8 +120561,8 @@
         }
       ],
       "tags": [
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -121019,10 +120580,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security"
+        "Compute",
+        "Databases",
+        "Security & IAM"
       ]
     },
     {
@@ -121053,10 +120613,9 @@
         }
       ],
       "tags": [
-        "analytics",
-        "database",
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Analytics"
       ]
     },
     {
@@ -121074,7 +120633,8 @@
       ],
       "discussion": [],
       "tags": [
-        "storage"
+        "Storage",
+        "ml-ai"
       ]
     },
     {
@@ -121092,10 +120652,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Messaging",
+        "ml-ai"
       ]
     },
     {
@@ -121113,10 +120672,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Networking"
       ]
     },
     {
@@ -121134,8 +120692,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -121155,7 +120714,7 @@
         "D"
       ],
       "tags": [
-        "networking"
+        "Networking"
       ]
     },
     {
@@ -121173,7 +120732,8 @@
       ],
       "discussion": [],
       "tags": [
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -121191,10 +120751,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "messaging"
+        "Databases",
+        "Management",
+        "Compute"
       ]
     },
     {
@@ -121212,7 +120771,8 @@
       ],
       "discussion": [],
       "tags": [
-        "storage"
+        "Storage",
+        "Management"
       ]
     },
     {
@@ -121230,9 +120790,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "security"
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -121250,8 +120809,8 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "database"
+        "Databases",
+        "Analytics"
       ]
     },
     {
@@ -121269,8 +120828,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -121288,11 +120847,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Databases",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -121323,8 +120881,9 @@
         }
       ],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -121342,10 +120901,9 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "compute",
-        "networking",
-        "security"
+        "Analytics",
+        "Security & IAM",
+        "Networking"
       ]
     },
     {
@@ -121376,8 +120934,8 @@
         }
       ],
       "tags": [
-        "messaging",
-        "networking"
+        "Messaging",
+        "Compute"
       ]
     },
     {
@@ -121402,11 +120960,8 @@
         }
       ],
       "tags": [
-        "analytics",
-        "compute",
-        "database",
-        "management",
-        "storage"
+        "Analytics",
+        "Migration"
       ]
     },
     {
@@ -121424,8 +120979,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -121443,9 +120998,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Compute",
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -121463,9 +121018,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking",
+        "Migration"
       ]
     },
     {
@@ -121483,8 +121038,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "storage"
+        "Compute",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -121506,8 +121062,9 @@
         "E"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute",
+        "Security & IAM"
       ]
     },
     {
@@ -121552,9 +121109,9 @@
         "D"
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Storage",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -121572,10 +121129,9 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "database",
-        "security",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -121593,8 +121149,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -121612,10 +121168,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "networking",
-        "security"
+        "Compute",
+        "Databases",
+        "Security & IAM",
+        "Migration"
       ]
     },
     {
@@ -121633,8 +121189,9 @@
       ],
       "discussion": [],
       "tags": [
-        "database",
-        "storage"
+        "Migration",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -121652,7 +121209,8 @@
       ],
       "discussion": [],
       "tags": [
-        "database"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -121670,10 +121228,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "security",
-        "storage"
+        "Networking",
+        "Storage",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -121691,11 +121249,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Databases",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -121713,8 +121270,8 @@
       ],
       "discussion": [],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -121732,7 +121289,8 @@
       ],
       "discussion": [],
       "tags": [
-        "networking"
+        "Networking",
+        "Management"
       ]
     },
     {
@@ -121750,9 +121308,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -121770,7 +121327,7 @@
       ],
       "discussion": [],
       "tags": [
-        "storage"
+        "Storage"
       ]
     },
     {
@@ -121788,9 +121345,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "security",
-        "storage"
+        "Compute",
+        "Storage"
       ]
     },
     {
@@ -121810,8 +121366,8 @@
         "C"
       ],
       "tags": [
-        "compute",
-        "networking"
+        "Compute",
+        "Networking"
       ]
     },
     {
@@ -121831,9 +121387,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "security"
+        "Management",
+        "Security & IAM",
+        "Compute"
       ]
     },
     {
@@ -121851,9 +121407,8 @@
       ],
       "discussion": [],
       "tags": [
-        "database",
-        "management",
-        "storage"
+        "Databases",
+        "Management"
       ]
     },
     {
@@ -121871,9 +121426,8 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "migration",
-        "storage"
+        "Migration",
+        "Storage"
       ]
     },
     {
@@ -121891,11 +121445,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Messaging",
+        "Compute",
+        "IoT"
       ]
     },
     {
@@ -121913,8 +121465,9 @@
       ],
       "discussion": [],
       "tags": [
-        "database",
-        "networking"
+        "Databases",
+        "Networking",
+        "Security & IAM"
       ]
     },
     {
@@ -121932,9 +121485,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -121952,11 +121505,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "management",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -121974,11 +121525,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking",
-        "storage"
+        "Compute",
+        "Storage",
+        "Messaging"
       ]
     },
     {
@@ -121996,7 +121545,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -122014,9 +121564,7 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "storage"
+        "Databases"
       ]
     },
     {
@@ -122034,9 +121582,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Networking",
+        "Storage",
+        "Compute"
       ]
     },
     {
@@ -122054,9 +121602,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "networking"
+        "Databases",
+        "Compute"
       ]
     },
     {
@@ -122074,7 +121621,8 @@
       ],
       "discussion": [],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -122092,9 +121640,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management",
-        "messaging"
+        "Compute",
+        "Messaging"
       ]
     },
     {
@@ -122112,8 +121659,7 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database"
+        "Databases"
       ]
     },
     {
@@ -122131,7 +121677,8 @@
       ],
       "discussion": [],
       "tags": [
-        "storage"
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -122149,8 +121696,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking"
+        "Networking",
+        "Compute"
       ]
     },
     {
@@ -122168,12 +121715,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
+        "Messaging",
+        "Compute",
         "ml-ai",
-        "networking",
-        "storage"
+        "Databases"
       ]
     },
     {
@@ -122193,9 +121738,9 @@
         "D"
       ],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Management",
+        "Networking"
       ]
     },
     {
@@ -122213,9 +121758,9 @@
       ],
       "discussion": [],
       "tags": [
-        "analytics",
-        "security",
-        "storage"
+        "Analytics",
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -122233,9 +121778,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "management",
-        "networking"
+        "Compute",
+        "Migration"
       ]
     },
     {
@@ -122253,8 +121797,8 @@
       ],
       "discussion": [],
       "tags": [
-        "security",
-        "storage"
+        "Storage",
+        "Security & IAM"
       ]
     },
     {
@@ -122276,8 +121820,7 @@
         "D"
       ],
       "tags": [
-        "database",
-        "migration"
+        "Migration"
       ]
     },
     {
@@ -122297,9 +121840,9 @@
         "C"
       ],
       "tags": [
-        "networking",
-        "security",
-        "storage"
+        "Security & IAM",
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -122317,10 +121860,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "messaging",
-        "networking"
+        "Compute",
+        "Messaging",
+        "Networking"
       ]
     },
     {
@@ -122338,7 +121880,7 @@
       ],
       "discussion": [],
       "tags": [
-        "compute"
+        "Compute"
       ]
     },
     {
@@ -122356,9 +121898,9 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "messaging",
-        "storage"
+        "Compute",
+        "Storage",
+        "Migration"
       ]
     },
     {
@@ -122376,9 +121918,8 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "networking",
-        "storage"
+        "Storage",
+        "Networking"
       ]
     },
     {
@@ -122396,8 +121937,8 @@
       ],
       "discussion": [],
       "tags": [
-        "networking",
-        "storage"
+        "Networking",
+        "Storage"
       ]
     },
     {
@@ -122415,10 +121956,10 @@
       ],
       "discussion": [],
       "tags": [
-        "compute",
-        "database",
-        "security",
-        "storage"
+        "Compute",
+        "Security & IAM",
+        "Databases",
+        "Storage"
       ]
     },
     {
@@ -122436,8 +121977,8 @@
       ],
       "discussion": [],
       "tags": [
-        "management",
-        "security"
+        "Security & IAM",
+        "Management"
       ]
     },
     {
@@ -122455,7 +121996,8 @@
       ],
       "discussion": [],
       "tags": [
-        "networking"
+        "Networking",
+        "Security & IAM"
       ]
     }
   ]
