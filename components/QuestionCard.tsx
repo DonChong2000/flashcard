@@ -196,26 +196,58 @@ export function QuestionCard({
           ))}
         </div>
 
-        {/* Reveal feedback */}
-        {revealed && (
-          <div
-            className={cn(
-              "rounded-lg p-3 text-sm font-medium flex items-center gap-2",
-              isCorrectAnswer
-                ? "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100"
-                : "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-100"
+        {/* Action bar — feedback shares the helper-text slot so the buttons never move */}
+        <div className="flex justify-between items-center gap-3 pt-1">
+          <div className="text-sm min-w-0 flex-1">
+            {!revealed && selected.length === 0 && (
+              <span className="text-xs text-muted-foreground">
+                Select an answer (1–{optionKeys.length}) or click an option
+              </span>
             )}
-          >
-            {isCorrectAnswer ? (
-              <CheckCircle2 className="h-4 w-4" />
-            ) : (
-              <XCircle className="h-4 w-4" />
+            {!revealed && selected.length > 0 && (
+              <span className="text-xs text-muted-foreground">
+                Selected: {selected.join(", ")} — press Enter or click Check
+              </span>
             )}
-            {isCorrectAnswer
-              ? "Correct!"
-              : `Incorrect. Correct answer: ${question.correct_answer.join(", ")}`}
+            {revealed && (
+              <span
+                className={cn(
+                  "inline-flex items-center gap-1.5 font-medium",
+                  isCorrectAnswer
+                    ? "text-green-700 dark:text-green-400"
+                    : "text-red-700 dark:text-red-400"
+                )}
+              >
+                {isCorrectAnswer ? (
+                  <CheckCircle2 className="h-4 w-4 shrink-0" />
+                ) : (
+                  <XCircle className="h-4 w-4 shrink-0" />
+                )}
+                {isCorrectAnswer
+                  ? "Correct!"
+                  : `Incorrect — answer: ${question.correct_answer.join(", ")}`}
+              </span>
+            )}
           </div>
-        )}
+          <div className="flex gap-2 shrink-0">
+            {!revealed ? (
+              <Button onClick={checkAnswer} disabled={selected.length === 0} size="sm">
+                Check Answer
+              </Button>
+            ) : (
+              <>
+                {!isCorrectAnswer && (
+                  <Button onClick={onOverride} size="sm" variant="outline" className="text-xs">
+                    I'm correct
+                  </Button>
+                )}
+                <Button onClick={() => { window.scrollTo(0, 0); onNext(); }} size="sm">
+                  {isLast ? "Finish" : "Next →"}
+                </Button>
+              </>
+            )}
+          </div>
+        </div>
 
         {/* Community votes summary */}
         {revealed && hasVotes && (
@@ -257,33 +289,6 @@ export function QuestionCard({
             </CollapsibleContent>
           </Collapsible>
         )}
-
-        {/* Action buttons */}
-        <div className="flex justify-between items-center pt-1">
-          <div className="text-xs text-muted-foreground">
-            {!revealed && selected.length === 0 && `Select an answer (1–${optionKeys.length}) or click an option`}
-            {!revealed && selected.length > 0 && `Selected: ${selected.join(", ")} — press Enter or click Check`}
-            {revealed && "Press Enter or → to continue"}
-          </div>
-          <div className="flex gap-2">
-            {!revealed ? (
-              <Button onClick={checkAnswer} disabled={selected.length === 0} size="sm">
-                Check Answer
-              </Button>
-            ) : (
-              <>
-                {!isCorrectAnswer && (
-                  <Button onClick={onOverride} size="sm" variant="outline" className="text-xs">
-                    I'm correct
-                  </Button>
-                )}
-                <Button onClick={() => { window.scrollTo(0, 0); onNext(); }} size="sm">
-                  {isLast ? "Finish" : "Next →"}
-                </Button>
-              </>
-            )}
-          </div>
-        </div>
       </CardContent>
     </Card>
   );
