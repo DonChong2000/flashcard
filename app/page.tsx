@@ -18,6 +18,7 @@ import {
   importProgress,
   type ProgressExport,
 } from "@/lib/progress";
+import { getSelectedDataset, setSelectedDataset } from "@/lib/preferences";
 import type { DatasetMeta, ProgressStore, QuizFilter } from "@/lib/types";
 import { BASE_PATH } from "@/lib/constants";
 const RANDOM_EXAM_SIZE = 65;
@@ -44,7 +45,10 @@ export default function HomePage() {
     fetchManifest(BASE_PATH)
       .then((m) => {
         setDatasets(m.datasets);
-        if (m.datasets.length > 0) setSelectedSlug(m.datasets[0].slug);
+        if (m.datasets.length === 0) return;
+        const saved = getSelectedDataset();
+        const restored = saved && m.datasets.some((d) => d.slug === saved) ? saved : m.datasets[0].slug;
+        setSelectedSlug(restored);
       })
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false));
@@ -52,6 +56,7 @@ export default function HomePage() {
 
   useEffect(() => {
     if (!selectedSlug) return;
+    setSelectedDataset(selectedSlug);
     setProgress(getProgress(selectedSlug));
   }, [selectedSlug]);
 
