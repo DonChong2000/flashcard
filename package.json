@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out",
+    "deploy": "pnpm build && gh-pages -d out",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "jest": {
