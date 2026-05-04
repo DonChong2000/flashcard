@@ -97,7 +97,7 @@ export function QuestionCard({
         onBookmark();
         return;
       }
-      if ((e.key === "o" || e.key === "O") && revealed && !isCorrectAnswer) {
+      if ((e.key === "o" || e.key === "O" || e.key === "'") && revealed && !isCorrectAnswer) {
         onOverride();
         return;
       }
