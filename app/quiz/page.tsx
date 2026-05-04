@@ -241,8 +241,11 @@ function QuizContent() {
           </Button>
           <div className="relative flex-1 min-w-0 h-7 rounded-full overflow-hidden bg-secondary">
             <div
-              className="absolute inset-y-0 left-0 bg-primary/25 transition-all"
-              style={{ width: `${questions.length > 0 ? Math.round(((current + 1) / questions.length) * 100) : 0}%` }}
+              className="absolute inset-y-0 left-0 transition-all"
+              style={{
+                width: `${questions.length > 0 ? Math.round(((current + 1) / questions.length) * 100) : 0}%`,
+                backgroundColor: "color-mix(in srgb, var(--primary) 30%, transparent)",
+              }}
             />
             <div className="relative flex items-center justify-center gap-2 px-3 h-full text-xs font-medium">
               <span className="truncate">{quizLabel}</span>
