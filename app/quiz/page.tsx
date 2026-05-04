@@ -121,6 +121,7 @@ function QuizContent() {
 
   useEffect(() => {
     setNavInput(String(current + 1));
+    window.scrollTo(0, 0);
   }, [current]);
 
   function handlePrev() {

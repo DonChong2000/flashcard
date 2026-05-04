@@ -241,7 +241,7 @@ export function QuestionCard({
                     I'm correct
                   </Button>
                 )}
-                <Button onClick={() => { window.scrollTo(0, 0); onNext(); }} size="sm">
+                <Button onClick={onNext} size="sm">
                   {isLast ? "Finish" : "Next →"}
                 </Button>
               </>
