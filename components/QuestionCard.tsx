@@ -29,18 +29,20 @@ export function QuestionCard({
   onOverride,
   isLast,
 }: QuestionCardProps) {
-  const isMulti = (question.correct_answer?.length ?? 0) > 1;
+  const isMulti = question.correct_answer.length > 1;
   const [selected, setSelected] = useState<string[]>([]);
   const [revealed, setRevealed] = useState(false);
-  const [isCorrectAnswer, setIsCorrectAnswer] = useState(false);
   const [discussionOpen, setDiscussionOpen] = useState(false);
   const isBookmarked = progress?.bookmarked ?? false;
 
-  // Reset state when question changes
+  const isCorrectAnswer =
+    revealed &&
+    selected.length === question.correct_answer.length &&
+    selected.every((s) => question.correct_answer.includes(s));
+
   useEffect(() => {
     setSelected([]);
     setRevealed(false);
-    setIsCorrectAnswer(false);
     setDiscussionOpen(false);
   }, [question.question_number]);
 
@@ -50,7 +52,7 @@ export function QuestionCard({
   );
 
   const hasVotes = useMemo(
-    () => Object.keys(question.community_votes ?? {}).length > 0,
+    () => Object.keys(question.community_votes).length > 0,
     [question.community_votes]
   );
 
@@ -70,7 +72,6 @@ export function QuestionCard({
     const correct =
       selected.length === question.correct_answer.length &&
       selected.every((s) => question.correct_answer.includes(s));
-    setIsCorrectAnswer(correct);
     setRevealed(true);
     onAnswer(selected, correct);
   }
@@ -124,14 +125,13 @@ export function QuestionCard({
   }
 
   const sortedDiscussion = useMemo(
-    () => [...(question.discussion ?? [])].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3),
+    () => [...question.discussion].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3),
     [question.discussion]
   );
 
   return (
     <Card className="w-full rounded-none sm:rounded-lg border-0 sm:border shadow-none sm:shadow-sm">
       <CardContent className="p-4 sm:p-6 space-y-5">
-        {/* Header */}
         <div>
           <div className="flex items-center justify-between gap-4 mb-3">
             <div className="flex items-center gap-2">
@@ -159,7 +159,6 @@ export function QuestionCard({
           <p className="text-lg sm:text-base leading-relaxed whitespace-pre-wrap">{question.question}</p>
         </div>
 
-        {/* Options */}
         <div className="space-y-2">
           {optionKeys.map((key, idx) => (
             <button
@@ -249,7 +248,6 @@ export function QuestionCard({
           </div>
         </div>
 
-        {/* Community votes summary */}
         {revealed && hasVotes && (
           <div className="text-xs text-muted-foreground">
             Community votes:{" "}
@@ -260,7 +258,6 @@ export function QuestionCard({
           </div>
         )}
 
-        {/* Discussion */}
         {revealed && sortedDiscussion.length > 0 && (
           <Collapsible open={discussionOpen} onOpenChange={setDiscussionOpen}>
             <CollapsibleTrigger asChild>
