@@ -7,7 +7,6 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/QuestionCard";
-import { ProgressHeader } from "@/components/ProgressHeader";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { fetchTopicQuestions } from "@/lib/manifest";
 import {
@@ -228,29 +227,33 @@ function QuizContent() {
 
   return (
     <main className="min-h-screen bg-background">
-      <div className="container max-w-3xl py-6 space-y-5 px-0 sm:px-4">
-        {/* Navigation */}
-        <div className="flex items-center justify-between px-4 sm:px-0">
+      <div className="container max-w-3xl py-6 space-y-4 px-0 sm:px-4">
+        {/* Header: Home · label-on-progress · theme */}
+        <div className="flex items-center gap-2 sm:gap-3 px-4 sm:px-0">
           <Button
             variant="ghost"
-            size="sm"
+            size="icon"
             onClick={() => router.push("/")}
-            className="gap-1"
+            aria-label="Home"
+            className="shrink-0"
           >
             <ArrowLeft className="h-4 w-4" />
-            Home
           </Button>
+          <div className="relative flex-1 min-w-0 h-7 rounded-full overflow-hidden bg-secondary">
+            <div
+              className="absolute inset-y-0 left-0 bg-primary/25 transition-all"
+              style={{ width: `${questions.length > 0 ? Math.round(((current + 1) / questions.length) * 100) : 0}%` }}
+            />
+            <div className="relative flex items-center justify-center gap-2 px-3 h-full text-xs font-medium">
+              <span className="truncate">{quizLabel}</span>
+              {filter !== "all" && (
+                <span className="capitalize text-muted-foreground shrink-0">
+                  · {filter.replace("+", " + ")}
+                </span>
+              )}
+            </div>
+          </div>
           <ThemeToggle />
-        </div>
-
-        {/* Progress */}
-        <div className="px-4 sm:px-0">
-        <ProgressHeader
-          current={current + 1}
-          total={questions.length}
-          filter={filter}
-          label={quizLabel}
-        />
         </div>
 
         {/* Question navigation */}
