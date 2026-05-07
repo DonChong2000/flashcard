@@ -52,7 +52,7 @@ export function QuestionCard({
   );
 
   const hasVotes = useMemo(
-    () => Object.keys(question.community_votes).length > 0,
+    () => Object.keys(question.community_votes ?? {}).length > 0,
     [question.community_votes]
   );
 
@@ -125,7 +125,7 @@ export function QuestionCard({
   }
 
   const sortedDiscussion = useMemo(
-    () => [...question.discussion].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3),
+    () => [...(question.discussion ?? [])].sort((a, b) => b.upvotes - a.upvotes).slice(0, 3),
     [question.discussion]
   );
 
