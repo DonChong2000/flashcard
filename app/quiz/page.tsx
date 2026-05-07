@@ -30,11 +30,16 @@ function QuizContent() {
   const topic: number | "all" = topicParam === "all" ? "all" : parseInt(topicParam);
   const randomCount = (() => { const n = parseInt(params.get("random") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
   const selectedTags = (params.get("tags") ?? "").split(",").filter(Boolean);
-  const quizLabel = randomCount !== null
-    ? `Random ${randomCount}`
-    : selectedTags.length > 0
-    ? `Tags: ${selectedTags.join(", ")}`
-    : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
+  const fromNum = (() => { const n = parseInt(params.get("from") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
+  const toNum = (() => { const n = parseInt(params.get("to") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
+  const quizLabel = (() => {
+    if (randomCount !== null) return `Random ${randomCount}`;
+    const base = selectedTags.length > 0
+      ? selectedTags.join(", ")
+      : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
+    if (fromNum !== null || toNum !== null) return `${base} [${fromNum ?? 1}–${toNum ?? "end"}]`;
+    return base;
+  })();
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
@@ -76,6 +81,13 @@ function QuizContent() {
           qs = qs.filter((q) => q.tags?.some((t) => tagSet.has(t)));
         }
 
+        // Apply positional slice within the filtered subset (1-indexed)
+        if (fromNum !== null || toNum !== null) {
+          const start = (fromNum ?? 1) - 1;
+          const end = toNum ?? qs.length;
+          qs = qs.slice(start, end);
+        }
+
         // Apply random shuffle and slice if requested
         if (randomCount !== null) {
           for (let i = qs.length - 1; i > 0; i--) {
@@ -100,7 +112,7 @@ function QuizContent() {
 
     load();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug, topicParam, filter, randomCount, params.get("tags")]);
+  }, [slug, topicParam, filter, randomCount, params.get("tags"), params.get("from"), params.get("to")]);
 
   function handleAnswer(selected: string[], correct: boolean) {
     if (!questions[current]) return;

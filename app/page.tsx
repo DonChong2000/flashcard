@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,6 +10,7 @@ import { Progress } from "@/components/ui/progress";
 import { DatasetSelector } from "@/components/DatasetSelector";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { StatsOverview } from "@/components/StatsOverview";
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible";
 import { fetchManifest } from "@/lib/manifest";
 import {
   getProgress,
@@ -40,6 +41,14 @@ export default function HomePage() {
   const [error, setError] = useState<string | null>(null);
   const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; slug: string; totalQuestions: number } | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // Custom quiz builder state
+  const [builderOpen, setBuilderOpen] = useState(false);
+  const [builderTags, setBuilderTags] = useState<string[]>([]);
+  const [builderFrom, setBuilderFrom] = useState("");
+  const [builderTo, setBuilderTo] = useState("");
+  const [builderRandom, setBuilderRandom] = useState("");
+  const [builderFilter, setBuilderFilter] = useState<QuizFilter>("all");
 
   useEffect(() => {
     fetchManifest(BASE_PATH)
@@ -104,6 +113,26 @@ export default function HomePage() {
       return { tag, total: qNums.length, correct, incorrect };
     });
   }, [dataset, progress]);
+
+  // Count of questions in the current tag-filtered subset (for range presets)
+  const builderSubsetSize = useMemo(() => {
+    if (!dataset) return 0;
+    if (builderTags.length === 0) return dataset.totalQuestions;
+    const nums = new Set<number>();
+    for (const tag of builderTags) {
+      for (const n of dataset.tagQuestions?.[tag] ?? []) nums.add(n);
+    }
+    return nums.size;
+  }, [builderTags, dataset]);
+
+  function buildCustomUrl() {
+    const params = new URLSearchParams({ dataset: selectedSlug, topic: "all", filter: builderFilter });
+    if (builderTags.length > 0) params.set("tags", builderTags.join(","));
+    if (builderFrom.trim()) params.set("from", builderFrom.trim());
+    if (builderTo.trim()) params.set("to", builderTo.trim());
+    if (builderRandom.trim()) params.set("random", builderRandom.trim());
+    return `/quiz?${params.toString()}`;
+  }
 
   function go(topic: number | "all", filter: QuizFilter) {
     router.push(
@@ -313,6 +342,147 @@ export default function HomePage() {
               </div>
             </CardContent>
           </Card>
+        )}
+
+        {/* Custom Quiz Builder */}
+        {dataset && (
+          <Collapsible open={builderOpen} onOpenChange={setBuilderOpen}>
+            <CollapsibleTrigger asChild>
+              <Button variant="outline" className="w-full gap-2 justify-between">
+                <span className="flex items-center gap-2">
+                  <SlidersHorizontal className="h-4 w-4" />
+                  Custom Quiz Builder
+                </span>
+                <ChevronDown className={`h-4 w-4 transition-transform ${builderOpen ? "rotate-180" : ""}`} />
+              </Button>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+              <Card className="mt-2">
+                <CardContent className="p-4 space-y-4">
+                  {/* Filter */}
+                  <div className="space-y-1.5">
+                    <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Filter</label>
+                    <div className="flex flex-wrap gap-2">
+                      {(["all", "incorrect", "bookmarked", "bookmarked+incorrect"] as QuizFilter[]).map((f) => (
+                        <Button
+                          key={f}
+                          size="sm"
+                          variant={builderFilter === f ? "default" : "outline"}
+                          onClick={() => setBuilderFilter(f)}
+                          className="capitalize text-xs h-7"
+                        >
+                          {f.replace("+", " + ")}
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Tags */}
+                  {tagStats.length > 0 && (
+                    <div className="space-y-1.5">
+                      <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Tags</label>
+                      <div className="flex flex-wrap gap-2">
+                        {tagStats.map(({ tag }) => {
+                          const selected = builderTags.includes(tag);
+                          return (
+                            <button
+                              key={tag}
+                              onClick={() => {
+                                setBuilderTags((prev) =>
+                                  selected ? prev.filter((t) => t !== tag) : [...prev, tag]
+                                );
+                                setBuilderFrom("");
+                                setBuilderTo("");
+                              }}
+                              className={`px-2.5 py-1 rounded-full text-xs border transition-colors ${
+                                selected
+                                  ? "bg-primary text-primary-foreground border-primary"
+                                  : "border-input hover:bg-accent"
+                              }`}
+                            >
+                              {tag}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Question range */}
+                  <div className="space-y-1.5">
+                    <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Question Range</label>
+                    <div className="flex flex-wrap gap-2">
+                      {Array.from({ length: Math.ceil(builderSubsetSize / 100) }, (_, i) => {
+                        const from = i * 100 + 1;
+                        const to = Math.min((i + 1) * 100, builderSubsetSize);
+                        const active = builderFrom === String(from) && builderTo === String(to);
+                        return (
+                          <button
+                            key={i}
+                            onClick={() => {
+                              if (active) { setBuilderFrom(""); setBuilderTo(""); }
+                              else { setBuilderFrom(String(from)); setBuilderTo(String(to)); }
+                            }}
+                            className={`px-2.5 py-1 rounded-full text-xs border transition-colors ${
+                              active
+                                ? "bg-primary text-primary-foreground border-primary"
+                                : "border-input hover:bg-accent"
+                            }`}
+                          >
+                            {from}–{to}
+                          </button>
+                        );
+                      })}
+                    </div>
+                    <div className="flex items-center gap-2 mt-1">
+                      <input
+                        type="number"
+                        min={1}
+                        max={dataset.totalQuestions}
+                        placeholder="From"
+                        value={builderFrom}
+                        onChange={(e) => setBuilderFrom(e.target.value)}
+                        className="w-24 h-8 rounded-md border border-input bg-background px-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                      />
+                      <span className="text-muted-foreground text-sm">–</span>
+                      <input
+                        type="number"
+                        min={1}
+                        max={dataset.totalQuestions}
+                        placeholder="To"
+                        value={builderTo}
+                        onChange={(e) => setBuilderTo(e.target.value)}
+                        className="w-24 h-8 rounded-md border border-input bg-background px-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Random count */}
+                  <div className="space-y-1.5">
+                    <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Random Sample</label>
+                    <div className="flex items-center gap-2">
+                      <input
+                        type="number"
+                        min={1}
+                        placeholder="e.g. 65 (leave blank for all)"
+                        value={builderRandom}
+                        onChange={(e) => setBuilderRandom(e.target.value)}
+                        className="w-56 h-8 rounded-md border border-input bg-background px-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Start */}
+                  <div>
+                    <Button onClick={() => router.push(buildCustomUrl())} className="gap-2">
+                      <Play className="h-4 w-4" />
+                      Start Custom Quiz
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            </CollapsibleContent>
+          </Collapsible>
         )}
 
         {/* Practice Set grid */}
