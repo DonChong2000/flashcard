@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -20,8 +20,22 @@ import {
   type ProgressExport,
 } from "@/lib/progress";
 import { getSelectedDataset, setSelectedDataset } from "@/lib/preferences";
+import {
+  getSyncId,
+  setSyncId as saveSyncId,
+  ensureSyncId,
+  pullRemote,
+  pushRemote,
+  progressDiffers,
+} from "@/lib/sync";
 import type { DatasetMeta, ProgressStore, QuizFilter } from "@/lib/types";
 import { BASE_PATH } from "@/lib/constants";
+
+const SYNC_HASH_RE = /^[A-Za-z0-9_-]{16,64}$/;
+
+function isProgressEmpty(p: ProgressExport): boolean {
+  return !/[1-9a-f]/i.test(p.correct + p.incorrect + p.bookmarked);
+}
 const RANDOM_EXAM_SIZE = 65;
 
 interface TopicStats {
@@ -39,8 +53,12 @@ export default function HomePage() {
   const [progress, setProgress] = useState<ProgressStore>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; slug: string; totalQuestions: number } | null>(null);
+  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; slug: string; totalQuestions: number; source: "file" | "remote" } | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [syncId, setSyncIdState] = useState<string | null>(null);
+  const [syncStatus, setSyncStatus] = useState<"idle" | "syncing">("idle");
+  const [syncMessage, setSyncMessage] = useState<string | null>(null);
+  const [linkCopied, setLinkCopied] = useState(false);
 
   // Custom quiz builder state
   const [builderOpen, setBuilderOpen] = useState(false);
@@ -61,6 +79,26 @@ export default function HomePage() {
       })
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false));
+
+    // Adopt sync ID from URL (?sync=HASH) if present
+    const params = new URLSearchParams(window.location.search);
+    const linkHash = params.get("sync");
+    if (linkHash && SYNC_HASH_RE.test(linkHash)) {
+      const existing = getSyncId();
+      const adopt = !existing || existing === linkHash || confirm(
+        `Replace your existing sync ID with the one from this link? Your current sync ID will be forgotten on this device.`
+      );
+      if (adopt) {
+        saveSyncId(linkHash);
+        setSyncIdState(linkHash);
+        setSyncMessage("Sync ID adopted from link.");
+      }
+      const url = new URL(window.location.href);
+      url.searchParams.delete("sync");
+      window.history.replaceState({}, "", url.pathname + (url.search || "") + url.hash);
+    } else {
+      setSyncIdState(getSyncId());
+    }
   }, []);
 
   useEffect(() => {
@@ -70,6 +108,34 @@ export default function HomePage() {
   }, [selectedSlug]);
 
   const dataset = useMemo(() => datasets.find((d) => d.slug === selectedSlug), [datasets, selectedSlug]);
+
+  // Auto-pull remote progress when dataset selection changes
+  useEffect(() => {
+    if (!selectedSlug || !syncId || !dataset) return;
+    let cancelled = false;
+    pullRemote(syncId, selectedSlug)
+      .then((remote) => {
+        if (cancelled || !remote) return;
+        const local = exportProgress(selectedSlug, dataset.totalQuestions);
+        if (!progressDiffers(local, remote)) return;
+        if (isProgressEmpty(local)) {
+          importProgress(selectedSlug, remote, dataset.totalQuestions, false);
+          setProgress(getProgress(selectedSlug));
+          setSyncMessage("Pulled progress from cloud.");
+          return;
+        }
+        setPendingImport({
+          data: remote,
+          slug: selectedSlug,
+          totalQuestions: dataset.totalQuestions,
+          source: "remote",
+        });
+      })
+      .catch(() => {
+        // Best-effort sync; ignore network errors
+      });
+    return () => { cancelled = true; };
+  }, [selectedSlug, syncId, dataset]);
 
   const { totalCorrect, totalIncorrect, totalUnseen, bookmarked, incorrect } = useMemo(() => {
     let correct = 0, incorrect = 0, bookmarked = 0;
@@ -190,7 +256,7 @@ export default function HomePage() {
         if (raw.question_set !== selectedSlug) {
           if (!confirm(`This file is for "${raw.question_set}" but current dataset is "${selectedSlug}". Import anyway?`)) return;
         }
-        setPendingImport({ data: raw as ProgressExport, slug: selectedSlug, totalQuestions: dataset.totalQuestions });
+        setPendingImport({ data: raw as ProgressExport, slug: selectedSlug, totalQuestions: dataset.totalQuestions, source: "file" });
       } catch {
         alert("Failed to parse file. Make sure it is a valid JSON progress export.");
       }
@@ -201,8 +267,39 @@ export default function HomePage() {
   function handleImportConfirm(mode: "replace" | "merge") {
     if (!pendingImport) return;
     importProgress(pendingImport.slug, pendingImport.data, pendingImport.totalQuestions, mode === "merge");
+    const slug = pendingImport.slug;
     setPendingImport(null);
-    window.location.reload();
+    setProgress(getProgress(slug));
+  }
+
+  async function handleSync() {
+    if (!dataset) return;
+    setSyncStatus("syncing");
+    setSyncMessage(null);
+    try {
+      const id = ensureSyncId();
+      setSyncIdState(id);
+      const data = exportProgress(selectedSlug, dataset.totalQuestions);
+      await pushRemote(id, selectedSlug, data);
+      setSyncMessage(`Synced "${selectedSlug}" to cloud.`);
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      setSyncMessage(`Sync failed: ${msg}`);
+    } finally {
+      setSyncStatus("idle");
+    }
+  }
+
+  async function handleCopyLink() {
+    if (!syncId) return;
+    const link = `${window.location.origin}${BASE_PATH}/?sync=${syncId}`;
+    try {
+      await navigator.clipboard.writeText(link);
+      setLinkCopied(true);
+      setTimeout(() => setLinkCopied(false), 1500);
+    } catch {
+      window.prompt("Copy this link:", link);
+    }
   }
 
   if (loading) {
@@ -316,6 +413,15 @@ export default function HomePage() {
               <Upload className="h-4 w-4" />
               Import
             </Button>
+            <Button
+              variant="outline"
+              onClick={handleSync}
+              disabled={syncStatus === "syncing"}
+              className="gap-2"
+            >
+              <Cloud className="h-4 w-4" />
+              {syncStatus === "syncing" ? "Syncing…" : "Sync"}
+            </Button>
             <input
               ref={fileInputRef}
               type="file"
@@ -326,11 +432,39 @@ export default function HomePage() {
           </div>
         )}
 
+        {/* Sync status */}
+        {dataset && syncId && (
+          <Card>
+            <CardContent className="p-3 flex flex-wrap items-center gap-2 text-xs">
+              <Cloud className="h-4 w-4 shrink-0 text-muted-foreground" />
+              <span className="text-muted-foreground">Sync ID:</span>
+              <code className="font-mono truncate max-w-[12rem] sm:max-w-none">{syncId}</code>
+              <Button
+                size="sm"
+                variant="ghost"
+                onClick={handleCopyLink}
+                className="h-7 gap-1.5 ml-auto"
+                title="Copy share link"
+              >
+                {linkCopied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
+                {linkCopied ? "Copied" : "Copy link"}
+              </Button>
+            </CardContent>
+          </Card>
+        )}
+
+        {syncMessage && (
+          <p className="text-xs text-muted-foreground">{syncMessage}</p>
+        )}
+
         {/* Import confirmation dialog */}
         {pendingImport && (
           <Card className="border-amber-400">
             <CardContent className="p-4 space-y-3">
-              <p className="font-medium text-sm">Import progress from <span className="font-mono">{pendingImport.data.question_set}</span> ({new Date(pendingImport.data.date).toLocaleString()})?</p>
+              <p className="font-medium text-sm">
+                {pendingImport.source === "remote" ? "Cloud has different progress for " : "Import progress from "}
+                <span className="font-mono">{pendingImport.data.question_set}</span> ({new Date(pendingImport.data.date).toLocaleString()})
+              </p>
               <p className="text-xs text-muted-foreground">
                 <strong>Replace</strong> — overwrite all current progress.{" "}
                 <strong>Merge</strong> — only fill in questions you haven&apos;t answered yet.

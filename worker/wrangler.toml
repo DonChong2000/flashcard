@@ -1,0 +1,7 @@
+name = "flashcard-sync"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "FLASHCARD_SYNC"
+id = "ade19ead2f6648cbb1c829de284525ba"
