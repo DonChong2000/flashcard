@@ -45,5 +45,5 @@ export interface QuestionProgress {
 
 export type ProgressStore = Record<number, QuestionProgress>;
 
-export const QUIZ_FILTERS = ["all", "incorrect", "bookmarked", "bookmarked+incorrect"] as const;
+export const QUIZ_FILTERS = ["all", "correct", "incorrect", "unseen", "bookmarked", "bookmarked+incorrect"] as const;
 export type QuizFilter = (typeof QUIZ_FILTERS)[number];

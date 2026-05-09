@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Bookmark, XCircle, BookmarkCheck, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -137,7 +137,7 @@ export default function HomePage() {
     return () => { cancelled = true; };
   }, [selectedSlug, syncId, dataset]);
 
-  const { totalCorrect, totalIncorrect, totalUnseen, bookmarked, incorrect } = useMemo(() => {
+  const { totalCorrect, totalIncorrect, totalUnseen, bookmarked } = useMemo(() => {
     let correct = 0, incorrect = 0, bookmarked = 0;
     for (const p of Object.values(progress)) {
       if (p.status === "correct") correct++;
@@ -149,7 +149,6 @@ export default function HomePage() {
       totalIncorrect: incorrect,
       totalUnseen: (dataset?.totalQuestions ?? 0) - correct - incorrect,
       bookmarked,
-      incorrect,
     };
   }, [progress, dataset?.totalQuestions]);
 
@@ -364,6 +363,10 @@ export default function HomePage() {
             incorrect={totalIncorrect}
             unseen={totalUnseen}
             bookmarked={bookmarked}
+            onCorrectClick={() => go("all", "correct")}
+            onIncorrectClick={() => go("all", "incorrect")}
+            onUnseenClick={() => go("all", "unseen")}
+            onBookmarkedClick={() => go("all", "bookmarked")}
           />
         )}
 
@@ -373,33 +376,6 @@ export default function HomePage() {
             <Button onClick={() => go("all", "all")} className="gap-2 bg-secondary-foreground text-secondary hover:bg-secondary-foreground/90">
               <Play className="h-4 w-4" />
               Start All
-            </Button>
-            <Button
-              variant="outline"
-              onClick={() => go("all", "incorrect")}
-              disabled={incorrect === 0}
-              className="gap-2"
-            >
-              <XCircle className="h-4 w-4" />
-              Review Incorrect ({incorrect})
-            </Button>
-            <Button
-              variant="outline"
-              onClick={() => go("all", "bookmarked")}
-              disabled={bookmarked === 0}
-              className="gap-2"
-            >
-              <Bookmark className="h-4 w-4" />
-              Review Bookmarked ({bookmarked})
-            </Button>
-            <Button
-              variant="outline"
-              onClick={() => go("all", "bookmarked+incorrect")}
-              disabled={bookmarked === 0 && incorrect === 0}
-              className="gap-2"
-            >
-              <BookmarkCheck className="h-4 w-4" />
-              Bookmarked + Incorrect
             </Button>
             <Button variant="ghost" onClick={handleReset} className="gap-2 text-destructive hover:text-destructive">
               <RefreshCw className="h-4 w-4" />

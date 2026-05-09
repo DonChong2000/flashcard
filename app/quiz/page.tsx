@@ -66,6 +66,10 @@ function QuizContent() {
         if (filter === "incorrect") {
           const ids = new Set(getIncorrectIds(slug));
           qs = qs.filter((q) => ids.has(q.question_number));
+        } else if (filter === "correct") {
+          qs = qs.filter((q) => prog[q.question_number]?.status === "correct");
+        } else if (filter === "unseen") {
+          qs = qs.filter((q) => !prog[q.question_number] || prog[q.question_number].status === "unseen");
         } else if (filter === "bookmarked") {
           const ids = new Set(getBookmarkedIds(slug));
           qs = qs.filter((q) => ids.has(q.question_number));
