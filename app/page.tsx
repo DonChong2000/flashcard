@@ -59,6 +59,21 @@ export default function HomePage() {
   const [syncStatus, setSyncStatus] = useState<"idle" | "syncing">("idle");
   const [syncMessage, setSyncMessage] = useState<string | null>(null);
   const [linkCopied, setLinkCopied] = useState(false);
+  const [syncCardVisible, setSyncCardVisible] = useState(false);
+  const syncCardTimerRef = useRef<number | null>(null);
+
+  function flashSyncCard(durationMs = 5000) {
+    if (syncCardTimerRef.current) window.clearTimeout(syncCardTimerRef.current);
+    setSyncCardVisible(true);
+    syncCardTimerRef.current = window.setTimeout(() => {
+      setSyncCardVisible(false);
+      syncCardTimerRef.current = null;
+    }, durationMs);
+  }
+
+  useEffect(() => () => {
+    if (syncCardTimerRef.current) window.clearTimeout(syncCardTimerRef.current);
+  }, []);
 
   // Custom quiz builder state
   const [builderOpen, setBuilderOpen] = useState(false);
@@ -92,6 +107,7 @@ export default function HomePage() {
         saveSyncId(linkHash);
         setSyncIdState(linkHash);
         setSyncMessage("Sync ID adopted from link.");
+        flashSyncCard();
       }
       const url = new URL(window.location.href);
       url.searchParams.delete("sync");
@@ -122,6 +138,7 @@ export default function HomePage() {
           importProgress(selectedSlug, remote, dataset.totalQuestions, false);
           setProgress(getProgress(selectedSlug));
           setSyncMessage("Pulled progress from cloud.");
+          flashSyncCard();
           return;
         }
         setPendingImport({
@@ -281,6 +298,7 @@ export default function HomePage() {
       const data = exportProgress(selectedSlug, dataset.totalQuestions);
       await pushRemote(id, selectedSlug, data);
       setSyncMessage(`Synced "${selectedSlug}" to cloud.`);
+      flashSyncCard();
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
       setSyncMessage(`Sync failed: ${msg}`);
@@ -409,7 +427,7 @@ export default function HomePage() {
         )}
 
         {/* Sync status */}
-        {dataset && syncId && (
+        {dataset && syncId && syncCardVisible && (
           <Card>
             <CardContent className="p-3 flex flex-wrap items-center gap-2 text-xs">
               <Cloud className="h-4 w-4 shrink-0 text-muted-foreground" />
