@@ -2,6 +2,7 @@ import { SYNC_API } from "./constants";
 import type { ProgressExport } from "./progress";
 
 const SYNC_ID_KEY = "flashcard_sync_id";
+const LAST_SYNCED_PREFIX = "flashcard_last_synced_";
 
 export function getSyncId(): string | null {
   if (typeof window === "undefined") return null;
@@ -54,4 +55,30 @@ export async function pushRemote(syncId: string, slug: string, data: ProgressExp
 
 export function progressDiffers(a: ProgressExport, b: ProgressExport): boolean {
   return a.correct !== b.correct || a.incorrect !== b.incorrect || a.bookmarked !== b.bookmarked;
+}
+
+export function getLastSynced(slug: string): ProgressExport | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = localStorage.getItem(LAST_SYNCED_PREFIX + slug);
+    return raw ? (JSON.parse(raw) as ProgressExport) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function setLastSynced(slug: string, snapshot: ProgressExport): void {
+  try {
+    localStorage.setItem(LAST_SYNCED_PREFIX + slug, JSON.stringify(snapshot));
+  } catch {
+    // ignore quota/serialization errors
+  }
+}
+
+export function clearLastSynced(slug: string): void {
+  try {
+    localStorage.removeItem(LAST_SYNCED_PREFIX + slug);
+  } catch {
+    // ignore
+  }
 }

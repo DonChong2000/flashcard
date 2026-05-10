@@ -27,6 +27,8 @@ import {
   pullRemote,
   pushRemote,
   progressDiffers,
+  getLastSynced,
+  setLastSynced,
 } from "@/lib/sync";
 import type { DatasetMeta, ProgressStore, QuizFilter } from "@/lib/types";
 import { BASE_PATH } from "@/lib/constants";
@@ -125,32 +127,95 @@ export default function HomePage() {
 
   const dataset = useMemo(() => datasets.find((d) => d.slug === selectedSlug), [datasets, selectedSlug]);
 
-  // Auto-pull remote progress when dataset selection changes
+  // Auto-sync (pull + push as needed) on homepage entry
   useEffect(() => {
     if (!selectedSlug || !syncId || !dataset) return;
     let cancelled = false;
-    pullRemote(syncId, selectedSlug)
-      .then((remote) => {
-        if (cancelled || !remote) return;
-        const local = exportProgress(selectedSlug, dataset.totalQuestions);
-        if (!progressDiffers(local, remote)) return;
-        if (isProgressEmpty(local)) {
-          importProgress(selectedSlug, remote, dataset.totalQuestions, false);
-          setProgress(getProgress(selectedSlug));
-          setSyncMessage("Pulled progress from cloud.");
-          flashSyncCard();
+    const slug = selectedSlug;
+    const totalQuestions = dataset.totalQuestions;
+
+    (async () => {
+      let remote: ProgressExport | null;
+      try {
+        remote = await pullRemote(syncId, slug);
+      } catch {
+        return; // best-effort; ignore network errors
+      }
+      if (cancelled) return;
+
+      const local = exportProgress(slug, totalQuestions);
+      const lastSeen = getLastSynced(slug);
+
+      // Case A: cloud is empty — seed it with local
+      if (!remote) {
+        try {
+          await pushRemote(syncId, slug, local);
+          if (cancelled) return;
+          setLastSynced(slug, local);
+          if (!isProgressEmpty(local)) {
+            setSyncMessage("Auto-synced local changes to cloud.");
+          }
+        } catch {
+          // ignore push failure
+        }
+        return;
+      }
+
+      const cloudChanged = lastSeen ? progressDiffers(remote, lastSeen) : null;
+      const localDiffersRemote = progressDiffers(local, remote);
+
+      // No baseline yet — preserve existing first-run behavior
+      if (lastSeen === null) {
+        if (!localDiffersRemote) {
+          setLastSynced(slug, remote);
           return;
         }
-        setPendingImport({
-          data: remote,
-          slug: selectedSlug,
-          totalQuestions: dataset.totalQuestions,
-          source: "remote",
-        });
-      })
-      .catch(() => {
-        // Best-effort sync; ignore network errors
-      });
+        if (isProgressEmpty(local)) {
+          importProgress(slug, remote, totalQuestions, false);
+          setProgress(getProgress(slug));
+          setLastSynced(slug, remote);
+          setSyncMessage("Pulled progress from cloud.");
+          return;
+        }
+        setPendingImport({ data: remote, slug, totalQuestions, source: "remote" });
+        return;
+      }
+
+      // Case C: nothing changed anywhere
+      if (!cloudChanged && !localDiffersRemote) {
+        setLastSynced(slug, remote);
+        return;
+      }
+
+      // Case D: only local changed → auto-push
+      if (!cloudChanged && localDiffersRemote) {
+        try {
+          await pushRemote(syncId, slug, local);
+          if (cancelled) return;
+          setLastSynced(slug, local);
+          setSyncMessage("Auto-synced local changes to cloud.");
+        } catch {
+          // ignore push failure
+        }
+        return;
+      }
+
+      // Cloud changed since lastSeen
+      const localDiffersLastSeen = progressDiffers(local, lastSeen);
+
+      // Case E: only cloud moved → auto-replace local
+      if (!localDiffersLastSeen) {
+        importProgress(slug, remote, totalQuestions, false);
+        setProgress(getProgress(slug));
+        setLastSynced(slug, remote);
+        setSyncMessage("Pulled progress from cloud.");
+        return;
+      }
+
+      // Case F: both diverged → ask user
+      setPendingImport({ data: remote, slug, totalQuestions, source: "remote" });
+    })();
+
     return () => { cancelled = true; };
   }, [selectedSlug, syncId, dataset]);
 
@@ -282,10 +347,26 @@ export default function HomePage() {
 
   function handleImportConfirm(mode: "replace" | "merge") {
     if (!pendingImport) return;
-    importProgress(pendingImport.slug, pendingImport.data, pendingImport.totalQuestions, mode === "merge");
-    const slug = pendingImport.slug;
+    const { slug, data, totalQuestions, source } = pendingImport;
+    importProgress(slug, data, totalQuestions, mode === "merge");
     setPendingImport(null);
     setProgress(getProgress(slug));
+    if (source === "remote") {
+      if (mode === "replace") {
+        setLastSynced(slug, data);
+      } else {
+        // Merge produced a hybrid that no longer matches the cloud — push and rebaseline
+        const merged = exportProgress(slug, totalQuestions);
+        const id = syncId;
+        if (id) {
+          pushRemote(id, slug, merged)
+            .then(() => setLastSynced(slug, merged))
+            .catch(() => {
+              // ignore; user can re-sync manually
+            });
+        }
+      }
+    }
   }
 
   async function handleSync() {
@@ -297,6 +378,7 @@ export default function HomePage() {
       setSyncIdState(id);
       const data = exportProgress(selectedSlug, dataset.totalQuestions);
       await pushRemote(id, selectedSlug, data);
+      setLastSynced(selectedSlug, data);
       setSyncMessage(`Synced "${selectedSlug}" to cloud.`);
       flashSyncCard();
     } catch (e) {
@@ -456,16 +538,16 @@ export default function HomePage() {
           <Card className="border-amber-400">
             <CardContent className="p-4 space-y-3">
               <p className="font-medium text-sm">
-                {pendingImport.source === "remote" ? "Cloud has different progress for " : "Import progress from "}
-                <span className="font-mono">{pendingImport.data.question_set}</span> ({new Date(pendingImport.data.date).toLocaleString()})
+                {pendingImport.source === "remote" ? "Cloud progress differs from your local copy for " : "Import progress from "}
+                <span className="font-mono">{pendingImport.data.question_set}</span> (cloud saved {new Date(pendingImport.data.date).toLocaleString()})
               </p>
               <p className="text-xs text-muted-foreground">
-                <strong>Replace</strong> — overwrite all current progress.{" "}
-                <strong>Merge</strong> — only fill in questions you haven&apos;t answered yet.
+                <strong>Merge</strong> — keep your local progress and fill in only questions you haven&apos;t answered yet.{" "}
+                <strong>Replace</strong> — discard your local progress and overwrite it with the cloud copy.
               </p>
               <div className="flex gap-2">
-                <Button size="sm" onClick={() => handleImportConfirm("replace")}>Replace</Button>
-                <Button size="sm" variant="outline" onClick={() => handleImportConfirm("merge")}>Merge</Button>
+                <Button size="sm" onClick={() => handleImportConfirm("merge")}>Merge</Button>
+                <Button size="sm" variant="outline" onClick={() => handleImportConfirm("replace")}>Replace local</Button>
                 <Button size="sm" variant="ghost" onClick={() => setPendingImport(null)}>Cancel</Button>
               </div>
             </CardContent>
