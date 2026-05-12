@@ -9,7 +9,9 @@ export function numbersToHex(numbers: number[], totalQuestions: number): string 
     const bitPos = 7 - (idx % 8); // MSB-first
     bytes[bytePos] |= 1 << bitPos;
   }
-  return Array.from(bytes)
+  let end = bytes.length;
+  while (end > 0 && bytes[end - 1] === 0) end--;
+  return Array.from(bytes.subarray(0, end))
     .map((b) => b.toString(16).padStart(2, "0"))
     .join("");
 }
