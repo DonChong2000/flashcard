@@ -80,3 +80,16 @@ A manually-written service worker lives at `public/sw.js`. It uses three named c
 ### Tests
 
 Jest with `--experimental-vm-modules`. Only `__tests__/data.test.mjs` exists — it validates source JSON schema (uniqueness, required fields, answer key consistency). No UI or component tests.
+
+### Inspecting question data
+
+```bash
+# Fetch a question by number (top 5 discussion comments only)
+node -e "const d=require('./data/SAA-C03.json'); const q={...d.questions.find(q=>q.question_number===86)}; q.discussion=q.discussion.slice(0,5); console.log(JSON.stringify(q,null,2))"
+
+# List questions by tag
+node -e "const d=require('./data/SAA-C03.json'); d.questions.filter(q=>(q.tags||[]).includes('Databases')).forEach(q=>console.log('Q'+q.question_number, q.tags.join(', '),'|',q.question.slice(0,80)))"
+
+# Search question text by keyword
+node -e "const d=require('./data/SAA-C03.json'); d.questions.filter(q=>q.question.toLowerCase().includes('rotate')).forEach(q=>console.log('Q'+q.question_number, q.question.slice(0,80)))"
+```
