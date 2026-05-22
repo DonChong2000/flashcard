@@ -13683,11 +13683,11 @@
       "question_number": 74,
       "topic": 1,
       "options": {
-        "A": "Configure the security group for the web tier to allow inbound tra®c on port 443 from 0.0.0.0/0.",
-        "B": "Configure the security group for the web tier to allow outbound tra®c on port 443 from 0.0.0.0/0.",
-        "C": "Configure the security group for the database tier to allow inbound tra®c on port 1433 from the security group for the web tier.",
-        "D": "Configure the security group for the database tier to allow outbound tra®c on ports 443 and 1433 to the security group for the web tier.",
-        "E": "Configure the security group for the database tier to allow inbound tra®c on ports 443 and 1433 from the security group for the web tier."
+        "A": "Configure the security group for the web tier to allow inbound traffic on port 443 from 0.0.0.0/0.",
+        "B": "Configure the security group for the web tier to allow outbound traffic on port 443 from 0.0.0.0/0.",
+        "C": "Configure the security group for the database tier to allow inbound traffic on port 1433 from the security group for the web tier.",
+        "D": "Configure the security group for the database tier to allow outbound traffic on ports 443 and 1433 to the security group for the web tier.",
+        "E": "Configure the security group for the database tier to allow inbound traffic on ports 443 and 1433 from the security group for the web tier."
       },
       "question": "A solutions architect is designing a two-tier web application. The application consists of a public-facing web tier hosted on Amazon EC2 in public subnets. The database tier consists of Microsoft SQL Server running on Amazon EC2 in a private subnet. Security is a high priority for the company. How should security groups be configured in this situation? (Choose two.)",
       "community_votes": {
@@ -28433,7 +28433,7 @@
         "A": "Use AWS Control Tower to implement data residency guardrails to deny internet access and deny access to all AWS Regions except ap- northeast-3.",
         "B": "Use rules in AWS WAF to prevent internet access. Deny access to all AWS Regions except ap-northeast-3 in the AWS account settings.",
         "C": "Use AWS Organizations to configure service control policies (SCPS) that prevent VPCs from gaining internet access. Deny access to all AWS Regions except ap-northeast-3.",
-        "D": "Create an outbound rule for the network ACL in each VPC to deny all tra®c from 0.0.0.0/0. Create an IAM policy for each user to prevent the use of any AWS Region other than ap-northeast-3.",
+        "D": "Create an outbound rule for the network ACL in each VPC to deny all traffic from 0.0.0.0/0. Create an IAM policy for each user to prevent the use of any AWS Region other than ap-northeast-3.",
         "E": "Use AWS Config to activate managed rules to detect and alert for internet gateways and to detect and alert for new resources deployed outside of ap-northeast-3."
       },
       "question": "A company wants to migrate its on-premises data center to AWS. According to the company's compliance requirements, the company can use only the ap-northeast-3 Region. Company administrators are not permitted to connect VPCs to the internet. Which solutions will meet these requirements? (Choose two.)",
@@ -41614,8 +41614,8 @@
       "question_number": 223,
       "topic": 1,
       "options": {
-        "A": "Attach an IAM role that has su®cient privileges to the EKS pod.",
-        "B": "Attach an IAM user that has su®cient privileges to the EKS pod.",
+        "A": "Attach an IAM role that has sufficient privileges to the EKS pod.",
+        "B": "Attach an IAM user that has sufficient privileges to the EKS pod.",
         "C": "Allow outbound connectivity to the DynamoDB table through the private subnets’ network ACLs.",
         "D": "Create a VPC endpoint for DynamoDB.",
         "E": "Embed the access keys in the Java Spring Boot code."
@@ -42160,7 +42160,7 @@
       "topic": 1,
       "options": {
         "A": "Use AWS Glue to process the raw data in Amazon S3.",
-        "B": "Use Amazon Route 53 to route tra®c to different EC2 instances.",
+        "B": "Use Amazon Route 53 to route traffic to different EC2 instances.",
         "C": "Add more EC2 instances to accommodate the increasing amount of incoming data.",
         "D": "Send the raw data to Amazon Simple Queue Service (Amazon SQS). Use EC2 instances to process the data.",
         "E": "Use Amazon API Gateway to send the raw data to an Amazon Kinesis data stream. Configure Amazon Kinesis Data Firehose to use the data stream as a source to deliver the data to Amazon S3."
@@ -47937,7 +47937,7 @@
       "topic": 1,
       "options": {
         "A": "Configure Amazon CloudFront to cache multiple versions of the content.",
-        "B": "Configure a host header in a Network Load Balancer to forward tra®c to different instances.",
+        "B": "Configure a host header in a Network Load Balancer to forward traffic to different instances.",
         "C": "Configure a Lambda@Edge function to send specific objects to users based on the User-Agent header.",
         "D": "Configure AWS Global Accelerator. Forward requests to a Network Load Balancer (NLB). Configure the NLB to set up host-based routing to different EC2 instances.",
         "E": "Configure AWS Global Accelerator. Forward requests to a Network Load Balancer (NLB). Configure the NLB to set up path-based routing to different EC2 instances."
@@ -66642,7 +66642,7 @@
       "question_number": 390,
       "topic": 1,
       "options": {
-        "A": "Turn on the sticky sessions feature (session a®nity) on the ALB.",
+        "A": "Turn on the sticky sessions feature (session affinity) on the ALB.",
         "B": "Use an Amazon DynamoDB table to store customer session information.",
         "C": "Deploy an Amazon Cognito user pool to manage user session information.",
         "D": "Deploy an Amazon ElastiCache for Redis cluster to store customer session information.",
@@ -68976,11 +68976,11 @@
       "question_number": 406,
       "topic": 1,
       "options": {
-        "A": "Create a network ACL for the public subnet. Add a rule to deny outbound tra®c to 0.0.0.0/0 on port 3306.",
-        "B": "Create a security group for the DB instance. Add a rule to allow tra®c from the public subnet CIDR block on port 3306.",
-        "C": "Create a security group for the web servers in the public subnet. Add a rule to allow tra®c from 0.0.0.0/0 on port 443.",
-        "D": "Create a security group for the DB instance. Add a rule to allow tra®c from the web servers’ security group on port 3306.",
-        "E": "Create a security group for the DB instance. Add a rule to deny all tra®c except tra®c from the web servers’ security group on port 3306."
+        "A": "Create a network ACL for the public subnet. Add a rule to deny outbound traffic to 0.0.0.0/0 on port 3306.",
+        "B": "Create a security group for the DB instance. Add a rule to allow traffic from the public subnet CIDR block on port 3306.",
+        "C": "Create a security group for the web servers in the public subnet. Add a rule to allow traffic from 0.0.0.0/0 on port 443.",
+        "D": "Create a security group for the DB instance. Add a rule to allow traffic from the web servers’ security group on port 3306.",
+        "E": "Create a security group for the DB instance. Add a rule to deny all traffic except traffic from the web servers’ security group on port 3306."
       },
       "question": "A solutions architect is designing a two-tiered architecture that includes a public subnet and a database subnet. The web servers in the public subnet must be open to the internet on port 443. The Amazon RDS for MySQL DB instance in the database subnet must be accessible only to the web servers on port 3306. Which combination of steps should the solutions architect take to meet these requirements? (Choose two.)",
       "community_votes": {
@@ -100637,7 +100637,7 @@
         "B": "Migrate the database to an Amazon RDS for MySQL Multi-AZ DB instance.",
         "C": "Migrate the database to Amazon DynamoDB, and enable DynamoDB auto scaling.",
         "D": "Use AWS DataSync to synchronize the database data across multiple EC2 instances.",
-        "E": "Create an Application Load Balancer to distribute tra®c to an Auto Scaling group of EC2 instances that are distributed across two Availability Zones."
+        "E": "Create an Application Load Balancer to distribute traffic to an Auto Scaling group of EC2 instances that are distributed across two Availability Zones."
       },
       "question": "A startup company is hosting a website for its customers on an Amazon EC2 instance. The website consists of a stateless Python application and a MySQL database. The website serves only a small amount of traffic. The company is concerned about the reliability of the instance and needs to migrate to a highly available architecture. The company cannot modify the application code. Which combination of actions should a solutions architect take to achieve high availability for the website? (Choose two.)",
       "community_votes": {
@@ -101311,8 +101311,8 @@
       "topic": 1,
       "options": {
         "A": "Turn on auto scaling for the DB instance.",
-        "B": "Create a read replica for the DB instance. Configure the application to send read tra®c to the read replica.",
-        "C": "Convert the DB instance to a Multi-AZ DB instance deployment. Configure the application to send read tra®c to the standby DB instance.",
+        "B": "Create a read replica for the DB instance. Configure the application to send read traffic to the read replica.",
+        "C": "Convert the DB instance to a Multi-AZ DB instance deployment. Configure the application to send read traffic to the standby DB instance.",
         "D": "Create an Amazon ElastiCache cluster. Configure the application to cache query results in the ElastiCache cluster.",
         "E": "Configure the Auto Scaling group subnets to ensure that the EC2 instances are provisioned in the same Availability Zone as the DB instance."
       },
@@ -103611,9 +103611,9 @@
       "options": {
         "A": "Create internal Network Load Balancers in front of the application in each Region.",
         "B": "Create external Application Load Balancers in front of the application in each Region.",
-        "C": "Create an AWS Global Accelerator accelerator to route tra®c to the load balancers in each Region.",
-        "D": "Configure Amazon Route 53 to use a geolocation routing policy to distribute the tra®c.",
-        "E": "Configure Amazon CloudFront to handle the tra®c and route requests to the application in each Region"
+        "C": "Create an AWS Global Accelerator accelerator to route traffic to the load balancers in each Region.",
+        "D": "Configure Amazon Route 53 to use a geolocation routing policy to distribute the traffic.",
+        "E": "Configure Amazon CloudFront to handle the traffic and route requests to the application in each Region"
       },
       "question": "A gaming company wants to launch a new internet-facing application in multiple AWS Regions. The application will use the TCP and UDP protocols for communication. The company needs to provide high availability and minimum latency for global users. Which combination of actions should a solutions architect take to meet these requirements? (Choose two.)",
       "community_votes": {
@@ -111249,7 +111249,7 @@
         "B": "Configure Amazon EC2 Auto Scaling with multiple Availability Zones in private subnets.",
         "C": "Configure a NAT gateway in a public subnet to handle web requests.",
         "D": "Replace the EC2 instance with a larger memory optimized instance.",
-        "E": "Configure an Application Load Balancer in a public subnet to distribute web tra®c."
+        "E": "Configure an Application Load Balancer in a public subnet to distribute web traffic."
       },
       "question": "A company's web application that is hosted in the AWS Cloud recently increased in popularity. The web application currently exists on a single Amazon EC2 instance in a single public subnet. The web application has not been able to meet the demand of the increased web traffic. The company needs a solution that will provide high availability and scalability to meet the increased user demand without rewriting the web application. Which combination of steps will meet these requirements? (Choose two.)",
       "community_votes": {
@@ -117491,9 +117491,9 @@
       "question_number": 876,
       "topic": 1,
       "options": {
-        "A": "Configure new EC2 instances in a different Availability Zone. Use Amazon Route 53 to route tra®c to all instances.",
+        "A": "Configure new EC2 instances in a different Availability Zone. Use Amazon Route 53 to route traffic to all instances.",
         "B": "Configure a Network Load Balancer in front of the EC2 instances.",
-        "C": "Configure a Network Load Balancer for TCP tra®c to the instances. Configure an Application Load Balancer for HTTP and HTTPS tra®c to the instances.",
+        "C": "Configure a Network Load Balancer for TCP traffic to the instances. Configure an Application Load Balancer for HTTP and HTTPS traffic to the instances.",
         "D": "Create an Auto Scaling group for the EC2 instances. Configure the Auto Scaling group to use multiple Availability Zones. Configure the Auto Scaling group to run application health checks on the instances.",
         "E": "Create an Amazon CloudWatch alarm. Configure the alarm to restart EC2 instances that transition to a stopped state."
       },
@@ -118107,12 +118107,12 @@
       "question_number": 884,
       "topic": 1,
       "options": {
-        "A": "Configure the security group for the web tier to allow inbound HTTPS tra®c from the security group for the ALB.",
-        "B": "Configure the security group for the web tier to allow outbound HTTPS tra®c to 0.0.0.0/0.",
-        "C": "Configure the security group for the database tier to allow inbound Microsoft SQL Server tra®c from the security group for the application tier.",
-        "D": "Configure the security group for the database tier to allow outbound HTTPS tra®c and Microsoft SQL Server tra®c to the security group for the web tier.",
-        "E": "Configure the security group for the application tier to allow inbound HTTPS tra®c from the security group for the web tier.",
-        "F": "Configure the security group for the application tier to allow outbound HTTPS tra®c and Microsoft SQL Server tra®c to the security group for the web tier."
+        "A": "Configure the security group for the web tier to allow inbound HTTPS traffic from the security group for the ALB.",
+        "B": "Configure the security group for the web tier to allow outbound HTTPS traffic to 0.0.0.0/0.",
+        "C": "Configure the security group for the database tier to allow inbound Microsoft SQL Server traffic from the security group for the application tier.",
+        "D": "Configure the security group for the database tier to allow outbound HTTPS traffic and Microsoft SQL Server traffic to the security group for the web tier.",
+        "E": "Configure the security group for the application tier to allow inbound HTTPS traffic from the security group for the web tier.",
+        "F": "Configure the security group for the application tier to allow outbound HTTPS traffic and Microsoft SQL Server traffic to the security group for the web tier."
       },
       "question": "A solutions architect is designing a three-tier web application. The architecture consists of an internet-facing Application Load Balancer (ALB) and a web tier that is hosted on Amazon EC2 instances in private subnets. The application tier with the business logic runs on EC2 instances in private subnets. The database tier consists of Microsoft SQL Server that runs on EC2 instances in private subnets. Security is a high priority for the company. Which combination of security group configurations should the solutions architect use? (Choose three.)",
       "community_votes": {
@@ -120187,7 +120187,7 @@
       "question_number": 935,
       "topic": 1,
       "options": {
-        "A": "Launch a second EC2 instance in a second AWS Region. Use a Route 53 failover routing policy to redirect the tra®c to the second EC2 instance.",
+        "A": "Launch a second EC2 instance in a second AWS Region. Use a Route 53 failover routing policy to redirect the traffic to the second EC2 instance.",
         "B": "Create and configure an Auto Scaling group to launch private EC2 instances in multiple Availability Zones. Add the instances to a target group behind a new Application Load Balancer.",
         "C": "Migrate the database to an Amazon Aurora MySQL cluster. Create the primary DB instance and reader DB instance in separate Availability Zones.",
         "D": "Create and configure an Auto Scaling group to launch private EC2 instances in multiple AWS Regions. Add the instances to a target group behind a new Application Load Balancer.",
@@ -121047,12 +121047,12 @@
       "question_number": 973,
       "topic": 1,
       "options": {
-        "A": "Allow HTTPS inbound tra®c from 0.0.0.0/0 for port 443.",
-        "B": "Allow all outbound tra®c to 0.0.0.0/0 for port 443.",
-        "C": "Allow HTTPS outbound tra®c to the web application instances for port 443.",
-        "D": "Allow HTTPS inbound tra®c from the web application instances for port 443.",
-        "E": "Allow HTTPS outbound tra®c to the web application instances for the health check on port 8443.",
-        "F": "Allow HTTPS inbound tra®c from the web application instances for the health check on port 8443."
+        "A": "Allow HTTPS inbound traffic from 0.0.0.0/0 for port 443.",
+        "B": "Allow all outbound traffic to 0.0.0.0/0 for port 443.",
+        "C": "Allow HTTPS outbound traffic to the web application instances for port 443.",
+        "D": "Allow HTTPS inbound traffic from the web application instances for port 443.",
+        "E": "Allow HTTPS outbound traffic to the web application instances for the health check on port 8443.",
+        "F": "Allow HTTPS inbound traffic from the web application instances for the health check on port 8443."
       },
       "question": "A company is designing a web application with an internet-facing Application Load Balancer (ALB). The company needs the ALB to receive HTTPS web traffic from the public internet. The ALB must send only HTTPS traffic to the web application servers hosted on the Amazon EC2 instances on port 443. The ALB must perform a health check of the web application servers over HTTPS on port 8443. Which combination of configurations of the security group that is associated with the ALB will meet these requirements? (Choose three.)         ---",
       "discussion": [],
@@ -121729,7 +121729,7 @@
         "B": "Continue to use the existing Systems Manager document without changes because it is already optimized to handle instances that are in an IP address type target group behind an ALB.",
         "C": "Implement the AWSEC2-PatchLoadBalanacerInstance Systems Manager Automation document to manage the patching process.",
         "D": "Use Systems Manager Maintenance Windows to automatically remove the instances from service to patch the instances.",
-        "E": "Configure Systems Manager State Manager to remove the instances from service and manage the patching schedule. Use ALB health checks to re-route tra®c."
+        "E": "Configure Systems Manager State Manager to remove the instances from service and manage the patching schedule. Use ALB health checks to re-route traffic."
       },
       "question": "A company uses AWS Systems Manager for routine management and patching of Amazon EC2 instances. The EC2 instances are in an IP address type target group behind an Application Load Balancer (ALB). New security protocols require the company to remove EC2 instances from service during a patch. When the company attempts to follow the security protocol during the next patch, the company receives errors during the patching window. Which combination of solutions will resolve the errors? (Choose two.)         ---",
       "discussion": [],
