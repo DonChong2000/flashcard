@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm:*)",
+      "Bash(node:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx jest:*)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git merge:*)",
+      "mcp__playwright"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(npx wrangler:*)"
+    ]
+  }
+}

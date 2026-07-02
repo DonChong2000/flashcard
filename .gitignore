@@ -37,3 +37,7 @@ next-env.d.ts
 /public/data/
 .claude/settings.local.json
 /.playwright-mcp
+
+# local cloudflare/opennext residue
+/.open-next/
+/.wrangler/
