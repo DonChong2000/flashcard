@@ -430,7 +430,7 @@ export default function HomePage() {
             <div className="flex items-center gap-3 min-w-0">
               <BookOpen className="h-7 w-7 shrink-0 text-secondary-foreground" />
               <div className="min-w-0">
-                <h1 className="text-lg sm:text-xl md:text-2xl font-bold">AWS Cert Flashcards</h1>
+                <h1 className="text-lg sm:text-xl md:text-2xl font-bold">Flashcards</h1>
                 {dataset && (
                   <p className="text-sm text-muted-foreground">{dataset.totalQuestions} questions</p>
                 )}

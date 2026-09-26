@@ -1,6 +1,6 @@
-# AWS Cert Flashcards
+# Flashcards
 
-A static flashcard app for studying AWS certification exams. Tracks your progress per question, supports bookmarks, and works offline as a PWA.
+A static flashcard app for studying exam question banks (AWS certifications, JLPT, and anything else in the same JSON format). Tracks your progress per question, supports bookmarks, cross-device sync, and works offline as a PWA.
 
 Live at: https://donchong2000.github.io/flashcard
 
@@ -10,7 +10,7 @@ Live at: https://donchong2000.github.io/flashcard
 - Filter to review only incorrect or bookmarked questions
 - Random exam mode (65-question shuffle)
 - Progress tracked in localStorage — persists across sessions
-- Export/import progress as JSON (for backup or cross-device sync)
+- Export/import progress as JSON, plus cross-device sync via a small Cloudflare Worker
 - Keyboard shortcuts: `1–6` select options, `Enter`/`Space` submit or advance, `→` advance after reveal, `B` bookmark
 - Installable PWA, works offline after first visit
 

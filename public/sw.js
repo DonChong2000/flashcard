@@ -1,4 +1,4 @@
-const VERSION = 'v4';
+const VERSION = 'v5';
 const CACHE_SHELL  = `flashcard-shell-${VERSION}`;
 const CACHE_STATIC = `flashcard-static-${VERSION}`;
 const CACHE_DATA   = `flashcard-data-${VERSION}`;

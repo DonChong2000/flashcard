@@ -5,8 +5,8 @@ import { BASE_PATH } from "@/lib/constants";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AWS Cert Flashcards",
-  description: "Study AWS certification exam questions with flashcards",
+  title: "Flashcards",
+  description: "Study exam questions with flashcards",
 };
 
 export default function RootLayout({

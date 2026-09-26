@@ -1,7 +1,7 @@
 {
-  "name": "AWS Cert Flashcards",
+  "name": "Flashcards",
   "short_name": "Flashcards",
-  "description": "Study AWS certification exam questions with flashcards",
+  "description": "Study exam questions with flashcards",
   "start_url": "/flashcard/?source=pwa",
   "scope": "/flashcard/",
   "display": "standalone",
