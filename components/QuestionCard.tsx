@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
 import type { Question, QuestionProgress } from "@/lib/types";
-import { OPTION_KEYS } from "@/lib/constants";
+import { BASE_PATH, OPTION_KEYS } from "@/lib/constants";
 
 interface QuestionCardProps {
   question: Question;
@@ -157,6 +157,13 @@ export function QuestionCard({
             </button>
           </div>
           <p className="text-lg sm:text-base leading-relaxed whitespace-pre-wrap">{question.question}</p>
+          {question.image && (
+            // eslint-disable-next-line @next/next/no-img-element -- static export, no image optimizer
+            <img src={`${BASE_PATH}/${question.image}`} alt="" className="mt-3 max-h-96 rounded border" />
+          )}
+          {question.audio && (
+            <audio key={question.audio} controls preload="none" src={`${BASE_PATH}/${question.audio}`} className="mt-3 w-full" />
+          )}
         </div>
 
         <div className="space-y-2">

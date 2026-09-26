@@ -11,6 +11,8 @@ export interface Question {
   topic: number;
   tags?: string[];
   question: string;
+  image?: string; // path under basePath, e.g. media/jlpt_n5/2018-07/L1-1.jpg
+  audio?: string;
   options: Record<string, string>;
   correct_answer: string[];
   community_votes: Record<string, number>;

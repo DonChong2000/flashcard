@@ -49,6 +49,8 @@ Slug is derived from the filename (e.g. `SAA-C03.json` → `saa_c03`). To add a 
 }
 ```
 
+Optional `image` / `audio` fields hold paths under `public/` (e.g. `media/jlpt_n5/2018-07/L1-1.mp3`); `QuestionCard` renders them with `BASE_PATH` prepended. `JLPT-N5.json` uses them for its 聴解 (listening) questions, numbered after the reading ones so existing progress keys stay stable.
+
 ### Client data loading
 
 `lib/manifest.ts` fetches and caches `manifest.json` in a module-level singleton (no expiry). Topic JSON files are **not cached** — fetched fresh each quiz start. `BASE_PATH` (`/flashcard`) is prepended to all fetch URLs — set via `NEXT_PUBLIC_BASE_PATH` env var (defaults to `/flashcard`). Import it from `lib/constants.ts`.
