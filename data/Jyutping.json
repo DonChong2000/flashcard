@@ -1,5 +1,5 @@
 {
-  "total_questions": 300,
+  "total_questions": 339,
   "questions": [
     {
       "question_number": 1,
@@ -8397,6 +8397,1059 @@
           "comment": "正確答案：俊（zeon3，eo 韻）\n• 雙 soeng1：oe 韻\n• 長 coeng4：oe 韻\n• 將 zoeng1：oe 韻",
           "selected": [
             "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 301,
+      "topic": 4,
+      "question": "粵拼一個音節由邊三部分組成？",
+      "options": {
+        "A": "子音＋母音＋重音",
+        "B": "聲母＋韻尾＋拼音",
+        "C": "字頭＋字尾＋長短",
+        "D": "聲母＋韻母＋聲調"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：聲母＋韻母＋聲調\n例：食 sik6 = 聲母 s ＋ 韻母 ik ＋ 聲調 6。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 302,
+      "topic": 4,
+      "question": "「食 sik6」嘅聲母係？",
+      "options": {
+        "A": "ik",
+        "B": "si",
+        "C": "s",
+        "D": "k"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：s\n聲母係音節開頭嘅子音：s。ik 係韻母，6 係聲調。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 303,
+      "topic": 4,
+      "question": "「食 sik6」嘅韻母係？",
+      "options": {
+        "A": "k",
+        "B": "s",
+        "C": "sik",
+        "D": "ik"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ik\n韻母 = 聲母之後嘅部分：主要元音 i ＋ 韻尾 k。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 304,
+      "topic": 4,
+      "question": "「食 sik6」最尾個 6 代表咩？",
+      "options": {
+        "A": "第 6 個字母",
+        "B": "聲調（第 6 聲）",
+        "C": "韻母編號",
+        "D": "有 6 個音"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：聲調（第 6 聲）\n粵拼用數字 1–6 標聲調，6 係低平調。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 305,
+      "topic": 4,
+      "question": "韻母由咩組成？",
+      "options": {
+        "A": "兩個聲母",
+        "B": "元音＋聲調",
+        "C": "主要元音＋（可有可無嘅）韻尾",
+        "D": "聲母＋元音"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：主要元音＋（可有可無嘅）韻尾\n例：saam 嘅韻母 aam = 元音 aa ＋ 韻尾 m；si 嘅韻母 i 就冇韻尾。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 306,
+      "topic": 4,
+      "question": "粵拼有幾多個聲母（唔計零聲母）？",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "19",
+        "D": "26"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：19\nb p m f、d t n l、g k ng h、gw kw w、z c s j，共 19 個；另外有啲字冇聲母（零聲母），例如「愛 oi」。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 307,
+      "topic": 4,
+      "question": "粵拼嘅 j 讀成英文邊個音？",
+      "options": {
+        "A": "j（如 jam）",
+        "B": "h（如 hat）",
+        "C": "y（如 yes）",
+        "D": "z（如 zoo）"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：y（如 yes）\n粵拼 j = 英文 y：一 jat、魚 jyu、有 jau。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 308,
+      "topic": 4,
+      "question": "粵拼嘅 z 係邊個字嘅聲母？",
+      "options": {
+        "A": "沙 saa",
+        "B": "揸 zaa",
+        "C": "茶 caa",
+        "D": "也 jaa"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：揸 zaa\nz 大約係唔送氣嘅「j/ts」音，例：揸 zaa、早 zou。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 309,
+      "topic": 4,
+      "question": "粵拼嘅 c 係邊個字嘅聲母？",
+      "options": {
+        "A": "揸 zaa",
+        "B": "也 jaa",
+        "C": "茶 caa",
+        "D": "沙 saa"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：茶 caa\nc 大約係送氣嘅「ch/ts」音，例：茶 caa、車 ce。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 310,
+      "topic": 4,
+      "question": "b 同 p（d/t、g/k 一樣）嘅分別係？",
+      "options": {
+        "A": "b 聲帶振動，p 唔振動",
+        "B": "p 送氣（有氣噴出），b 唔送氣",
+        "C": "冇分別，兩個寫法都得",
+        "D": "p 只用喺入聲字"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：p 送氣（有氣噴出），b 唔送氣\n粵語 b/d/g 唔送氣、p/t/k 送氣：爸 baa vs 爬 paa。放張紙喺嘴前，讀 p 張紙會郁。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 311,
+      "topic": 4,
+      "question": "邊個字有 ng 聲母？",
+      "options": {
+        "A": "牙 ngaa",
+        "B": "你 nei",
+        "C": "蝦 haa",
+        "D": "愛 oi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：牙 ngaa\nng 係「sing」尾嗰個音放喺字頭：牙 ngaa、我 ngo、眼 ngaan。「愛 oi」係零聲母。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 312,
+      "topic": 4,
+      "question": "邊個字係 gw 聲母？",
+      "options": {
+        "A": "誇 kwaa",
+        "B": "華 waa",
+        "C": "家 gaa",
+        "D": "瓜 gwaa"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：瓜 gwaa\ngw = g 加圓唇：瓜 gwaa、國 gwok。誇 kwaa 係 kw，家 gaa 係 g，華 waa 係 w。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 313,
+      "topic": 4,
+      "question": "邊個字冇聲母（零聲母）？",
+      "options": {
+        "A": "外 ngoi",
+        "B": "你 nei",
+        "C": "愛 oi",
+        "D": "開 hoi"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：愛 oi\n愛 oi 直接由元音開頭。外 ngoi 有 ng 聲母——讀成「oi」係懶音。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 314,
+      "topic": 4,
+      "question": "長 aa 同短 a：邊個字係長 aa？",
+      "options": {
+        "A": "深 sam",
+        "B": "金 gam",
+        "C": "三 saam",
+        "D": "心 sam"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：三 saam\naa 係長「呀」音：三 saam、衫 saam；a 係短音：心 sam、金 gam。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 315,
+      "topic": 4,
+      "question": "粵拼 yu 係邊個字嘅韻母？",
+      "options": {
+        "A": "烏 wu",
+        "B": "衣 ji",
+        "C": "魚 jyu",
+        "D": "有 jau"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：魚 jyu\nyu 係圓唇嘅「ee」（好似法文 u / 普通話 ü）：魚 jyu、書 syu。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 316,
+      "topic": 4,
+      "question": "邊個字嘅韻母有 oe？",
+      "options": {
+        "A": "靴 hoe",
+        "B": "去 heoi",
+        "C": "開 hoi",
+        "D": "許 heoi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：靴 hoe\noe 似圓唇嘅「er」：靴 hoe、香 hoeng、腳 goek。去、許 係 eo（heoi）。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 317,
+      "topic": 4,
+      "question": "eo 只會出現喺邊三個韻母？",
+      "options": {
+        "A": "eo、eong、eok",
+        "B": "eoi、eon、eot",
+        "C": "eoi、eong、eok",
+        "D": "eo、eon、eot"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：eoi、eon、eot\neo 係短版 oe，只有 eoi（去 heoi）、eon（春 ceon）、eot（出 ceot）三個。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 318,
+      "topic": 4,
+      "question": "oe 出現喺邊三個韻母？",
+      "options": {
+        "A": "oei、oen、oet",
+        "B": "oe、oen、oet",
+        "C": "oeng、oek、oei",
+        "D": "oe、oeng、oek"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：oe、oeng、oek\noe（靴 hoe）、oeng（香 hoeng）、oek（腳 goek）。記法：配 ng/k 用 oe，配 i/n/t 用 eo。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 319,
+      "topic": 4,
+      "question": "以下邊組全部係鼻音韻尾？",
+      "options": {
+        "A": "-m、-n、-ng",
+        "B": "-i、-u",
+        "C": "-m、-t、-i",
+        "D": "-p、-t、-k"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：-m、-n、-ng\n鼻音韻尾：三 saam、山 saan、生 saang。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 320,
+      "topic": 4,
+      "question": "以下邊組全部係塞音韻尾（入聲）？",
+      "options": {
+        "A": "-p、-t、-k",
+        "B": "-p、-n、-k",
+        "C": "-i、-u",
+        "D": "-m、-n、-ng"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：-p、-t、-k\n塞音韻尾：濕 sap、失 sat、塞 sak。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 321,
+      "topic": 4,
+      "question": "三 saam、山 saan、生 saang 嘅分別係？",
+      "options": {
+        "A": "元音長短",
+        "B": "聲母",
+        "C": "聲調",
+        "D": "韻尾（m / n / ng）"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：韻尾（m / n / ng）\n三個字聲母 s、元音 aa、聲調都一樣，只係韻尾唔同。n/ng 不分係常見懶音。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 322,
+      "topic": 4,
+      "question": "濕 sap、失 sat、塞 sak 嘅分別係？",
+      "options": {
+        "A": "韻尾（p / t / k）",
+        "B": "元音長短",
+        "C": "聲調",
+        "D": "聲母"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：韻尾（p / t / k）\n只係韻尾唔同。t/k 不分係常見懶音。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 323,
+      "topic": 4,
+      "question": "-p、-t、-k 韻尾點讀？",
+      "options": {
+        "A": "口型收埋但唔放氣（唔爆破）",
+        "B": "好似英文咁清楚讀出個尾音",
+        "C": "拖長個元音",
+        "D": "唔使理，讀唔讀都得"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：口型收埋但唔放氣（唔爆破）\n粵語入聲尾係「唔爆破」：讀 sap 時口閉埋就停，冇 p 嘅氣聲。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 324,
+      "topic": 4,
+      "question": "-p、-t、-k 結尾嘅字（入聲字）只會用邊幾個聲調？",
+      "options": {
+        "A": "2、4、5",
+        "B": "1、2、3",
+        "C": "4、5、6",
+        "D": "1、3、6"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：1、3、6\n例：識 sik1、錫 sek3、食 sik6。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 325,
+      "topic": 4,
+      "question": "「唔」嘅粵拼係？",
+      "options": {
+        "A": "um",
+        "B": "m",
+        "C": "ng",
+        "D": "mm"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：m\n唔 m4：m 自己就係一個音節，冇元音。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 326,
+      "topic": 4,
+      "question": "「五」嘅粵拼係？",
+      "options": {
+        "A": "ng",
+        "B": "ngo",
+        "C": "m",
+        "D": "um"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ng\n五 ng5、吳 ng4：ng 自己就係一個音節。讀成 m 係懶音。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 327,
+      "topic": 4,
+      "question": "第 1 聲係咩調？",
+      "options": {
+        "A": "低降",
+        "B": "中平",
+        "C": "高升",
+        "D": "高平"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：高平\n詩 si1：高而平。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 328,
+      "topic": 4,
+      "question": "第 2 聲係咩調？",
+      "options": {
+        "A": "中平",
+        "B": "高升",
+        "C": "高平",
+        "D": "低升"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：高升\n史 si2：由中間升到高。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 329,
+      "topic": 4,
+      "question": "第 4 聲係咩調？",
+      "options": {
+        "A": "低升",
+        "B": "低降",
+        "C": "低平",
+        "D": "高降"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：低降\n時 si4：由低再降落去。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 330,
+      "topic": 4,
+      "question": "「試 si?」係第幾聲？",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：3\n詩 si1、史 si2、試 si3、時 si4、市 si5、事 si6。試 = 中平。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 331,
+      "topic": 4,
+      "question": "「時 si?」係第幾聲？",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "6",
+        "D": "5"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：4\n詩 si1、史 si2、試 si3、時 si4、市 si5、事 si6。時 = 低降。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 332,
+      "topic": 4,
+      "question": "「市 si?」係第幾聲？",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "2"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：5\n詩 si1、史 si2、試 si3、時 si4、市 si5、事 si6。市 = 低升。",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 333,
+      "topic": 4,
+      "question": "「事 si?」係第幾聲？",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：6\n詩 si1、史 si2、試 si3、時 si4、市 si5、事 si6。事 = 低平。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 334,
+      "topic": 4,
+      "question": "傳統講粵語有「九聲」，點解粵拼只用 1–6？",
+      "options": {
+        "A": "7–9 聲已經冇人讀",
+        "B": "入聲（7、8、9 聲）分別寫成 1、3、6",
+        "C": "7–9 聲用字母代替",
+        "D": "粵拼唔標入聲字"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：入聲（7、8、9 聲）分別寫成 1、3、6\n入聲字音高同 1、3、6 一樣，分別只係有 -p/-t/-k 尾，所以粵拼合併咗。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 335,
+      "topic": 4,
+      "question": "「好」嘅粵拼係？",
+      "options": {
+        "A": "hoe",
+        "B": "hau",
+        "C": "hou",
+        "D": "ho"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hou\nou 係「好」「高」「老」嘅韻母，唔可以只寫 o（o 係「哥 go」嘅韻母）。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 336,
+      "topic": 4,
+      "question": "「你」嘅粵拼係？",
+      "options": {
+        "A": "nee",
+        "B": "nei",
+        "C": "nay",
+        "D": "ni"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nei\nei 係「你」「四 sei」嘅韻母。讀成 lei 係 n/l 懶音。",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 337,
+      "topic": 4,
+      "question": "「要」嘅粵拼係？",
+      "options": {
+        "A": "jau",
+        "B": "jeu",
+        "C": "jiu",
+        "D": "yiu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jiu\nj 頭（英文 y 音）＋ iu 韻母：要 jiu、橋 kiu。",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 338,
+      "topic": 4,
+      "question": "「一」嘅粵拼係？",
+      "options": {
+        "A": "zat",
+        "B": "yat",
+        "C": "jaat",
+        "D": "jat"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jat\nj = y 音；a 短音；t 尾。",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 339,
+      "topic": 4,
+      "question": "「苦」嘅粵拼係？",
+      "options": {
+        "A": "hu",
+        "B": "foo",
+        "C": "fuu",
+        "D": "fu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "粵拼基礎"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：fu\n粵拼 u 就係「oo」音，唔使寫 oo。苦 fu、姑 gu。",
+          "selected": [
+            "D"
           ]
         }
       ]
