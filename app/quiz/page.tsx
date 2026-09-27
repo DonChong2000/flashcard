@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { fetchTopicQuestions } from "@/lib/manifest";
+import { fetchManifest, fetchTopicQuestions } from "@/lib/manifest";
 import {
   getProgress,
   setQuestionProgress,
@@ -32,11 +32,12 @@ function QuizContent() {
   const selectedTags = (params.get("tags") ?? "").split(",").filter(Boolean);
   const fromNum = (() => { const n = parseInt(params.get("from") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
   const toNum = (() => { const n = parseInt(params.get("to") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
+  const [topicName, setTopicName] = useState<string | null>(null);
   const quizLabel = (() => {
     if (randomCount !== null) return `Random ${randomCount}`;
     const base = selectedTags.length > 0
       ? selectedTags.join(", ")
-      : topic === "all" ? "All Practice Sets" : `Practice Set ${topic}`;
+      : topic === "all" ? "All Practice Sets" : topicName ?? `Practice Set ${topic}`;
     if (fromNum !== null || toNum !== null) return `${base} [${fromNum ?? 1}–${toNum ?? "end"}]`;
     return base;
   })();
@@ -61,6 +62,11 @@ function QuizContent() {
 
         // Fetch questions
         let qs: Question[] = await fetchTopicQuestions(BASE_PATH, slug, topic);
+        if (topic !== "all") {
+          fetchManifest(BASE_PATH)
+            .then((m) => setTopicName(m.datasets.find((d) => d.slug === slug)?.topicNames?.[topic] ?? null))
+            .catch(() => {});
+        }
 
         // Apply filter
         if (filter === "incorrect") {

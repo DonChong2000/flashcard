@@ -1,5 +1,12 @@
 {
-  "total_questions": 339,
+  "total_questions": 412,
+  "topic_names": {
+    "1": "易",
+    "2": "中",
+    "3": "難",
+    "4": "粵拼基礎",
+    "5": "聲母韻母全記"
+  },
   "questions": [
     {
       "question_number": 1,
@@ -9450,6 +9457,1977 @@
           "comment": "正確答案：fu\n粵拼 u 就係「oo」音，唔使寫 oo。苦 fu、姑 gu。",
           "selected": [
             "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 340,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 b？",
+      "options": {
+        "A": "未",
+        "B": "既",
+        "C": "比",
+        "D": "你"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：比（bei2，聲母 b）\n• 既 gei3：聲母 g\n• 你 nei5：聲母 n\n• 未 mei6：聲母 m",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 341,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 p？",
+      "options": {
+        "A": "棒",
+        "B": "猛",
+        "C": "行",
+        "D": "生"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：棒（paang5，聲母 p）\n• 猛 maang5：聲母 m\n• 生 saang1：聲母 s\n• 行 haang4：聲母 h",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 342,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 m？",
+      "options": {
+        "A": "見",
+        "B": "面",
+        "C": "錢",
+        "D": "剪"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：面（min6，聲母 m）\n• 見 gin3：聲母 g\n• 錢 cin2：聲母 c\n• 剪 zin2：聲母 z",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 343,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 f？",
+      "options": {
+        "A": "大",
+        "B": "快",
+        "C": "壞",
+        "D": "太"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：快（faai3，聲母 f）\n• 太 taai3：聲母 t\n• 大 daai6：聲母 d\n• 壞 waai6：聲母 w",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 344,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 d？",
+      "options": {
+        "A": "逼",
+        "B": "力",
+        "C": "的",
+        "D": "亦"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：的（dik1，聲母 d）\n• 逼 bik1：聲母 b\n• 亦 jik6：聲母 j\n• 力 lik6：聲母 l",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 345,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 t？",
+      "options": {
+        "A": "了",
+        "B": "要",
+        "C": "條",
+        "D": "尿"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：條（tiu4，聲母 t）\n• 尿 niu6：聲母 n\n• 了 liu5：聲母 l\n• 要 jiu3：聲母 j",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 346,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 n？",
+      "options": {
+        "A": "牙",
+        "B": "啦",
+        "C": "下",
+        "D": "拿"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：拿（naa4，聲母 n）\n• 牙 ngaa4：聲母 ng\n• 啦 laa1：聲母 l\n• 下 haa6：聲母 h",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 347,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 l？",
+      "options": {
+        "A": "袋",
+        "B": "呆",
+        "C": "來",
+        "D": "愛"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：來（loi4，聲母 l）\n• 呆 ngoi4：聲母 ng\n• 愛 oi3：冇聲母\n• 袋 doi6：聲母 d",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 348,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 g？",
+      "options": {
+        "A": "噹",
+        "B": "光",
+        "C": "望",
+        "D": "講"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：講（gong2，聲母 g）\n• 噹 dong1：聲母 d\n• 望 mong6：聲母 m\n• 光 gwong1：聲母 gw",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 349,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 k？",
+      "options": {
+        "A": "驚",
+        "B": "輕",
+        "C": "定",
+        "D": "傾"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：傾（king1，聲母 k）\n• 定 ding6：聲母 d\n• 輕 hing1：聲母 h\n• 驚 ging1：聲母 g",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 350,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 ng？",
+      "options": {
+        "A": "手",
+        "B": "就",
+        "C": "嬲",
+        "D": "牛"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：牛（ngau4，聲母 ng）\n• 手 sau2：聲母 s\n• 就 zau6：聲母 z\n• 嬲 nau1：聲母 n",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 351,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 h？",
+      "options": {
+        "A": "薑",
+        "B": "張",
+        "C": "兩",
+        "D": "向"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：向（hoeng3，聲母 h）\n• 張 zoeng1：聲母 z\n• 薑 goeng1：聲母 g\n• 兩 loeng5：聲母 l",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 352,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 gw？",
+      "options": {
+        "A": "喂",
+        "B": "跪",
+        "C": "嚟",
+        "D": "雞"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：跪（gwai6，聲母 gw）\n• 喂 wai3：聲母 w\n• 雞 gai1：聲母 g\n• 嚟 lai4：聲母 l",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 353,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 kw？",
+      "options": {
+        "A": "跨",
+        "B": "話",
+        "C": "瓜",
+        "D": "啦"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：跨（kwaa1，聲母 kw）\n• 話 waa6：聲母 w\n• 啦 laa1：聲母 l\n• 瓜 gwaa1：聲母 gw",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 354,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 w？",
+      "options": {
+        "A": "廢",
+        "B": "餵",
+        "C": "曳",
+        "D": "係"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：餵（wai3，聲母 w）\n• 係 hai6：聲母 h\n• 曳 jai5：聲母 j\n• 廢 fai3：聲母 f",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 355,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 z？",
+      "options": {
+        "A": "著",
+        "B": "腳",
+        "C": "卻",
+        "D": "有"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：著（zoek3，聲母 z）\n• 卻 koek3：聲母 k\n• 有 jau5：聲母 j\n• 腳 goek3：聲母 g",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 356,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 c？",
+      "options": {
+        "A": "對",
+        "B": "最",
+        "C": "佢",
+        "D": "吹"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：吹（ceoi1，聲母 c）\n• 最 zeoi3：聲母 z\n• 對 deoi3：聲母 d\n• 佢 keoi5：聲母 k",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 357,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 s？",
+      "options": {
+        "A": "邊",
+        "B": "錢",
+        "C": "剪",
+        "D": "先"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：先（sin1，聲母 s）\n• 邊 bin1：聲母 b\n• 剪 zin2：聲母 z\n• 錢 cin2：聲母 c",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 358,
+      "topic": 5,
+      "question": "邊個字嘅聲母係 j？",
+      "options": {
+        "A": "月",
+        "B": "血",
+        "C": "捽",
+        "D": "就"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：月（jyut6，聲母 j）\n• 就 zau6：聲母 z\n• 血 hyut3：聲母 h\n• 捽 cyut3：聲母 c",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 359,
+      "topic": 5,
+      "question": "邊個字冇聲母（零聲母，直接元音開頭）？",
+      "options": {
+        "A": "眼",
+        "B": "但",
+        "C": "間",
+        "D": "晏"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "聲母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：晏（aan3，冇聲母）\n• 間 gaan1：聲母 g\n• 眼 ngaan5：聲母 ng\n• 但 daan6：聲母 d",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 360,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aa？",
+      "options": {
+        "A": "拗",
+        "B": "握",
+        "C": "丫",
+        "D": "壓"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：丫（aa1，韻母 aa）\n• 壓 aat3：韻母 aat\n• 拗 aau3：韻母 aau\n• 握 aak1：韻母 aak",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 361,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aai？",
+      "options": {
+        "A": "塔",
+        "B": "太",
+        "C": "她",
+        "D": "探"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：太（taai3，韻母 aai）\n• 她 taa1：韻母 aa\n• 探 taam3：韻母 aam\n• 塔 taap3：韻母 aap",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 362,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aau？",
+      "options": {
+        "A": "架",
+        "B": "間",
+        "C": "狗",
+        "D": "較"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：較（gaau3，韻母 aau）\n• 間 gaan1：韻母 aan\n• 架 gaa3：韻母 aa\n• 狗 gau2：韻母 au",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 363,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aam？",
+      "options": {
+        "A": "找",
+        "B": "紮",
+        "C": "站",
+        "D": "斟"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：站（zaam6，韻母 aam）\n• 紮 zaat3：韻母 aat\n• 找 zaau2：韻母 aau\n• 斟 zam1：韻母 am",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 364,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aan？",
+      "options": {
+        "A": "返",
+        "B": "款",
+        "C": "花",
+        "D": "髮"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：返（faan2，韻母 aan）\n• 花 faa1：韻母 aa\n• 髮 faat3：韻母 aat\n• 款 fun2：韻母 un",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 365,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aang？",
+      "options": {
+        "A": "望",
+        "B": "嘛",
+        "C": "名",
+        "D": "猛"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：猛（maang5，韻母 aang）\n• 名 ming4：韻母 ing\n• 嘛 maa3：韻母 aa\n• 望 mong6：韻母 ong",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 366,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aap？",
+      "options": {
+        "A": "打",
+        "B": "大",
+        "C": "答",
+        "D": "啖"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：答（daap3，韻母 aap）\n• 打 daa2：韻母 aa\n• 啖 daam6：韻母 aam\n• 大 daai6：韻母 aai",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 367,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aat？",
+      "options": {
+        "A": "返",
+        "B": "一",
+        "C": "髮",
+        "D": "花"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：髮（faat3，韻母 aat）\n• 返 faan2：韻母 aan\n• 花 faa1：韻母 aa\n• 一 jat1：韻母 at",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 368,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 aak？",
+      "options": {
+        "A": "隔",
+        "B": "甲",
+        "C": "減",
+        "D": "街"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：隔（gaak3，韻母 aak）\n• 甲 gaap3：韻母 aap\n• 減 gaam2：韻母 aam\n• 街 gaai1：韻母 aai",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 369,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ai？",
+      "options": {
+        "A": "攰",
+        "B": "街",
+        "C": "雞",
+        "D": "既"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：雞（gai1，韻母 ai）\n• 攰 gui6：韻母 ui\n• 既 gei3：韻母 ei\n• 街 gaai1：韻母 aai",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 370,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 au？",
+      "options": {
+        "A": "曳",
+        "B": "右",
+        "C": "要",
+        "D": "飲"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：右（jau6，韻母 au）\n• 要 jiu3：韻母 iu\n• 曳 jai5：韻母 ai\n• 飲 jam2：韻母 am",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 371,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 am？",
+      "options": {
+        "A": "抌",
+        "B": "點",
+        "C": "突",
+        "D": "低"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：抌（dam2，韻母 am）\n• 點 dim2：韻母 im\n• 突 dat6：韻母 at\n• 低 dai1：韻母 ai",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 372,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 an？",
+      "options": {
+        "A": "勤",
+        "B": "卡",
+        "C": "拳",
+        "D": "咳"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：勤（kan4，韻母 an）\n• 咳 kat1：韻母 at\n• 拳 kyun4：韻母 yun\n• 卡 kaa1：韻母 aa",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 373,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ang？",
+      "options": {
+        "A": "批",
+        "B": "憑",
+        "C": "棒",
+        "D": "碰"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：憑（pang4，韻母 ang）\n• 碰 pung3：韻母 ung\n• 批 pai1：韻母 ai\n• 棒 paang5：韻母 aang",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 374,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ap？",
+      "options": {
+        "A": "勤",
+        "B": "擒",
+        "C": "級",
+        "D": "係"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：級（kap1，韻母 ap）\n• 擒 kam4：韻母 am\n• 勤 kan4：韻母 an\n• 係 hai6：韻母 ai",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 375,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 at？",
+      "options": {
+        "A": "骨",
+        "B": "刮",
+        "C": "鬼",
+        "D": "係"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：骨（gwat1，韻母 at）\n• 刮 gwaat3：韻母 aat\n• 係 hai6：韻母 ai\n• 鬼 gwai2：韻母 ai",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 376,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ak？",
+      "options": {
+        "A": "抌",
+        "B": "德",
+        "C": "兜",
+        "D": "突"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：德（dak1，韻母 ak）\n• 抌 dam2：韻母 am\n• 突 dat6：韻母 at\n• 兜 dau1：韻母 au",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 377,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 e？",
+      "options": {
+        "A": "你",
+        "B": "嘢",
+        "C": "也",
+        "D": "贏"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：嘢（je5，韻母 e）\n• 你 nei5：韻母 ei\n• 贏 jeng4：韻母 eng\n• 也 jaa5：韻母 aa",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 378,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ei？",
+      "options": {
+        "A": "靚",
+        "B": "來",
+        "C": "理",
+        "D": "黎"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：理（lei5，韻母 ei）\n• 靚 leng3：韻母 eng\n• 來 loi4：韻母 oi\n• 黎 lai4：韻母 ai",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 379,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 eng？",
+      "options": {
+        "A": "並",
+        "B": "畀",
+        "C": "餅",
+        "D": "同"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：餅（beng2，韻母 eng）\n• 同 tung4：韻母 ung\n• 畀 bei2：韻母 ei\n• 並 bing6：韻母 ing",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 380,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ek？",
+      "options": {
+        "A": "即",
+        "B": "隻",
+        "C": "著",
+        "D": "姐"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：隻（zek3，韻母 ek）\n• 即 zik1：韻母 ik\n• 著 zoek3：韻母 oek\n• 姐 ze2：韻母 e",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 381,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 i？",
+      "options": {
+        "A": "車",
+        "B": "切",
+        "C": "似",
+        "D": "坐"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：似（ci5，韻母 i）\n• 坐 co5：韻母 o\n• 車 ce1：韻母 e\n• 切 cit3：韻母 it",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 382,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 iu？",
+      "options": {
+        "A": "天",
+        "B": "添",
+        "C": "套",
+        "D": "條"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：條（tiu4，韻母 iu）\n• 套 tou3：韻母 ou\n• 添 tim1：韻母 im\n• 天 tin1：韻母 in",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 383,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 im？",
+      "options": {
+        "A": "要",
+        "B": "亦",
+        "C": "而",
+        "D": "嫌"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：嫌（jim4，韻母 im）\n• 要 jiu3：韻母 iu\n• 而 ji4：韻母 i\n• 亦 jik6：韻母 ik",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 384,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 in？",
+      "options": {
+        "A": "請",
+        "B": "潛",
+        "C": "次",
+        "D": "前"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：前（cin4，韻母 in）\n• 次 ci3：韻母 i\n• 請 cing2：韻母 ing\n• 潛 cim4：韻母 im",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 385,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ing？",
+      "options": {
+        "A": "娘",
+        "B": "擰",
+        "C": "黏",
+        "D": "能"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：擰（ning6，韻母 ing）\n• 黏 nim1：韻母 im\n• 娘 noeng4：韻母 oeng\n• 能 nang4：韻母 ang",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 386,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ip？",
+      "options": {
+        "A": "塔",
+        "B": "貼",
+        "C": "鐵",
+        "D": "停"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：貼（tip3，韻母 ip）\n• 停 ting4：韻母 ing\n• 鐵 tit3：韻母 it\n• 塔 taap3：韻母 aap",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 387,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 it？",
+      "options": {
+        "A": "笑",
+        "B": "先",
+        "C": "實",
+        "D": "舌"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：舌（sit3，韻母 it）\n• 先 sin1：韻母 in\n• 笑 siu3：韻母 iu\n• 實 sat6：韻母 at",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 388,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ik？",
+      "options": {
+        "A": "熟",
+        "B": "塞",
+        "C": "熄",
+        "D": "事"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：熄（sik1，韻母 ik）\n• 事 si6：韻母 i\n• 塞 sak1：韻母 ak\n• 熟 suk6：韻母 uk",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 389,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 o？",
+      "options": {
+        "A": "所",
+        "B": "索",
+        "C": "事",
+        "D": "腮"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：所（so2，韻母 o）\n• 腮 soi1：韻母 oi\n• 事 si6：韻母 i\n• 索 sok3：韻母 ok",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 390,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 oi？",
+      "options": {
+        "A": "屙",
+        "B": "哎",
+        "C": "愛",
+        "D": "矮"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：愛（oi3，韻母 oi）\n• 屙 o1：韻母 o\n• 矮 ai2：韻母 ai\n• 哎 aai1：韻母 aai",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 391,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ou？",
+      "options": {
+        "A": "撞",
+        "B": "就",
+        "C": "做",
+        "D": "作"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：做（zou6，韻母 ou）\n• 撞 zong6：韻母 ong\n• 作 zok3：韻母 ok\n• 就 zau6：韻母 au",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 392,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 on？",
+      "options": {
+        "A": "幹",
+        "B": "緊",
+        "C": "高",
+        "D": "覺"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：幹（gon3，韻母 on）\n• 高 gou1：韻母 ou\n• 緊 gan2：韻母 an\n• 覺 gok3：韻母 ok",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 393,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ong？",
+      "options": {
+        "A": "當",
+        "B": "袋",
+        "C": "多",
+        "D": "等"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：當（dong1，韻母 ong）\n• 等 dang2：韻母 ang\n• 多 do1：韻母 o\n• 袋 doi6：韻母 oi",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 394,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ot？",
+      "options": {
+        "A": "喝",
+        "B": "好",
+        "C": "可",
+        "D": "學"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：喝（hot3，韻母 ot）\n• 可 ho2：韻母 o\n• 學 hok6：韻母 ok\n• 好 hou2：韻母 ou",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 395,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ok？",
+      "options": {
+        "A": "鑿",
+        "B": "咗",
+        "C": "即",
+        "D": "隻"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：鑿（zok6，韻母 ok）\n• 即 zik1：韻母 ik\n• 隻 zek3：韻母 ek\n• 咗 zo2：韻母 o",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 396,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 u？",
+      "options": {
+        "A": "嗚",
+        "B": "話",
+        "C": "活",
+        "D": "喎"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：嗚（wu1，韻母 u）\n• 喎 wo3：韻母 o\n• 活 wut6：韻母 ut\n• 話 waa6：韻母 aa",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 397,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ui？",
+      "options": {
+        "A": "卜",
+        "B": "杯",
+        "C": "弊",
+        "D": "擺"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：杯（bui1，韻母 ui）\n• 弊 bai6：韻母 ai\n• 擺 baai2：韻母 aai\n• 卜 buk1：韻母 uk",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 398,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 un？",
+      "options": {
+        "A": "沒",
+        "B": "門",
+        "C": "夢",
+        "D": "每"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：門（mun4，韻母 un）\n• 沒 mut6：韻母 ut\n• 夢 mung6：韻母 ung\n• 每 mui5：韻母 ui",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 399,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ung？",
+      "options": {
+        "A": "捉",
+        "B": "張",
+        "C": "鐘",
+        "D": "井"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：鐘（zung1，韻母 ung）\n• 捉 zuk1：韻母 uk\n• 井 zeng2：韻母 eng\n• 張 zoeng1：韻母 oeng",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 400,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 ut？",
+      "options": {
+        "A": "木",
+        "B": "夢",
+        "C": "乜",
+        "D": "沒"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：沒（mut6，韻母 ut）\n• 夢 mung6：韻母 ung\n• 乜 mat1：韻母 at\n• 木 muk6：韻母 uk",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 401,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 uk？",
+      "options": {
+        "A": "作",
+        "B": "捉",
+        "C": "即",
+        "D": "著"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：捉（zuk1，韻母 uk）\n• 著 zoek3：韻母 oek\n• 即 zik1：韻母 ik\n• 作 zok3：韻母 ok",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 402,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 oe？",
+      "options": {
+        "A": "靴",
+        "B": "可",
+        "C": "開",
+        "D": "學"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：靴（hoe1，韻母 oe）\n• 開 hoi1：韻母 oi\n• 學 hok6：韻母 ok\n• 可 ho2：韻母 o",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 403,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 oeng？",
+      "options": {
+        "A": "涼",
+        "B": "朗",
+        "C": "講",
+        "D": "拎"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：涼（loeng4，韻母 oeng）\n• 拎 ling1：韻母 ing\n• 講 gong2：韻母 ong\n• 朗 long5：韻母 ong",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 404,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 oek？",
+      "options": {
+        "A": "隻",
+        "B": "弱",
+        "C": "樣",
+        "D": "落"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：弱（joek6，韻母 oek）\n• 落 lok6：韻母 ok\n• 樣 joeng6：韻母 oeng\n• 隻 zek3：韻母 ek",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 405,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 eoi？",
+      "options": {
+        "A": "腮",
+        "B": "洗",
+        "C": "死",
+        "D": "誰"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：誰（seoi4，韻母 eoi）\n• 死 sei2：韻母 ei\n• 腮 soi1：韻母 oi\n• 洗 sai2：韻母 ai",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 406,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 eon？",
+      "options": {
+        "A": "訊",
+        "B": "新",
+        "C": "術",
+        "D": "水"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：訊（seon3，韻母 eon）\n• 術 seot6：韻母 eot\n• 新 san1：韻母 an\n• 水 seoi2：韻母 eoi",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 407,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 eot？",
+      "options": {
+        "A": "出",
+        "B": "秦",
+        "C": "刷",
+        "D": "切"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：出（ceot1，韻母 eot）\n• 秦 ceon4：韻母 eon\n• 切 cit3：韻母 it\n• 刷 caat3：韻母 aat",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 408,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 yu？",
+      "options": {
+        "A": "完",
+        "B": "月",
+        "C": "語",
+        "D": "而"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：語（jyu5，韻母 yu）\n• 月 jyut6：韻母 yut\n• 而 ji4：韻母 i\n• 完 jyun4：韻母 yun",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 409,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 yun？",
+      "options": {
+        "A": "先",
+        "B": "信",
+        "C": "書",
+        "D": "船"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：船（syun4，韻母 yun）\n• 信 seon3：韻母 eon\n• 先 sin1：韻母 in\n• 書 syu1：韻母 yu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 410,
+      "topic": 5,
+      "question": "邊個字嘅韻母係 yut？",
+      "options": {
+        "A": "完",
+        "B": "越",
+        "C": "於",
+        "D": "一"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：越（jyut6，韻母 yut）\n• 於 jyu1：韻母 yu\n• 完 jyun4：韻母 yun\n• 一 jat1：韻母 at",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 411,
+      "topic": 5,
+      "question": "邊個字讀「m」（自成音節）？",
+      "options": {
+        "A": "阿",
+        "B": "我",
+        "C": "呢",
+        "D": "唔"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：唔（m4，m 自成音節）\n• 阿 aa3：韻母 aa\n• 我 ngo5：韻母 o\n• 呢 ne1：韻母 e",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 412,
+      "topic": 5,
+      "question": "邊個字讀「ng」（自成音節）？",
+      "options": {
+        "A": "五",
+        "B": "屋",
+        "C": "愛",
+        "D": "屙"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "韻母"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：五（ng5，ng 自成音節）\n• 屋 uk1：韻母 uk\n• 屙 o1：韻母 o\n• 愛 oi3：韻母 oi",
+          "selected": [
+            "A"
           ]
         }
       ]

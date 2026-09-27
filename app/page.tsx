@@ -726,7 +726,7 @@ export default function HomePage() {
                   >
                     <CardContent className="p-4 space-y-3">
                       <div className="flex items-center justify-between">
-                        <Badge variant="outline">Practice Set {ts.topic}</Badge>
+                        <Badge variant="outline">{dataset?.topicNames?.[ts.topic] ?? `Practice Set ${ts.topic}`}</Badge>
                         <span className="text-xs text-muted-foreground">{ts.total} Qs</span>
                       </div>
                       <Progress value={pct} className="h-1.5" />

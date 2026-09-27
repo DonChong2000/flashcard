@@ -31,6 +31,7 @@ export interface DatasetMeta {
   topics: number[];
   topicQuestions: Record<number, number[]>;
   tagQuestions: Record<string, number[]>;
+  topicNames?: Record<number, string>;
 }
 
 export interface Manifest {

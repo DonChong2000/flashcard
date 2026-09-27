@@ -95,6 +95,7 @@ async function main() {
       topics,
       topicQuestions,
       tagQuestions,
+      ...(data.topic_names && { topicNames: data.topic_names }),
     });
 
     console.log(`Processed ${file} → ${slug} (${questions.length} questions, ${topics.length} topics)`);
