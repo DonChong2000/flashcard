@@ -70,7 +70,7 @@ Optional `image` / `audio` fields hold paths under `public/` (e.g. `media/jlpt_n
 - `worker/src/index.js` — Worker `flashcard-sync` (`worker/wrangler.toml`, KV binding `FLASHCARD_SYNC`) exposing `GET/PUT /sync/{hash}/{slug}` for progress snapshots (validates a `version: 1` schema).
 - `lib/constants.ts` — `SYNC_API` defaults to `https://flashcard-sync.donchong2000.workers.dev`, overridable via `NEXT_PUBLIC_SYNC_API`.
 - `lib/sync.ts` — client: generates/stores a sync ID in localStorage `flashcard_sync_id`; `pullRemote`/`pushRemote` talk to the Worker; `flashcard_last_synced_{slug}` keeps the last-synced snapshot for diffing.
-- `app/page.tsx` — auto pull/push on mount, adopts a foreign sync ID via `?sync=HASH` link, "Copy Link" shares it, plus a manual Sync button.
+- `app/page.tsx` — auto pull/push on mount, adopts a foreign sync ID via `?sync=HASH` link or the "Enter Sync ID" prompt (needed on iOS home-screen PWAs, whose storage is separate from Safari so links never reach them), "Copy Link" shares it, plus a manual Sync button.
 
 ### Quiz page pattern
 
