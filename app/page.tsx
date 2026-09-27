@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -389,6 +389,22 @@ export default function HomePage() {
     }
   }
 
+  // iOS home-screen PWAs don't share storage with Safari, so ?sync= links never reach them — paste instead.
+  function handleEnterSyncId() {
+    const input = window.prompt("Paste a sync link or sync ID:")?.trim();
+    if (!input) return;
+    const id = input.match(/[?&]sync=([^&#]+)/)?.[1] ?? input;
+    if (!SYNC_HASH_RE.test(id)) {
+      setSyncMessage("That doesn't look like a valid sync ID.");
+      return;
+    }
+    if (syncId && syncId !== id && !confirm("Replace your existing sync ID? Your current one will be forgotten on this device.")) return;
+    saveSyncId(id);
+    setSyncIdState(id);
+    setSyncMessage("Sync ID set.");
+    flashSyncCard();
+  }
+
   async function handleCopyLink() {
     if (!syncId) return;
     const link = `${window.location.origin}${BASE_PATH}/?sync=${syncId}`;
@@ -497,6 +513,10 @@ export default function HomePage() {
             >
               <Cloud className="h-4 w-4" />
               {syncStatus === "syncing" ? "Syncing…" : "Sync"}
+            </Button>
+            <Button variant="outline" onClick={handleEnterSyncId} className="gap-2">
+              <Link2 className="h-4 w-4" />
+              Enter Sync ID
             </Button>
             <input
               ref={fileInputRef}
