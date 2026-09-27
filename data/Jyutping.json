@@ -1,0 +1,8405 @@
+{
+  "total_questions": 300,
+  "questions": [
+    {
+      "question_number": 1,
+      "topic": 1,
+      "question": "「二」（二十）嘅粵拼係？",
+      "options": {
+        "A": "ji",
+        "B": "yee",
+        "C": "je",
+        "D": "yi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ji（二 ji6）\n• yee：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 i 唔使寫 ee\n• je：係「嘢」je5 嘅粵拼（i 同 e 混淆）\n• yi：英文式拼法：粵拼用 j 代表英文 y 音",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "topic": 1,
+      "question": "「車」（搭車）嘅粵拼係？",
+      "options": {
+        "A": "ci",
+        "B": "che",
+        "C": "ce",
+        "D": "cheh"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ce（車 ce1）\n• ci：係「次」ci3 嘅粵拼（e 同 i 混淆）\n• che：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• cheh：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "topic": 1,
+      "question": "「水」（飲水）嘅粵拼係？",
+      "options": {
+        "A": "soi",
+        "B": "shui",
+        "C": "sui",
+        "D": "seoi"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：seoi（水 seoi2）\n• soi：係「腮」soi1 嘅粵拼（eoi 同 oi 混淆）\n• shui：英文式拼法：粵拼冇 sh，寫 s；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• sui：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "topic": 1,
+      "question": "「金」（黃金）嘅粵拼係？",
+      "options": {
+        "A": "gum",
+        "B": "kam",
+        "C": "kum",
+        "D": "gam"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gam（金 gam1）\n• gum：英文式拼法：短 a 寫 a，唔係英文 u\n• kam：係「擒」kam4 嘅粵拼（送氣唔送氣混淆（g/k））\n• kum：英文式拼法：短 a 寫 a，唔係英文 u；粵拼 g 係唔送氣音，唔好寫成 k",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "topic": 1,
+      "question": "「冇」（冇嘢）嘅粵拼係？",
+      "options": {
+        "A": "mau",
+        "B": "moh",
+        "C": "mou",
+        "D": "maau"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：mou（冇 mou5）\n• mau：近音混淆：ou 同 au 混淆（碰巧亦係「某」嘅粵拼）\n• moh：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o\n• maau：係「貓」maau1 嘅粵拼（o 同 aa 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "topic": 1,
+      "question": "「問」（問題）嘅粵拼係？",
+      "options": {
+        "A": "mun",
+        "B": "man",
+        "C": "maan",
+        "D": "mang"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：man（問 man6）\n• mun：英文式拼法：短 a 寫 a，唔係英文 u（碰巧亦係「門」嘅粵拼）\n• maan：係「晚」maan5 嘅粵拼（短 a 讀成長 aa）\n• mang：n/ng 尾不分：n 尾讀成 ng 尾（碰巧亦係「萌」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "topic": 1,
+      "question": "「雪」（落雪）嘅粵拼係？",
+      "options": {
+        "A": "syut",
+        "B": "sut",
+        "C": "suet",
+        "D": "seot"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：syut（雪 syut3）\n• sut：近音混淆：yu 同 u 混淆\n• suet：英文式拼法：粵拼 yu 係「魚」嘅韻母\n• seot：係「術」seot6 嘅粵拼（yu 同 eo 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "topic": 1,
+      "question": "「諗」（諗嘢）嘅粵拼係？",
+      "options": {
+        "A": "nam",
+        "B": "num",
+        "C": "lam",
+        "D": "naam"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nam（諗 nam2）\n• num：英文式拼法：短 a 寫 a，唔係英文 u\n• lam：懶音：n 頭讀成 l 頭（碰巧亦係「林」嘅粵拼）\n• naam：係「男」naam4 嘅粵拼（短 a 讀成長 aa）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "topic": 1,
+      "question": "「唔」（唔好）嘅粵拼係？",
+      "options": {
+        "A": "am",
+        "B": "um",
+        "C": "o",
+        "D": "m"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：m（唔 m4）\n• am：係「暗」am3 嘅粵拼（近音字）\n• um：英文式拼法：「唔」嘅粵拼就係 m\n• o：近音字（碰巧亦係「屙」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "topic": 1,
+      "question": "「夜」（夜晚）嘅粵拼係？",
+      "options": {
+        "A": "ye",
+        "B": "je",
+        "C": "yeh",
+        "D": "ji"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：je（夜 je6）\n• ye：英文式拼法：粵拼用 j 代表英文 y 音\n• yeh：英文式拼法：粵拼用 j 代表英文 y 音\n• ji：係「二」ji6 嘅粵拼（e 同 i 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "topic": 1,
+      "question": "「菜」（青菜）嘅粵拼係？",
+      "options": {
+        "A": "choi",
+        "B": "choy",
+        "C": "coi",
+        "D": "caai"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：coi（菜 coi3）\n• choi：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• choy：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 oi 唔寫 oy\n• caai：係「猜」caai1 嘅粵拼（o 同 aa 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "topic": 1,
+      "question": "「去」（出去）嘅粵拼係？",
+      "options": {
+        "A": "hui",
+        "B": "hoi",
+        "C": "heoi",
+        "D": "huey"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：heoi（去 heoi3）\n• hui：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• hoi：係「開」hoi1 嘅粵拼（eoi 同 oi 混淆）\n• huey：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "topic": 1,
+      "question": "「八」（八個）嘅粵拼係？",
+      "options": {
+        "A": "baat",
+        "B": "baak",
+        "C": "bat",
+        "D": "pat"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：baat（八 baat3）\n• baak：係「白」baak6 嘅粵拼（t 尾同 k 尾混淆）\n• bat：英文式拼法：長 a 要寫 aa（碰巧亦係「筆」嘅粵拼）\n• pat：英文式拼法：長 a 要寫 aa；粵拼 b 係唔送氣音，唔好寫成 p",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "topic": 1,
+      "question": "「高」（好高）嘅粵拼係？",
+      "options": {
+        "A": "ko",
+        "B": "gou",
+        "C": "go",
+        "D": "gaau"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gou（高 gou1）\n• ko：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o；粵拼 g 係唔送氣音，唔好寫成 k\n• go：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「個」嘅粵拼）\n• gaau：係「搞」gaau2 嘅粵拼（o 同 aa 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "topic": 1,
+      "question": "「生」（生日）嘅粵拼係？",
+      "options": {
+        "A": "song",
+        "B": "saam",
+        "C": "saang",
+        "D": "saan"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：saang（生 saang1）\n• song：係「爽」song2 嘅粵拼（aa 同 o 混淆）\n• saam：近音混淆：ng 尾同 m 尾混淆（碰巧亦係「衫」嘅粵拼）\n• saan：懶音：ng 尾讀成 n 尾（碰巧亦係「閂」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "topic": 1,
+      "question": "「客」（人客）嘅粵拼係？",
+      "options": {
+        "A": "hak",
+        "B": "haat",
+        "C": "haak",
+        "D": "hok"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：haak（客 haak3）\n• hak：英文式拼法：長 a 要寫 aa\n• haat：懶音：k 尾讀成 t 尾\n• hok：係「學」hok6 嘅粵拼（aa 同 o 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "topic": 1,
+      "question": "「來」（過來）嘅粵拼係？",
+      "options": {
+        "A": "laai",
+        "B": "loy",
+        "C": "noi",
+        "D": "loi"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：loi（來 loi4）\n• laai：係「賴」laai6 嘅粵拼（o 同 aa 混淆）\n• loy：英文式拼法：粵拼 oi 唔寫 oy\n• noi：n/l 不分：l 頭讀成 n 頭（碰巧亦係「耐」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "topic": 1,
+      "question": "「眼」（眼鏡）嘅粵拼係？",
+      "options": {
+        "A": "ngan",
+        "B": "ngaang",
+        "C": "aan",
+        "D": "ngaan"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngaan（眼 ngaan5）\n• ngan：英文式拼法：長 a 要寫 aa（碰巧亦係「銀」嘅粵拼）\n• ngaang：係「硬」ngaang6 嘅粵拼（n 尾同 ng 尾混淆）\n• aan：懶音：漏咗 ng 頭（碰巧亦係「晏」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "topic": 1,
+      "question": "「用」（有用）嘅粵拼係？",
+      "options": {
+        "A": "jung",
+        "B": "zung",
+        "C": "yung",
+        "D": "yong"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jung（用 jung6）\n• zung：係「仲」zung6 嘅粵拼（j 同 z 混淆）\n• yung：英文式拼法：粵拼用 j 代表英文 y 音\n• yong：英文式拼法：粵拼用 j 代表英文 y 音",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "topic": 1,
+      "question": "「七」（七個）嘅粵拼係？",
+      "options": {
+        "A": "chat",
+        "B": "cak",
+        "C": "cat",
+        "D": "caat"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：cat（七 cat1）\n• chat：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• cak：t/k 尾不分：t 尾讀成 k 尾\n• caat：係「刷」caat3 嘅粵拼（短 a 讀成長 aa）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "topic": 1,
+      "question": "「順」（順利）嘅粵拼係？",
+      "options": {
+        "A": "shun",
+        "B": "seon",
+        "C": "san",
+        "D": "sun"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：seon（順 seon6）\n• shun：英文式拼法：粵拼冇 sh，寫 s；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• san：係「新」san1 嘅粵拼（eon 同 an 混淆）\n• sun：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "topic": 1,
+      "question": "「鴨」（燒鴨）嘅粵拼係？",
+      "options": {
+        "A": "up",
+        "B": "ap",
+        "C": "aa",
+        "D": "aap"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：aap（鴨 aap3）\n• up：英文式拼法：長 a 要寫 aa\n• ap：英文式拼法：長 a 要寫 aa\n• aa：係「丫」aa1 嘅粵拼（近音字）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 23,
+      "topic": 1,
+      "question": "「步」（行一步）嘅粵拼係？",
+      "options": {
+        "A": "bo",
+        "B": "pou",
+        "C": "po",
+        "D": "bou"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：bou（步 bou6）\n• bo：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「波」嘅粵拼）\n• pou：係「舖」pou3 嘅粵拼（送氣唔送氣混淆（b/p））\n• po：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o；粵拼 b 係唔送氣音，唔好寫成 p（碰巧亦係「婆」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 24,
+      "topic": 1,
+      "question": "「風」（打風）嘅粵拼係？",
+      "options": {
+        "A": "fun",
+        "B": "cung",
+        "C": "fung",
+        "D": "fong"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：fung（風 fung1）\n• fun：懶音：ng 尾讀成 n 尾（碰巧亦係「款」嘅粵拼）\n• cung：係「沖」cung1 嘅粵拼（近音字）\n• fong：英文式拼法：香港常見嘅英文拼法，唔係粵拼（碰巧亦係「放」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 25,
+      "topic": 1,
+      "question": "「吉」（吉屋）嘅粵拼係？",
+      "options": {
+        "A": "gat",
+        "B": "got",
+        "C": "gut",
+        "D": "kat"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gat（吉 gat1）\n• got：係「割」got3 嘅粵拼（a 同 o 混淆）\n• gut：英文式拼法：短 a 寫 a，唔係英文 u\n• kat：英文式拼法：粵拼 g 係唔送氣音，唔好寫成 k",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 26,
+      "topic": 1,
+      "question": "「暖」（好暖）嘅粵拼係？",
+      "options": {
+        "A": "nuen",
+        "B": "lyun",
+        "C": "nyun",
+        "D": "nin"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nyun（暖 nyun5）\n• nuen：英文式拼法：粵拼 yu 係「魚」嘅韻母\n• lyun：懶音：n 頭讀成 l 頭（碰巧亦係「亂」嘅粵拼）\n• nin：係「年」nin4 嘅粵拼（yu 同 i 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 27,
+      "topic": 1,
+      "question": "「牛」（牛奶）嘅粵拼係？",
+      "options": {
+        "A": "ngau",
+        "B": "ngaau",
+        "C": "au",
+        "D": "ngow"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngau（牛 ngau4）\n• ngaau：係「淆」ngaau4 嘅粵拼（短 a 讀成長 aa）\n• au：懶音：漏咗 ng 頭（碰巧亦係「歐」嘅粵拼）\n• ngow：英文式拼法：粵拼 au/aau 唔寫 ow/ao",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 28,
+      "topic": 1,
+      "question": "「人」（男人）嘅粵拼係？",
+      "options": {
+        "A": "jang",
+        "B": "jan",
+        "C": "yan",
+        "D": "jam"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jan（人 jan2）\n• jang：n/ng 尾不分：n 尾讀成 ng 尾\n• yan：英文式拼法：粵拼用 j 代表英文 y 音\n• jam：係「飲」jam2 嘅粵拼（n 尾同 m 尾混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 29,
+      "topic": 1,
+      "question": "「仔」（細路仔）嘅粵拼係？",
+      "options": {
+        "A": "jai",
+        "B": "zaai",
+        "C": "chai",
+        "D": "zai"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zai（仔 zai2）\n• jai：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch（碰巧亦係「曳」嘅粵拼）\n• zaai：係「齋」zaai1 嘅粵拼（短 a 讀成長 aa）\n• chai：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 30,
+      "topic": 1,
+      "question": "「香」（香港）嘅粵拼係？",
+      "options": {
+        "A": "heung",
+        "B": "hoeng",
+        "C": "hong",
+        "D": "heng"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hoeng（香 hoeng1）\n• heung：英文式拼法：粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• hong：係「項」hong6 嘅粵拼（oeng 同 ong 混淆）\n• heng：近音混淆：oeng 同 eng 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 31,
+      "topic": 1,
+      "question": "「狗」（隻狗）嘅粵拼係？",
+      "options": {
+        "A": "gau",
+        "B": "gou",
+        "C": "kau",
+        "D": "gow"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gau（狗 gau2）\n• gou：係「高」gou1 嘅粵拼（a 同 o 混淆）\n• kau：英文式拼法：粵拼 g 係唔送氣音，唔好寫成 k（碰巧亦係「扣」嘅粵拼）\n• gow：英文式拼法：粵拼 au/aau 唔寫 ow/ao",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 32,
+      "topic": 1,
+      "question": "「老」（老公）嘅粵拼係？",
+      "options": {
+        "A": "loh",
+        "B": "lo",
+        "C": "nou",
+        "D": "lou"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：lou（老 lou5）\n• loh：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o\n• lo：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「囉」嘅粵拼）\n• nou：係「腦」nou5 嘅粵拼（l 頭同 n 頭混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 33,
+      "topic": 1,
+      "question": "「行」（行路）嘅粵拼係？",
+      "options": {
+        "A": "faang",
+        "B": "haang",
+        "C": "haam",
+        "D": "haan"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：haang（行 haang4）\n• faang：近音混淆：h 同 f 混淆\n• haam：係「喊」haam3 嘅粵拼（ng 尾同 m 尾混淆）\n• haan：懶音：ng 尾讀成 n 尾（碰巧亦係「閒」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 34,
+      "topic": 1,
+      "question": "「讀」（讀書）嘅粵拼係？",
+      "options": {
+        "A": "dook",
+        "B": "tuk",
+        "C": "cuk",
+        "D": "duk"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：duk（讀 duk6）\n• dook：英文式拼法：粵拼 u 唔使寫 oo\n• tuk：英文式拼法：粵拼 d 係唔送氣音，唔好寫成 t\n• cuk：係「速」cuk1 嘅粵拼（近音字）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 35,
+      "topic": 1,
+      "question": "「藍」（藍色）嘅粵拼係？",
+      "options": {
+        "A": "laam",
+        "B": "lam",
+        "C": "naam",
+        "D": "laa"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：laam（藍 laam4）\n• lam：英文式拼法：長 a 要寫 aa（碰巧亦係「林」嘅粵拼）\n• naam：n/l 不分：l 頭讀成 n 頭（碰巧亦係「男」嘅粵拼）\n• laa：係「罅」laa3 嘅粵拼（近音字）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 36,
+      "topic": 1,
+      "question": "「餓」（肚餓）嘅粵拼係？",
+      "options": {
+        "A": "ngo",
+        "B": "ngok",
+        "C": "ngoh",
+        "D": "or"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo（餓 ngo6）\n• ngok：係「嶽」ngok6 嘅粵拼（o 同 ok 混淆）\n• ngoh：英文式拼法：粵拼 o 韻唔使加 r/h\n• or：英文式拼法：粵拼 o 韻唔使加 r/h；漏咗 ng 聲母",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 37,
+      "topic": 1,
+      "question": "「入」（入去）嘅粵拼係？",
+      "options": {
+        "A": "yap",
+        "B": "jap",
+        "C": "zap",
+        "D": "yup"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jap（入 jap6）\n• yap：英文式拼法：粵拼用 j 代表英文 y 音\n• zap：係「執」zap1 嘅粵拼（j 同 z 混淆）\n• yup：英文式拼法：粵拼用 j 代表英文 y 音；短 a 寫 a，唔係英文 u",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 38,
+      "topic": 1,
+      "question": "「醉」（飲醉）嘅粵拼係？",
+      "options": {
+        "A": "zeoi",
+        "B": "jeoi",
+        "C": "chui",
+        "D": "jui"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zeoi（醉 zeoi3）\n• jeoi：係「銳」jeoi6 嘅粵拼（z 同 j 混淆）\n• chui：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• jui：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 39,
+      "topic": 1,
+      "question": "「約」（約會）嘅粵拼係？",
+      "options": {
+        "A": "yeuk",
+        "B": "jok",
+        "C": "joek",
+        "D": "zoek"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：joek（約 joek3）\n• yeuk：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• jok：近音混淆：oek 同 ok 混淆\n• zoek：係「雀」zoek3 嘅粵拼（j 同 z 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 40,
+      "topic": 1,
+      "question": "「擔」（擔遮）嘅粵拼係？",
+      "options": {
+        "A": "dam",
+        "B": "daam",
+        "C": "taam",
+        "D": "tam"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：daam（擔 daam1）\n• dam：英文式拼法：長 a 要寫 aa\n• taam：係「探」taam3 嘅粵拼（送氣唔送氣混淆（d/t））\n• tam：英文式拼法：長 a 要寫 aa；粵拼 d 係唔送氣音，唔好寫成 t",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 41,
+      "topic": 1,
+      "question": "粵拼「jau」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "飲",
+        "B": "油",
+        "C": "就",
+        "D": "曳"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：油（jau2，例：加油）\n• 飲 jam2：近音字\n• 就 zau6：以為粵拼 j 係英文 j（其實係 y 音）\n• 曳 jai5：近音字",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 42,
+      "topic": 1,
+      "question": "粵拼「cin」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "潛",
+        "B": "錢",
+        "C": "晴",
+        "D": "穿"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：錢（cin2，例：有錢）\n• 潛 cim4：n 尾同 m 尾混淆\n• 晴 cing4：n/ng 尾不分：n 尾讀成 ng 尾\n• 穿 cyun1：i 同 yu 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 43,
+      "topic": 1,
+      "question": "粵拼「soeng」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "想",
+        "B": "唱",
+        "C": "薑",
+        "D": "爽"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：想（soeng2，例：想食）\n• 唱 coeng3：近音字\n• 薑 goeng1：近音字\n• 爽 song2：oeng 同 ong 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 44,
+      "topic": 1,
+      "question": "粵拼「saan」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "新",
+        "B": "山",
+        "C": "衫",
+        "D": "啥"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：山（saan1，例：行山）\n• 新 san1：以為 aa 同 a 一樣\n• 衫 saam1：n 尾同 m 尾混淆\n• 啥 saa2：近音字",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 45,
+      "topic": 1,
+      "question": "粵拼「hou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "後",
+        "B": "澳",
+        "C": "好",
+        "D": "考"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：好（hou2，例：好食）\n• 後 hau6：以為 ou 係英文 out 嘅 ou\n• 澳 ou3：漏咗 h 頭\n• 考 haau2：o 同 aa 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 46,
+      "topic": 1,
+      "question": "粵拼「gong」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "工",
+        "B": "講",
+        "C": "幫",
+        "D": "趕"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：講（gong2，例：講嘢）\n• 工 gung1：o 同 u 混淆\n• 幫 bong1：近音字\n• 趕 gon2：懶音：ng 尾讀成 n 尾",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 47,
+      "topic": 1,
+      "question": "粵拼「caat」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "拆",
+        "B": "七",
+        "C": "刷",
+        "D": "紥"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：刷（caat2，例：牙刷）\n• 拆 caak3：t/k 尾不分：t 尾讀成 k 尾\n• 七 cat1：以為 aa 同 a 一樣\n• 紥 zaat3：c 同 z 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 48,
+      "topic": 1,
+      "question": "粵拼「naam」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "奶",
+        "B": "攬",
+        "C": "男",
+        "D": "拿"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：男（naam4，例：男人）\n• 奶 naai5：近音字\n• 攬 laam2：懶音：n 頭讀成 l 頭\n• 拿 naa4：近音字",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 49,
+      "topic": 1,
+      "question": "粵拼「aa」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "屙",
+        "B": "下",
+        "C": "牙",
+        "D": "啞"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：啞（aa2，例：扮啞）\n• 屙 o1：aa 同 o 混淆\n• 下 haa6：多咗 h 頭\n• 牙 ngaa4：ng 頭不分：多咗 ng 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 50,
+      "topic": 1,
+      "question": "粵拼「joeng」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "張",
+        "B": "羊",
+        "C": "唱",
+        "D": "薑"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：羊（joeng4，例：羊肉）\n• 張 zoeng1：以為粵拼 j 係英文 j（其實係 y 音）\n• 唱 coeng3：近音字\n• 薑 goeng1：近音字",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 51,
+      "topic": 1,
+      "question": "粵拼「zou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "就",
+        "B": "早",
+        "C": "咗",
+        "D": "找"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：早（zou2，例：早晨）\n• 就 zau6：以為 ou 係英文 out 嘅 ou\n• 咗 zo2：ou 同 o 混淆\n• 找 zaau2：o 同 aa 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 52,
+      "topic": 1,
+      "question": "粵拼「ceon」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "親",
+        "B": "春",
+        "C": "信",
+        "D": "俊"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：春（ceon1，例：春天）\n• 親 can1：eon 同 an 混淆\n• 信 seon3：c 同 s 混淆\n• 俊 zeon3：c 同 z 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 53,
+      "topic": 1,
+      "question": "粵拼「maai」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "買",
+        "B": "晚",
+        "C": "米",
+        "D": "嘛"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：買（maai5，例：買嘢）\n• 晚 maan5：近音字\n• 米 mai5：以為 aa 同 a 一樣\n• 嘛 maa3：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 54,
+      "topic": 1,
+      "question": "粵拼「co」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "咗",
+        "B": "搽",
+        "C": "所",
+        "D": "錯"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：錯（co3，例：做錯）\n• 咗 zo2：c 同 z 混淆\n• 搽 caa4：o 同 aa 混淆\n• 所 so2：c 同 s 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 55,
+      "topic": 1,
+      "question": "粵拼「dang」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "噹",
+        "B": "叮",
+        "C": "層",
+        "D": "等"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：等（dang2，例：等陣）\n• 噹 dong1：a 同 o 混淆\n• 叮 ding1：近音字\n• 層 cang4：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 56,
+      "topic": 1,
+      "question": "粵拼「sik」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "舌",
+        "B": "事",
+        "C": "閃",
+        "D": "食"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：食（sik6，例：食飯）\n• 舌 sit3：懶音：k 尾讀成 t 尾\n• 事 si6：近音字\n• 閃 sim2：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 57,
+      "topic": 1,
+      "question": "粵拼「naan」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "難",
+        "B": "爛",
+        "C": "男",
+        "D": "拿"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：難（naan4，例：好難）\n• 爛 laan6：懶音：n 頭讀成 l 頭\n• 男 naam4：n 尾同 m 尾混淆\n• 拿 naa4：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 58,
+      "topic": 1,
+      "question": "粵拼「ng」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "丫",
+        "B": "吳",
+        "C": "屙",
+        "D": "我"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：吳（ng4，例：姓吳）\n• 丫 aa1：近音字\n• 屙 o1：近音字\n• 我 ngo5：近音字",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 59,
+      "topic": 1,
+      "question": "粵拼「jeng」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "餅",
+        "B": "鏡",
+        "C": "樣",
+        "D": "贏"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：贏（jeng4，例：贏錢）\n• 餅 beng2：近音字\n• 鏡 geng3：近音字\n• 樣 joeng6：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 60,
+      "topic": 1,
+      "question": "粵拼「zam」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "尋",
+        "B": "站",
+        "C": "飲",
+        "D": "針"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：針（zam1，例：打針）\n• 尋 cam4：z 同 c 混淆\n• 站 zaam6：短 a 讀成長 aa\n• 飲 jam2：z 同 j 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 61,
+      "topic": 1,
+      "question": "粵拼「goek」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "若",
+        "B": "各",
+        "C": "腳",
+        "D": "卻"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：腳（goek3，例：隻腳）\n• 若 joek6：近音字\n• 各 gok3：oek 同 ok 混淆\n• 卻 koek3：送氣唔送氣混淆（g/k）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 62,
+      "topic": 1,
+      "question": "粵拼「maang」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "萌",
+        "B": "晚",
+        "C": "猛",
+        "D": "望"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：猛（maang5，例：好猛）\n• 萌 mang4：以為 aa 同 a 一樣\n• 晚 maan5：懶音：ng 尾讀成 n 尾\n• 望 mong6：aa 同 o 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 63,
+      "topic": 1,
+      "question": "粵拼「dou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "套",
+        "B": "刀",
+        "C": "多",
+        "D": "兜"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：刀（dou1，例：菜刀）\n• 套 tou3：送氣唔送氣混淆（d/t）\n• 多 do1：ou 同 o 混淆\n• 兜 dau1：以為 ou 係英文 out 嘅 ou",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 64,
+      "topic": 1,
+      "question": "粵拼「laang」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "冷",
+        "B": "攬",
+        "C": "朗",
+        "D": "爛"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：冷（laang5，例：好冷）\n• 攬 laam2：ng 尾同 m 尾混淆\n• 朗 long5：aa 同 o 混淆\n• 爛 laan6：懶音：ng 尾讀成 n 尾",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 65,
+      "topic": 1,
+      "question": "粵拼「tyut」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "鐵",
+        "B": "血",
+        "C": "脫",
+        "D": "團"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：脫（tyut3，例：脫衫）\n• 鐵 tit3：yu 同 i 混淆\n• 血 hyut3：近音字\n• 團 tyun4：近音字",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 66,
+      "topic": 1,
+      "question": "「好多人」嘅粵拼係？",
+      "options": {
+        "A": "hou do jan",
+        "B": "hou dok jan",
+        "C": "hou to jan",
+        "D": "hou dor jan"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hou2 do1 jan4\n重點字「多」讀 do1：\n• dok：近音混淆：o 同 ok 混淆\n• to：係「拖」to1 嘅粵拼（送氣唔送氣混淆（d/t））\n• dor：英文式拼法：粵拼 o 韻唔使加 r/h",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 67,
+      "topic": 1,
+      "question": "「雀仔好靚」嘅粵拼係？",
+      "options": {
+        "A": "zoek zai hou leng",
+        "B": "coek zai hou leng",
+        "C": "joek zai hou leng",
+        "D": "jeuk zai hou leng"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zoek3 zai2 hou2 leng3\n重點字「雀」讀 zoek3：\n• coek：近音混淆：z 同 c 混淆\n• joek：係「若」joek6 嘅粵拼（z 同 j 混淆）\n• jeuk：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 68,
+      "topic": 1,
+      "question": "「我愛你」嘅粵拼係？",
+      "options": {
+        "A": "ngo oy nei",
+        "B": "ngo ngoi nei",
+        "C": "ngo oi nei",
+        "D": "ngo ai nei"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 oi3 nei5\n重點字「愛」讀 oi3：\n• oy：英文式拼法：粵拼 oi 唔寫 oy\n• ngoi：ng 頭不分：多咗 ng 頭（碰巧亦係「外」嘅粵拼）\n• ai：係「矮」ai2 嘅粵拼（o 同 a 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 69,
+      "topic": 1,
+      "question": "「我唔要」嘅粵拼係？",
+      "options": {
+        "A": "ngo m wiu",
+        "B": "ngo m yiu",
+        "C": "ngo m ziu",
+        "D": "ngo m jiu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 m4 jiu3\n重點字「要」讀 jiu3：\n• wiu：近音混淆：j 同 w 混淆\n• yiu：英文式拼法：粵拼用 j 代表英文 y 音\n• ziu：係「照」ziu3 嘅粵拼（j 同 z 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 70,
+      "topic": 1,
+      "question": "「你幾歲」嘅粵拼係？",
+      "options": {
+        "A": "nei gei sui",
+        "B": "nei gei seon",
+        "C": "nei gei soi",
+        "D": "nei gei seoi"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nei5 gei2 seoi3\n重點字「歲」讀 seoi3：\n• sui：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• seon：係「信」seon3 嘅粵拼（近音字）\n• soi：近音混淆：eoi 同 oi 混淆（碰巧亦係「腮」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 71,
+      "topic": 1,
+      "question": "「今日好凍」嘅粵拼係？",
+      "options": {
+        "A": "gam jat hou dun",
+        "B": "gam jat hou dung",
+        "C": "gam jat hou tung",
+        "D": "gam jat hou dong"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gam1 jat6 hou2 dung3\n重點字「凍」讀 dung3：\n• dun：懶音：ng 尾讀成 n 尾\n• tung：英文式拼法：粵拼 d 係唔送氣音，唔好寫成 t（碰巧亦係「同」嘅粵拼）\n• dong：係「噹」dong1 嘅粵拼（u 同 o 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 72,
+      "topic": 1,
+      "question": "「早晨」嘅粵拼係？",
+      "options": {
+        "A": "zou san",
+        "B": "jou san",
+        "C": "jo san",
+        "D": "zo san"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zou2 san4\n重點字「早」讀 zou2：\n• jou：近音混淆：z 同 j 混淆\n• jo：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「喲」嘅粵拼）\n• zo：係「咗」zo2 嘅粵拼（ou 同 o 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 73,
+      "topic": 1,
+      "question": "「一齊去睇戲」嘅粵拼係？",
+      "options": {
+        "A": "jak cai heoi tai hei",
+        "B": "jap cai heoi tai hei",
+        "C": "jat cai heoi tai hei",
+        "D": "yat cai heoi tai hei"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "j-y",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jat1 cai4 heoi3 tai2 hei3\n重點字「一」讀 jat1：\n• jak：t/k 尾不分：t 尾讀成 k 尾\n• jap：係「入」jap6 嘅粵拼（t 尾同 p 尾混淆）\n• yat：英文式拼法：粵拼用 j 代表英文 y 音",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 74,
+      "topic": 1,
+      "question": "「眼鏡」嘅粵拼係？",
+      "options": {
+        "A": "ngan geng",
+        "B": "aan geng",
+        "C": "ngaan geng",
+        "D": "ngaang geng"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngaan5 geng2\n重點字「眼」讀 ngaan5：\n• ngan：英文式拼法：長 a 要寫 aa（碰巧亦係「銀」嘅粵拼）\n• aan：懶音：漏咗 ng 頭（碰巧亦係「晏」嘅粵拼）\n• ngaang：係「硬」ngaang6 嘅粵拼（n 尾同 ng 尾混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 75,
+      "topic": 1,
+      "question": "「佢好難搞」嘅粵拼係？",
+      "options": {
+        "A": "keoi hou naan gaau",
+        "B": "keoi hou nan gaau",
+        "C": "keoi hou naam gaau",
+        "D": "keoi hou laan gaau"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 hou2 naan4 gaau2\n重點字「難」讀 naan4：\n• nan：英文式拼法：長 a 要寫 aa\n• naam：係「男」naam4 嘅粵拼（n 尾同 m 尾混淆）\n• laan：懶音：n 頭讀成 l 頭（碰巧亦係「爛」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 76,
+      "topic": 1,
+      "question": "「我諗緊嘢」嘅粵拼係？",
+      "options": {
+        "A": "ngo nam gan je",
+        "B": "ngo naam gan je",
+        "C": "ngo num gan je",
+        "D": "ngo lam gan je"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 nam2 gan2 je5\n重點字「諗」讀 nam2：\n• naam：係「男」naam4 嘅粵拼（短 a 讀成長 aa）\n• num：英文式拼法：短 a 寫 a，唔係英文 u\n• lam：懶音：n 頭讀成 l 頭（碰巧亦係「林」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 77,
+      "topic": 1,
+      "question": "「食個橙」嘅粵拼係？",
+      "options": {
+        "A": "sik go caan",
+        "B": "sik go chang",
+        "C": "sik go caam",
+        "D": "sik go caang"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：sik6 go3 caang2\n重點字「橙」讀 caang2：\n• caan：懶音：ng 尾讀成 n 尾（碰巧亦係「餐」嘅粵拼）\n• chang：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；長 a 要寫 aa\n• caam：係「慘」caam2 嘅粵拼（ng 尾同 m 尾混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 78,
+      "topic": 1,
+      "question": "「佢去踢波」嘅粵拼係？",
+      "options": {
+        "A": "keoi heoi tek bo",
+        "B": "keoi heoi tek po",
+        "C": "keoi heoi tek bu",
+        "D": "keoi heoi tek bor"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 heoi3 tek3 bo1\n重點字「波」讀 bo1：\n• po：係「婆」po4 嘅粵拼（送氣唔送氣混淆（b/p））\n• bu：近音混淆：o 同 u 混淆\n• bor：英文式拼法：粵拼 o 韻唔使加 r/h",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 79,
+      "topic": 1,
+      "question": "「今日好熱」嘅粵拼係？",
+      "options": {
+        "A": "gam jat hou yit",
+        "B": "gam jat hou jit",
+        "C": "gam jat hou jip",
+        "D": "gam jat hou jik"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gam1 jat6 hou2 jit6\n重點字「熱」讀 jit6：\n• yit：英文式拼法：粵拼用 j 代表英文 y 音\n• jip：係「業」jip6 嘅粵拼（t 尾同 p 尾混淆）\n• jik：t/k 尾不分：t 尾讀成 k 尾（碰巧亦係「亦」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 80,
+      "topic": 1,
+      "question": "「今晚落雨」嘅粵拼係？",
+      "options": {
+        "A": "gam maa lok jyu",
+        "B": "gam man lok jyu",
+        "C": "gam maang lok jyu",
+        "D": "gam maan lok jyu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gam1 maan5 lok6 jyu5\n重點字「晚」讀 maan5：\n• maa：係「嘛」maa3 嘅粵拼（近音字）\n• man：英文式拼法：長 a 要寫 aa（碰巧亦係「問」嘅粵拼）\n• maang：n/ng 尾不分：n 尾讀成 ng 尾（碰巧亦係「猛」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 81,
+      "topic": 1,
+      "question": "邊個字係 k 尾？",
+      "options": {
+        "A": "拆",
+        "B": "壓",
+        "C": "月",
+        "D": "抹"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：拆（caak3，k 尾）\n• 壓 aat3：t 尾\n• 月 jyut6：t 尾\n• 抹 maat3：t 尾",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 82,
+      "topic": 1,
+      "question": "邊個字係 t 尾？",
+      "options": {
+        "A": "得",
+        "B": "錄",
+        "C": "木",
+        "D": "抹"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：抹（maat3，t 尾）\n• 得 dak1：k 尾\n• 錄 luk6：k 尾\n• 木 muk6：k 尾",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 83,
+      "topic": 1,
+      "question": "邊個字係 ng 尾？",
+      "options": {
+        "A": "勁",
+        "B": "圈",
+        "C": "還",
+        "D": "讚"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：勁（ging6，ng 尾）\n• 圈 hyun1：n 尾\n• 還 waan4：n 尾\n• 讚 zaan3：n 尾",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 84,
+      "topic": 1,
+      "question": "邊個字係 n 尾？",
+      "options": {
+        "A": "種",
+        "B": "叮",
+        "C": "糖",
+        "D": "串"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-ng尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：串（cyun3，n 尾）\n• 種 zung2：ng 尾\n• 叮 ding1：ng 尾\n• 糖 tong4：ng 尾",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 85,
+      "topic": 1,
+      "question": "邊個字係 n 聲母（n 頭）？",
+      "options": {
+        "A": "綠",
+        "B": "嘞",
+        "C": "年",
+        "D": "囉"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：年（nin4，n 頭）\n• 綠 luk6：l 頭\n• 嘞 la3：l 頭\n• 囉 lo1：l 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 86,
+      "topic": 1,
+      "question": "邊個字係 l 聲母（l 頭）？",
+      "options": {
+        "A": "路",
+        "B": "嬲",
+        "C": "男",
+        "D": "難"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：路（lou6，l 頭）\n• 嬲 nau1：n 頭\n• 男 naam4：n 頭\n• 難 naan4：n 頭",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 87,
+      "topic": 1,
+      "question": "邊個字有 ng 聲母？",
+      "options": {
+        "A": "屋",
+        "B": "壓",
+        "C": "握",
+        "D": "銀"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：銀（ngan4，有 ng 頭）\n• 屋 uk1：冇聲母\n• 壓 aat3：冇聲母\n• 握 aak1：冇聲母",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 88,
+      "topic": 1,
+      "question": "邊個字冇 ng 聲母（直接母音開頭）？",
+      "options": {
+        "A": "牛",
+        "B": "我",
+        "C": "外",
+        "D": "壓"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：壓（aat3，冇聲母）\n• 牛 ngau4：有 ng 頭\n• 我 ngo5：有 ng 頭\n• 外 ngoi6：有 ng 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 89,
+      "topic": 1,
+      "question": "邊個字係長 aa？",
+      "options": {
+        "A": "室",
+        "B": "裙",
+        "C": "解",
+        "D": "救"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：解（gaai2，長 aa）\n• 室 sat1：短 a\n• 裙 kwan4：短 a\n• 救 gau3：短 a",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 90,
+      "topic": 1,
+      "question": "邊個字係短 a？",
+      "options": {
+        "A": "答",
+        "B": "刷",
+        "C": "林",
+        "D": "闆"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：林（lam4，短 a）\n• 答 daap3：長 aa\n• 刷 caat3：長 aa\n• 闆 baan2：長 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 91,
+      "topic": 1,
+      "question": "邊個字嘅粵拼有 oe？",
+      "options": {
+        "A": "去",
+        "B": "場",
+        "C": "嘴",
+        "D": "誰"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：場（coeng4，oe 韻）\n• 去 heoi3：eo 韻\n• 嘴 zeoi2：eo 韻\n• 誰 seoi4：eo 韻",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 92,
+      "topic": 1,
+      "question": "邊個字嘅粵拼有 eo？",
+      "options": {
+        "A": "向",
+        "B": "娘",
+        "C": "堆",
+        "D": "上"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：堆（deoi1，eo 韻）\n• 向 hoeng3：oe 韻\n• 娘 noeng4：oe 韻\n• 上 soeng5：oe 韻",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 93,
+      "topic": 1,
+      "question": "邊個字韻母係 ou？",
+      "options": {
+        "A": "做",
+        "B": "初",
+        "C": "科",
+        "D": "魔"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：做（zou6，ou 韻）\n• 初 co1：o 韻\n• 科 fo1：o 韻\n• 魔 mo1：o 韻",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 94,
+      "topic": 1,
+      "question": "邊個字韻母係 o（唔係 ou）？",
+      "options": {
+        "A": "號",
+        "B": "我",
+        "C": "鋪",
+        "D": "肚"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：我（ngo5，o 韻）\n• 號 hou6：ou 韻\n• 鋪 pou1：ou 韻\n• 肚 tou5：ou 韻",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 95,
+      "topic": 1,
+      "question": "邊個字粵拼係 j 開頭（英文 y 音）？",
+      "options": {
+        "A": "裝",
+        "B": "若",
+        "C": "咋",
+        "D": "斬"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：若（joek6，j 頭）\n• 裝 zong1：z 頭\n• 咋 zaa3：z 頭\n• 斬 zaam2：z 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 96,
+      "topic": 1,
+      "question": "邊個字粵拼係 z 開頭？",
+      "options": {
+        "A": "耳",
+        "B": "養",
+        "C": "右",
+        "D": "洲"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：洲（zau1，z 頭）\n• 耳 ji5：j 頭\n• 養 joeng5：j 頭\n• 右 jau6：j 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 97,
+      "topic": 1,
+      "question": "邊個字粵拼係 c 開頭？",
+      "options": {
+        "A": "裝",
+        "B": "招",
+        "C": "初",
+        "D": "整"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：初（co1，c 頭）\n• 裝 zong1：z 頭\n• 招 ziu1：z 頭\n• 整 zing2：z 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 98,
+      "topic": 1,
+      "question": "邊個字粵拼係 z 開頭（唔係 c）？",
+      "options": {
+        "A": "趁",
+        "B": "座",
+        "C": "牆",
+        "D": "衝"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：座（zo6，z 頭）\n• 趁 can3：c 頭\n• 牆 coeng4：c 頭\n• 衝 cung1：c 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 99,
+      "topic": 1,
+      "question": "邊個字係 k 尾？",
+      "options": {
+        "A": "甩",
+        "B": "出",
+        "C": "約",
+        "D": "跌"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：約（joek3，k 尾）\n• 甩 lat1：t 尾\n• 出 ceot1：t 尾\n• 跌 dit3：t 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 100,
+      "topic": 1,
+      "question": "邊個字係 t 尾？",
+      "options": {
+        "A": "即",
+        "B": "出",
+        "C": "噗",
+        "D": "弱"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：出（ceot1，t 尾）\n• 即 zik1：k 尾\n• 噗 pok3：k 尾\n• 弱 joek6：k 尾",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 101,
+      "topic": 2,
+      "question": "「好」（好食）嘅粵拼係？",
+      "options": {
+        "A": "hou",
+        "B": "hau",
+        "C": "fou",
+        "D": "ho"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hou（好 hou2）\n• hau：係「後」hau6 嘅粵拼（ou 同 au 混淆）\n• fou：近音混淆：h 同 f 混淆\n• ho：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「何」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 102,
+      "topic": 2,
+      "question": "「講」（講嘢）嘅粵拼係？",
+      "options": {
+        "A": "gung",
+        "B": "kong",
+        "C": "gon",
+        "D": "gong"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gong（講 gong2）\n• gung：係「工」gung1 嘅粵拼（o 同 u 混淆）\n• kong：英文式拼法：粵拼 g 係唔送氣音，唔好寫成 k\n• gon：懶音：ng 尾讀成 n 尾（碰巧亦係「趕」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 103,
+      "topic": 2,
+      "question": "「刷」（牙刷）嘅粵拼係？",
+      "options": {
+        "A": "caat",
+        "B": "caak",
+        "C": "chat",
+        "D": "caap"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：caat（刷 caat2）\n• caak：t/k 尾不分：t 尾讀成 k 尾（碰巧亦係「拆」嘅粵拼）\n• chat：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；長 a 要寫 aa\n• caap：係「插」caap3 嘅粵拼（t 尾同 p 尾混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 104,
+      "topic": 2,
+      "question": "「男」（男人）嘅粵拼係？",
+      "options": {
+        "A": "laam",
+        "B": "naa",
+        "C": "naam",
+        "D": "nam"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：naam（男 naam4）\n• laam：懶音：n 頭讀成 l 頭（碰巧亦係「攬」嘅粵拼）\n• naa：係「拿」naa4 嘅粵拼（近音字）\n• nam：英文式拼法：長 a 要寫 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 105,
+      "topic": 2,
+      "question": "「啞」（扮啞）嘅粵拼係？",
+      "options": {
+        "A": "ngaa",
+        "B": "o",
+        "C": "aa",
+        "D": "ah"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：aa（啞 aa2）\n• ngaa：ng 頭不分：多咗 ng 頭（碰巧亦係「牙」嘅粵拼）\n• o：係「屙」o1 嘅粵拼（aa 同 o 混淆）\n• ah：英文式拼法：長 a 要寫 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 106,
+      "topic": 2,
+      "question": "「油」（加油）嘅粵拼係？",
+      "options": {
+        "A": "yau",
+        "B": "yao",
+        "C": "zau",
+        "D": "jau"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jau（油 jau2）\n• yau：英文式拼法：粵拼用 j 代表英文 y 音\n• yao：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 au/aau 唔寫 ow/ao\n• zau：係「就」zau6 嘅粵拼（j 同 z 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 107,
+      "topic": 2,
+      "question": "「錢」（有錢）嘅粵拼係？",
+      "options": {
+        "A": "cing",
+        "B": "chin",
+        "C": "sin",
+        "D": "cin"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：cin（錢 cin2）\n• cing：n/ng 尾不分：n 尾讀成 ng 尾（碰巧亦係「晴」嘅粵拼）\n• chin：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• sin：係「先」sin1 嘅粵拼（c 同 s 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 108,
+      "topic": 2,
+      "question": "「信」（寫信）嘅粵拼係？",
+      "options": {
+        "A": "shun",
+        "B": "seon",
+        "C": "syun",
+        "D": "sun"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：seon（信 seon3）\n• shun：英文式拼法：粵拼冇 sh，寫 s；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• syun：係「算」syun3 嘅粵拼（eon 同 yun 混淆）\n• sun：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 109,
+      "topic": 2,
+      "question": "「蚊」（蚊仔）嘅粵拼係？",
+      "options": {
+        "A": "maan",
+        "B": "mun",
+        "C": "mang",
+        "D": "man"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：man（蚊 man1）\n• maan：係「晚」maan5 嘅粵拼（短 a 讀成長 aa）\n• mun：英文式拼法：短 a 寫 a，唔係英文 u（碰巧亦係「門」嘅粵拼）\n• mang：n/ng 尾不分：n 尾讀成 ng 尾（碰巧亦係「萌」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 110,
+      "topic": 2,
+      "question": "「錯」（做錯）嘅粵拼係？",
+      "options": {
+        "A": "choh",
+        "B": "zo",
+        "C": "co",
+        "D": "chor"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：co（錯 co3）\n• choh：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 o 韻唔使加 r/h\n• zo：係「咗」zo2 嘅粵拼（c 同 z 混淆）\n• chor：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 o 韻唔使加 r/h",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 111,
+      "topic": 2,
+      "question": "「等」（等陣）嘅粵拼係？",
+      "options": {
+        "A": "dang",
+        "B": "dong",
+        "C": "dung",
+        "D": "dan"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：dang（等 dang2）\n• dong：係「噹」dong1 嘅粵拼（a 同 o 混淆）\n• dung：英文式拼法：短 a 寫 a，唔係英文 u（碰巧亦係「凍」嘅粵拼）\n• dan：懶音：ng 尾讀成 n 尾",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 112,
+      "topic": 2,
+      "question": "「食」（食飯）嘅粵拼係？",
+      "options": {
+        "A": "sick",
+        "B": "sit",
+        "C": "sic",
+        "D": "sik"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：sik（食 sik6）\n• sick：英文式拼法：k 尾就寫 k\n• sit：係「舌」sit3 嘅粵拼（k 尾同 t 尾混淆）\n• sic：英文式拼法：k 尾就寫 k",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 113,
+      "topic": 2,
+      "question": "「難」（好難）嘅粵拼係？",
+      "options": {
+        "A": "naam",
+        "B": "nan",
+        "C": "laan",
+        "D": "naan"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：naan（難 naan4）\n• naam：係「男」naam4 嘅粵拼（n 尾同 m 尾混淆）\n• nan：英文式拼法：長 a 要寫 aa\n• laan：懶音：n 頭讀成 l 頭（碰巧亦係「爛」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 114,
+      "topic": 2,
+      "question": "「吳」（姓吳）嘅粵拼係？",
+      "options": {
+        "A": "mm",
+        "B": "ng",
+        "C": "m",
+        "D": "um"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ng（吳 ng4）\n• mm：英文式拼法：「五」「吳」嘅粵拼係 ng\n• m：係「唔」m4 嘅粵拼（ng 同 m 混淆）\n• um：英文式拼法：「五」「吳」嘅粵拼係 ng",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 115,
+      "topic": 2,
+      "question": "「羊」（羊肉）嘅粵拼係？",
+      "options": {
+        "A": "yeung",
+        "B": "joeng",
+        "C": "zoeng",
+        "D": "woeng"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：joeng（羊 joeng4）\n• yeung：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• zoeng：係「張」zoeng1 嘅粵拼（j 同 z 混淆）\n• woeng：近音混淆：j 同 w 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 116,
+      "topic": 2,
+      "question": "「早」（早晨）嘅粵拼係？",
+      "options": {
+        "A": "zou",
+        "B": "cho",
+        "C": "zo",
+        "D": "jo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zou（早 zou2）\n• cho：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 ou 係「好」嘅韻，唔可以只寫 o\n• zo：係「咗」zo2 嘅粵拼（ou 同 o 混淆）\n• jo：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「喲」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 117,
+      "topic": 2,
+      "question": "「想」（想食）嘅粵拼係？",
+      "options": {
+        "A": "song",
+        "B": "soeng",
+        "C": "seng",
+        "D": "sheung"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：soeng（想 soeng2）\n• song：係「爽」song2 嘅粵拼（oeng 同 ong 混淆）\n• seng：近音混淆：oeng 同 eng 混淆\n• sheung：英文式拼法：粵拼冇 sh，寫 s；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 118,
+      "topic": 2,
+      "question": "「山」（行山）嘅粵拼係？",
+      "options": {
+        "A": "san",
+        "B": "saang",
+        "C": "saan",
+        "D": "saam"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：saan（山 saan1）\n• san：英文式拼法：長 a 要寫 aa（碰巧亦係「新」嘅粵拼）\n• saang：n/ng 尾不分：n 尾讀成 ng 尾\n• saam：係「衫」saam1 嘅粵拼（n 尾同 m 尾混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 119,
+      "topic": 2,
+      "question": "「刀」（菜刀）嘅粵拼係？",
+      "options": {
+        "A": "do",
+        "B": "dou",
+        "C": "to",
+        "D": "daau"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：dou（刀 dou1）\n• do：係「多」do1 嘅粵拼（ou 同 o 混淆）\n• to：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o；粵拼 d 係唔送氣音，唔好寫成 t（碰巧亦係「拖」嘅粵拼）\n• daau：近音混淆：o 同 aa 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 120,
+      "topic": 2,
+      "question": "「冷」（好冷）嘅粵拼係？",
+      "options": {
+        "A": "laang",
+        "B": "lang",
+        "C": "long",
+        "D": "laan"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：laang（冷 laang5）\n• lang：英文式拼法：長 a 要寫 aa\n• long：係「朗」long5 嘅粵拼（aa 同 o 混淆）\n• laan：懶音：ng 尾讀成 n 尾（碰巧亦係「爛」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 121,
+      "topic": 2,
+      "question": "「脫」（脫衫）嘅粵拼係？",
+      "options": {
+        "A": "teot",
+        "B": "tit",
+        "C": "tyut",
+        "D": "tuet"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：tyut（脫 tyut3）\n• teot：近音混淆：yu 同 eo 混淆\n• tit：係「鐵」tit3 嘅粵拼（yu 同 i 混淆）\n• tuet：英文式拼法：粵拼 yu 係「魚」嘅韻母",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 122,
+      "topic": 2,
+      "question": "「嬲」（好嬲）嘅粵拼係？",
+      "options": {
+        "A": "now",
+        "B": "naau",
+        "C": "nau",
+        "D": "lau"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nau（嬲 nau1）\n• now：英文式拼法：粵拼 au/aau 唔寫 ow/ao\n• naau：係「鬧」naau6 嘅粵拼（短 a 讀成長 aa）\n• lau：懶音：n 頭讀成 l 頭（碰巧亦係「流」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 123,
+      "topic": 2,
+      "question": "「愛」（可愛）嘅粵拼係？",
+      "options": {
+        "A": "ai",
+        "B": "ngoi",
+        "C": "oi",
+        "D": "oy"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：oi（愛 oi3）\n• ai：係「矮」ai2 嘅粵拼（o 同 a 混淆）\n• ngoi：ng 頭不分：多咗 ng 頭（碰巧亦係「外」嘅粵拼）\n• oy：英文式拼法：粵拼 oi 唔寫 oy",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 124,
+      "topic": 2,
+      "question": "「贏」（贏錢）嘅粵拼係？",
+      "options": {
+        "A": "zeng",
+        "B": "beng",
+        "C": "yeng",
+        "D": "jeng"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jeng（贏 jeng4）\n• zeng：近音混淆：j 同 z 混淆\n• beng：係「餅」beng2 嘅粵拼（近音字）\n• yeng：英文式拼法：粵拼用 j 代表英文 y 音",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 125,
+      "topic": 2,
+      "question": "「針」（打針）嘅粵拼係？",
+      "options": {
+        "A": "zam",
+        "B": "cam",
+        "C": "sam",
+        "D": "jum"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zam（針 zam1）\n• cam：近音混淆：z 同 c 混淆（碰巧亦係「尋」嘅粵拼）\n• sam：係「心」sam1 嘅粵拼（z 同 s 混淆）\n• jum：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；短 a 寫 a，唔係英文 u",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 126,
+      "topic": 2,
+      "question": "「春」（春天）嘅粵拼係？",
+      "options": {
+        "A": "chern",
+        "B": "zeon",
+        "C": "ceon",
+        "D": "chun"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ceon（春 ceon1）\n• chern：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• zeon：係「俊」zeon3 嘅粵拼（c 同 z 混淆）\n• chun：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 127,
+      "topic": 2,
+      "question": "「買」（買嘢）嘅粵拼係？",
+      "options": {
+        "A": "moi",
+        "B": "mai",
+        "C": "maa",
+        "D": "maai"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：maai（買 maai5）\n• moi：近音混淆：aa 同 o 混淆\n• mai：英文式拼法：長 a 要寫 aa（碰巧亦係「米」嘅粵拼）\n• maa：係「嘛」maa3 嘅粵拼（近音字）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 128,
+      "topic": 2,
+      "question": "「路」（走路）嘅粵拼係？",
+      "options": {
+        "A": "loh",
+        "B": "nou",
+        "C": "lou",
+        "D": "lo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：lou（路 lou6）\n• loh：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o\n• nou：係「腦」nou5 嘅粵拼（l 頭同 n 頭混淆）\n• lo：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「囉」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 129,
+      "topic": 2,
+      "question": "「朋」（朋友）嘅粵拼係？",
+      "options": {
+        "A": "paang",
+        "B": "pung",
+        "C": "pang",
+        "D": "pan"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：pang（朋 pang4）\n• paang：係「棒」paang5 嘅粵拼（短 a 讀成長 aa）\n• pung：英文式拼法：短 a 寫 a，唔係英文 u（碰巧亦係「碰」嘅粵拼）\n• pan：懶音：ng 尾讀成 n 尾（碰巧亦係「貧」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 130,
+      "topic": 2,
+      "question": "「藥」（食藥）嘅粵拼係？",
+      "options": {
+        "A": "woek",
+        "B": "yeuk",
+        "C": "joek",
+        "D": "zoek"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：joek（藥 joek6）\n• woek：近音混淆：j 同 w 混淆\n• yeuk：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• zoek：係「雀」zoek3 嘅粵拼（j 同 z 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 131,
+      "topic": 2,
+      "question": "「奶」（牛奶）嘅粵拼係？",
+      "options": {
+        "A": "naai",
+        "B": "laai",
+        "C": "noi",
+        "D": "nai"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：naai（奶 naai5）\n• laai：懶音：n 頭讀成 l 頭（碰巧亦係「賴」嘅粵拼）\n• noi：係「耐」noi6 嘅粵拼（aa 同 o 混淆）\n• nai：英文式拼法：長 a 要寫 aa（碰巧亦係「泥」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 132,
+      "topic": 2,
+      "question": "「安」（平安）嘅粵拼係？",
+      "options": {
+        "A": "aan",
+        "B": "on",
+        "C": "orn",
+        "D": "ohn"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：on（安 on1）\n• aan：係「晏」aan3 嘅粵拼（o 同 aa 混淆）\n• orn：英文式拼法：香港常見嘅英文拼法，唔係粵拼\n• ohn：英文式拼法：香港常見嘅英文拼法，唔係粵拼",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 133,
+      "topic": 2,
+      "question": "「耳」（耳仔）嘅粵拼係？",
+      "options": {
+        "A": "zi",
+        "B": "yi",
+        "C": "wi",
+        "D": "ji"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ji（耳 ji5）\n• zi：係「知」zi1 嘅粵拼（j 同 z 混淆）\n• yi：英文式拼法：粵拼用 j 代表英文 y 音\n• wi：近音混淆：j 同 w 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 134,
+      "topic": 2,
+      "question": "「住」（住喺）嘅粵拼係？",
+      "options": {
+        "A": "zyu",
+        "B": "jyu",
+        "C": "ju",
+        "D": "chu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zyu（住 zyu6）\n• jyu：係「魚」jyu2 嘅粵拼（z 同 j 混淆）\n• ju：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 yu 係「魚」嘅韻母\n• chu：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 yu 係「魚」嘅韻母",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 135,
+      "topic": 2,
+      "question": "「腳」（隻腳）嘅粵拼係？",
+      "options": {
+        "A": "geuk",
+        "B": "joek",
+        "C": "koek",
+        "D": "goek"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：goek（腳 goek3）\n• geuk：英文式拼法：粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• joek：係「若」joek6 嘅粵拼（近音字）\n• koek：近音混淆：送氣唔送氣混淆（g/k）（碰巧亦係「卻」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 136,
+      "topic": 2,
+      "question": "「猛」（好猛）嘅粵拼係？",
+      "options": {
+        "A": "mong",
+        "B": "maan",
+        "C": "maang",
+        "D": "mang"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：maang（猛 maang5）\n• mong：係「望」mong6 嘅粵拼（aa 同 o 混淆）\n• maan：懶音：ng 尾讀成 n 尾（碰巧亦係「晚」嘅粵拼）\n• mang：英文式拼法：長 a 要寫 aa（碰巧亦係「萌」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 137,
+      "topic": 2,
+      "question": "「波」（踢波）嘅粵拼係？",
+      "options": {
+        "A": "bou",
+        "B": "bo",
+        "C": "bor",
+        "D": "bu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：bo（波 bo1）\n• bou：係「部」bou6 嘅粵拼（o 同 ou 混淆）\n• bor：英文式拼法：粵拼 o 韻唔使加 r/h\n• bu：近音混淆：o 同 u 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 138,
+      "topic": 2,
+      "question": "「床」（張床）嘅粵拼係？",
+      "options": {
+        "A": "cong",
+        "B": "con",
+        "C": "chong",
+        "D": "zong"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：cong（床 cong4）\n• con：懶音：ng 尾讀成 n 尾\n• chong：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• zong：係「裝」zong1 嘅粵拼（c 同 z 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 139,
+      "topic": 2,
+      "question": "「得」（唔得）嘅粵拼係？",
+      "options": {
+        "A": "dat",
+        "B": "dak",
+        "C": "dai",
+        "D": "duck"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：dak（得 dak1）\n• dat：懶音：k 尾讀成 t 尾\n• dai：係「低」dai1 嘅粵拼（近音字）\n• duck：英文式拼法：短 a 寫 a，唔係英文 u；k 尾就寫 k",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 140,
+      "topic": 2,
+      "question": "「你」（你好）嘅粵拼係？",
+      "options": {
+        "A": "bei",
+        "B": "lei",
+        "C": "nay",
+        "D": "nei"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nei（你 nei5）\n• bei：係「畀」bei2 嘅粵拼（近音字）\n• lei：懶音：n 頭讀成 l 頭（碰巧亦係「離」嘅粵拼）\n• nay：英文式拼法：粵拼 ei 唔寫 ay",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 141,
+      "topic": 2,
+      "question": "粵拼「nam」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "泥",
+        "B": "林",
+        "C": "諗",
+        "D": "男"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：諗（nam2，例：諗嘢）\n• 泥 nai4：近音字\n• 林 lam4：懶音：n 頭讀成 l 頭\n• 男 naam4：短 a 讀成長 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 142,
+      "topic": 2,
+      "question": "粵拼「m」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "唔",
+        "B": "屙",
+        "C": "五",
+        "D": "暗"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：唔（m4，例：唔好）\n• 屙 o1：近音字\n• 五 ng5：以為 m 係英文 m 讀法\n• 暗 am3：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 143,
+      "topic": 2,
+      "question": "粵拼「je」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "扯",
+        "B": "二",
+        "C": "夜",
+        "D": "姐"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：夜（je6，例：夜晚）\n• 扯 ce2：近音字\n• 二 ji6：e 同 i 混淆\n• 姐 ze2：以為粵拼 j 係英文 j（其實係 y 音）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 144,
+      "topic": 2,
+      "question": "粵拼「ce」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "寫",
+        "B": "次",
+        "C": "車",
+        "D": "姐"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：車（ce1，例：搭車）\n• 寫 se2：c 同 s 混淆\n• 次 ci3：e 同 i 混淆\n• 姐 ze2：c 同 z 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 145,
+      "topic": 2,
+      "question": "粵拼「seoi」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "水",
+        "B": "腮",
+        "C": "術",
+        "D": "信"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：水（seoi2，例：飲水）\n• 腮 soi1：eoi 同 oi 混淆\n• 術 seot6：近音字\n• 信 seon3：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 146,
+      "topic": 2,
+      "question": "粵拼「gam」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "減",
+        "B": "擒",
+        "C": "雞",
+        "D": "金"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：金（gam1，例：黃金）\n• 減 gaam2：短 a 讀成長 aa\n• 擒 kam4：送氣唔送氣混淆（g/k）\n• 雞 gai1：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 147,
+      "topic": 2,
+      "question": "粵拼「mou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "冇",
+        "B": "魔",
+        "C": "某",
+        "D": "貓"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：冇（mou5，例：冇嘢）\n• 魔 mo1：ou 同 o 混淆\n• 某 mau5：以為 ou 係英文 out 嘅 ou\n• 貓 maau1：o 同 aa 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 148,
+      "topic": 2,
+      "question": "粵拼「saang」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "爽",
+        "B": "衫",
+        "C": "生",
+        "D": "閂"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：生（saang1，例：生日）\n• 爽 song2：aa 同 o 混淆\n• 衫 saam1：ng 尾同 m 尾混淆\n• 閂 saan1：懶音：ng 尾讀成 n 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 149,
+      "topic": 2,
+      "question": "粵拼「syut」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "舌",
+        "B": "雪",
+        "C": "術",
+        "D": "書"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：雪（syut3，例：落雪）\n• 舌 sit3：yu 同 i 混淆\n• 術 seot6：yu 同 eo 混淆\n• 書 syu1：近音字",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 150,
+      "topic": 2,
+      "question": "粵拼「loi」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "黎",
+        "B": "來",
+        "C": "賴",
+        "D": "耐"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：來（loi4，例：過來）\n• 黎 lai4：o 同 a 混淆\n• 賴 laai6：o 同 aa 混淆\n• 耐 noi6：n/l 不分：l 頭讀成 n 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 151,
+      "topic": 2,
+      "question": "粵拼「ngaan」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "晏",
+        "B": "眼",
+        "C": "硬",
+        "D": "銀"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：眼（ngaan5，例：眼鏡）\n• 晏 aan3：懶音：漏咗 ng 頭\n• 硬 ngaang6：n 尾同 ng 尾混淆\n• 銀 ngan4：以為 aa 同 a 一樣",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 152,
+      "topic": 2,
+      "question": "粵拼「jung」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "凍",
+        "B": "用",
+        "C": "仲",
+        "D": "沖"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：用（jung6，例：有用）\n• 凍 dung3：近音字\n• 仲 zung6：以為粵拼 j 係英文 j（其實係 y 音）\n• 沖 cung1：近音字",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 153,
+      "topic": 2,
+      "question": "粵拼「coi」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "再",
+        "B": "菜",
+        "C": "腮",
+        "D": "猜"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：菜（coi3，例：青菜）\n• 再 zoi3：c 同 z 混淆\n• 腮 soi1：c 同 s 混淆\n• 猜 caai1：o 同 aa 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 154,
+      "topic": 2,
+      "question": "粵拼「heoi」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "去",
+        "B": "對",
+        "C": "吹",
+        "D": "開"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：去（heoi3，例：出去）\n• 對 deoi3：近音字\n• 吹 ceoi1：近音字\n• 開 hoi1：eoi 同 oi 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 155,
+      "topic": 2,
+      "question": "粵拼「baat」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "白",
+        "B": "筆",
+        "C": "把",
+        "D": "八"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：八（baat3，例：八個）\n• 白 baak6：t/k 尾不分：t 尾讀成 k 尾\n• 筆 bat1：以為 aa 同 a 一樣\n• 把 baa2：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 156,
+      "topic": 2,
+      "question": "粵拼「gou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "搞",
+        "B": "高",
+        "C": "個",
+        "D": "狗"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：高（gou1，例：好高）\n• 搞 gaau2：o 同 aa 混淆\n• 個 go3：ou 同 o 混淆\n• 狗 gau2：以為 ou 係英文 out 嘅 ou",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 157,
+      "topic": 2,
+      "question": "粵拼「fung」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "風",
+        "B": "款",
+        "C": "沖",
+        "D": "放"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：風（fung1，例：打風）\n• 款 fun2：懶音：ng 尾讀成 n 尾\n• 沖 cung1：近音字\n• 放 fong3：u 同 o 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 158,
+      "topic": 2,
+      "question": "粵拼「haak」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "鞋",
+        "B": "下",
+        "C": "學",
+        "D": "客"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：客（haak3，例：人客）\n• 鞋 haai4：近音字\n• 下 haa6：近音字\n• 學 hok6：aa 同 o 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 159,
+      "topic": 2,
+      "question": "粵拼「nyun」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "暖",
+        "B": "亂",
+        "C": "穿",
+        "D": "年"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：暖（nyun5，例：好暖）\n• 亂 lyun6：懶音：n 頭讀成 l 頭\n• 穿 cyun1：近音字\n• 年 nin4：yu 同 i 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 160,
+      "topic": 2,
+      "question": "粵拼「ngau」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "歐",
+        "B": "扭",
+        "C": "牛",
+        "D": "淆"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：牛（ngau4，例：牛奶）\n• 歐 au1：懶音：漏咗 ng 頭\n• 扭 nau2：ng 頭同 n 頭混淆\n• 淆 ngaau4：短 a 讀成長 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 161,
+      "topic": 2,
+      "question": "粵拼「jan」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "陣",
+        "B": "雲",
+        "C": "人",
+        "D": "飲"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：人（jan2，例：男人）\n• 陣 zan6：以為粵拼 j 係英文 j（其實係 y 音）\n• 雲 wan4：j 同 w 混淆\n• 飲 jam2：n 尾同 m 尾混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 162,
+      "topic": 2,
+      "question": "粵拼「cat」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "實",
+        "B": "疾",
+        "C": "刷",
+        "D": "七"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：七（cat1，例：七個）\n• 實 sat6：c 同 s 混淆\n• 疾 zat6：c 同 z 混淆\n• 刷 caat3：短 a 讀成長 aa",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 163,
+      "topic": 2,
+      "question": "粵拼「hoeng」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "薑",
+        "B": "項",
+        "C": "唱",
+        "D": "香"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：香（hoeng1，例：香港）\n• 薑 goeng1：近音字\n• 項 hong6：oeng 同 ong 混淆\n• 唱 coeng3：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 164,
+      "topic": 2,
+      "question": "粵拼「aap」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "壓",
+        "B": "丫",
+        "C": "鴨",
+        "D": "晏"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：鴨（aap3，例：燒鴨）\n• 壓 aat3：近音字\n• 丫 aa1：近音字\n• 晏 aan3：近音字",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 165,
+      "topic": 2,
+      "question": "粵拼「bou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "波",
+        "B": "包",
+        "C": "舖",
+        "D": "步"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：步（bou6，例：行一步）\n• 波 bo1：ou 同 o 混淆\n• 包 baau1：o 同 aa 混淆\n• 舖 pou3：送氣唔送氣混淆（b/p）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 166,
+      "topic": 2,
+      "question": "「我想飲水」嘅粵拼係？",
+      "options": {
+        "A": "ngo soeng jam seoi",
+        "B": "ngo soeng jam seon",
+        "C": "ngo soeng jam sui",
+        "D": "ngo soeng jam soi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 soeng2 jam2 seoi2\n重點字「水」讀 seoi2：\n• seon：係「信」seon3 嘅粵拼（近音字）\n• sui：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• soi：近音混淆：eoi 同 oi 混淆（碰巧亦係「腮」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 167,
+      "topic": 2,
+      "question": "「我學緊中文」嘅粵拼係？",
+      "options": {
+        "A": "ngo hok gan zung man",
+        "B": "ngo hock gan zung man",
+        "C": "ngo huk gan zung man",
+        "D": "ngo hot gan zung man"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 hok6 gan2 zung1 man2\n重點字「學」讀 hok6：\n• hock：英文式拼法：k 尾就寫 k\n• huk：係「哭」huk1 嘅粵拼（o 同 u 混淆）\n• hot：懶音：k 尾讀成 t 尾（碰巧亦係「喝」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 168,
+      "topic": 2,
+      "question": "「兩個人」嘅粵拼係？",
+      "options": {
+        "A": "long go jan",
+        "B": "noeng go jan",
+        "C": "leung go jan",
+        "D": "loeng go jan"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：loeng5 go3 jan4\n重點字「兩」讀 loeng5：\n• long：係「朗」long5 嘅粵拼（oeng 同 ong 混淆）\n• noeng：n/l 不分：l 頭讀成 n 頭（碰巧亦係「娘」嘅粵拼）\n• leung：英文式拼法：粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 169,
+      "topic": 2,
+      "question": "「我哋去飲茶」嘅粵拼係？",
+      "options": {
+        "A": "ngo dei heoi jam ca",
+        "B": "ngo dei heoi jam caa",
+        "C": "ngo dei heoi jam cha",
+        "D": "ngo dei heoi jam co"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 dei6 heoi3 jam2 caa4\n重點字「茶」讀 caa4：\n• ca：近音混淆：長 aa 讀成短 a\n• cha：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；長 a 要寫 aa\n• co：係「初」co1 嘅粵拼（aa 同 o 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 170,
+      "topic": 2,
+      "question": "「隻狗好得意」嘅粵拼係？",
+      "options": {
+        "A": "zek gau hou dak ji",
+        "B": "zek kau hou dak ji",
+        "C": "zek gaau hou dak ji",
+        "D": "zek gow hou dak ji"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "a-aa",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zek3 gau2 hou2 dak1 ji3\n重點字「狗」讀 gau2：\n• kau：係「扣」kau3 嘅粵拼（送氣唔送氣混淆（g/k））\n• gaau：近音混淆：短 a 讀成長 aa（碰巧亦係「搞」嘅粵拼）\n• gow：英文式拼法：粵拼 au/aau 唔寫 ow/ao",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 171,
+      "topic": 2,
+      "question": "「佢住喺香港」嘅粵拼係？",
+      "options": {
+        "A": "keoi zyu hai hoeng gong",
+        "B": "keoi zyu hai hong gong",
+        "C": "keoi zyu hai heng gong",
+        "D": "keoi zyu hai heung gong"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 zyu6 hai2 hoeng1 gong2\n重點字「香」讀 hoeng1：\n• hong：係「項」hong6 嘅粵拼（oeng 同 ong 混淆）\n• heng：近音混淆：oeng 同 eng 混淆\n• heung：英文式拼法：粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 172,
+      "topic": 2,
+      "question": "「我老公」嘅粵拼係？",
+      "options": {
+        "A": "ngo lou gung",
+        "B": "ngo nou gung",
+        "C": "ngo lo gung",
+        "D": "ngo lau gung"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 lou5 gung1\n重點字「老」讀 lou5：\n• nou：n/l 不分：l 頭讀成 n 頭（碰巧亦係「腦」嘅粵拼）\n• lo：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「囉」嘅粵拼）\n• lau：係「流」lau4 嘅粵拼（ou 同 au 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 173,
+      "topic": 2,
+      "question": "「佢係我朋友」嘅粵拼係？",
+      "options": {
+        "A": "keoi hai ngo pung jau",
+        "B": "keoi hai ngo pang jau",
+        "C": "keoi hai ngo paang jau",
+        "D": "keoi hai ngo pan jau"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 hai6 ngo5 pang4 jau5\n重點字「朋」讀 pang4：\n• pung：英文式拼法：短 a 寫 a，唔係英文 u（碰巧亦係「碰」嘅粵拼）\n• paang：係「棒」paang5 嘅粵拼（短 a 讀成長 aa）\n• pan：懶音：ng 尾讀成 n 尾（碰巧亦係「貧」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 174,
+      "topic": 2,
+      "question": "「牙刷」嘅粵拼係？",
+      "options": {
+        "A": "naa caat",
+        "B": "aa caat",
+        "C": "ngaa caat",
+        "D": "nga caat"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngaa4 caat2\n重點字「牙」讀 ngaa4：\n• naa：係「拿」naa4 嘅粵拼（ng 頭同 n 頭混淆）\n• aa：懶音：漏咗 ng 頭（碰巧亦係「丫」嘅粵拼）\n• nga：英文式拼法：長 a 要寫 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 175,
+      "topic": 2,
+      "question": "「一齊行山」嘅粵拼係？",
+      "options": {
+        "A": "jat cai haang saam",
+        "B": "jat cai haang san",
+        "C": "jat cai haang saang",
+        "D": "jat cai haang saan"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jat1 cai4 haang4 saan1\n重點字「山」讀 saan1：\n• saam：係「衫」saam1 嘅粵拼（n 尾同 m 尾混淆）\n• san：英文式拼法：長 a 要寫 aa（碰巧亦係「新」嘅粵拼）\n• saang：n/ng 尾不分：n 尾讀成 ng 尾",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 176,
+      "topic": 2,
+      "question": "「我唔識講」嘅粵拼係？",
+      "options": {
+        "A": "ngo o sik gong",
+        "B": "ngo m sik gong",
+        "C": "ngo um sik gong",
+        "D": "ngo am sik gong"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 m4 sik1 gong2\n重點字「唔」讀 m4：\n• o：近音字（碰巧亦係「屙」嘅粵拼）\n• um：英文式拼法：「唔」嘅粵拼就係 m\n• am：係「暗」am3 嘅粵拼（近音字）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 177,
+      "topic": 2,
+      "question": "「搭車返屋企」嘅粵拼係？",
+      "options": {
+        "A": "daap ze faan uk kei",
+        "B": "daap ce faan uk kei",
+        "C": "daap che faan uk kei",
+        "D": "daap ci faan uk kei"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：daap3 ce1 faan1 uk1 kei2\n重點字「車」讀 ce1：\n• ze：近音混淆：c 同 z 混淆（碰巧亦係「姐」嘅粵拼）\n• che：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• ci：係「次」ci3 嘅粵拼（e 同 i 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 178,
+      "topic": 2,
+      "question": "「佢好嬲」嘅粵拼係？",
+      "options": {
+        "A": "keoi hou nau",
+        "B": "keoi hou lau",
+        "C": "keoi hou now",
+        "D": "keoi hou naau"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 hou2 nau1\n重點字「嬲」讀 nau1：\n• lau：懶音：n 頭讀成 l 頭（碰巧亦係「流」嘅粵拼）\n• now：英文式拼法：粵拼 au/aau 唔寫 ow/ao\n• naau：係「鬧」naau6 嘅粵拼（短 a 讀成長 aa）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 179,
+      "topic": 2,
+      "question": "「記得食藥」嘅粵拼係？",
+      "options": {
+        "A": "gei dak sik woek",
+        "B": "gei dak sik joek",
+        "C": "gei dak sik zoek",
+        "D": "gei dak sik yeuk"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gei3 dak1 sik6 joek6\n重點字「藥」讀 joek6：\n• woek：近音混淆：j 同 w 混淆\n• zoek：係「雀」zoek3 嘅粵拼（j 同 z 混淆）\n• yeuk：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 180,
+      "topic": 2,
+      "question": "「開冷氣」嘅粵拼係？",
+      "options": {
+        "A": "hoi lang hei",
+        "B": "hoi laang hei",
+        "C": "hoi laan hei",
+        "D": "hoi laam hei"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hoi1 laang5 hei3\n重點字「冷」讀 laang5：\n• lang：英文式拼法：長 a 要寫 aa\n• laan：懶音：ng 尾讀成 n 尾（碰巧亦係「爛」嘅粵拼）\n• laam：係「攬」laam2 嘅粵拼（ng 尾同 m 尾混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 181,
+      "topic": 2,
+      "question": "邊個字係 l 聲母（l 頭）？",
+      "options": {
+        "A": "難",
+        "B": "你",
+        "C": "那",
+        "D": "來"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：來（loi4，l 頭）\n• 難 naan4：n 頭\n• 你 nei5：n 頭\n• 那 naa5：n 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 182,
+      "topic": 2,
+      "question": "邊個字有 ng 聲母？",
+      "options": {
+        "A": "鴨",
+        "B": "屋",
+        "C": "啱",
+        "D": "丫"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：啱（ngaam1，有 ng 頭）\n• 鴨 aap3：冇聲母\n• 屋 uk1：冇聲母\n• 丫 aa1：冇聲母",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 183,
+      "topic": 2,
+      "question": "邊個字冇 ng 聲母（直接母音開頭）？",
+      "options": {
+        "A": "啱",
+        "B": "牙",
+        "C": "捱",
+        "D": "鴨"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：鴨（aap3，冇聲母）\n• 啱 ngaam1：有 ng 頭\n• 牙 ngaa4：有 ng 頭\n• 捱 ngaai4：有 ng 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 184,
+      "topic": 2,
+      "question": "邊個字係長 aa？",
+      "options": {
+        "A": "擒",
+        "B": "分",
+        "C": "心",
+        "D": "戴"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：戴（daai3，長 aa）\n• 擒 kam4：短 a\n• 分 fan1：短 a\n• 心 sam1：短 a",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 185,
+      "topic": 2,
+      "question": "邊個字係短 a？",
+      "options": {
+        "A": "抄",
+        "B": "求",
+        "C": "教",
+        "D": "找"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：求（kau4，短 a）\n• 抄 caau1：長 aa\n• 教 gaau3：長 aa\n• 找 zaau2：長 aa",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 186,
+      "topic": 2,
+      "question": "邊個字嘅粵拼有 oe？",
+      "options": {
+        "A": "去",
+        "B": "歲",
+        "C": "向",
+        "D": "最"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：向（hoeng3，oe 韻）\n• 去 heoi3：eo 韻\n• 歲 seoi3：eo 韻\n• 最 zeoi3：eo 韻",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 187,
+      "topic": 2,
+      "question": "邊個字嘅粵拼有 eo？",
+      "options": {
+        "A": "秦",
+        "B": "唱",
+        "C": "雙",
+        "D": "響"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：秦（ceon4，eo 韻）\n• 唱 coeng3：oe 韻\n• 雙 soeng1：oe 韻\n• 響 hoeng2：oe 韻",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 188,
+      "topic": 2,
+      "question": "邊個字韻母係 ou？",
+      "options": {
+        "A": "道",
+        "B": "多",
+        "C": "屙",
+        "D": "阻"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：道（dou6，ou 韻）\n• 多 do1：o 韻\n• 屙 o1：o 韻\n• 阻 zo2：o 韻",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 189,
+      "topic": 2,
+      "question": "邊個字韻母係 o（唔係 ou）？",
+      "options": {
+        "A": "多",
+        "B": "鋪",
+        "C": "毛",
+        "D": "倒"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：多（do1，o 韻）\n• 鋪 pou1：ou 韻\n• 毛 mou4：ou 韻\n• 倒 dou2：ou 韻",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 190,
+      "topic": 2,
+      "question": "邊個字粵拼係 j 開頭（英文 y 音）？",
+      "options": {
+        "A": "值",
+        "B": "弱",
+        "C": "峻",
+        "D": "止"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：弱（joek6，j 頭）\n• 值 zik6：z 頭\n• 峻 zeon3：z 頭\n• 止 zi2：z 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 191,
+      "topic": 2,
+      "question": "邊個字粵拼係 z 開頭？",
+      "options": {
+        "A": "完",
+        "B": "張",
+        "C": "樣",
+        "D": "用"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：張（zoeng1，z 頭）\n• 完 jyun4：j 頭\n• 樣 joeng6：j 頭\n• 用 jung6：j 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 192,
+      "topic": 2,
+      "question": "邊個字粵拼係 c 開頭？",
+      "options": {
+        "A": "只",
+        "B": "似",
+        "C": "咋",
+        "D": "醉"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：似（ci5，c 頭）\n• 只 zi2：z 頭\n• 咋 zaa3：z 頭\n• 醉 zeoi3：z 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 193,
+      "topic": 2,
+      "question": "邊個字粵拼係 z 開頭（唔係 c）？",
+      "options": {
+        "A": "窗",
+        "B": "借",
+        "C": "扯",
+        "D": "清"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：借（ze3，z 頭）\n• 窗 coeng1：c 頭\n• 扯 ce2：c 頭\n• 清 cing1：c 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 194,
+      "topic": 2,
+      "question": "邊個字係 k 尾？",
+      "options": {
+        "A": "物",
+        "B": "血",
+        "C": "國",
+        "D": "甩"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：國（gwok3，k 尾）\n• 物 mat6：t 尾\n• 血 hyut3：t 尾\n• 甩 lat1：t 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 195,
+      "topic": 2,
+      "question": "邊個字係 t 尾？",
+      "options": {
+        "A": "熄",
+        "B": "的",
+        "C": "值",
+        "D": "跌"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：跌（dit3，t 尾）\n• 熄 sik1：k 尾\n• 的 dik1：k 尾\n• 值 zik6：k 尾",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 196,
+      "topic": 2,
+      "question": "邊個字係 ng 尾？",
+      "options": {
+        "A": "門",
+        "B": "練",
+        "C": "翻",
+        "D": "靜"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-ng尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：靜（zing6，ng 尾）\n• 門 mun4：n 尾\n• 練 lin6：n 尾\n• 翻 faan1：n 尾",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 197,
+      "topic": 2,
+      "question": "邊個字係 n 尾？",
+      "options": {
+        "A": "胸",
+        "B": "等",
+        "C": "很",
+        "D": "爭"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：很（han2，n 尾）\n• 胸 hung1：ng 尾\n• 等 dang2：ng 尾\n• 爭 zang1：ng 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 198,
+      "topic": 2,
+      "question": "邊個字係 n 聲母（n 頭）？",
+      "options": {
+        "A": "兩",
+        "B": "佬",
+        "C": "拿",
+        "D": "拉"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：拿（naa4，n 頭）\n• 兩 loeng5：l 頭\n• 佬 lou2：l 頭\n• 拉 laai1：l 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 199,
+      "topic": 2,
+      "question": "邊個字係 l 聲母（l 頭）？",
+      "options": {
+        "A": "狼",
+        "B": "南",
+        "C": "那",
+        "D": "腦"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：狼（long4，l 頭）\n• 南 naam4：n 頭\n• 那 naa5：n 頭\n• 腦 nou5：n 頭",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 200,
+      "topic": 2,
+      "question": "邊個字有 ng 聲母？",
+      "options": {
+        "A": "鴨",
+        "B": "壓",
+        "C": "阿",
+        "D": "硬"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：硬（ngaang6，有 ng 頭）\n• 鴨 aap3：冇聲母\n• 壓 aat3：冇聲母\n• 阿 aa3：冇聲母",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 201,
+      "topic": 3,
+      "question": "「五」（五個）嘅粵拼係？",
+      "options": {
+        "A": "m",
+        "B": "ngo",
+        "C": "um",
+        "D": "ng"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ng（五 ng5）\n• m：懶音：ng 讀成 m（碰巧亦係「唔」嘅粵拼）\n• ngo：係「我」ngo5 嘅粵拼（近音字）\n• um：英文式拼法：「五」「吳」嘅粵拼係 ng",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 202,
+      "topic": 3,
+      "question": "「樣」（點樣）嘅粵拼係？",
+      "options": {
+        "A": "joeng",
+        "B": "yeung",
+        "C": "woeng",
+        "D": "zoeng"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：joeng（樣 joeng2）\n• yeung：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• woeng：近音混淆：j 同 w 混淆\n• zoeng：係「張」zoeng1 嘅粵拼（j 同 z 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 203,
+      "topic": 3,
+      "question": "「茶」（飲茶）嘅粵拼係？",
+      "options": {
+        "A": "cha",
+        "B": "caa",
+        "C": "ca",
+        "D": "zaa"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：caa（茶 caa4）\n• cha：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；長 a 要寫 aa\n• ca：近音混淆：長 aa 讀成短 a\n• zaa：係「揸」zaa1 嘅粵拼（c 同 z 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 204,
+      "topic": 3,
+      "question": "「準」（準時）嘅粵拼係？",
+      "options": {
+        "A": "jun",
+        "B": "zyun",
+        "C": "zan",
+        "D": "zeon"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zeon（準 zeon2）\n• jun：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• zyun：係「轉」zyun3 嘅粵拼（eon 同 yun 混淆）\n• zan：近音混淆：eon 同 an 混淆（碰巧亦係「陣」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 205,
+      "topic": 3,
+      "question": "「晚」（夜晚）嘅粵拼係？",
+      "options": {
+        "A": "maan",
+        "B": "maang",
+        "C": "maa",
+        "D": "man"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：maan（晚 maan5）\n• maang：n/ng 尾不分：n 尾讀成 ng 尾（碰巧亦係「猛」嘅粵拼）\n• maa：係「嘛」maa3 嘅粵拼（近音字）\n• man：英文式拼法：長 a 要寫 aa（碰巧亦係「問」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 206,
+      "topic": 3,
+      "question": "「數」（數錢）嘅粵拼係？",
+      "options": {
+        "A": "so",
+        "B": "saau",
+        "C": "sou",
+        "D": "sau"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：sou（數 sou2）\n• so：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「所」嘅粵拼）\n• saau：係「稍」saau2 嘅粵拼（o 同 aa 混淆）\n• sau：近音混淆：ou 同 au 混淆（碰巧亦係「手」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 207,
+      "topic": 3,
+      "question": "「燈」（開燈）嘅粵拼係？",
+      "options": {
+        "A": "dang",
+        "B": "dan",
+        "C": "dung",
+        "D": "dong"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：dang（燈 dang1）\n• dan：懶音：ng 尾讀成 n 尾\n• dung：英文式拼法：短 a 寫 a，唔係英文 u（碰巧亦係「凍」嘅粵拼）\n• dong：係「噹」dong1 嘅粵拼（a 同 o 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 208,
+      "topic": 3,
+      "question": "「六」（六個）嘅粵拼係？",
+      "options": {
+        "A": "lok",
+        "B": "lut",
+        "C": "look",
+        "D": "luk"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：luk（六 luk6）\n• lok：係「落」lok6 嘅粵拼（u 同 o 混淆）\n• lut：懶音：k 尾讀成 t 尾\n• look：英文式拼法：粵拼 u 唔使寫 oo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 209,
+      "topic": 3,
+      "question": "「辣」（好辣）嘅粵拼係？",
+      "options": {
+        "A": "laap",
+        "B": "lat",
+        "C": "naat",
+        "D": "laat"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：laat（辣 laat6）\n• laap：係「蠟」laap6 嘅粵拼（t 尾同 p 尾混淆）\n• lat：英文式拼法：長 a 要寫 aa\n• naat：n/l 不分：l 頭讀成 n 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 210,
+      "topic": 3,
+      "question": "「歐」（歐洲）嘅粵拼係？",
+      "options": {
+        "A": "ow",
+        "B": "ngau",
+        "C": "ou",
+        "D": "au"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：au（歐 au1）\n• ow：英文式拼法：粵拼 au/aau 唔寫 ow/ao\n• ngau：ng 頭不分：多咗 ng 頭（碰巧亦係「牛」嘅粵拼）\n• ou：係「澳」ou3 嘅粵拼（a 同 o 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 211,
+      "topic": 3,
+      "question": "「又」（又係）嘅粵拼係？",
+      "options": {
+        "A": "jau",
+        "B": "wau",
+        "C": "yau",
+        "D": "zau"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jau（又 jau6）\n• wau：近音混淆：j 同 w 混淆\n• yau：英文式拼法：粵拼用 j 代表英文 y 音\n• zau：係「就」zau6 嘅粵拼（j 同 z 混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 212,
+      "topic": 3,
+      "question": "「隻」（一隻）嘅粵拼係？",
+      "options": {
+        "A": "cek",
+        "B": "jek",
+        "C": "zek",
+        "D": "sek"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zek（隻 zek3）\n• cek：係「呎」cek3 嘅粵拼（z 同 c 混淆）\n• jek：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch\n• sek：近音混淆：z 同 s 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 213,
+      "topic": 3,
+      "question": "「出」（出去）嘅粵拼係？",
+      "options": {
+        "A": "chut",
+        "B": "cat",
+        "C": "coet",
+        "D": "ceot"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ceot（出 ceot1）\n• chut：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• cat：係「七」cat1 嘅粵拼（eot 同 at 混淆）\n• coet：近音混淆：eo 同 oe 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 214,
+      "topic": 3,
+      "question": "「心」（開心）嘅粵拼係？",
+      "options": {
+        "A": "sai",
+        "B": "sam",
+        "C": "sum",
+        "D": "saam"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：sam（心 sam1）\n• sai：係「細」sai3 嘅粵拼（近音字）\n• sum：英文式拼法：短 a 寫 a，唔係英文 u\n• saam：近音混淆：短 a 讀成長 aa（碰巧亦係「衫」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 215,
+      "topic": 3,
+      "question": "「帽」（戴帽）嘅粵拼係？",
+      "options": {
+        "A": "mou",
+        "B": "maau",
+        "C": "mo",
+        "D": "mau"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：mou（帽 mou2）\n• maau：係「貓」maau1 嘅粵拼（o 同 aa 混淆）\n• mo：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「魔」嘅粵拼）\n• mau：近音混淆：ou 同 au 混淆（碰巧亦係「某」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 216,
+      "topic": 3,
+      "question": "「星」（星期）嘅粵拼係？",
+      "options": {
+        "A": "sing",
+        "B": "shing",
+        "C": "sin",
+        "D": "sim"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：sing（星 sing1）\n• shing：英文式拼法：粵拼冇 sh，寫 s\n• sin：懶音：ng 尾讀成 n 尾（碰巧亦係「先」嘅粵拼）\n• sim：係「閃」sim2 嘅粵拼（ng 尾同 m 尾混淆）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 217,
+      "topic": 3,
+      "question": "「識」（識字）嘅粵拼係？",
+      "options": {
+        "A": "sic",
+        "B": "si",
+        "C": "sit",
+        "D": "sik"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：sik（識 sik1）\n• sic：英文式拼法：k 尾就寫 k\n• si：係「事」si6 嘅粵拼（近音字）\n• sit：懶音：k 尾讀成 t 尾（碰巧亦係「舌」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 218,
+      "topic": 3,
+      "question": "「腦」（電腦）嘅粵拼係？",
+      "options": {
+        "A": "lou",
+        "B": "nau",
+        "C": "nou",
+        "D": "no"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nou（腦 nou5）\n• lou：懶音：n 頭讀成 l 頭（碰巧亦係「老」嘅粵拼）\n• nau：係「扭」nau2 嘅粵拼（ou 同 au 混淆）\n• no：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 219,
+      "topic": 3,
+      "question": "「牙」（刷牙）嘅粵拼係？",
+      "options": {
+        "A": "ngaa",
+        "B": "naa",
+        "C": "nga",
+        "D": "aa"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngaa（牙 ngaa4）\n• naa：係「拿」naa4 嘅粵拼（ng 頭同 n 頭混淆）\n• nga：英文式拼法：長 a 要寫 aa\n• aa：懶音：漏咗 ng 頭（碰巧亦係「丫」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 220,
+      "topic": 3,
+      "question": "「日」（今日）嘅粵拼係？",
+      "options": {
+        "A": "jat",
+        "B": "zat",
+        "C": "jak",
+        "D": "yat"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jat（日 jat6）\n• zat：係「疾」zat6 嘅粵拼（j 同 z 混淆）\n• jak：t/k 尾不分：t 尾讀成 k 尾\n• yat：英文式拼法：粵拼用 j 代表英文 y 音",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 221,
+      "topic": 3,
+      "question": "「粥」（白粥）嘅粵拼係？",
+      "options": {
+        "A": "zuk",
+        "B": "suk",
+        "C": "cuk",
+        "D": "zut"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zuk（粥 zuk1）\n• suk：係「熟」suk6 嘅粵拼（z 同 s 混淆）\n• cuk：近音混淆：z 同 c 混淆（碰巧亦係「速」嘅粵拼）\n• zut：懶音：k 尾讀成 t 尾",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 222,
+      "topic": 3,
+      "question": "「長」（好長）嘅粵拼係？",
+      "options": {
+        "A": "coeng",
+        "B": "cong",
+        "C": "cheung",
+        "D": "ceng"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：coeng（長 coeng4）\n• cong：係「廠」cong2 嘅粵拼（oeng 同 ong 混淆）\n• cheung：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得；粵拼 oe 係「靴」「香」嗰種韻，唔寫 eu/er\n• ceng：近音混淆：oeng 同 eng 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 223,
+      "topic": 3,
+      "question": "「淡」（好淡）嘅粵拼係？",
+      "options": {
+        "A": "tam",
+        "B": "taam",
+        "C": "taa",
+        "D": "taai"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：taam（淡 taam5）\n• tam：英文式拼法：長 a 要寫 aa\n• taa：近音字（碰巧亦係「她」嘅粵拼）\n• taai：係「太」taai3 嘅粵拼（近音字）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 224,
+      "topic": 3,
+      "question": "「布」（一塊布）嘅粵拼係？",
+      "options": {
+        "A": "bo",
+        "B": "po",
+        "C": "bou",
+        "D": "bau"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：bou（布 bou3）\n• bo：係「波」bo1 嘅粵拼（ou 同 o 混淆）\n• po：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o；粵拼 b 係唔送氣音，唔好寫成 p（碰巧亦係「婆」嘅粵拼）\n• bau：近音混淆：ou 同 au 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 225,
+      "topic": 3,
+      "question": "「請」（請食飯）嘅粵拼係？",
+      "options": {
+        "A": "beng",
+        "B": "cheng",
+        "C": "zeng",
+        "D": "ceng"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ceng（請 ceng2）\n• beng：係「餅」beng2 嘅粵拼（近音字）\n• cheng：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• zeng：近音混淆：c 同 z 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 226,
+      "topic": 3,
+      "question": "「結」（結婚）嘅粵拼係？",
+      "options": {
+        "A": "gik",
+        "B": "kit",
+        "C": "gip",
+        "D": "git"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：git（結 git3）\n• gik：t/k 尾不分：t 尾讀成 k 尾（碰巧亦係「激」嘅粵拼）\n• kit：英文式拼法：粵拼 g 係唔送氣音，唔好寫成 k\n• gip：係「劫」gip3 嘅粵拼（t 尾同 p 尾混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 227,
+      "topic": 3,
+      "question": "「落」（落雨）嘅粵拼係？",
+      "options": {
+        "A": "lock",
+        "B": "luk",
+        "C": "nok",
+        "D": "lok"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：lok（落 lok6）\n• lock：英文式拼法：k 尾就寫 k\n• luk：係「六」luk6 嘅粵拼（o 同 u 混淆）\n• nok：n/l 不分：l 頭讀成 n 頭（碰巧亦係「諾」嘅粵拼）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 228,
+      "topic": 3,
+      "question": "「鵝」（燒鵝）嘅粵拼係？",
+      "options": {
+        "A": "ngok",
+        "B": "ngo",
+        "C": "o",
+        "D": "ngoh"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo（鵝 ngo2）\n• ngok：係「嶽」ngok6 嘅粵拼（o 同 ok 混淆）\n• o：懶音：漏咗 ng 頭（碰巧亦係「屙」嘅粵拼）\n• ngoh：英文式拼法：粵拼 o 韻唔使加 r/h",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 229,
+      "topic": 3,
+      "question": "「熱」（好熱）嘅粵拼係？",
+      "options": {
+        "A": "zit",
+        "B": "jit",
+        "C": "yit",
+        "D": "jik"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jit（熱 jit6）\n• zit：係「節」zit3 嘅粵拼（j 同 z 混淆）\n• yit：英文式拼法：粵拼用 j 代表英文 y 音\n• jik：t/k 尾不分：t 尾讀成 k 尾（碰巧亦係「亦」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 230,
+      "topic": 3,
+      "question": "「清」（清楚）嘅粵拼係？",
+      "options": {
+        "A": "cin",
+        "B": "cing",
+        "C": "ching",
+        "D": "zing"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：cing（清 cing1）\n• cin：懶音：ng 尾讀成 n 尾（碰巧亦係「前」嘅粵拼）\n• ching：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• zing：係「整」zing2 嘅粵拼（c 同 z 混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 231,
+      "topic": 3,
+      "question": "「句」（一句）嘅粵拼係？",
+      "options": {
+        "A": "gui",
+        "B": "geoi",
+        "C": "keoi",
+        "D": "goi"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：geoi（句 geoi3）\n• gui：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er（碰巧亦係「攰」嘅粵拼）\n• keoi：係「祛」keoi1 嘅粵拼（送氣唔送氣混淆（g/k））\n• goi：近音混淆：eoi 同 oi 混淆（碰巧亦係「改」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 232,
+      "topic": 3,
+      "question": "「雞」（雞蛋）嘅粵拼係？",
+      "options": {
+        "A": "goi",
+        "B": "gaai",
+        "C": "gai",
+        "D": "kai"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gai（雞 gai1）\n• goi：係「改」goi2 嘅粵拼（a 同 o 混淆）\n• gaai：近音混淆：短 a 讀成長 aa（碰巧亦係「街」嘅粵拼）\n• kai：英文式拼法：粵拼 g 係唔送氣音，唔好寫成 k（碰巧亦係「啓」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 233,
+      "topic": 3,
+      "question": "「火」（火車）嘅粵拼係？",
+      "options": {
+        "A": "foh",
+        "B": "fou",
+        "C": "fu",
+        "D": "fo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ou-o",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：fo（火 fo2）\n• foh：英文式拼法：粵拼 o 韻唔使加 r/h\n• fou：近音混淆：o 同 ou 混淆\n• fu：係「褲」fu3 嘅粵拼（o 同 u 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 234,
+      "topic": 3,
+      "question": "「紅」（紅色）嘅粵拼係？",
+      "options": {
+        "A": "hun",
+        "B": "hong",
+        "C": "hung",
+        "D": "fung"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hung（紅 hung4）\n• hun：懶音：ng 尾讀成 n 尾\n• hong：英文式拼法：香港常見嘅英文拼法，唔係粵拼（碰巧亦係「項」嘅粵拼）\n• fung：係「風」fung1 嘅粵拼（h 同 f 混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 235,
+      "topic": 3,
+      "question": "「黑」（黑色）嘅粵拼係？",
+      "options": {
+        "A": "hak",
+        "B": "hap",
+        "C": "huck",
+        "D": "hat"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hak（黑 hak1）\n• hap：係「恰」hap1 嘅粵拼（k 尾同 p 尾混淆）\n• huck：英文式拼法：短 a 寫 a，唔係英文 u；k 尾就寫 k\n• hat：懶音：k 尾讀成 t 尾（碰巧亦係「瞎」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 236,
+      "topic": 3,
+      "question": "「年」（新年）嘅粵拼係？",
+      "options": {
+        "A": "lin",
+        "B": "nin",
+        "C": "neen",
+        "D": "ning"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-l",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nin（年 nin4）\n• lin：懶音：n 頭讀成 l 頭（碰巧亦係「連」嘅粵拼）\n• neen：英文式拼法：粵拼 i 唔使寫 ee\n• ning：係「寧」ning4 嘅粵拼（n 尾同 ng 尾混淆）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 237,
+      "topic": 3,
+      "question": "「澳」（澳門）嘅粵拼係？",
+      "options": {
+        "A": "au",
+        "B": "ou",
+        "C": "o",
+        "D": "ngou"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ng頭",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ou（澳 ou3）\n• au：係「歐」au1 嘅粵拼（ou 同 au 混淆）\n• o：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o（碰巧亦係「屙」嘅粵拼）\n• ngou：ng 頭不分：多咗 ng 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 238,
+      "topic": 3,
+      "question": "「飲」（飲水）嘅粵拼係？",
+      "options": {
+        "A": "jam",
+        "B": "zam",
+        "C": "yum",
+        "D": "wam"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：jam（飲 jam2）\n• zam：係「鍼」zam1 嘅粵拼（j 同 z 混淆）\n• yum：英文式拼法：粵拼用 j 代表英文 y 音；短 a 寫 a，唔係英文 u\n• wam：近音混淆：j 同 w 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 239,
+      "topic": 3,
+      "question": "「走」（走先）嘅粵拼係？",
+      "options": {
+        "A": "sau",
+        "B": "zau",
+        "C": "cau",
+        "D": "jau"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zau（走 zau2）\n• sau：係「手」sau2 嘅粵拼（z 同 s 混淆）\n• cau：近音混淆：z 同 c 混淆（碰巧亦係「臭」嘅粵拼）\n• jau：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch（碰巧亦係「有」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 240,
+      "topic": 3,
+      "question": "「嘴」（張嘴）嘅粵拼係？",
+      "options": {
+        "A": "zui",
+        "B": "jui",
+        "C": "zoi",
+        "D": "zeoi"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "eo-oe",
+        "字揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zeoi（嘴 zeoi2）\n• zui：近音混淆：eoi 同 ui 混淆\n• jui：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch；粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• zoi：係「再」zoi3 嘅粵拼（eoi 同 oi 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 241,
+      "topic": 3,
+      "question": "粵拼「man」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "萌",
+        "B": "問",
+        "C": "米",
+        "D": "晚"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：問（man6，例：問題）\n• 萌 mang4：n/ng 尾不分：n 尾讀成 ng 尾\n• 米 mai5：近音字\n• 晚 maan5：短 a 讀成長 aa",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 242,
+      "topic": 3,
+      "question": "粵拼「gat」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "急",
+        "B": "吉",
+        "C": "雞",
+        "D": "割"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：吉（gat1，例：吉屋）\n• 急 gap1：t 尾同 p 尾混淆\n• 雞 gai1：近音字\n• 割 got3：a 同 o 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 243,
+      "topic": 3,
+      "question": "粵拼「laam」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "藍",
+        "B": "林",
+        "C": "男",
+        "D": "罅"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：藍（laam4，例：藍色）\n• 林 lam4：以為 aa 同 a 一樣\n• 男 naam4：n/l 不分：l 頭讀成 n 頭\n• 罅 laa3：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 244,
+      "topic": 3,
+      "question": "粵拼「oi」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "矮",
+        "B": "外",
+        "C": "愛",
+        "D": "開"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：愛（oi3，例：可愛）\n• 矮 ai2：o 同 a 混淆\n• 外 ngoi6：ng 頭不分：多咗 ng 頭\n• 開 hoi1：多咗 h 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 245,
+      "topic": 3,
+      "question": "粵拼「ji」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "二",
+        "B": "知",
+        "C": "嘢",
+        "D": "魚"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：二（ji6，例：二十）\n• 知 zi1：以為粵拼 j 係英文 j（其實係 y 音）\n• 嘢 je5：i 同 e 混淆\n• 魚 jyu2：i 同 yu 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 246,
+      "topic": 3,
+      "question": "粵拼「zai」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "仔",
+        "B": "妻",
+        "C": "細",
+        "D": "曳"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：仔（zai2，例：細路仔）\n• 妻 cai1：z 同 c 混淆\n• 細 sai3：z 同 s 混淆\n• 曳 jai5：z 同 j 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 247,
+      "topic": 3,
+      "question": "粵拼「seon」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "算",
+        "B": "水",
+        "C": "順",
+        "D": "新"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：順（seon6，例：順利）\n• 算 syun3：eon 同 yun 混淆\n• 水 seoi2：近音字\n• 新 san1：eon 同 an 混淆",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 248,
+      "topic": 3,
+      "question": "粵拼「gau」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "高",
+        "B": "扣",
+        "C": "搞",
+        "D": "狗"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：狗（gau2，例：隻狗）\n• 高 gou1：a 同 o 混淆\n• 扣 kau3：送氣唔送氣混淆（g/k）\n• 搞 gaau2：短 a 讀成長 aa",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 249,
+      "topic": 3,
+      "question": "粵拼「lou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "囉",
+        "B": "腦",
+        "C": "流",
+        "D": "老"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：老（lou5，例：老公）\n• 囉 lo1：ou 同 o 混淆\n• 腦 nou5：n/l 不分：l 頭讀成 n 頭\n• 流 lau4：以為 ou 係英文 out 嘅 ou",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 250,
+      "topic": 3,
+      "question": "粵拼「haang」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "喊",
+        "B": "閒",
+        "C": "肯",
+        "D": "行"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：行（haang4，例：行路）\n• 喊 haam3：ng 尾同 m 尾混淆\n• 閒 haan4：懶音：ng 尾讀成 n 尾\n• 肯 hang2：以為 aa 同 a 一樣",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 251,
+      "topic": 3,
+      "question": "粵拼「duk」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "的",
+        "B": "得",
+        "C": "速",
+        "D": "讀"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：讀（duk6，例：讀書）\n• 的 dik1：近音字\n• 得 dak1：近音字\n• 速 cuk1：近音字",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 252,
+      "topic": 3,
+      "question": "粵拼「nau」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "腦",
+        "B": "流",
+        "C": "鬧",
+        "D": "嬲"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：嬲（nau1，例：好嬲）\n• 腦 nou5：a 同 o 混淆\n• 流 lau4：懶音：n 頭讀成 l 頭\n• 鬧 naau6：短 a 讀成長 aa",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 253,
+      "topic": 3,
+      "question": "粵拼「on」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "看",
+        "B": "岸",
+        "C": "晏",
+        "D": "安"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：安（on1，例：平安）\n• 看 hon3：多咗 h 頭\n• 岸 ngon6：ng 頭不分：多咗 ng 頭\n• 晏 aan3：o 同 aa 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 254,
+      "topic": 3,
+      "question": "粵拼「jap」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "飲",
+        "B": "執",
+        "C": "入",
+        "D": "曳"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：入（jap6，例：入去）\n• 飲 jam2：近音字\n• 執 zap1：以為粵拼 j 係英文 j（其實係 y 音）\n• 曳 jai5：近音字",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 255,
+      "topic": 3,
+      "question": "粵拼「zyu」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "書",
+        "B": "住",
+        "C": "柱",
+        "D": "魚"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：住（zyu6，例：住喺）\n• 書 syu1：z 同 s 混淆\n• 柱 cyu5：z 同 c 混淆\n• 魚 jyu2：z 同 j 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 256,
+      "topic": 3,
+      "question": "粵拼「joek」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "約",
+        "B": "卻",
+        "C": "雀",
+        "D": "腳"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：約（joek3，例：約會）\n• 卻 koek3：近音字\n• 雀 zoek3：以為粵拼 j 係英文 j（其實係 y 音）\n• 腳 goek3：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 257,
+      "topic": 3,
+      "question": "粵拼「daam」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "大",
+        "B": "擔",
+        "C": "打",
+        "D": "探"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：擔（daam1，例：擔遮）\n• 大 daai6：近音字\n• 打 daa2：近音字\n• 探 taam3：送氣唔送氣混淆（d/t）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 258,
+      "topic": 3,
+      "question": "粵拼「bo」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "波",
+        "B": "薄",
+        "C": "部",
+        "D": "婆"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ou-o",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：波（bo1，例：踢波）\n• 薄 bok6：o 同 ok 混淆\n• 部 bou6：o 同 ou 混淆\n• 婆 po4：送氣唔送氣混淆（b/p）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 259,
+      "topic": 3,
+      "question": "粵拼「pang」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "貧",
+        "B": "棒",
+        "C": "朋",
+        "D": "層"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：朋（pang4，例：朋友）\n• 貧 pan4：懶音：ng 尾讀成 n 尾\n• 棒 paang5：短 a 讀成長 aa\n• 層 cang4：近音字",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 260,
+      "topic": 3,
+      "question": "粵拼「dak」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "的",
+        "B": "低",
+        "C": "得",
+        "D": "兜"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：得（dak1，例：唔得）\n• 的 dik1：近音字\n• 低 dai1：近音字\n• 兜 dau1：近音字",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 261,
+      "topic": 3,
+      "question": "粵拼「naai」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "泥",
+        "B": "賴",
+        "C": "耐",
+        "D": "奶"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：奶（naai5，例：牛奶）\n• 泥 nai4：以為 aa 同 a 一樣\n• 賴 laai6：懶音：n 頭讀成 l 頭\n• 耐 noi6：aa 同 o 混淆",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 262,
+      "topic": 3,
+      "question": "粵拼「ngan」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "銀",
+        "B": "岸",
+        "C": "僞",
+        "D": "眼"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：銀（ngan4，例：銀紙）\n• 岸 ngon6：a 同 o 混淆\n• 僞 ngai6：近音字\n• 眼 ngaan5：短 a 讀成長 aa",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 263,
+      "topic": 3,
+      "question": "粵拼「jyu」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "完",
+        "B": "二",
+        "C": "住",
+        "D": "雨"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "j-y",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：雨（jyu5，例：落雨）\n• 完 jyun4：近音字\n• 二 ji6：yu 同 i 混淆\n• 住 zyu6：以為粵拼 j 係英文 j（其實係 y 音）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 264,
+      "topic": 3,
+      "question": "粵拼「zou」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "嘈",
+        "B": "做",
+        "C": "就",
+        "D": "掃"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：做（zou6，例：做嘢）\n• 嘈 cou4：z 同 c 混淆\n• 就 zau6：以為 ou 係英文 out 嘅 ou\n• 掃 sou3：z 同 s 混淆",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 265,
+      "topic": 3,
+      "question": "粵拼「leot」係邊個字？（唔計聲調）",
+      "options": {
+        "A": "律",
+        "B": "輪",
+        "C": "出",
+        "D": "淚"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "粵拼揀字"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：律（leot6，例：律師）\n• 輪 leon4：近音字\n• 出 ceot1：近音字\n• 淚 leoi6：近音字",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 266,
+      "topic": 3,
+      "question": "「我好肚餓」嘅粵拼係？",
+      "options": {
+        "A": "ngo hou tou ngo",
+        "B": "ngo hou tou ngok",
+        "C": "ngo hou tou ngoh",
+        "D": "ngo hou tou o"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngo5 hou2 tou5 ngo6\n重點字「餓」讀 ngo6：\n• ngok：係「嶽」ngok6 嘅粵拼（o 同 ok 混淆）\n• ngoh：英文式拼法：粵拼 o 韻唔使加 r/h\n• o：懶音：漏咗 ng 頭（碰巧亦係「屙」嘅粵拼）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 267,
+      "topic": 3,
+      "question": "「佢好鍾意食魚」嘅粵拼係？",
+      "options": {
+        "A": "keoi hou zung ji sik jyu",
+        "B": "keoi hou zung ji sik yu",
+        "C": "keoi hou zung ji sik zyu",
+        "D": "keoi hou zung ji sik wyu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "j-y",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 hou2 zung1 ji3 sik6 jyu4\n重點字「魚」讀 jyu4：\n• yu：英文式拼法：粵拼用 j 代表英文 y 音；粵拼 yu 係「魚」嘅韻母\n• zyu：係「住」zyu6 嘅粵拼（j 同 z 混淆）\n• wyu：近音混淆：j 同 w 混淆",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 268,
+      "topic": 3,
+      "question": "「牛奶好飲」嘅粵拼係？",
+      "options": {
+        "A": "ngau nai hou jam",
+        "B": "ngau laai hou jam",
+        "C": "ngau noi hou jam",
+        "D": "ngau naai hou jam"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：ngau4 naai5 hou2 jam2\n重點字「奶」讀 naai5：\n• nai：英文式拼法：長 a 要寫 aa（碰巧亦係「泥」嘅粵拼）\n• laai：懶音：n 頭讀成 l 頭（碰巧亦係「賴」嘅粵拼）\n• noi：係「耐」noi6 嘅粵拼（aa 同 o 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 269,
+      "topic": 3,
+      "question": "「佢冇錢」嘅粵拼係？",
+      "options": {
+        "A": "keoi mou sin",
+        "B": "keoi mou chin",
+        "C": "keoi mou cin",
+        "D": "keoi mou cing"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 mou5 cin2\n重點字「錢」讀 cin2：\n• sin：係「先」sin1 嘅粵拼（c 同 s 混淆）\n• chin：英文式拼法：粵拼 c 代表 ch 音，寫 c 就得\n• cing：n/ng 尾不分：n 尾讀成 ng 尾（碰巧亦係「晴」嘅粵拼）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 270,
+      "topic": 3,
+      "question": "「唔該晒」嘅粵拼係？",
+      "options": {
+        "A": "m goi saai",
+        "B": "o goi saai",
+        "C": "am goi saai",
+        "D": "um goi saai"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "ng頭",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：m4 goi1 saai3\n重點字「唔」讀 m4：\n• o：近音字（碰巧亦係「屙」嘅粵拼）\n• am：係「暗」am3 嘅粵拼（近音字）\n• um：英文式拼法：「唔」嘅粵拼就係 m",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 271,
+      "topic": 3,
+      "question": "「你講乜嘢」嘅粵拼係？",
+      "options": {
+        "A": "bei gong mat je",
+        "B": "nei gong mat je",
+        "C": "nay gong mat je",
+        "D": "lei gong mat je"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-l",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nei5 gong3 mat1 je5\n重點字「你」讀 nei5：\n• bei：係「畀」bei2 嘅粵拼（近音字）\n• nay：英文式拼法：粵拼 ei 唔寫 ay\n• lei：懶音：n 頭讀成 l 頭（碰巧亦係「離」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 272,
+      "topic": 3,
+      "question": "「張床好硬」嘅粵拼係？",
+      "options": {
+        "A": "zoeng cong hou ngaam",
+        "B": "zoeng cong hou ngaang",
+        "C": "zoeng cong hou ngaan",
+        "D": "zoeng cong hou ngang"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "n-ng尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：zoeng1 cong4 hou2 ngaang6\n重點字「硬」讀 ngaang6：\n• ngaam：係「啱」ngaam1 嘅粵拼（ng 尾同 m 尾混淆）\n• ngaan：懶音：ng 尾讀成 n 尾（碰巧亦係「眼」嘅粵拼）\n• ngang：英文式拼法：長 a 要寫 aa",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 273,
+      "topic": 3,
+      "question": "「黑色嘅袋」嘅粵拼係？",
+      "options": {
+        "A": "huck sik ge doi",
+        "B": "hat sik ge doi",
+        "C": "hak sik ge doi",
+        "D": "hap sik ge doi"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：hak1 sik1 ge3 doi6\n重點字「黑」讀 hak1：\n• huck：英文式拼法：短 a 寫 a，唔係英文 u；k 尾就寫 k\n• hat：懶音：k 尾讀成 t 尾（碰巧亦係「瞎」嘅粵拼）\n• hap：係「恰」hap1 嘅粵拼（k 尾同 p 尾混淆）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 274,
+      "topic": 3,
+      "question": "「佢寫緊信」嘅粵拼係？",
+      "options": {
+        "A": "keoi se gan sun",
+        "B": "keoi se gan seon",
+        "C": "keoi se gan seoi",
+        "D": "keoi se gan syun"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 se2 gan2 seon3\n重點字「信」讀 seon3：\n• sun：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er\n• seoi：係「水」seoi2 嘅粵拼（近音字）\n• syun：近音混淆：eon 同 yun 混淆（碰巧亦係「算」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 275,
+      "topic": 3,
+      "question": "「佢今日好忙」嘅粵拼係？",
+      "options": {
+        "A": "keoi gam yat hou mong",
+        "B": "keoi gam zat hou mong",
+        "C": "keoi gam jat hou mong",
+        "D": "keoi gam jak hou mong"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "j-y",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 gam1 jat6 hou2 mong4\n重點字「日」讀 jat6：\n• yat：英文式拼法：粵拼用 j 代表英文 y 音\n• zat：係「疾」zat6 嘅粵拼（j 同 z 混淆）\n• jak：t/k 尾不分：t 尾讀成 k 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 276,
+      "topic": 3,
+      "question": "「攞張紙巾」嘅粵拼係？",
+      "options": {
+        "A": "lo zoeng ci gan",
+        "B": "lo zoeng chi gan",
+        "C": "lo zoeng si gan",
+        "D": "lo zoeng zi gan"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "z-c",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：lo2 zoeng1 zi2 gan1\n重點字「紙」讀 zi2：\n• ci：近音混淆：z 同 c 混淆（碰巧亦係「次」嘅粵拼）\n• chi：英文式拼法：粵拼 z 係「揸」嘅聲母，唔寫 j/ch\n• si：係「事」si6 嘅粵拼（z 同 s 混淆）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 277,
+      "topic": 3,
+      "question": "「佢好高」嘅粵拼係？",
+      "options": {
+        "A": "keoi hou kou",
+        "B": "keoi hou gou",
+        "C": "keoi hou go",
+        "D": "keoi hou ko"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：keoi5 hou2 gou1\n重點字「高」讀 gou1：\n• kou：近音混淆：送氣唔送氣混淆（g/k）\n• go：係「個」go3 嘅粵拼（ou 同 o 混淆）\n• ko：英文式拼法：粵拼 ou 係「好」嘅韻，唔可以只寫 o；粵拼 g 係唔送氣音，唔好寫成 k",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 278,
+      "topic": 3,
+      "question": "「你去邊度」嘅粵拼係？",
+      "options": {
+        "A": "nei feoi bin dou",
+        "B": "nei heoi bin dou",
+        "C": "nei hoi bin dou",
+        "D": "nei hui bin dou"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：nei5 heoi3 bin1 dou6\n重點字「去」讀 heoi3：\n• feoi：近音混淆：h 同 f 混淆\n• hoi：係「開」hoi1 嘅粵拼（eoi 同 oi 混淆）\n• hui：英文式拼法：粵拼 eo 係「去」「水」嗰種韻，唔寫 u/ui/er",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 279,
+      "topic": 3,
+      "question": "「件衫好靚」嘅粵拼係？",
+      "options": {
+        "A": "gin saa hou leng",
+        "B": "gin saam hou leng",
+        "C": "gin saai hou leng",
+        "D": "gin sam hou leng"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "a-aa",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gin6 saam1 hou2 leng3\n重點字「衫」讀 saam1：\n• saa：近音字（碰巧亦係「啥」嘅粵拼）\n• saai：係「曬」saai3 嘅粵拼（近音字）\n• sam：英文式拼法：長 a 要寫 aa（碰巧亦係「心」嘅粵拼）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 280,
+      "topic": 3,
+      "question": "「國語」嘅粵拼係？",
+      "options": {
+        "A": "gwok jyu",
+        "B": "gwot jyu",
+        "C": "gwo jyu",
+        "D": "kwok jyu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "t-k尾",
+        "句子揀粵拼"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：gwok3 jyu5\n重點字「國」讀 gwok3：\n• gwot：懶音：k 尾讀成 t 尾\n• gwo：係「過」gwo3 嘅粵拼（近音字）\n• kwok：英文式拼法：香港常見嘅英文拼法，唔係粵拼",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 281,
+      "topic": 3,
+      "question": "邊個字嘅粵拼有 oe？",
+      "options": {
+        "A": "醉",
+        "B": "腿",
+        "C": "上",
+        "D": "佢"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：上（soeng5，oe 韻）\n• 醉 zeoi3：eo 韻\n• 腿 teoi2：eo 韻\n• 佢 keoi5：eo 韻",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 282,
+      "topic": 3,
+      "question": "邊個字嘅粵拼有 eo？",
+      "options": {
+        "A": "吹",
+        "B": "響",
+        "C": "將",
+        "D": "相"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：吹（ceoi1，eo 韻）\n• 響 hoeng2：oe 韻\n• 將 zoeng1：oe 韻\n• 相 soeng1：oe 韻",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 283,
+      "topic": 3,
+      "question": "邊個字韻母係 ou？",
+      "options": {
+        "A": "所",
+        "B": "號",
+        "C": "波",
+        "D": "羅"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "ou-o",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：號（hou6，ou 韻）\n• 所 so2：o 韻\n• 波 bo1：o 韻\n• 羅 lo4：o 韻",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 284,
+      "topic": 3,
+      "question": "邊個字韻母係 o（唔係 ou）？",
+      "options": {
+        "A": "早",
+        "B": "高",
+        "C": "喲",
+        "D": "部"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ou-o",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：喲（jo1，o 韻）\n• 早 zou2：ou 韻\n• 高 gou1：ou 韻\n• 部 bou6：ou 韻",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 285,
+      "topic": 3,
+      "question": "邊個字粵拼係 j 開頭（英文 y 音）？",
+      "options": {
+        "A": "震",
+        "B": "擠",
+        "C": "由",
+        "D": "照"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "j-y",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：由（jau4，j 頭）\n• 震 zan3：z 頭\n• 擠 zai1：z 頭\n• 照 ziu3：z 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 286,
+      "topic": 3,
+      "question": "邊個字粵拼係 z 開頭？",
+      "options": {
+        "A": "淫",
+        "B": "仲",
+        "C": "讓",
+        "D": "型"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "j-y",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：仲（zung6，z 頭）\n• 淫 jam4：j 頭\n• 讓 joeng6：j 頭\n• 型 jing4：j 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 287,
+      "topic": 3,
+      "question": "邊個字粵拼係 c 開頭？",
+      "options": {
+        "A": "站",
+        "B": "找",
+        "C": "茶",
+        "D": "讚"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "z-c",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：茶（caa4，c 頭）\n• 站 zaam6：z 頭\n• 找 zaau2：z 頭\n• 讚 zaan3：z 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 288,
+      "topic": 3,
+      "question": "邊個字粵拼係 z 開頭（唔係 c）？",
+      "options": {
+        "A": "趁",
+        "B": "執",
+        "C": "切",
+        "D": "層"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "z-c",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：執（zap1，z 頭）\n• 趁 can3：c 頭\n• 切 cit3：c 頭\n• 層 cang4：c 頭",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 289,
+      "topic": 3,
+      "question": "邊個字係 k 尾？",
+      "options": {
+        "A": "襪",
+        "B": "法",
+        "C": "嚇",
+        "D": "刷"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：嚇（haak3，k 尾）\n• 襪 mat6：t 尾\n• 法 faat3：t 尾\n• 刷 caat3：t 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 290,
+      "topic": 3,
+      "question": "邊個字係 t 尾？",
+      "options": {
+        "A": "卻",
+        "B": "百",
+        "C": "咭",
+        "D": "得"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "t-k尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：咭（kaat1，t 尾）\n• 卻 koek3：k 尾\n• 百 baak3：k 尾\n• 得 dak1：k 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 291,
+      "topic": 3,
+      "question": "邊個字係 ng 尾？",
+      "options": {
+        "A": "痛",
+        "B": "玩",
+        "C": "嘆",
+        "D": "吞"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "n-ng尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：痛（tung3，ng 尾）\n• 玩 waan2：n 尾\n• 嘆 taan3：n 尾\n• 吞 tan1：n 尾",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 292,
+      "topic": 3,
+      "question": "邊個字係 n 尾？",
+      "options": {
+        "A": "港",
+        "B": "性",
+        "C": "見",
+        "D": "勁"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "n-ng尾",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：見（gin3，n 尾）\n• 港 gong2：ng 尾\n• 性 sing3：ng 尾\n• 勁 ging6：ng 尾",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 293,
+      "topic": 3,
+      "question": "邊個字係 n 聲母（n 頭）？",
+      "options": {
+        "A": "裏",
+        "B": "叻",
+        "C": "靈",
+        "D": "你"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：你（nei5，n 頭）\n• 裏 leoi5：l 頭\n• 叻 lek1：l 頭\n• 靈 ling4：l 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 294,
+      "topic": 3,
+      "question": "邊個字係 l 聲母（l 頭）？",
+      "options": {
+        "A": "南",
+        "B": "耐",
+        "C": "娘",
+        "D": "錄"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "n-l",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：錄（luk6，l 頭）\n• 南 naam4：n 頭\n• 耐 noi6：n 頭\n• 娘 noeng4：n 頭",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 295,
+      "topic": 3,
+      "question": "邊個字有 ng 聲母？",
+      "options": {
+        "A": "鴨",
+        "B": "按",
+        "C": "丫",
+        "D": "眼"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：眼（ngaan5，有 ng 頭）\n• 鴨 aap3：冇聲母\n• 按 on3：冇聲母\n• 丫 aa1：冇聲母",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 296,
+      "topic": 3,
+      "question": "邊個字冇 ng 聲母（直接母音開頭）？",
+      "options": {
+        "A": "外",
+        "B": "眼",
+        "C": "阿",
+        "D": "銀"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "ng頭",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：阿（aa3，冇聲母）\n• 外 ngoi6：有 ng 頭\n• 眼 ngaan5：有 ng 頭\n• 銀 ngan4：有 ng 頭",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 297,
+      "topic": 3,
+      "question": "邊個字係長 aa？",
+      "options": {
+        "A": "份",
+        "B": "筆",
+        "C": "八",
+        "D": "物"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：八（baat3，長 aa）\n• 份 fan6：短 a\n• 筆 bat1：短 a\n• 物 mat6：短 a",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 298,
+      "topic": 3,
+      "question": "邊個字係短 a？",
+      "options": {
+        "A": "鴨",
+        "B": "咬",
+        "C": "暗",
+        "D": "啱"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "a-aa",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：暗（am3，短 a）\n• 鴨 aap3：長 aa\n• 咬 ngaau5：長 aa\n• 啱 ngaam1：長 aa",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 299,
+      "topic": 3,
+      "question": "邊個字嘅粵拼有 oe？",
+      "options": {
+        "A": "峻",
+        "B": "腿",
+        "C": "傷",
+        "D": "衰"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：傷（soeng1，oe 韻）\n• 峻 zeon3：eo 韻\n• 腿 teoi2：eo 韻\n• 衰 seoi1：eo 韻",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 300,
+      "topic": 3,
+      "question": "邊個字嘅粵拼有 eo？",
+      "options": {
+        "A": "雙",
+        "B": "俊",
+        "C": "長",
+        "D": "將"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "eo-oe",
+        "對比"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "正確答案：俊（zeon3，eo 韻）\n• 雙 soeng1：oe 韻\n• 長 coeng4：oe 韻\n• 將 zoeng1：oe 韻",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ]
+}
