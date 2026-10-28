@@ -76,7 +76,7 @@ In dev, `public/sw.js` caches the unhashed `_next/static/chunks/app/*/page.js`, 
 - `worker/src/index.js` — Worker `flashcard-sync` (`worker/wrangler.toml`, KV binding `FLASHCARD_SYNC`) exposing `GET/PUT /sync/{hash}/{slug}` for progress snapshots (validates a `version: 1` schema). The reserved slug `_activity` holds `{ version: 1, devices: { [deviceId]: { day: count } } }`; `syncActivity` pulls it, merges with `mergeActivity`, then pushes the merged map; the displayed total is the sum over devices (`flashcard_device_id` names this one). It runs on home whenever the sync ID is known, on the Activity page, and after a file import.
 - `lib/constants.ts` — `SYNC_API` defaults to `https://flashcard-sync.donchong2000.workers.dev`, overridable via `NEXT_PUBLIC_SYNC_API`.
 - `lib/sync.ts` — client: generates/stores a sync ID in localStorage `flashcard_sync_id`; `pullRemote`/`pushRemote` talk to the Worker; `flashcard_last_synced_{slug}` keeps the last-synced snapshot for diffing.
-- `app/page.tsx` — auto pull/push on mount, adopts a foreign sync ID via `?sync=HASH` link or the "Enter Sync ID" prompt (needed on iOS home-screen PWAs, whose storage is separate from Safari so links never reach them), "Copy Link" shares it, plus a manual Sync button.
+- `app/page.tsx` — auto pull/push on mount, adopts a foreign sync ID via `?sync=HASH` link or the "Enter Sync ID" prompt (needed on iOS home-screen PWAs, whose storage is separate from Safari so links never reach them), "Copy Link" shares it, plus a manual Sync button. Sync, Enter Sync ID, Export, Import and Reset Progress live in the home page's "More" menu (a native `<details>`); only Start All stays visible.
 
 ### Quiz page pattern
 

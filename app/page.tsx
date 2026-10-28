@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2, Flame } from "lucide-react";
+import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2, Flame, Ellipsis } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -66,6 +66,23 @@ export default function HomePage() {
   const [syncCardVisible, setSyncCardVisible] = useState(false);
   const syncCardTimerRef = useRef<number | null>(null);
   const [streak, setStreak] = useState<number | null>(null);
+  const menuRef = useRef<HTMLDetailsElement>(null);
+
+  // Close the More menu on any click outside it
+  useEffect(() => {
+    function onPointerDown(e: PointerEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) menuRef.current.open = false;
+    }
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => document.removeEventListener("pointerdown", onPointerDown);
+  }, []);
+
+  function menuAction(action: () => void) {
+    return () => {
+      if (menuRef.current) menuRef.current.open = false;
+      action();
+    };
+  }
 
   // Activity is global, not per dataset, so it syncs whenever the sync ID is known
   useEffect(() => {
@@ -520,31 +537,36 @@ export default function HomePage() {
               <Play className="h-4 w-4" />
               Start All
             </Button>
-            <Button variant="ghost" onClick={handleReset} className="gap-2 text-destructive hover:text-destructive">
-              <RefreshCw className="h-4 w-4" />
-              Reset Progress
-            </Button>
-            <Button variant="outline" onClick={handleExport} className="gap-2">
-              <Download className="h-4 w-4" />
-              Export
-            </Button>
-            <Button variant="outline" onClick={handleImportClick} className="gap-2">
-              <Upload className="h-4 w-4" />
-              Import
-            </Button>
-            <Button
-              variant="outline"
-              onClick={handleSync}
-              disabled={syncStatus === "syncing"}
-              className="gap-2"
-            >
-              <Cloud className="h-4 w-4" />
-              {syncStatus === "syncing" ? "Syncing…" : "Sync"}
-            </Button>
-            <Button variant="outline" onClick={handleEnterSyncId} className="gap-2">
-              <Link2 className="h-4 w-4" />
-              Enter Sync ID
-            </Button>
+            {/* ponytail: native <details> menu; swap for a Radix DropdownMenu if it needs arrow-key navigation */}
+            <details ref={menuRef} className="relative">
+              <summary className="list-none [&::-webkit-details-marker]:hidden h-10 px-4 inline-flex items-center gap-2 rounded-md border border-input bg-background text-sm font-medium cursor-pointer hover:bg-accent">
+                <Ellipsis className="h-4 w-4" />
+                More
+              </summary>
+              <div className="absolute left-0 z-10 mt-1 w-48 rounded-md border bg-popover p-1 shadow-md">
+                <Button variant="ghost" onClick={menuAction(handleSync)} disabled={syncStatus === "syncing"} className="w-full justify-start gap-2">
+                  <Cloud className="h-4 w-4" />
+                  {syncStatus === "syncing" ? "Syncing…" : "Sync"}
+                </Button>
+                <Button variant="ghost" onClick={menuAction(handleEnterSyncId)} className="w-full justify-start gap-2">
+                  <Link2 className="h-4 w-4" />
+                  Enter Sync ID
+                </Button>
+                <Button variant="ghost" onClick={menuAction(handleExport)} className="w-full justify-start gap-2">
+                  <Download className="h-4 w-4" />
+                  Export
+                </Button>
+                <Button variant="ghost" onClick={menuAction(handleImportClick)} className="w-full justify-start gap-2">
+                  <Upload className="h-4 w-4" />
+                  Import
+                </Button>
+                <div className="my-1 h-px bg-border" />
+                <Button variant="ghost" onClick={menuAction(handleReset)} className="w-full justify-start gap-2 text-destructive hover:text-destructive">
+                  <RefreshCw className="h-4 w-4" />
+                  Reset Progress
+                </Button>
+              </div>
+            </details>
             <input
               ref={fileInputRef}
               type="file"
