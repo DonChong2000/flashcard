@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2 } from "lucide-react";
+import Link from "next/link";
+import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -20,6 +21,7 @@ import {
   type ProgressExport,
 } from "@/lib/progress";
 import { getSelectedDataset, setSelectedDataset } from "@/lib/preferences";
+import { type ActivityDevices, getActivity, getActivityDevices, getStreak, isActivityDevices, mergeActivity, syncActivity } from "@/lib/activity";
 import {
   getSyncId,
   setSyncId as saveSyncId,
@@ -55,7 +57,7 @@ export default function HomePage() {
   const [progress, setProgress] = useState<ProgressStore>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; slug: string; totalQuestions: number; source: "file" | "remote" } | null>(null);
+  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; activity?: ActivityDevices; slug: string; totalQuestions: number; source: "file" | "remote" } | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [syncId, setSyncIdState] = useState<string | null>(null);
   const [syncStatus, setSyncStatus] = useState<"idle" | "syncing">("idle");
@@ -63,6 +65,14 @@ export default function HomePage() {
   const [linkCopied, setLinkCopied] = useState(false);
   const [syncCardVisible, setSyncCardVisible] = useState(false);
   const syncCardTimerRef = useRef<number | null>(null);
+  const [streak, setStreak] = useState<number | null>(null);
+
+  // Activity is global, not per dataset, so it syncs whenever the sync ID is known
+  useEffect(() => {
+    setStreak(getStreak(getActivity()));
+    if (!syncId) return;
+    syncActivity(syncId).then(() => setStreak(getStreak(getActivity())), () => {});
+  }, [syncId]);
 
   function flashSyncCard(durationMs = 5000) {
     if (syncCardTimerRef.current) window.clearTimeout(syncCardTimerRef.current);
@@ -296,7 +306,8 @@ export default function HomePage() {
 
   function handleExport() {
     if (!dataset) return;
-    const data = exportProgress(selectedSlug, dataset.totalQuestions);
+    // Version 2 files carry the activity history too (all datasets, all devices)
+    const data = { ...exportProgress(selectedSlug, dataset.totalQuestions), version: 2, activity: getActivityDevices() };
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -321,7 +332,7 @@ export default function HomePage() {
       try {
         const raw = JSON.parse(ev.target?.result as string);
         // Validate shape
-        if (raw.version !== 1) {
+        if (raw.version !== 2) {
           alert(`Unknown export version "${raw.version}". Cannot import.`);
           return;
         }
@@ -334,10 +345,14 @@ export default function HomePage() {
           alert("Invalid progress file: hex strings contain invalid characters.");
           return;
         }
+        if (!isActivityDevices(raw.activity)) {
+          alert("Invalid progress file: activity history is missing or malformed.");
+          return;
+        }
         if (raw.question_set !== selectedSlug) {
           if (!confirm(`This file is for "${raw.question_set}" but current dataset is "${selectedSlug}". Import anyway?`)) return;
         }
-        setPendingImport({ data: raw as ProgressExport, slug: selectedSlug, totalQuestions: dataset.totalQuestions, source: "file" });
+        setPendingImport({ data: raw as ProgressExport, activity: raw.activity, slug: selectedSlug, totalQuestions: dataset.totalQuestions, source: "file" });
       } catch {
         alert("Failed to parse file. Make sure it is a valid JSON progress export.");
       }
@@ -347,8 +362,14 @@ export default function HomePage() {
 
   function handleImportConfirm(mode: "replace" | "merge") {
     if (!pendingImport) return;
-    const { slug, data, totalQuestions, source } = pendingImport;
+    const { slug, data, activity, totalQuestions, source } = pendingImport;
     importProgress(slug, data, totalQuestions, mode === "merge");
+    // Activity is history, so it always merges, even on Replace
+    if (activity) {
+      mergeActivity(activity);
+      setStreak(getStreak(getActivity()));
+      if (syncId) syncActivity(syncId).catch(() => {});
+    }
     setPendingImport(null);
     setProgress(getProgress(slug));
     if (source === "remote") {
@@ -460,6 +481,12 @@ export default function HomePage() {
                   onChange={setSelectedSlug}
                 />
               </div>
+              <Button variant="ghost" asChild className="h-10 gap-1 px-2.5 text-sm font-semibold text-green-700 dark:text-green-400">
+                <Link href="/activity" aria-label={`Activity, ${streak ?? 0} day streak`} title="Activity">
+                  <Flame className="h-4 w-4" />
+                  {streak ?? 0}
+                </Link>
+              </Button>
               <ThemeToggle />
             </div>
           </div>

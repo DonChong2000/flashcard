@@ -63,13 +63,17 @@ Optional `image` / `audio` fields hold paths under `public/` (e.g. `media/jlpt_n
 
 `lib/preferences.ts` remembers the last selected dataset under `flashcard_selected_dataset`.
 
-`lib/activity.ts` counts answers per local day (`YYYY-MM-DD`) across all datasets: this device's counts in `flashcard_activity`, other devices' in `flashcard_activity_others`. Only `handleAnswer` in the quiz logs it (the override doesn't). Shown on `app/activity/page.tsx` (heatmap, streak), reached from the green streak button in the home header. Not in export/import; Reset Progress leaves it alone.
+`lib/activity.ts` counts answers per local day (`YYYY-MM-DD`) across all datasets, stored in `flashcard_activity` as `{ [deviceId]: { day: count } }` — the same shape in localStorage, the cloud record and export files. `mergeActivity` keeps the larger count per device and day (counts only grow), so merges are order-independent and repeatable. Only `handleAnswer` in the quiz logs it (the override doesn't). Shown on `app/activity/page.tsx` (heatmap, streak), reached from the green streak button in the home header. Reset Progress leaves it alone.
+
+Export files are `version: 2`: the `lib/progress.ts` snapshot plus a required `activity` map. Import rejects anything else (old version 1 files included) and always merges activity, even on Replace. Sync snapshots stay `version: 1` and never carry activity.
+
+In dev, `public/sw.js` caches the unhashed `_next/static/chunks/app/*/page.js`, so the browser can keep running old code after an edit. Unregister the service worker and clear site data (DevTools › Application) when a change doesn't show up.
 
 `lib/bitmap.ts` provides `numbersToHex` / `hexToNumbers` for compact export: question numbers are packed MSB-first into hex strings (1 bit per question). Called only by `exportProgress` / `importProgress` in `lib/progress.ts`; sync snapshots reuse that already-encoded hex output (`lib/sync.ts` never calls bitmap functions directly).
 
 ### Sync (Cloudflare Worker + KV)
 
-- `worker/src/index.js` — Worker `flashcard-sync` (`worker/wrangler.toml`, KV binding `FLASHCARD_SYNC`) exposing `GET/PUT /sync/{hash}/{slug}` for progress snapshots (validates a `version: 1` schema). The reserved slug `_activity` holds `{ version: 1, devices: { [deviceId]: { day: count } } }`; each device (`flashcard_device_id`) only replaces its own entry, so the total is the sum over devices. `syncActivity` runs on home whenever the sync ID is known, and on the Activity page.
+- `worker/src/index.js` — Worker `flashcard-sync` (`worker/wrangler.toml`, KV binding `FLASHCARD_SYNC`) exposing `GET/PUT /sync/{hash}/{slug}` for progress snapshots (validates a `version: 1` schema). The reserved slug `_activity` holds `{ version: 1, devices: { [deviceId]: { day: count } } }`; `syncActivity` pulls it, merges with `mergeActivity`, then pushes the merged map; the displayed total is the sum over devices (`flashcard_device_id` names this one). It runs on home whenever the sync ID is known, on the Activity page, and after a file import.
 - `lib/constants.ts` — `SYNC_API` defaults to `https://flashcard-sync.donchong2000.workers.dev`, overridable via `NEXT_PUBLIC_SYNC_API`.
 - `lib/sync.ts` — client: generates/stores a sync ID in localStorage `flashcard_sync_id`; `pullRemote`/`pushRemote` talk to the Worker; `flashcard_last_synced_{slug}` keeps the last-synced snapshot for diffing.
 - `app/page.tsx` — auto pull/push on mount, adopts a foreign sync ID via `?sync=HASH` link or the "Enter Sync ID" prompt (needed on iOS home-screen PWAs, whose storage is separate from Safari so links never reach them), "Copy Link" shares it, plus a manual Sync button.

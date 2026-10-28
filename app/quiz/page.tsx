@@ -16,6 +16,7 @@ import {
   getBookmarkedIds,
   getIncorrectIds,
 } from "@/lib/progress";
+import { logActivity } from "@/lib/activity";
 import { QUIZ_FILTERS, type Question, type QuestionProgress, type QuizFilter } from "@/lib/types";
 import { BASE_PATH } from "@/lib/constants";
 
@@ -133,6 +134,7 @@ function QuizContent() {
       attempts: (progress[q.question_number]?.attempts ?? 0) + 1,
       lastAttempted: new Date().toISOString(),
     }));
+    logActivity();
   }
 
   function handleBookmark() {
