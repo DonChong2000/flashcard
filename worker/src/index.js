@@ -1,5 +1,6 @@
 const HASH_RE = /^[A-Za-z0-9_-]{16,64}$/;
 const SLUG_RE = /^[a-z0-9_]{1,64}$/;
+const DAY_RE = /^\d{4}-\d{2}-\d{2}$/;
 const MAX_BODY_BYTES = 256 * 1024;
 
 const CORS = {
@@ -50,7 +51,23 @@ export default {
       } catch {
         return json(400, { error: "invalid_json" });
       }
-      if (
+      if (slug === "_activity") {
+        // { version: 1, devices: { [deviceId]: { "YYYY-MM-DD": count } } }
+        if (
+          !parsed ||
+          parsed.version !== 1 ||
+          !parsed.devices ||
+          typeof parsed.devices !== "object" ||
+          !Object.values(parsed.devices).every(
+            (days) =>
+              days &&
+              typeof days === "object" &&
+              Object.entries(days).every(([day, n]) => DAY_RE.test(day) && Number.isInteger(n) && n >= 0)
+          )
+        ) {
+          return json(400, { error: "invalid_shape" });
+        }
+      } else if (
         !parsed ||
         typeof parsed !== "object" ||
         parsed.version !== 1 ||
