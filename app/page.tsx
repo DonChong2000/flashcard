@@ -642,7 +642,7 @@ export default function HomePage() {
                   <div className="space-y-1.5">
                     <label className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Filter</label>
                     <div className="flex flex-wrap gap-2">
-                      {(["all", "incorrect", "bookmarked", "bookmarked+incorrect"] as QuizFilter[]).map((f) => (
+                      {(["all", "unseen", "incorrect", "bookmarked", "bookmarked+incorrect"] as QuizFilter[]).map((f) => (
                         <Button
                           key={f}
                           size="sm"
