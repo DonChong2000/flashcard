@@ -1,0 +1,5627 @@
+{
+  "total_questions": 208,
+  "topic_names": {
+    "1": "片假名",
+    "2": "平假名",
+    "3": "片假名 濁音/拗音",
+    "4": "平假名 濁音/拗音"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "topic": 1,
+      "question": "ア",
+      "options": {
+        "A": "a",
+        "B": "fu",
+        "C": "chi",
+        "D": "n"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ア = a",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "topic": 1,
+      "question": "イ",
+      "options": {
+        "A": "hi",
+        "B": "i",
+        "C": "to",
+        "D": "chi"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "イ = i",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "topic": 1,
+      "question": "ウ",
+      "options": {
+        "A": "u",
+        "B": "ya",
+        "C": "wa",
+        "D": "me"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ウ = u（唔好同 ワ wa 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "topic": 1,
+      "question": "エ",
+      "options": {
+        "A": "na",
+        "B": "mo",
+        "C": "e",
+        "D": "nu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "エ = e",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "topic": 1,
+      "question": "オ",
+      "options": {
+        "A": "te",
+        "B": "o",
+        "C": "u",
+        "D": "ni"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "オ = o",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "topic": 1,
+      "question": "カ",
+      "options": {
+        "A": "ka",
+        "B": "hi",
+        "C": "so",
+        "D": "nu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "カ = ka",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "topic": 1,
+      "question": "キ",
+      "options": {
+        "A": "nu",
+        "B": "hi",
+        "C": "ki",
+        "D": "ra"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "キ = ki",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "topic": 1,
+      "question": "ク",
+      "options": {
+        "A": "e",
+        "B": "ku",
+        "C": "ke",
+        "D": "i"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ク = ku（唔好同 ケ ke 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "topic": 1,
+      "question": "ケ",
+      "options": {
+        "A": "ku",
+        "B": "ke",
+        "C": "ko",
+        "D": "e"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ケ = ke（唔好同 ク ku 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "topic": 1,
+      "question": "コ",
+      "options": {
+        "A": "ko",
+        "B": "so",
+        "C": "ri",
+        "D": "yu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "コ = ko（唔好同 ユ yu 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "topic": 1,
+      "question": "サ",
+      "options": {
+        "A": "nu",
+        "B": "yu",
+        "C": "ro",
+        "D": "sa"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "サ = sa",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "topic": 1,
+      "question": "シ",
+      "options": {
+        "A": "shi",
+        "B": "u",
+        "C": "ta",
+        "D": "tsu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "シ = shi（唔好同 ツ tsu 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "topic": 1,
+      "question": "ス",
+      "options": {
+        "A": "su",
+        "B": "se",
+        "C": "wo",
+        "D": "nu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ス = su（唔好同 ヌ nu 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "topic": 1,
+      "question": "セ",
+      "options": {
+        "A": "ya",
+        "B": "ri",
+        "C": "ra",
+        "D": "se"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "セ = se",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "topic": 1,
+      "question": "ソ",
+      "options": {
+        "A": "n",
+        "B": "so",
+        "C": "mu",
+        "D": "tsu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ソ = so（唔好同 ン n 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "topic": 1,
+      "question": "タ",
+      "options": {
+        "A": "he",
+        "B": "se",
+        "C": "ta",
+        "D": "na"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "タ = ta",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "topic": 1,
+      "question": "チ",
+      "options": {
+        "A": "chi",
+        "B": "ni",
+        "C": "ne",
+        "D": "te"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "チ = chi（唔好同 テ te 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "topic": 1,
+      "question": "ツ",
+      "options": {
+        "A": "yu",
+        "B": "ya",
+        "C": "tsu",
+        "D": "shi"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ツ = tsu（唔好同 シ shi 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "topic": 1,
+      "question": "テ",
+      "options": {
+        "A": "wo",
+        "B": "te",
+        "C": "so",
+        "D": "chi"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "テ = te（唔好同 チ chi 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "topic": 1,
+      "question": "ト",
+      "options": {
+        "A": "to",
+        "B": "so",
+        "C": "u",
+        "D": "tsu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ト = to",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "topic": 1,
+      "question": "ナ",
+      "options": {
+        "A": "sa",
+        "B": "ha",
+        "C": "na",
+        "D": "me"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ナ = na（唔好同 メ me 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "topic": 1,
+      "question": "ニ",
+      "options": {
+        "A": "yo",
+        "B": "ha",
+        "C": "na",
+        "D": "ni"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ニ = ni",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 23,
+      "topic": 1,
+      "question": "ヌ",
+      "options": {
+        "A": "ro",
+        "B": "nu",
+        "C": "a",
+        "D": "su"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヌ = nu（唔好同 ス su 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 24,
+      "topic": 1,
+      "question": "ネ",
+      "options": {
+        "A": "ne",
+        "B": "se",
+        "C": "hi",
+        "D": "yo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ネ = ne",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 25,
+      "topic": 1,
+      "question": "ノ",
+      "options": {
+        "A": "no",
+        "B": "mu",
+        "C": "nu",
+        "D": "ri"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ノ = no",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 26,
+      "topic": 1,
+      "question": "ハ",
+      "options": {
+        "A": "se",
+        "B": "yo",
+        "C": "ha",
+        "D": "wa"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ハ = ha",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 27,
+      "topic": 1,
+      "question": "ヒ",
+      "options": {
+        "A": "wa",
+        "B": "ku",
+        "C": "hi",
+        "D": "ya"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヒ = hi",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 28,
+      "topic": 1,
+      "question": "フ",
+      "options": {
+        "A": "me",
+        "B": "fu",
+        "C": "wa",
+        "D": "nu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "フ = fu（唔好同 ワ wa 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 29,
+      "topic": 1,
+      "question": "ヘ",
+      "options": {
+        "A": "yo",
+        "B": "hi",
+        "C": "ha",
+        "D": "he"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヘ = he（唔好同 ハ ha 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 30,
+      "topic": 1,
+      "question": "ホ",
+      "options": {
+        "A": "sa",
+        "B": "ho",
+        "C": "wa",
+        "D": "n"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ホ = ho",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 31,
+      "topic": 1,
+      "question": "マ",
+      "options": {
+        "A": "ma",
+        "B": "tsu",
+        "C": "o",
+        "D": "ya"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "マ = ma",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 32,
+      "topic": 1,
+      "question": "ミ",
+      "options": {
+        "A": "e",
+        "B": "chi",
+        "C": "mi",
+        "D": "ya"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ミ = mi",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 33,
+      "topic": 1,
+      "question": "ム",
+      "options": {
+        "A": "ya",
+        "B": "mu",
+        "C": "te",
+        "D": "i"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ム = mu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 34,
+      "topic": 1,
+      "question": "メ",
+      "options": {
+        "A": "sa",
+        "B": "me",
+        "C": "su",
+        "D": "na"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "メ = me（唔好同 ナ na 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 35,
+      "topic": 1,
+      "question": "モ",
+      "options": {
+        "A": "ni",
+        "B": "mo",
+        "C": "ka",
+        "D": "ne"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "モ = mo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 36,
+      "topic": 1,
+      "question": "ヤ",
+      "options": {
+        "A": "ru",
+        "B": "ni",
+        "C": "ya",
+        "D": "ka"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヤ = ya",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 37,
+      "topic": 1,
+      "question": "ユ",
+      "options": {
+        "A": "mi",
+        "B": "i",
+        "C": "yu",
+        "D": "ko"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ユ = yu（唔好同 コ ko 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 38,
+      "topic": 1,
+      "question": "ヨ",
+      "options": {
+        "A": "na",
+        "B": "yo",
+        "C": "a",
+        "D": "mo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヨ = yo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 39,
+      "topic": 1,
+      "question": "ラ",
+      "options": {
+        "A": "he",
+        "B": "ra",
+        "C": "wo",
+        "D": "me"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ラ = ra（唔好同 ヲ wo 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 40,
+      "topic": 1,
+      "question": "リ",
+      "options": {
+        "A": "ri",
+        "B": "to",
+        "C": "ne",
+        "D": "chi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "リ = ri",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 41,
+      "topic": 1,
+      "question": "ル",
+      "options": {
+        "A": "u",
+        "B": "to",
+        "C": "su",
+        "D": "ru"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ル = ru",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 42,
+      "topic": 1,
+      "question": "レ",
+      "options": {
+        "A": "ka",
+        "B": "u",
+        "C": "yo",
+        "D": "re"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "レ = re",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 43,
+      "topic": 1,
+      "question": "ロ",
+      "options": {
+        "A": "ko",
+        "B": "ro",
+        "C": "ka",
+        "D": "re"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ロ = ro（唔好同 コ ko 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 44,
+      "topic": 1,
+      "question": "ワ",
+      "options": {
+        "A": "u",
+        "B": "ho",
+        "C": "wa",
+        "D": "se"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ワ = wa（唔好同 ウ u 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 45,
+      "topic": 1,
+      "question": "ヲ",
+      "options": {
+        "A": "ra",
+        "B": "re",
+        "C": "wo",
+        "D": "i"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヲ = wo（唔好同 ラ ra 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 46,
+      "topic": 1,
+      "question": "ン",
+      "options": {
+        "A": "n",
+        "B": "i",
+        "C": "na",
+        "D": "so"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ン = n（唔好同 ソ so 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 47,
+      "topic": 2,
+      "question": "あ",
+      "options": {
+        "A": "o",
+        "B": "i",
+        "C": "a",
+        "D": "ru"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "あ = a（唔好同 お o 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 48,
+      "topic": 2,
+      "question": "い",
+      "options": {
+        "A": "ho",
+        "B": "i",
+        "C": "he",
+        "D": "o"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "い = i",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 49,
+      "topic": 2,
+      "question": "う",
+      "options": {
+        "A": "u",
+        "B": "so",
+        "C": "ma",
+        "D": "fu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "う = u",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 50,
+      "topic": 2,
+      "question": "え",
+      "options": {
+        "A": "no",
+        "B": "i",
+        "C": "e",
+        "D": "shi"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "え = e",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 51,
+      "topic": 2,
+      "question": "お",
+      "options": {
+        "A": "ro",
+        "B": "u",
+        "C": "a",
+        "D": "o"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "お = o（唔好同 あ a 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 52,
+      "topic": 2,
+      "question": "か",
+      "options": {
+        "A": "o",
+        "B": "ka",
+        "C": "me",
+        "D": "ya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "か = ka",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 53,
+      "topic": 2,
+      "question": "き",
+      "options": {
+        "A": "ka",
+        "B": "ya",
+        "C": "ki",
+        "D": "sa"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "き = ki（唔好同 さ sa 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 54,
+      "topic": 2,
+      "question": "く",
+      "options": {
+        "A": "hi",
+        "B": "wo",
+        "C": "ra",
+        "D": "ku"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "く = ku",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 55,
+      "topic": 2,
+      "question": "け",
+      "options": {
+        "A": "mi",
+        "B": "wa",
+        "C": "ke",
+        "D": "ku"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "け = ke",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 56,
+      "topic": 2,
+      "question": "こ",
+      "options": {
+        "A": "ne",
+        "B": "he",
+        "C": "ko",
+        "D": "ra"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "こ = ko",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 57,
+      "topic": 2,
+      "question": "さ",
+      "options": {
+        "A": "ni",
+        "B": "ko",
+        "C": "chi",
+        "D": "sa"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "さ = sa（唔好同 ち chi 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 58,
+      "topic": 2,
+      "question": "し",
+      "options": {
+        "A": "ho",
+        "B": "ki",
+        "C": "se",
+        "D": "shi"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "し = shi",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 59,
+      "topic": 2,
+      "question": "す",
+      "options": {
+        "A": "yu",
+        "B": "ru",
+        "C": "i",
+        "D": "su"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "す = su",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 60,
+      "topic": 2,
+      "question": "せ",
+      "options": {
+        "A": "ro",
+        "B": "se",
+        "C": "te",
+        "D": "ru"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "せ = se",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 61,
+      "topic": 2,
+      "question": "そ",
+      "options": {
+        "A": "mi",
+        "B": "te",
+        "C": "so",
+        "D": "su"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "そ = so",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 62,
+      "topic": 2,
+      "question": "た",
+      "options": {
+        "A": "ka",
+        "B": "ta",
+        "C": "o",
+        "D": "tsu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "た = ta",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 63,
+      "topic": 2,
+      "question": "ち",
+      "options": {
+        "A": "chi",
+        "B": "ni",
+        "C": "wa",
+        "D": "sa"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ち = chi（唔好同 さ sa 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 64,
+      "topic": 2,
+      "question": "つ",
+      "options": {
+        "A": "ro",
+        "B": "yu",
+        "C": "tsu",
+        "D": "n"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "つ = tsu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 65,
+      "topic": 2,
+      "question": "て",
+      "options": {
+        "A": "me",
+        "B": "hi",
+        "C": "ra",
+        "D": "te"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "て = te",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 66,
+      "topic": 2,
+      "question": "と",
+      "options": {
+        "A": "na",
+        "B": "n",
+        "C": "to",
+        "D": "he"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "と = to",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 67,
+      "topic": 2,
+      "question": "な",
+      "options": {
+        "A": "ma",
+        "B": "nu",
+        "C": "na",
+        "D": "fu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "な = na",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 68,
+      "topic": 2,
+      "question": "に",
+      "options": {
+        "A": "yu",
+        "B": "mu",
+        "C": "ni",
+        "D": "a"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "に = ni",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 69,
+      "topic": 2,
+      "question": "ぬ",
+      "options": {
+        "A": "na",
+        "B": "me",
+        "C": "so",
+        "D": "nu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぬ = nu（唔好同 め me 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 70,
+      "topic": 2,
+      "question": "ね",
+      "options": {
+        "A": "he",
+        "B": "ne",
+        "C": "ke",
+        "D": "re"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ね = ne（唔好同 れ re 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 71,
+      "topic": 2,
+      "question": "の",
+      "options": {
+        "A": "to",
+        "B": "no",
+        "C": "sa",
+        "D": "yu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "の = no",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 72,
+      "topic": 2,
+      "question": "は",
+      "options": {
+        "A": "ha",
+        "B": "ri",
+        "C": "ho",
+        "D": "ro"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "は = ha（唔好同 ほ ho 混）",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 73,
+      "topic": 2,
+      "question": "ひ",
+      "options": {
+        "A": "nu",
+        "B": "re",
+        "C": "hi",
+        "D": "ka"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ひ = hi",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 74,
+      "topic": 2,
+      "question": "ふ",
+      "options": {
+        "A": "se",
+        "B": "ma",
+        "C": "ha",
+        "D": "fu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ふ = fu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 75,
+      "topic": 2,
+      "question": "へ",
+      "options": {
+        "A": "a",
+        "B": "he",
+        "C": "ya",
+        "D": "ka"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "へ = he",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 76,
+      "topic": 2,
+      "question": "ほ",
+      "options": {
+        "A": "n",
+        "B": "me",
+        "C": "ha",
+        "D": "ho"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ほ = ho（唔好同 は ha 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 77,
+      "topic": 2,
+      "question": "ま",
+      "options": {
+        "A": "na",
+        "B": "shi",
+        "C": "ma",
+        "D": "ta"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ま = ma",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 78,
+      "topic": 2,
+      "question": "み",
+      "options": {
+        "A": "mi",
+        "B": "ro",
+        "C": "yo",
+        "D": "sa"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "み = mi",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 79,
+      "topic": 2,
+      "question": "む",
+      "options": {
+        "A": "ra",
+        "B": "mu",
+        "C": "te",
+        "D": "to"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "む = mu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 80,
+      "topic": 2,
+      "question": "め",
+      "options": {
+        "A": "nu",
+        "B": "yu",
+        "C": "me",
+        "D": "a"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "め = me（唔好同 ぬ nu 混）",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 81,
+      "topic": 2,
+      "question": "も",
+      "options": {
+        "A": "i",
+        "B": "mo",
+        "C": "hi",
+        "D": "shi"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "も = mo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 82,
+      "topic": 2,
+      "question": "や",
+      "options": {
+        "A": "fu",
+        "B": "ya",
+        "C": "i",
+        "D": "ta"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "や = ya",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 83,
+      "topic": 2,
+      "question": "ゆ",
+      "options": {
+        "A": "wa",
+        "B": "ka",
+        "C": "mi",
+        "D": "yu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ゆ = yu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 84,
+      "topic": 2,
+      "question": "よ",
+      "options": {
+        "A": "n",
+        "B": "se",
+        "C": "shi",
+        "D": "yo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "よ = yo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 85,
+      "topic": 2,
+      "question": "ら",
+      "options": {
+        "A": "mi",
+        "B": "ra",
+        "C": "wa",
+        "D": "yo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ら = ra",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 86,
+      "topic": 2,
+      "question": "り",
+      "options": {
+        "A": "mo",
+        "B": "n",
+        "C": "a",
+        "D": "ri"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "り = ri",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 87,
+      "topic": 2,
+      "question": "る",
+      "options": {
+        "A": "he",
+        "B": "ro",
+        "C": "mi",
+        "D": "ru"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "る = ru（唔好同 ろ ro 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 88,
+      "topic": 2,
+      "question": "れ",
+      "options": {
+        "A": "wa",
+        "B": "ho",
+        "C": "ru",
+        "D": "re"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "れ = re（唔好同 わ wa 混）",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 89,
+      "topic": 2,
+      "question": "ろ",
+      "options": {
+        "A": "ta",
+        "B": "ro",
+        "C": "a",
+        "D": "ru"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ろ = ro（唔好同 る ru 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 90,
+      "topic": 2,
+      "question": "わ",
+      "options": {
+        "A": "o",
+        "B": "wa",
+        "C": "to",
+        "D": "re"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "わ = wa（唔好同 れ re 混）",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 91,
+      "topic": 2,
+      "question": "を",
+      "options": {
+        "A": "mi",
+        "B": "wo",
+        "C": "ki",
+        "D": "yo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "を = wo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 92,
+      "topic": 2,
+      "question": "ん",
+      "options": {
+        "A": "ku",
+        "B": "n",
+        "C": "ta",
+        "D": "chi"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ん = n",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 93,
+      "topic": 3,
+      "question": "ガ",
+      "options": {
+        "A": "ga",
+        "B": "gi",
+        "C": "hyu",
+        "D": "zu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ガ = ga",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 94,
+      "topic": 3,
+      "question": "ギ",
+      "options": {
+        "A": "cha",
+        "B": "gi",
+        "C": "mya",
+        "D": "byu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ギ = gi",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 95,
+      "topic": 3,
+      "question": "グ",
+      "options": {
+        "A": "cha",
+        "B": "gu",
+        "C": "kyo",
+        "D": "bya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "グ = gu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 96,
+      "topic": 3,
+      "question": "ゲ",
+      "options": {
+        "A": "ge",
+        "B": "pi",
+        "C": "ji",
+        "D": "go"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ゲ = ge",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 97,
+      "topic": 3,
+      "question": "ゴ",
+      "options": {
+        "A": "ge",
+        "B": "be",
+        "C": "ja",
+        "D": "go"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ゴ = go",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 98,
+      "topic": 3,
+      "question": "ザ",
+      "options": {
+        "A": "ja",
+        "B": "nyu",
+        "C": "za",
+        "D": "pu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ザ = za",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 99,
+      "topic": 3,
+      "question": "ジ",
+      "options": {
+        "A": "nyu",
+        "B": "ryo",
+        "C": "sho",
+        "D": "ji"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ジ = ji",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 100,
+      "topic": 3,
+      "question": "ズ",
+      "options": {
+        "A": "do",
+        "B": "cha",
+        "C": "gi",
+        "D": "zu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ズ = zu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 101,
+      "topic": 3,
+      "question": "ゼ",
+      "options": {
+        "A": "ze",
+        "B": "rya",
+        "C": "shu",
+        "D": "pe"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ゼ = ze",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 102,
+      "topic": 3,
+      "question": "ゾ",
+      "options": {
+        "A": "pe",
+        "B": "da",
+        "C": "mya",
+        "D": "zo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ゾ = zo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 103,
+      "topic": 3,
+      "question": "ダ",
+      "options": {
+        "A": "da",
+        "B": "hyo",
+        "C": "ba",
+        "D": "byo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ダ = da",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 104,
+      "topic": 3,
+      "question": "ヂ",
+      "options": {
+        "A": "nyo",
+        "B": "mya",
+        "C": "ji",
+        "D": "myo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヂ = ji",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 105,
+      "topic": 3,
+      "question": "ヅ",
+      "options": {
+        "A": "zu",
+        "B": "nya",
+        "C": "pyu",
+        "D": "ryo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヅ = zu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 106,
+      "topic": 3,
+      "question": "デ",
+      "options": {
+        "A": "de",
+        "B": "ba",
+        "C": "pu",
+        "D": "hyo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "デ = de",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 107,
+      "topic": 3,
+      "question": "ド",
+      "options": {
+        "A": "do",
+        "B": "hyu",
+        "C": "chu",
+        "D": "sha"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ド = do",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 108,
+      "topic": 3,
+      "question": "バ",
+      "options": {
+        "A": "nyu",
+        "B": "rya",
+        "C": "zu",
+        "D": "ba"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "バ = ba",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 109,
+      "topic": 3,
+      "question": "ビ",
+      "options": {
+        "A": "bi",
+        "B": "byo",
+        "C": "jo",
+        "D": "mya"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ビ = bi",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 110,
+      "topic": 3,
+      "question": "ブ",
+      "options": {
+        "A": "zo",
+        "B": "gi",
+        "C": "mya",
+        "D": "bu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ブ = bu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 111,
+      "topic": 3,
+      "question": "ベ",
+      "options": {
+        "A": "hya",
+        "B": "po",
+        "C": "be",
+        "D": "ryo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ベ = be",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 112,
+      "topic": 3,
+      "question": "ボ",
+      "options": {
+        "A": "bo",
+        "B": "cha",
+        "C": "be",
+        "D": "gi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ボ = bo",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 113,
+      "topic": 3,
+      "question": "パ",
+      "options": {
+        "A": "pyo",
+        "B": "pa",
+        "C": "pi",
+        "D": "gya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "パ = pa",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 114,
+      "topic": 3,
+      "question": "ピ",
+      "options": {
+        "A": "kyo",
+        "B": "pi",
+        "C": "do",
+        "D": "ba"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ピ = pi",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 115,
+      "topic": 3,
+      "question": "プ",
+      "options": {
+        "A": "hyu",
+        "B": "pu",
+        "C": "go",
+        "D": "zo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "プ = pu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 116,
+      "topic": 3,
+      "question": "ペ",
+      "options": {
+        "A": "pyo",
+        "B": "gyu",
+        "C": "da",
+        "D": "pe"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ペ = pe",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 117,
+      "topic": 3,
+      "question": "ポ",
+      "options": {
+        "A": "po",
+        "B": "ba",
+        "C": "ze",
+        "D": "chu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ポ = po",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 118,
+      "topic": 3,
+      "question": "キャ",
+      "options": {
+        "A": "kya",
+        "B": "ba",
+        "C": "ge",
+        "D": "zu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "キャ = kya",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 119,
+      "topic": 3,
+      "question": "キュ",
+      "options": {
+        "A": "kyu",
+        "B": "byu",
+        "C": "ge",
+        "D": "zo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "キュ = kyu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 120,
+      "topic": 3,
+      "question": "キョ",
+      "options": {
+        "A": "rya",
+        "B": "kyo",
+        "C": "ge",
+        "D": "mya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "キョ = kyo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 121,
+      "topic": 3,
+      "question": "シャ",
+      "options": {
+        "A": "kyu",
+        "B": "sha",
+        "C": "bu",
+        "D": "byo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "シャ = sha",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 122,
+      "topic": 3,
+      "question": "シュ",
+      "options": {
+        "A": "gu",
+        "B": "shu",
+        "C": "rya",
+        "D": "nyo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "シュ = shu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 123,
+      "topic": 3,
+      "question": "ショ",
+      "options": {
+        "A": "bu",
+        "B": "cho",
+        "C": "sho",
+        "D": "go"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ショ = sho",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 124,
+      "topic": 3,
+      "question": "チャ",
+      "options": {
+        "A": "ba",
+        "B": "cha",
+        "C": "ji",
+        "D": "pya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "チャ = cha",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 125,
+      "topic": 3,
+      "question": "チュ",
+      "options": {
+        "A": "ge",
+        "B": "kya",
+        "C": "chu",
+        "D": "cho"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "チュ = chu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 126,
+      "topic": 3,
+      "question": "チョ",
+      "options": {
+        "A": "myu",
+        "B": "gyu",
+        "C": "pe",
+        "D": "cho"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "チョ = cho",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 127,
+      "topic": 3,
+      "question": "ニャ",
+      "options": {
+        "A": "nya",
+        "B": "sho",
+        "C": "pu",
+        "D": "po"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ニャ = nya",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 128,
+      "topic": 3,
+      "question": "ニュ",
+      "options": {
+        "A": "nyu",
+        "B": "do",
+        "C": "byu",
+        "D": "chu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ニュ = nyu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 129,
+      "topic": 3,
+      "question": "ニョ",
+      "options": {
+        "A": "ba",
+        "B": "ze",
+        "C": "bo",
+        "D": "nyo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ニョ = nyo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 130,
+      "topic": 3,
+      "question": "ヒャ",
+      "options": {
+        "A": "hya",
+        "B": "nyu",
+        "C": "gyo",
+        "D": "go"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヒャ = hya",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 131,
+      "topic": 3,
+      "question": "ヒュ",
+      "options": {
+        "A": "hyu",
+        "B": "po",
+        "C": "myu",
+        "D": "gyo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヒュ = hyu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 132,
+      "topic": 3,
+      "question": "ヒョ",
+      "options": {
+        "A": "ryo",
+        "B": "be",
+        "C": "nyu",
+        "D": "hyo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ヒョ = hyo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 133,
+      "topic": 3,
+      "question": "ミャ",
+      "options": {
+        "A": "pu",
+        "B": "gyu",
+        "C": "za",
+        "D": "mya"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ミャ = mya",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 134,
+      "topic": 3,
+      "question": "ミュ",
+      "options": {
+        "A": "rya",
+        "B": "gya",
+        "C": "myu",
+        "D": "ge"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ミュ = myu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 135,
+      "topic": 3,
+      "question": "ミョ",
+      "options": {
+        "A": "myo",
+        "B": "kya",
+        "C": "cho",
+        "D": "go"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ミョ = myo",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 136,
+      "topic": 3,
+      "question": "リャ",
+      "options": {
+        "A": "kyu",
+        "B": "rya",
+        "C": "kyo",
+        "D": "byu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "リャ = rya",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 137,
+      "topic": 3,
+      "question": "リュ",
+      "options": {
+        "A": "go",
+        "B": "nyo",
+        "C": "hya",
+        "D": "ryu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "リュ = ryu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 138,
+      "topic": 3,
+      "question": "リョ",
+      "options": {
+        "A": "byu",
+        "B": "bo",
+        "C": "bya",
+        "D": "ryo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "リョ = ryo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 139,
+      "topic": 3,
+      "question": "ギャ",
+      "options": {
+        "A": "pu",
+        "B": "ryo",
+        "C": "ja",
+        "D": "gya"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ギャ = gya",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 140,
+      "topic": 3,
+      "question": "ギュ",
+      "options": {
+        "A": "pa",
+        "B": "mya",
+        "C": "hyu",
+        "D": "gyu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ギュ = gyu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 141,
+      "topic": 3,
+      "question": "ギョ",
+      "options": {
+        "A": "go",
+        "B": "shu",
+        "C": "jo",
+        "D": "gyo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ギョ = gyo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 142,
+      "topic": 3,
+      "question": "ジャ",
+      "options": {
+        "A": "cha",
+        "B": "ja",
+        "C": "byu",
+        "D": "rya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ジャ = ja",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 143,
+      "topic": 3,
+      "question": "ジュ",
+      "options": {
+        "A": "go",
+        "B": "pya",
+        "C": "kya",
+        "D": "ju"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ジュ = ju",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 144,
+      "topic": 3,
+      "question": "ジョ",
+      "options": {
+        "A": "byu",
+        "B": "nyo",
+        "C": "nyu",
+        "D": "jo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ジョ = jo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 145,
+      "topic": 3,
+      "question": "ビャ",
+      "options": {
+        "A": "kyo",
+        "B": "chu",
+        "C": "bya",
+        "D": "po"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ビャ = bya",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 146,
+      "topic": 3,
+      "question": "ビュ",
+      "options": {
+        "A": "ji",
+        "B": "pyo",
+        "C": "byu",
+        "D": "po"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ビュ = byu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 147,
+      "topic": 3,
+      "question": "ビョ",
+      "options": {
+        "A": "kya",
+        "B": "byo",
+        "C": "mya",
+        "D": "shu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ビョ = byo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 148,
+      "topic": 3,
+      "question": "ピャ",
+      "options": {
+        "A": "bu",
+        "B": "pya",
+        "C": "kyu",
+        "D": "do"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ピャ = pya",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 149,
+      "topic": 3,
+      "question": "ピュ",
+      "options": {
+        "A": "bu",
+        "B": "pyu",
+        "C": "jo",
+        "D": "po"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ピュ = pyu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 150,
+      "topic": 3,
+      "question": "ピョ",
+      "options": {
+        "A": "kya",
+        "B": "jo",
+        "C": "myu",
+        "D": "pyo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "片假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ピョ = pyo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 151,
+      "topic": 4,
+      "question": "が",
+      "options": {
+        "A": "pya",
+        "B": "hya",
+        "C": "ga",
+        "D": "gya"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "が = ga",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 152,
+      "topic": 4,
+      "question": "ぎ",
+      "options": {
+        "A": "gi",
+        "B": "jo",
+        "C": "hya",
+        "D": "zu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぎ = gi",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 153,
+      "topic": 4,
+      "question": "ぐ",
+      "options": {
+        "A": "sha",
+        "B": "shu",
+        "C": "gya",
+        "D": "gu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぐ = gu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 154,
+      "topic": 4,
+      "question": "げ",
+      "options": {
+        "A": "nyu",
+        "B": "myo",
+        "C": "ge",
+        "D": "pi"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "げ = ge",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 155,
+      "topic": 4,
+      "question": "ご",
+      "options": {
+        "A": "hyo",
+        "B": "gyo",
+        "C": "go",
+        "D": "kyu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ご = go",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 156,
+      "topic": 4,
+      "question": "ざ",
+      "options": {
+        "A": "za",
+        "B": "cha",
+        "C": "kyu",
+        "D": "ge"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ざ = za",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 157,
+      "topic": 4,
+      "question": "じ",
+      "options": {
+        "A": "nyo",
+        "B": "cha",
+        "C": "ji",
+        "D": "ja"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "じ = ji",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 158,
+      "topic": 4,
+      "question": "ず",
+      "options": {
+        "A": "zu",
+        "B": "ji",
+        "C": "ba",
+        "D": "rya"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ず = zu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 159,
+      "topic": 4,
+      "question": "ぜ",
+      "options": {
+        "A": "myo",
+        "B": "kyo",
+        "C": "ze",
+        "D": "chu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぜ = ze",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 160,
+      "topic": 4,
+      "question": "ぞ",
+      "options": {
+        "A": "pu",
+        "B": "zo",
+        "C": "jo",
+        "D": "ze"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぞ = zo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 161,
+      "topic": 4,
+      "question": "だ",
+      "options": {
+        "A": "da",
+        "B": "go",
+        "C": "jo",
+        "D": "bo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "だ = da",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 162,
+      "topic": 4,
+      "question": "ぢ",
+      "options": {
+        "A": "ji",
+        "B": "hyu",
+        "C": "gyo",
+        "D": "ju"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぢ = ji",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 163,
+      "topic": 4,
+      "question": "づ",
+      "options": {
+        "A": "sho",
+        "B": "cho",
+        "C": "zu",
+        "D": "nyu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "づ = zu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 164,
+      "topic": 4,
+      "question": "で",
+      "options": {
+        "A": "gu",
+        "B": "pyu",
+        "C": "de",
+        "D": "pyo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "で = de",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 165,
+      "topic": 4,
+      "question": "ど",
+      "options": {
+        "A": "do",
+        "B": "jo",
+        "C": "myu",
+        "D": "chu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ど = do",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 166,
+      "topic": 4,
+      "question": "ば",
+      "options": {
+        "A": "ji",
+        "B": "go",
+        "C": "ba",
+        "D": "pya"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ば = ba",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 167,
+      "topic": 4,
+      "question": "び",
+      "options": {
+        "A": "myo",
+        "B": "bi",
+        "C": "gyo",
+        "D": "mya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "び = bi",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 168,
+      "topic": 4,
+      "question": "ぶ",
+      "options": {
+        "A": "bu",
+        "B": "ji",
+        "C": "be",
+        "D": "shu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぶ = bu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 169,
+      "topic": 4,
+      "question": "べ",
+      "options": {
+        "A": "be",
+        "B": "za",
+        "C": "gyu",
+        "D": "go"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "べ = be",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 170,
+      "topic": 4,
+      "question": "ぼ",
+      "options": {
+        "A": "ryo",
+        "B": "zu",
+        "C": "bo",
+        "D": "myo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぼ = bo",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 171,
+      "topic": 4,
+      "question": "ぱ",
+      "options": {
+        "A": "pa",
+        "B": "gya",
+        "C": "hyo",
+        "D": "kyo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぱ = pa",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 172,
+      "topic": 4,
+      "question": "ぴ",
+      "options": {
+        "A": "pi",
+        "B": "ba",
+        "C": "ryu",
+        "D": "myo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぴ = pi",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 173,
+      "topic": 4,
+      "question": "ぷ",
+      "options": {
+        "A": "pu",
+        "B": "nyu",
+        "C": "be",
+        "D": "cha"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぷ = pu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 174,
+      "topic": 4,
+      "question": "ぺ",
+      "options": {
+        "A": "gyo",
+        "B": "pe",
+        "C": "sho",
+        "D": "myu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぺ = pe",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 175,
+      "topic": 4,
+      "question": "ぽ",
+      "options": {
+        "A": "ju",
+        "B": "mya",
+        "C": "kya",
+        "D": "po"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぽ = po",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 176,
+      "topic": 4,
+      "question": "きゃ",
+      "options": {
+        "A": "kyo",
+        "B": "do",
+        "C": "cha",
+        "D": "kya"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "きゃ = kya",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 177,
+      "topic": 4,
+      "question": "きゅ",
+      "options": {
+        "A": "kyu",
+        "B": "bu",
+        "C": "ba",
+        "D": "myu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "きゅ = kyu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 178,
+      "topic": 4,
+      "question": "きょ",
+      "options": {
+        "A": "hyo",
+        "B": "ryo",
+        "C": "kyo",
+        "D": "gi"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "きょ = kyo",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 179,
+      "topic": 4,
+      "question": "しゃ",
+      "options": {
+        "A": "gi",
+        "B": "hyu",
+        "C": "sha",
+        "D": "cha"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "しゃ = sha",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 180,
+      "topic": 4,
+      "question": "しゅ",
+      "options": {
+        "A": "shu",
+        "B": "hyu",
+        "C": "ze",
+        "D": "bi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "しゅ = shu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 181,
+      "topic": 4,
+      "question": "しょ",
+      "options": {
+        "A": "mya",
+        "B": "byo",
+        "C": "kya",
+        "D": "sho"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "しょ = sho",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 182,
+      "topic": 4,
+      "question": "ちゃ",
+      "options": {
+        "A": "sho",
+        "B": "ba",
+        "C": "hyo",
+        "D": "cha"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ちゃ = cha",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 183,
+      "topic": 4,
+      "question": "ちゅ",
+      "options": {
+        "A": "sha",
+        "B": "chu",
+        "C": "de",
+        "D": "zu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ちゅ = chu",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 184,
+      "topic": 4,
+      "question": "ちょ",
+      "options": {
+        "A": "bi",
+        "B": "cho",
+        "C": "ba",
+        "D": "sho"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ちょ = cho",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 185,
+      "topic": 4,
+      "question": "にゃ",
+      "options": {
+        "A": "kyu",
+        "B": "nya",
+        "C": "pe",
+        "D": "gyo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "にゃ = nya",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 186,
+      "topic": 4,
+      "question": "にゅ",
+      "options": {
+        "A": "nyu",
+        "B": "za",
+        "C": "be",
+        "D": "pi"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "にゅ = nyu",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 187,
+      "topic": 4,
+      "question": "にょ",
+      "options": {
+        "A": "da",
+        "B": "nyo",
+        "C": "gya",
+        "D": "za"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "にょ = nyo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 188,
+      "topic": 4,
+      "question": "ひゃ",
+      "options": {
+        "A": "ge",
+        "B": "rya",
+        "C": "pi",
+        "D": "hya"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ひゃ = hya",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 189,
+      "topic": 4,
+      "question": "ひゅ",
+      "options": {
+        "A": "bu",
+        "B": "ba",
+        "C": "pa",
+        "D": "hyu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ひゅ = hyu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 190,
+      "topic": 4,
+      "question": "ひょ",
+      "options": {
+        "A": "gi",
+        "B": "sho",
+        "C": "nyo",
+        "D": "hyo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ひょ = hyo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 191,
+      "topic": 4,
+      "question": "みゃ",
+      "options": {
+        "A": "mya",
+        "B": "do",
+        "C": "gyu",
+        "D": "hyo"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "みゃ = mya",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 192,
+      "topic": 4,
+      "question": "みゅ",
+      "options": {
+        "A": "pi",
+        "B": "shu",
+        "C": "gya",
+        "D": "myu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "みゅ = myu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 193,
+      "topic": 4,
+      "question": "みょ",
+      "options": {
+        "A": "ji",
+        "B": "zu",
+        "C": "myo",
+        "D": "ryo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "みょ = myo",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 194,
+      "topic": 4,
+      "question": "りゃ",
+      "options": {
+        "A": "rya",
+        "B": "ryu",
+        "C": "shu",
+        "D": "bu"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "りゃ = rya",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 195,
+      "topic": 4,
+      "question": "りゅ",
+      "options": {
+        "A": "kyo",
+        "B": "kya",
+        "C": "ryu",
+        "D": "gyu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "りゅ = ryu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 196,
+      "topic": 4,
+      "question": "りょ",
+      "options": {
+        "A": "bu",
+        "B": "ryo",
+        "C": "kyo",
+        "D": "nyo"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "りょ = ryo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 197,
+      "topic": 4,
+      "question": "ぎゃ",
+      "options": {
+        "A": "po",
+        "B": "byu",
+        "C": "gya",
+        "D": "kyu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぎゃ = gya",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 198,
+      "topic": 4,
+      "question": "ぎゅ",
+      "options": {
+        "A": "myo",
+        "B": "pyu",
+        "C": "gyu",
+        "D": "pu"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぎゅ = gyu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 199,
+      "topic": 4,
+      "question": "ぎょ",
+      "options": {
+        "A": "gyo",
+        "B": "ryu",
+        "C": "ji",
+        "D": "po"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぎょ = gyo",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 200,
+      "topic": 4,
+      "question": "じゃ",
+      "options": {
+        "A": "kyu",
+        "B": "ja",
+        "C": "pyu",
+        "D": "myu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "じゃ = ja",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 201,
+      "topic": 4,
+      "question": "じゅ",
+      "options": {
+        "A": "nyu",
+        "B": "ju",
+        "C": "hyu",
+        "D": "kya"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "じゅ = ju",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 202,
+      "topic": 4,
+      "question": "じょ",
+      "options": {
+        "A": "nya",
+        "B": "ja",
+        "C": "myo",
+        "D": "jo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "じょ = jo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 203,
+      "topic": 4,
+      "question": "びゃ",
+      "options": {
+        "A": "nyo",
+        "B": "ja",
+        "C": "gya",
+        "D": "bya"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "びゃ = bya",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 204,
+      "topic": 4,
+      "question": "びゅ",
+      "options": {
+        "A": "pu",
+        "B": "go",
+        "C": "byu",
+        "D": "kyo"
+      },
+      "correct_answer": [
+        "C"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "びゅ = byu",
+          "selected": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 205,
+      "topic": 4,
+      "question": "びょ",
+      "options": {
+        "A": "bu",
+        "B": "byo",
+        "C": "ju",
+        "D": "gyu"
+      },
+      "correct_answer": [
+        "B"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "びょ = byo",
+          "selected": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 206,
+      "topic": 4,
+      "question": "ぴゃ",
+      "options": {
+        "A": "pya",
+        "B": "za",
+        "C": "hyu",
+        "D": "be"
+      },
+      "correct_answer": [
+        "A"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぴゃ = pya",
+          "selected": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 207,
+      "topic": 4,
+      "question": "ぴゅ",
+      "options": {
+        "A": "pu",
+        "B": "jo",
+        "C": "gya",
+        "D": "pyu"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぴゅ = pyu",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 208,
+      "topic": 4,
+      "question": "ぴょ",
+      "options": {
+        "A": "po",
+        "B": "ja",
+        "C": "be",
+        "D": "pyo"
+      },
+      "correct_answer": [
+        "D"
+      ],
+      "tags": [
+        "平假名濁音拗音"
+      ],
+      "discussion": [
+        {
+          "username": "解釋",
+          "upvotes": 0,
+          "comment": "ぴょ = pyo",
+          "selected": [
+            "D"
+          ]
+        }
+      ]
+    }
+  ]
+}
