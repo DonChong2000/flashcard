@@ -51,7 +51,7 @@ Slug is derived from the filename (e.g. `SAA-C03.json` → `saa_c03`). To add a 
 
 Optional top-level `topic_names` (`{ "1": "易", ... }`) labels the practice-set cards and quiz header instead of "Practice Set N"; it passes through to the manifest as `topicNames`.
 
-Optional `image` / `audio` fields hold paths under `public/` (e.g. `media/jlpt_n5/2018-07/L1-1.mp3`); `QuestionCard` renders them with `BASE_PATH` prepended. `JLPT-N5.json`, `JLPT-N4.json` and `JLPT-N3.json` use them for their 聴解 (listening) questions, numbered after the reading ones so existing progress keys stay stable.
+Optional `image` / `audio` fields hold paths under `public/` (e.g. `media/jlpt_n5/2018-07/L1-1.mp3`); `QuestionCard` renders them with `BASE_PATH` prepended. The `JLPT-N5.json` to `JLPT-N1.json` files use them for their 聴解 (listening) questions, numbered after the reading ones so existing progress keys stay stable.
 
 ### Client data loading
 
