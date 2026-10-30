@@ -27,7 +27,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ア = a",
+          "comment": "ア = a\n詞源：\n• ア ← 阿（取左邊「阝」）",
           "selected": [
             "A"
           ]
@@ -54,7 +54,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "イ = i",
+          "comment": "イ = i\n詞源：\n• イ ← 伊（取左邊「亻」）",
           "selected": [
             "B"
           ]
@@ -81,7 +81,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ウ = u（唔好同 ワ wa 混）",
+          "comment": "ウ = u（唔好同 ワ wa 混）\n詞源：\n• ウ ← 宇（取上面「宀」）\n分辨：ウ 由「宇」嚟，有「宀」頂點；ワ 由「和」嚟，冇頂點",
           "selected": [
             "A"
           ]
@@ -108,7 +108,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "エ = e",
+          "comment": "エ = e\n詞源：\n• エ ← 江（取右邊「工」）",
           "selected": [
             "C"
           ]
@@ -135,7 +135,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "オ = o",
+          "comment": "オ = o\n詞源：\n• オ ← 於（取左邊「方」嘅變形）",
           "selected": [
             "B"
           ]
@@ -162,7 +162,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "カ = ka",
+          "comment": "カ = ka\n詞源：\n• カ ← 加（取左邊「力」）",
           "selected": [
             "A"
           ]
@@ -189,7 +189,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "キ = ki",
+          "comment": "キ = ki\n詞源：\n• キ ← 幾（草書簡化）",
           "selected": [
             "C"
           ]
@@ -216,7 +216,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ク = ku（唔好同 ケ ke 混）",
+          "comment": "ク = ku（唔好同 ケ ke 混）\n詞源：\n• ク ← 久（取頭兩筆）\n分辨：ク 由「久」嚟；ケ 由「介」嚟，多咗一劃直落",
           "selected": [
             "B"
           ]
@@ -243,7 +243,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ケ = ke（唔好同 ク ku 混）",
+          "comment": "ケ = ke（唔好同 ク ku 混）\n詞源：\n• ケ ← 介（變形）\n分辨：ケ 由「介」嚟；ク 由「久」嚟，冇嗰劃直落",
           "selected": [
             "B"
           ]
@@ -270,7 +270,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "コ = ko（唔好同 ユ yu 混）",
+          "comment": "コ = ko（唔好同 ユ yu 混）\n詞源：\n• コ ← 己（取上半）",
           "selected": [
             "A"
           ]
@@ -297,7 +297,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "サ = sa",
+          "comment": "サ = sa\n詞源：\n• サ ← 散（取左上角）",
           "selected": [
             "D"
           ]
@@ -324,7 +324,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "シ = shi（唔好同 ツ tsu 混）",
+          "comment": "シ = shi（唔好同 ツ tsu 混）\n詞源：\n• シ ← 之（草書變形）\n分辨：シ 由「之」嚟：點排喺左邊，最後一筆由下向上掃；ツ 由「川」嚟：點排喺頂，最後一筆由上向下",
           "selected": [
             "A"
           ]
@@ -351,7 +351,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ス = su（唔好同 ヌ nu 混）",
+          "comment": "ス = su（唔好同 ヌ nu 混）\n詞源：\n• ス ← 須（取右邊一部分）",
           "selected": [
             "A"
           ]
@@ -378,7 +378,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "セ = se",
+          "comment": "セ = se\n詞源：\n• セ ← 世（變形）",
           "selected": [
             "D"
           ]
@@ -405,7 +405,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ソ = so（唔好同 ン n 混）",
+          "comment": "ソ = so（唔好同 ン n 混）\n詞源：\n• ソ ← 曽（取頭兩點）\n分辨：ソ 由「曽」頭兩點嚟：長筆由上向下；ン：長筆由下向上掃",
           "selected": [
             "B"
           ]
@@ -432,7 +432,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "タ = ta",
+          "comment": "タ = ta\n詞源：\n• タ ← 多（取上面「夕」）",
           "selected": [
             "C"
           ]
@@ -459,7 +459,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "チ = chi（唔好同 テ te 混）",
+          "comment": "チ = chi（唔好同 テ te 混）\n詞源：\n• チ ← 千（變形）",
           "selected": [
             "A"
           ]
@@ -486,7 +486,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ツ = tsu（唔好同 シ shi 混）",
+          "comment": "ツ = tsu（唔好同 シ shi 混）\n詞源：\n• ツ ← 川（三劃變三點）\n分辨：ツ 由「川」嚟：點排喺頂，最後一筆由上向下；シ 由「之」嚟：點排喺左邊，最後一筆由下向上掃",
           "selected": [
             "C"
           ]
@@ -513,7 +513,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "テ = te（唔好同 チ chi 混）",
+          "comment": "テ = te（唔好同 チ chi 混）\n詞源：\n• テ ← 天（變形）",
           "selected": [
             "B"
           ]
@@ -540,7 +540,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ト = to",
+          "comment": "ト = to\n詞源：\n• ト ← 止（取右上部分）",
           "selected": [
             "A"
           ]
@@ -567,7 +567,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ナ = na（唔好同 メ me 混）",
+          "comment": "ナ = na（唔好同 メ me 混）\n詞源：\n• ナ ← 奈（取左上「大」嘅頭兩筆）",
           "selected": [
             "C"
           ]
@@ -594,7 +594,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ニ = ni",
+          "comment": "ニ = ni\n詞源：\n• ニ ← 二",
           "selected": [
             "D"
           ]
@@ -621,7 +621,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヌ = nu（唔好同 ス su 混）",
+          "comment": "ヌ = nu（唔好同 ス su 混）\n詞源：\n• ヌ ← 奴（取右邊「又」）",
           "selected": [
             "B"
           ]
@@ -648,7 +648,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ネ = ne",
+          "comment": "ネ = ne\n詞源：\n• ネ ← 祢（取左邊「礻」）",
           "selected": [
             "A"
           ]
@@ -675,7 +675,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ノ = no",
+          "comment": "ノ = no\n詞源：\n• ノ ← 乃（取第一筆）",
           "selected": [
             "A"
           ]
@@ -702,7 +702,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ハ = ha",
+          "comment": "ハ = ha\n詞源：\n• ハ ← 八",
           "selected": [
             "C"
           ]
@@ -729,7 +729,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヒ = hi",
+          "comment": "ヒ = hi\n詞源：\n• ヒ ← 比（取右邊）",
           "selected": [
             "C"
           ]
@@ -756,7 +756,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "フ = fu（唔好同 ワ wa 混）",
+          "comment": "フ = fu（唔好同 ワ wa 混）\n詞源：\n• フ ← 不（取頭兩筆）",
           "selected": [
             "B"
           ]
@@ -783,7 +783,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヘ = he（唔好同 ハ ha 混）",
+          "comment": "ヘ = he（唔好同 ハ ha 混）\n詞源：\n• ヘ ← 部（取右邊「阝」）",
           "selected": [
             "D"
           ]
@@ -810,7 +810,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ホ = ho",
+          "comment": "ホ = ho\n詞源：\n• ホ ← 保（取右下「木」）",
           "selected": [
             "B"
           ]
@@ -837,7 +837,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "マ = ma",
+          "comment": "マ = ma\n詞源：\n• マ ← 末（變形）",
           "selected": [
             "A"
           ]
@@ -864,7 +864,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ミ = mi",
+          "comment": "ミ = mi\n詞源：\n• ミ ← 三",
           "selected": [
             "C"
           ]
@@ -891,7 +891,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ム = mu",
+          "comment": "ム = mu\n詞源：\n• ム ← 牟（取上面「厶」）",
           "selected": [
             "B"
           ]
@@ -918,7 +918,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "メ = me（唔好同 ナ na 混）",
+          "comment": "メ = me（唔好同 ナ na 混）\n詞源：\n• メ ← 女（取下半）",
           "selected": [
             "B"
           ]
@@ -945,7 +945,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "モ = mo",
+          "comment": "モ = mo\n詞源：\n• モ ← 毛（變形）",
           "selected": [
             "B"
           ]
@@ -972,7 +972,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヤ = ya",
+          "comment": "ヤ = ya\n詞源：\n• ヤ ← 也（變形）",
           "selected": [
             "C"
           ]
@@ -999,7 +999,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ユ = yu（唔好同 コ ko 混）",
+          "comment": "ユ = yu（唔好同 コ ko 混）\n詞源：\n• ユ ← 由（變形）",
           "selected": [
             "C"
           ]
@@ -1026,7 +1026,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヨ = yo",
+          "comment": "ヨ = yo\n詞源：\n• ヨ ← 与（變形）",
           "selected": [
             "B"
           ]
@@ -1053,7 +1053,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ラ = ra（唔好同 ヲ wo 混）",
+          "comment": "ラ = ra（唔好同 ヲ wo 混）\n詞源：\n• ラ ← 良（取上面）",
           "selected": [
             "B"
           ]
@@ -1080,7 +1080,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "リ = ri",
+          "comment": "リ = ri\n詞源：\n• リ ← 利（取右邊「刂」）",
           "selected": [
             "A"
           ]
@@ -1107,7 +1107,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ル = ru",
+          "comment": "ル = ru\n詞源：\n• ル ← 流（取右下）",
           "selected": [
             "D"
           ]
@@ -1134,7 +1134,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "レ = re",
+          "comment": "レ = re\n詞源：\n• レ ← 礼（取右邊「乚」）",
           "selected": [
             "D"
           ]
@@ -1161,7 +1161,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ロ = ro（唔好同 コ ko 混）",
+          "comment": "ロ = ro（唔好同 コ ko 混）\n詞源：\n• ロ ← 呂（取上面「口」）",
           "selected": [
             "B"
           ]
@@ -1188,7 +1188,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ワ = wa（唔好同 ウ u 混）",
+          "comment": "ワ = wa（唔好同 ウ u 混）\n詞源：\n• ワ ← 和（取右邊「口」嘅一部分）\n分辨：ワ 由「和」嚟，冇頂點；ウ 由「宇」嚟，有「宀」頂點",
           "selected": [
             "C"
           ]
@@ -1215,7 +1215,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヲ = wo（唔好同 ラ ra 混）",
+          "comment": "ヲ = wo（唔好同 ラ ra 混）\n詞源：\n• ヲ ← 乎（變形）",
           "selected": [
             "C"
           ]
@@ -1242,7 +1242,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ン = n（唔好同 ソ so 混）",
+          "comment": "ン = n（唔好同 ソ so 混）\n詞源：\n• ン ← 來源有爭議，常見講法係「尓」（爾）\n分辨：ン：長筆由下向上掃；ソ 由「曽」頭兩點嚟：長筆由上向下",
           "selected": [
             "A"
           ]
@@ -2511,7 +2511,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ガ = ga",
+          "comment": "ガ = ga\n詞源：\n• ガ：カ ← 加（取左邊「力」） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2538,7 +2538,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ギ = gi",
+          "comment": "ギ = gi\n詞源：\n• ギ：キ ← 幾（草書簡化） ＋ 濁點",
           "selected": [
             "B"
           ]
@@ -2565,7 +2565,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "グ = gu",
+          "comment": "グ = gu\n詞源：\n• グ：ク ← 久（取頭兩筆） ＋ 濁點",
           "selected": [
             "B"
           ]
@@ -2592,7 +2592,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ゲ = ge",
+          "comment": "ゲ = ge\n詞源：\n• ゲ：ケ ← 介（變形） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2619,7 +2619,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ゴ = go",
+          "comment": "ゴ = go\n詞源：\n• ゴ：コ ← 己（取上半） ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -2646,7 +2646,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ザ = za",
+          "comment": "ザ = za\n詞源：\n• ザ：サ ← 散（取左上角） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -2673,7 +2673,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ジ = ji",
+          "comment": "ジ = ji\n詞源：\n• ジ：シ ← 之（草書變形） ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -2700,7 +2700,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ズ = zu",
+          "comment": "ズ = zu\n詞源：\n• ズ：ス ← 須（取右邊一部分） ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -2727,7 +2727,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ゼ = ze",
+          "comment": "ゼ = ze\n詞源：\n• ゼ：セ ← 世（變形） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2754,7 +2754,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ゾ = zo",
+          "comment": "ゾ = zo\n詞源：\n• ゾ：ソ ← 曽（取頭兩點） ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -2781,7 +2781,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ダ = da",
+          "comment": "ダ = da\n詞源：\n• ダ：タ ← 多（取上面「夕」） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2808,7 +2808,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヂ = ji",
+          "comment": "ヂ = ji\n詞源：\n• ヂ：チ ← 千（變形） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -2835,7 +2835,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヅ = zu",
+          "comment": "ヅ = zu\n詞源：\n• ヅ：ツ ← 川（三劃變三點） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2862,7 +2862,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "デ = de",
+          "comment": "デ = de\n詞源：\n• デ：テ ← 天（變形） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2889,7 +2889,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ド = do",
+          "comment": "ド = do\n詞源：\n• ド：ト ← 止（取右上部分） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2916,7 +2916,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "バ = ba",
+          "comment": "バ = ba\n詞源：\n• バ：ハ ← 八 ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -2943,7 +2943,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ビ = bi",
+          "comment": "ビ = bi\n詞源：\n• ビ：ヒ ← 比（取右邊） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -2970,7 +2970,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ブ = bu",
+          "comment": "ブ = bu\n詞源：\n• ブ：フ ← 不（取頭兩筆） ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -2997,7 +2997,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ベ = be",
+          "comment": "ベ = be\n詞源：\n• ベ：ヘ ← 部（取右邊「阝」） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -3024,7 +3024,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ボ = bo",
+          "comment": "ボ = bo\n詞源：\n• ボ：ホ ← 保（取右下「木」） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -3051,7 +3051,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "パ = pa",
+          "comment": "パ = pa\n詞源：\n• パ：ハ ← 八 ＋ 半濁點",
           "selected": [
             "B"
           ]
@@ -3078,7 +3078,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ピ = pi",
+          "comment": "ピ = pi\n詞源：\n• ピ：ヒ ← 比（取右邊） ＋ 半濁點",
           "selected": [
             "B"
           ]
@@ -3105,7 +3105,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "プ = pu",
+          "comment": "プ = pu\n詞源：\n• プ：フ ← 不（取頭兩筆） ＋ 半濁點",
           "selected": [
             "B"
           ]
@@ -3132,7 +3132,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ペ = pe",
+          "comment": "ペ = pe\n詞源：\n• ペ：ヘ ← 部（取右邊「阝」） ＋ 半濁點",
           "selected": [
             "D"
           ]
@@ -3159,7 +3159,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ポ = po",
+          "comment": "ポ = po\n詞源：\n• ポ：ホ ← 保（取右下「木」） ＋ 半濁點",
           "selected": [
             "A"
           ]
@@ -3186,7 +3186,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "キャ = kya",
+          "comment": "キャ = kya\n詞源：\n• キ ← 幾（草書簡化）\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "A"
           ]
@@ -3213,7 +3213,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "キュ = kyu",
+          "comment": "キュ = kyu\n詞源：\n• キ ← 幾（草書簡化）\n• ュ：ユ ← 由（變形）",
           "selected": [
             "A"
           ]
@@ -3240,7 +3240,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "キョ = kyo",
+          "comment": "キョ = kyo\n詞源：\n• キ ← 幾（草書簡化）\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "B"
           ]
@@ -3267,7 +3267,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "シャ = sha",
+          "comment": "シャ = sha\n詞源：\n• シ ← 之（草書變形）\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "B"
           ]
@@ -3294,7 +3294,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "シュ = shu",
+          "comment": "シュ = shu\n詞源：\n• シ ← 之（草書變形）\n• ュ：ユ ← 由（變形）",
           "selected": [
             "B"
           ]
@@ -3321,7 +3321,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ショ = sho",
+          "comment": "ショ = sho\n詞源：\n• シ ← 之（草書變形）\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "C"
           ]
@@ -3348,7 +3348,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "チャ = cha",
+          "comment": "チャ = cha\n詞源：\n• チ ← 千（變形）\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "B"
           ]
@@ -3375,7 +3375,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "チュ = chu",
+          "comment": "チュ = chu\n詞源：\n• チ ← 千（變形）\n• ュ：ユ ← 由（變形）",
           "selected": [
             "C"
           ]
@@ -3402,7 +3402,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "チョ = cho",
+          "comment": "チョ = cho\n詞源：\n• チ ← 千（變形）\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
@@ -3429,7 +3429,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ニャ = nya",
+          "comment": "ニャ = nya\n詞源：\n• ニ ← 二\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "A"
           ]
@@ -3456,7 +3456,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ニュ = nyu",
+          "comment": "ニュ = nyu\n詞源：\n• ニ ← 二\n• ュ：ユ ← 由（變形）",
           "selected": [
             "A"
           ]
@@ -3483,7 +3483,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ニョ = nyo",
+          "comment": "ニョ = nyo\n詞源：\n• ニ ← 二\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
@@ -3510,7 +3510,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヒャ = hya",
+          "comment": "ヒャ = hya\n詞源：\n• ヒ ← 比（取右邊）\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "A"
           ]
@@ -3537,7 +3537,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヒュ = hyu",
+          "comment": "ヒュ = hyu\n詞源：\n• ヒ ← 比（取右邊）\n• ュ：ユ ← 由（變形）",
           "selected": [
             "A"
           ]
@@ -3564,7 +3564,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ヒョ = hyo",
+          "comment": "ヒョ = hyo\n詞源：\n• ヒ ← 比（取右邊）\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
@@ -3591,7 +3591,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ミャ = mya",
+          "comment": "ミャ = mya\n詞源：\n• ミ ← 三\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "D"
           ]
@@ -3618,7 +3618,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ミュ = myu",
+          "comment": "ミュ = myu\n詞源：\n• ミ ← 三\n• ュ：ユ ← 由（變形）",
           "selected": [
             "C"
           ]
@@ -3645,7 +3645,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ミョ = myo",
+          "comment": "ミョ = myo\n詞源：\n• ミ ← 三\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "A"
           ]
@@ -3672,7 +3672,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "リャ = rya",
+          "comment": "リャ = rya\n詞源：\n• リ ← 利（取右邊「刂」）\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "B"
           ]
@@ -3699,7 +3699,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "リュ = ryu",
+          "comment": "リュ = ryu\n詞源：\n• リ ← 利（取右邊「刂」）\n• ュ：ユ ← 由（變形）",
           "selected": [
             "D"
           ]
@@ -3726,7 +3726,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "リョ = ryo",
+          "comment": "リョ = ryo\n詞源：\n• リ ← 利（取右邊「刂」）\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
@@ -3753,7 +3753,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ギャ = gya",
+          "comment": "ギャ = gya\n詞源：\n• ギ：キ ← 幾（草書簡化） ＋ 濁點\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "D"
           ]
@@ -3780,7 +3780,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ギュ = gyu",
+          "comment": "ギュ = gyu\n詞源：\n• ギ：キ ← 幾（草書簡化） ＋ 濁點\n• ュ：ユ ← 由（變形）",
           "selected": [
             "D"
           ]
@@ -3807,7 +3807,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ギョ = gyo",
+          "comment": "ギョ = gyo\n詞源：\n• ギ：キ ← 幾（草書簡化） ＋ 濁點\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
@@ -3834,7 +3834,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ジャ = ja",
+          "comment": "ジャ = ja\n詞源：\n• ジ：シ ← 之（草書變形） ＋ 濁點\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "B"
           ]
@@ -3861,7 +3861,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ジュ = ju",
+          "comment": "ジュ = ju\n詞源：\n• ジ：シ ← 之（草書變形） ＋ 濁點\n• ュ：ユ ← 由（變形）",
           "selected": [
             "D"
           ]
@@ -3888,7 +3888,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ジョ = jo",
+          "comment": "ジョ = jo\n詞源：\n• ジ：シ ← 之（草書變形） ＋ 濁點\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
@@ -3915,7 +3915,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ビャ = bya",
+          "comment": "ビャ = bya\n詞源：\n• ビ：ヒ ← 比（取右邊） ＋ 濁點\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "C"
           ]
@@ -3942,7 +3942,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ビュ = byu",
+          "comment": "ビュ = byu\n詞源：\n• ビ：ヒ ← 比（取右邊） ＋ 濁點\n• ュ：ユ ← 由（變形）",
           "selected": [
             "C"
           ]
@@ -3969,7 +3969,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ビョ = byo",
+          "comment": "ビョ = byo\n詞源：\n• ビ：ヒ ← 比（取右邊） ＋ 濁點\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "B"
           ]
@@ -3996,7 +3996,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ピャ = pya",
+          "comment": "ピャ = pya\n詞源：\n• ピ：ヒ ← 比（取右邊） ＋ 半濁點\n• ャ：ヤ ← 也（變形）",
           "selected": [
             "B"
           ]
@@ -4023,7 +4023,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ピュ = pyu",
+          "comment": "ピュ = pyu\n詞源：\n• ピ：ヒ ← 比（取右邊） ＋ 半濁點\n• ュ：ユ ← 由（變形）",
           "selected": [
             "B"
           ]
@@ -4050,7 +4050,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ピョ = pyo",
+          "comment": "ピョ = pyo\n詞源：\n• ピ：ヒ ← 比（取右邊） ＋ 半濁點\n• ョ：ヨ ← 与（變形）",
           "selected": [
             "D"
           ]
