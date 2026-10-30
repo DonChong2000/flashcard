@@ -304,7 +304,7 @@ export default function HomePage() {
     if (builderTags.length > 0) params.set("tags", builderTags.join(","));
     if (builderFrom.trim()) params.set("from", builderFrom.trim());
     if (builderTo.trim()) params.set("to", builderTo.trim());
-    if (builderRandom.trim()) params.set("random", builderRandom.trim());
+    params.set("random", builderRandom.trim() || "all");
     return `/quiz?${params.toString()}`;
   }
 
@@ -743,7 +743,7 @@ export default function HomePage() {
                       <input
                         type="number"
                         min={1}
-                        placeholder="e.g. 65 (leave blank for all)"
+                        placeholder="e.g. 65 (blank = all, shuffled)"
                         value={builderRandom}
                         onChange={(e) => setBuilderRandom(e.target.value)}
                         className="w-56 h-8 rounded-md border border-input bg-background px-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"

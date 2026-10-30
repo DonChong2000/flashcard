@@ -29,13 +29,14 @@ function QuizContent() {
   const filterRaw = params.get("filter") ?? "all";
   const filter: QuizFilter = (QUIZ_FILTERS as readonly string[]).includes(filterRaw) ? (filterRaw as QuizFilter) : "all";
   const topic: number | "all" = topicParam === "all" ? "all" : parseInt(topicParam);
-  const randomCount = (() => { const n = parseInt(params.get("random") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
+  // random=all shuffles without slicing
+  const randomCount = (() => { if (params.get("random") === "all") return Infinity; const n = parseInt(params.get("random") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
   const selectedTags = (params.get("tags") ?? "").split(",").filter(Boolean);
   const fromNum = (() => { const n = parseInt(params.get("from") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
   const toNum = (() => { const n = parseInt(params.get("to") ?? ""); return isNaN(n) || n <= 0 ? null : n; })();
   const [topicName, setTopicName] = useState<string | null>(null);
   const quizLabel = (() => {
-    if (randomCount !== null) return `Random ${randomCount}`;
+    if (randomCount !== null) return randomCount === Infinity ? "Random All" : `Random ${randomCount}`;
     const base = selectedTags.length > 0
       ? selectedTags.join(", ")
       : topic === "all" ? "All Practice Sets" : topicName ?? `Practice Set ${topic}`;

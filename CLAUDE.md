@@ -82,7 +82,7 @@ In dev, `public/sw.js` caches the unhashed `_next/static/chunks/app/*/page.js`, 
 
 `app/quiz/page.tsx` uses `useSearchParams` which requires a `<Suspense>` boundary for static export compatibility. The actual logic lives in `QuizContent` (inner component), wrapped by the exported `QuizPage`. URL params: `?dataset={slug}&topic={N|all}&filter={...}&random={N}&tags={...}`. Valid filters are `QUIZ_FILTERS` in `lib/types.ts`: `all | correct | incorrect | unseen | bookmarked | bookmarked+incorrect`.
 
-The `random` param shuffles the filtered question list and slices it to N questions. The home page uses `RANDOM_EXAM_SIZE = 65` for its "Random exam" card.
+The `random` param shuffles the filtered question list and slices it to N questions; `random=all` shuffles without slicing. The custom quiz builder sends `random=all` when its Random Sample box is blank, so custom quizzes are always shuffled (the practice-set cards stay in order). The home page uses `RANDOM_EXAM_SIZE = 65` for its "Random exam" card.
 
 On mount, `QuizContent` fetches questions, applies the filter (in-memory, one-time), then seeks to the first unseen question. Filtering is not reactive — changing the filter requires a new navigation.
 
