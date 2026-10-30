@@ -1269,7 +1269,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "あ = a（唔好同 お o 混）",
+          "comment": "あ = a（唔好同 お o 混）\n詞源：\n• あ ← 安（全字草書）\n分辨：あ 由「安」嚟；お 由「於」嚟，右上多一點",
           "selected": [
             "C"
           ]
@@ -1296,7 +1296,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "い = i",
+          "comment": "い = i\n詞源：\n• い ← 以（全字草書）",
           "selected": [
             "B"
           ]
@@ -1323,7 +1323,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "う = u",
+          "comment": "う = u\n詞源：\n• う ← 宇（全字草書）",
           "selected": [
             "A"
           ]
@@ -1350,7 +1350,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "え = e",
+          "comment": "え = e\n詞源：\n• え ← 衣（全字草書）",
           "selected": [
             "C"
           ]
@@ -1377,7 +1377,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "お = o（唔好同 あ a 混）",
+          "comment": "お = o（唔好同 あ a 混）\n詞源：\n• お ← 於（全字草書）\n分辨：お 由「於」嚟，右上多一點；あ 由「安」嚟，冇嗰點",
           "selected": [
             "D"
           ]
@@ -1404,7 +1404,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "か = ka",
+          "comment": "か = ka\n詞源：\n• か ← 加（全字草書）",
           "selected": [
             "B"
           ]
@@ -1431,7 +1431,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "き = ki（唔好同 さ sa 混）",
+          "comment": "き = ki（唔好同 さ sa 混）\n詞源：\n• き ← 幾（全字草書）\n分辨：き 由「幾」嚟，兩橫；さ 由「左」嚟，一橫",
           "selected": [
             "C"
           ]
@@ -1458,7 +1458,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "く = ku",
+          "comment": "く = ku\n詞源：\n• く ← 久（全字草書）",
           "selected": [
             "D"
           ]
@@ -1485,7 +1485,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "け = ke",
+          "comment": "け = ke\n詞源：\n• け ← 計（全字草書）",
           "selected": [
             "C"
           ]
@@ -1512,7 +1512,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "こ = ko",
+          "comment": "こ = ko\n詞源：\n• こ ← 己（全字草書）",
           "selected": [
             "C"
           ]
@@ -1539,7 +1539,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "さ = sa（唔好同 ち chi 混）",
+          "comment": "さ = sa（唔好同 ち chi 混）\n詞源：\n• さ ← 左（全字草書）\n分辨：さ 由「左」嚟，下面個彎向左凸（似 c）；ち 由「知」嚟，下面個彎向右凸（似 5）",
           "selected": [
             "D"
           ]
@@ -1566,7 +1566,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "し = shi",
+          "comment": "し = shi\n詞源：\n• し ← 之（全字草書）",
           "selected": [
             "D"
           ]
@@ -1593,7 +1593,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "す = su",
+          "comment": "す = su\n詞源：\n• す ← 寸（全字草書）",
           "selected": [
             "D"
           ]
@@ -1620,7 +1620,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "せ = se",
+          "comment": "せ = se\n詞源：\n• せ ← 世（全字草書）",
           "selected": [
             "B"
           ]
@@ -1647,7 +1647,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "そ = so",
+          "comment": "そ = so\n詞源：\n• そ ← 曽（全字草書）",
           "selected": [
             "C"
           ]
@@ -1674,7 +1674,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "た = ta",
+          "comment": "た = ta\n詞源：\n• た ← 太（全字草書）",
           "selected": [
             "B"
           ]
@@ -1701,7 +1701,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ち = chi（唔好同 さ sa 混）",
+          "comment": "ち = chi（唔好同 さ sa 混）\n詞源：\n• ち ← 知（全字草書）\n分辨：ち 由「知」嚟，下面個彎向右凸（似 5）；さ 由「左」嚟，下面個彎向左凸（似 c）",
           "selected": [
             "A"
           ]
@@ -1728,7 +1728,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "つ = tsu",
+          "comment": "つ = tsu\n詞源：\n• つ ← 川（全字草書）",
           "selected": [
             "C"
           ]
@@ -1755,7 +1755,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "て = te",
+          "comment": "て = te\n詞源：\n• て ← 天（全字草書）",
           "selected": [
             "D"
           ]
@@ -1782,7 +1782,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "と = to",
+          "comment": "と = to\n詞源：\n• と ← 止（全字草書）",
           "selected": [
             "C"
           ]
@@ -1809,7 +1809,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "な = na",
+          "comment": "な = na\n詞源：\n• な ← 奈（全字草書）",
           "selected": [
             "C"
           ]
@@ -1836,7 +1836,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "に = ni",
+          "comment": "に = ni\n詞源：\n• に ← 仁（全字草書）",
           "selected": [
             "C"
           ]
@@ -1863,7 +1863,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぬ = nu（唔好同 め me 混）",
+          "comment": "ぬ = nu（唔好同 め me 混）\n詞源：\n• ぬ ← 奴（全字草書）\n分辨：ぬ 由「奴」嚟，尾有個圈；め 由「女」嚟，冇圈",
           "selected": [
             "D"
           ]
@@ -1890,7 +1890,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ね = ne（唔好同 れ re 混）",
+          "comment": "ね = ne（唔好同 れ re 混）\n詞源：\n• ね ← 祢（全字草書）\n分辨：ね（祢）尾打個圈；わ（和）尾向內收；れ（礼）尾向外踢",
           "selected": [
             "B"
           ]
@@ -1917,7 +1917,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "の = no",
+          "comment": "の = no\n詞源：\n• の ← 乃（全字草書）",
           "selected": [
             "B"
           ]
@@ -1944,7 +1944,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "は = ha（唔好同 ほ ho 混）",
+          "comment": "は = ha（唔好同 ほ ho 混）\n詞源：\n• は ← 波（全字草書）\n分辨：は 由「波」嚟，右邊得一橫；ほ 由「保」嚟，頂多咗一橫封住",
           "selected": [
             "A"
           ]
@@ -1971,7 +1971,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ひ = hi",
+          "comment": "ひ = hi\n詞源：\n• ひ ← 比（全字草書）",
           "selected": [
             "C"
           ]
@@ -1998,7 +1998,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ふ = fu",
+          "comment": "ふ = fu\n詞源：\n• ふ ← 不（全字草書）",
           "selected": [
             "D"
           ]
@@ -2025,7 +2025,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "へ = he",
+          "comment": "へ = he\n詞源：\n• へ ← 部（全字草書）",
           "selected": [
             "B"
           ]
@@ -2052,7 +2052,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ほ = ho（唔好同 は ha 混）",
+          "comment": "ほ = ho（唔好同 は ha 混）\n詞源：\n• ほ ← 保（全字草書）\n分辨：ほ 由「保」嚟，頂多咗一橫封住；は 由「波」嚟，右邊得一橫",
           "selected": [
             "D"
           ]
@@ -2079,7 +2079,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ま = ma",
+          "comment": "ま = ma\n詞源：\n• ま ← 末（全字草書）",
           "selected": [
             "C"
           ]
@@ -2106,7 +2106,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "み = mi",
+          "comment": "み = mi\n詞源：\n• み ← 美（全字草書）",
           "selected": [
             "A"
           ]
@@ -2133,7 +2133,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "む = mu",
+          "comment": "む = mu\n詞源：\n• む ← 武（全字草書）",
           "selected": [
             "B"
           ]
@@ -2160,7 +2160,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "め = me（唔好同 ぬ nu 混）",
+          "comment": "め = me（唔好同 ぬ nu 混）\n詞源：\n• め ← 女（全字草書）\n分辨：め 由「女」嚟，冇圈；ぬ 由「奴」嚟，尾有個圈",
           "selected": [
             "C"
           ]
@@ -2187,7 +2187,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "も = mo",
+          "comment": "も = mo\n詞源：\n• も ← 毛（全字草書）",
           "selected": [
             "B"
           ]
@@ -2214,7 +2214,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "や = ya",
+          "comment": "や = ya\n詞源：\n• や ← 也（全字草書）",
           "selected": [
             "B"
           ]
@@ -2241,7 +2241,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ゆ = yu",
+          "comment": "ゆ = yu\n詞源：\n• ゆ ← 由（全字草書）",
           "selected": [
             "D"
           ]
@@ -2268,7 +2268,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "よ = yo",
+          "comment": "よ = yo\n詞源：\n• よ ← 与（全字草書）",
           "selected": [
             "D"
           ]
@@ -2295,7 +2295,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ら = ra",
+          "comment": "ら = ra\n詞源：\n• ら ← 良（全字草書）",
           "selected": [
             "B"
           ]
@@ -2322,7 +2322,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "り = ri",
+          "comment": "り = ri\n詞源：\n• り ← 利（全字草書）",
           "selected": [
             "D"
           ]
@@ -2349,7 +2349,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "る = ru（唔好同 ろ ro 混）",
+          "comment": "る = ru（唔好同 ろ ro 混）\n詞源：\n• る ← 留（全字草書）\n分辨：る 由「留」嚟，尾有個圈；ろ 由「呂」嚟，冇圈",
           "selected": [
             "D"
           ]
@@ -2376,7 +2376,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "れ = re（唔好同 わ wa 混）",
+          "comment": "れ = re（唔好同 わ wa 混）\n詞源：\n• れ ← 礼（全字草書）\n分辨：れ（礼）尾向外踢；わ（和）尾向內收；ね（祢）尾打個圈",
           "selected": [
             "D"
           ]
@@ -2403,7 +2403,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ろ = ro（唔好同 る ru 混）",
+          "comment": "ろ = ro（唔好同 る ru 混）\n詞源：\n• ろ ← 呂（全字草書）\n分辨：ろ 由「呂」嚟，冇圈；る 由「留」嚟，尾有個圈",
           "selected": [
             "B"
           ]
@@ -2430,7 +2430,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "わ = wa（唔好同 れ re 混）",
+          "comment": "わ = wa（唔好同 れ re 混）\n詞源：\n• わ ← 和（全字草書）\n分辨：わ（和）尾向內收；れ（礼）尾向外踢；ね（祢）尾打個圈",
           "selected": [
             "B"
           ]
@@ -2457,7 +2457,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "を = wo",
+          "comment": "を = wo\n詞源：\n• を ← 遠（全字草書）",
           "selected": [
             "B"
           ]
@@ -2484,7 +2484,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ん = n",
+          "comment": "ん = n\n詞源：\n• ん ← 无（全字草書）",
           "selected": [
             "B"
           ]
@@ -4077,7 +4077,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "が = ga",
+          "comment": "が = ga\n詞源：\n• が：か ← 加（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4104,7 +4104,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぎ = gi",
+          "comment": "ぎ = gi\n詞源：\n• ぎ：き ← 幾（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4131,7 +4131,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぐ = gu",
+          "comment": "ぐ = gu\n詞源：\n• ぐ：く ← 久（全字草書） ＋ 濁點",
           "selected": [
             "D"
           ]
@@ -4158,7 +4158,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "げ = ge",
+          "comment": "げ = ge\n詞源：\n• げ：け ← 計（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4185,7 +4185,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ご = go",
+          "comment": "ご = go\n詞源：\n• ご：こ ← 己（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4212,7 +4212,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ざ = za",
+          "comment": "ざ = za\n詞源：\n• ざ：さ ← 左（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4239,7 +4239,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "じ = ji",
+          "comment": "じ = ji\n詞源：\n• じ：し ← 之（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4266,7 +4266,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ず = zu",
+          "comment": "ず = zu\n詞源：\n• ず：す ← 寸（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4293,7 +4293,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぜ = ze",
+          "comment": "ぜ = ze\n詞源：\n• ぜ：せ ← 世（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4320,7 +4320,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぞ = zo",
+          "comment": "ぞ = zo\n詞源：\n• ぞ：そ ← 曽（全字草書） ＋ 濁點",
           "selected": [
             "B"
           ]
@@ -4347,7 +4347,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "だ = da",
+          "comment": "だ = da\n詞源：\n• だ：た ← 太（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4374,7 +4374,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぢ = ji",
+          "comment": "ぢ = ji\n詞源：\n• ぢ：ち ← 知（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4401,7 +4401,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "づ = zu",
+          "comment": "づ = zu\n詞源：\n• づ：つ ← 川（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4428,7 +4428,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "で = de",
+          "comment": "で = de\n詞源：\n• で：て ← 天（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4455,7 +4455,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ど = do",
+          "comment": "ど = do\n詞源：\n• ど：と ← 止（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4482,7 +4482,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ば = ba",
+          "comment": "ば = ba\n詞源：\n• ば：は ← 波（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4509,7 +4509,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "び = bi",
+          "comment": "び = bi\n詞源：\n• び：ひ ← 比（全字草書） ＋ 濁點",
           "selected": [
             "B"
           ]
@@ -4536,7 +4536,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぶ = bu",
+          "comment": "ぶ = bu\n詞源：\n• ぶ：ふ ← 不（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4563,7 +4563,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "べ = be",
+          "comment": "べ = be\n詞源：\n• べ：へ ← 部（全字草書） ＋ 濁點",
           "selected": [
             "A"
           ]
@@ -4590,7 +4590,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぼ = bo",
+          "comment": "ぼ = bo\n詞源：\n• ぼ：ほ ← 保（全字草書） ＋ 濁點",
           "selected": [
             "C"
           ]
@@ -4617,7 +4617,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぱ = pa",
+          "comment": "ぱ = pa\n詞源：\n• ぱ：は ← 波（全字草書） ＋ 半濁點",
           "selected": [
             "A"
           ]
@@ -4644,7 +4644,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぴ = pi",
+          "comment": "ぴ = pi\n詞源：\n• ぴ：ひ ← 比（全字草書） ＋ 半濁點",
           "selected": [
             "A"
           ]
@@ -4671,7 +4671,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぷ = pu",
+          "comment": "ぷ = pu\n詞源：\n• ぷ：ふ ← 不（全字草書） ＋ 半濁點",
           "selected": [
             "A"
           ]
@@ -4698,7 +4698,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぺ = pe",
+          "comment": "ぺ = pe\n詞源：\n• ぺ：へ ← 部（全字草書） ＋ 半濁點",
           "selected": [
             "B"
           ]
@@ -4725,7 +4725,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぽ = po",
+          "comment": "ぽ = po\n詞源：\n• ぽ：ほ ← 保（全字草書） ＋ 半濁點",
           "selected": [
             "D"
           ]
@@ -4752,7 +4752,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "きゃ = kya",
+          "comment": "きゃ = kya\n詞源：\n• き ← 幾（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "D"
           ]
@@ -4779,7 +4779,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "きゅ = kyu",
+          "comment": "きゅ = kyu\n詞源：\n• き ← 幾（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "A"
           ]
@@ -4806,7 +4806,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "きょ = kyo",
+          "comment": "きょ = kyo\n詞源：\n• き ← 幾（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "C"
           ]
@@ -4833,7 +4833,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "しゃ = sha",
+          "comment": "しゃ = sha\n詞源：\n• し ← 之（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "C"
           ]
@@ -4860,7 +4860,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "しゅ = shu",
+          "comment": "しゅ = shu\n詞源：\n• し ← 之（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "A"
           ]
@@ -4887,7 +4887,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "しょ = sho",
+          "comment": "しょ = sho\n詞源：\n• し ← 之（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "D"
           ]
@@ -4914,7 +4914,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ちゃ = cha",
+          "comment": "ちゃ = cha\n詞源：\n• ち ← 知（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "D"
           ]
@@ -4941,7 +4941,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ちゅ = chu",
+          "comment": "ちゅ = chu\n詞源：\n• ち ← 知（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "B"
           ]
@@ -4968,7 +4968,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ちょ = cho",
+          "comment": "ちょ = cho\n詞源：\n• ち ← 知（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "B"
           ]
@@ -4995,7 +4995,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "にゃ = nya",
+          "comment": "にゃ = nya\n詞源：\n• に ← 仁（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "B"
           ]
@@ -5022,7 +5022,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "にゅ = nyu",
+          "comment": "にゅ = nyu\n詞源：\n• に ← 仁（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "A"
           ]
@@ -5049,7 +5049,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "にょ = nyo",
+          "comment": "にょ = nyo\n詞源：\n• に ← 仁（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "B"
           ]
@@ -5076,7 +5076,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ひゃ = hya",
+          "comment": "ひゃ = hya\n詞源：\n• ひ ← 比（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "D"
           ]
@@ -5103,7 +5103,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ひゅ = hyu",
+          "comment": "ひゅ = hyu\n詞源：\n• ひ ← 比（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "D"
           ]
@@ -5130,7 +5130,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ひょ = hyo",
+          "comment": "ひょ = hyo\n詞源：\n• ひ ← 比（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "D"
           ]
@@ -5157,7 +5157,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "みゃ = mya",
+          "comment": "みゃ = mya\n詞源：\n• み ← 美（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "A"
           ]
@@ -5184,7 +5184,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "みゅ = myu",
+          "comment": "みゅ = myu\n詞源：\n• み ← 美（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "D"
           ]
@@ -5211,7 +5211,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "みょ = myo",
+          "comment": "みょ = myo\n詞源：\n• み ← 美（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "C"
           ]
@@ -5238,7 +5238,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "りゃ = rya",
+          "comment": "りゃ = rya\n詞源：\n• り ← 利（全字草書）\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "A"
           ]
@@ -5265,7 +5265,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "りゅ = ryu",
+          "comment": "りゅ = ryu\n詞源：\n• り ← 利（全字草書）\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "C"
           ]
@@ -5292,7 +5292,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "りょ = ryo",
+          "comment": "りょ = ryo\n詞源：\n• り ← 利（全字草書）\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "B"
           ]
@@ -5319,7 +5319,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぎゃ = gya",
+          "comment": "ぎゃ = gya\n詞源：\n• ぎ：き ← 幾（全字草書） ＋ 濁點\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "C"
           ]
@@ -5346,7 +5346,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぎゅ = gyu",
+          "comment": "ぎゅ = gyu\n詞源：\n• ぎ：き ← 幾（全字草書） ＋ 濁點\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "C"
           ]
@@ -5373,7 +5373,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぎょ = gyo",
+          "comment": "ぎょ = gyo\n詞源：\n• ぎ：き ← 幾（全字草書） ＋ 濁點\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "A"
           ]
@@ -5400,7 +5400,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "じゃ = ja",
+          "comment": "じゃ = ja\n詞源：\n• じ：し ← 之（全字草書） ＋ 濁點\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "B"
           ]
@@ -5427,7 +5427,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "じゅ = ju",
+          "comment": "じゅ = ju\n詞源：\n• じ：し ← 之（全字草書） ＋ 濁點\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "B"
           ]
@@ -5454,7 +5454,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "じょ = jo",
+          "comment": "じょ = jo\n詞源：\n• じ：し ← 之（全字草書） ＋ 濁點\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "D"
           ]
@@ -5481,7 +5481,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "びゃ = bya",
+          "comment": "びゃ = bya\n詞源：\n• び：ひ ← 比（全字草書） ＋ 濁點\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "D"
           ]
@@ -5508,7 +5508,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "びゅ = byu",
+          "comment": "びゅ = byu\n詞源：\n• び：ひ ← 比（全字草書） ＋ 濁點\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "C"
           ]
@@ -5535,7 +5535,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "びょ = byo",
+          "comment": "びょ = byo\n詞源：\n• び：ひ ← 比（全字草書） ＋ 濁點\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "B"
           ]
@@ -5562,7 +5562,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぴゃ = pya",
+          "comment": "ぴゃ = pya\n詞源：\n• ぴ：ひ ← 比（全字草書） ＋ 半濁點\n• ゃ：や ← 也（全字草書）",
           "selected": [
             "A"
           ]
@@ -5589,7 +5589,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぴゅ = pyu",
+          "comment": "ぴゅ = pyu\n詞源：\n• ぴ：ひ ← 比（全字草書） ＋ 半濁點\n• ゅ：ゆ ← 由（全字草書）",
           "selected": [
             "D"
           ]
@@ -5616,7 +5616,7 @@
         {
           "username": "解釋",
           "upvotes": 0,
-          "comment": "ぴょ = pyo",
+          "comment": "ぴょ = pyo\n詞源：\n• ぴ：ひ ← 比（全字草書） ＋ 半濁點\n• ょ：よ ← 与（全字草書）",
           "selected": [
             "D"
           ]
