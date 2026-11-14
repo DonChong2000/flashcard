@@ -6,6 +6,19 @@ export interface DiscussionEntry {
   selected: string[];
 }
 
+// Vocab decks only (see data-src/vocab/CONTRACT.md)
+export interface VocabInfo {
+  word: string;
+  reading: string; // kana; may be ""
+  zh: string;
+  en: string;
+  kind: "reading" | "meaning"; // reading: all-kanji word, test the reading; meaning: contains kana
+  same: boolean; // same word and meaning in Chinese
+  trap: boolean; // all-kanji false friend / Japan-only word
+  rank: number; // 1 = study first
+  ex?: { ja: string; zh: string };
+}
+
 export interface Question {
   question_number: number;
   topic: number;
@@ -17,6 +30,7 @@ export interface Question {
   correct_answer: string[];
   community_votes: Record<string, number>;
   discussion: DiscussionEntry[];
+  vocab?: VocabInfo;
 }
 
 export interface TopicFile {
@@ -33,6 +47,7 @@ export interface DatasetMeta {
   topicQuestions: Record<number, number[]>;
   tagQuestions: Record<string, number[]>;
   topicNames?: Record<number, string>;
+  study?: boolean; // deck-level `study: true`: enables the spaced-repetition Study mode
 }
 
 export interface Manifest {

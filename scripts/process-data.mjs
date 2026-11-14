@@ -102,6 +102,7 @@ async function main() {
       topicQuestions,
       tagQuestions,
       ...(data.topic_names && { topicNames: data.topic_names }),
+      ...(data.study === true && { study: true }),
     });
 
     console.log(`Processed ${file} → ${slug} (${questions.length} questions, ${topics.length} topics)`);
