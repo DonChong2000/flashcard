@@ -383,7 +383,7 @@
   {"id":382,"expression":"毛","reading":"け","en":"hair, fur","zh":"毛髮"},
   {"id":383,"expression":"ひどい","reading":"ひどい","en":"terrible, awful, unfair, cruel","zh":"過分、糟糕"},
   {"id":384,"expression":"例えば","reading":"たとえば","en":"for example, e.g.","zh":"例如"},
-  {"id":385,"expression":"中々","reading":"なかなか","en":"very, considerably, quite","zh":"相當、頗"},
+  {"id":385,"expression":"中々","reading":"なかなか","en":"very, considerably, quite","zh":"相當、頗；（後接否定）不容易"},
   {"id":386,"expression":"随分","reading":"ずいぶん","en":"extremely","zh":"相當、非常"},
   {"id":387,"expression":"～やすい","reading":"～やすい","en":"easy to do ~","zh":"（接尾）容易～"},
   {"id":388,"expression":"押し入れ","reading":"おしいれ","en":"closet","zh":"壁櫃"},
