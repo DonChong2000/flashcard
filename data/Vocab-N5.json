@@ -49,7 +49,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 410
+        "rank": 379
       }
     },
     {
@@ -87,7 +87,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 249
+        "rank": 200
       }
     },
     {
@@ -96,9 +96,9 @@
       "question": "箱",
       "options": {
         "A": "はこ",
-        "B": "ばこ",
-        "C": "ぱこ",
-        "D": "むら"
+        "B": "はご",
+        "C": "ばこ",
+        "D": "ばご"
       },
       "correct_answer": [
         "A"
@@ -125,7 +125,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 516
+        "rank": 491
       }
     },
     {
@@ -163,7 +163,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 187
+        "rank": 173
       }
     },
     {
@@ -201,7 +201,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 172
+        "rank": 134
       }
     },
     {
@@ -239,7 +239,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 239
+        "rank": 190
       }
     },
     {
@@ -277,7 +277,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 229
+        "rank": 178
       }
     },
     {
@@ -315,7 +315,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 506
+        "rank": 482
       }
     },
     {
@@ -353,7 +353,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 607
+        "rank": 595
       }
     },
     {
@@ -363,7 +363,7 @@
       "options": {
         "A": "よくか",
         "B": "よか",
-        "C": "ぜんぶ",
+        "C": "みっか",
         "D": "よっか"
       },
       "correct_answer": [
@@ -391,7 +391,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 685
+        "rank": 682
       }
     },
     {
@@ -399,9 +399,9 @@
       "topic": 1,
       "question": "町",
       "options": {
-        "A": "つぎ",
-        "B": "よこ",
-        "C": "はち",
+        "A": "まつ",
+        "B": "まっち",
+        "C": "はる",
         "D": "まち"
       },
       "correct_answer": [
@@ -429,7 +429,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 73
+        "rank": 89
       }
     },
     {
@@ -467,7 +467,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 182
+        "rank": 309
       }
     },
     {
@@ -505,7 +505,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 551
+        "rank": 537
       }
     },
     {
@@ -543,7 +543,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 495
+        "rank": 472
       }
     },
     {
@@ -551,10 +551,10 @@
       "topic": 1,
       "question": "机",
       "options": {
-        "A": "はがき",
-        "B": "よっか",
+        "A": "ずくえ",
+        "B": "つっくえ",
         "C": "つくえ",
-        "D": "みっか"
+        "D": "つぐえ"
       },
       "correct_answer": [
         "C"
@@ -581,7 +581,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 292
+        "rank": 243
       }
     },
     {
@@ -619,7 +619,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 389
+        "rank": 353
       }
     },
     {
@@ -627,9 +627,9 @@
       "topic": 1,
       "question": "先月",
       "options": {
-        "A": "ぜんげつ",
-        "B": "せんけつ",
-        "C": "ぜんけつ",
+        "A": "せんげち",
+        "B": "ぜんげつ",
+        "C": "ぜんげち",
         "D": "せんげつ"
       },
       "correct_answer": [
@@ -657,7 +657,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 212
+        "rank": 169
       }
     },
     {
@@ -695,7 +695,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 705
+        "rank": 702
       }
     },
     {
@@ -733,7 +733,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 306
+        "rank": 262
       }
     },
     {
@@ -771,7 +771,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 704
+        "rank": 701
       }
     },
     {
@@ -809,7 +809,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 641
+        "rank": 636
       }
     },
     {
@@ -817,9 +817,9 @@
       "topic": 1,
       "question": "体",
       "options": {
-        "A": "がらだ",
-        "B": "ひとり",
-        "C": "なのか",
+        "A": "からた",
+        "B": "がらだ",
+        "C": "がらた",
         "D": "からだ"
       },
       "correct_answer": [
@@ -847,7 +847,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 228
+        "rank": 374
       }
     },
     {
@@ -885,7 +885,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 58
+        "rank": 86
       }
     },
     {
@@ -893,10 +893,10 @@
       "topic": 1,
       "question": "塩",
       "options": {
-        "A": "じお",
+        "A": "しおう",
         "B": "しお",
-        "C": "いま",
-        "D": "にち"
+        "C": "じお",
+        "D": "じおう"
       },
       "correct_answer": [
         "B"
@@ -923,7 +923,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 702
+        "rank": 699
       }
     },
     {
@@ -961,7 +961,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 156
+        "rank": 425
       }
     },
     {
@@ -999,7 +999,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 395
+        "rank": 361
       }
     },
     {
@@ -1037,7 +1037,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 487
+        "rank": 463
       }
     },
     {
@@ -1075,7 +1075,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 303
+        "rank": 260
       }
     },
     {
@@ -1113,7 +1113,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 141
+        "rank": 101
       }
     },
     {
@@ -1122,9 +1122,9 @@
       "question": "～週間",
       "options": {
         "A": "～しゅうかん",
-        "B": "～じゅうかん",
+        "B": "～しゅかん",
         "C": "～しゅうがん",
-        "D": "～じゅうがん"
+        "D": "～しゅがん"
       },
       "correct_answer": [
         "A"
@@ -1151,7 +1151,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 207
+        "rank": 347
       }
     },
     {
@@ -1189,7 +1189,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 673
+        "rank": 668
       }
     },
     {
@@ -1227,7 +1227,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 326
+        "rank": 281
       }
     },
     {
@@ -1235,9 +1235,9 @@
       "topic": 1,
       "question": "右",
       "options": {
-        "A": "さん",
-        "B": "よこ",
-        "C": "くに",
+        "A": "みき",
+        "B": "しろ",
+        "C": "えん",
         "D": "みぎ"
       },
       "correct_answer": [
@@ -1265,7 +1265,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 286
+        "rank": 239
       }
     },
     {
@@ -1303,7 +1303,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 4
+        "rank": 5
       }
     },
     {
@@ -1341,7 +1341,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 218
+        "rank": 174
       }
     },
     {
@@ -1351,8 +1351,8 @@
       "options": {
         "A": "らいけつ",
         "B": "らいげつ",
-        "C": "ようふく",
-        "D": "どうぶつ"
+        "C": "らいげち",
+        "D": "らいけち"
       },
       "correct_answer": [
         "B"
@@ -1379,7 +1379,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 313
+        "rank": 267
       }
     },
     {
@@ -1387,10 +1387,10 @@
       "topic": 1,
       "question": "物",
       "options": {
-        "A": "ほん",
-        "B": "なん",
+        "A": "ものう",
+        "B": "まど",
         "C": "もの",
-        "D": "よる"
+        "D": "つぎ"
       },
       "correct_answer": [
         "C"
@@ -1417,7 +1417,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 94
+        "rank": 90
       }
     },
     {
@@ -1455,7 +1455,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 539
+        "rank": 519
       }
     },
     {
@@ -1493,7 +1493,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 604
+        "rank": 592
       }
     },
     {
@@ -1531,7 +1531,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 166
+        "rank": 129
       }
     },
     {
@@ -1541,8 +1541,8 @@
       "options": {
         "A": "～に",
         "B": "～にん",
-        "C": "～あめ",
-        "D": "～まち"
+        "C": "～あに",
+        "D": "～あめ"
       },
       "correct_answer": [
         "B"
@@ -1569,7 +1569,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 12
+        "rank": 131
       }
     },
     {
@@ -1607,7 +1607,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 594
+        "rank": 581
       }
     },
     {
@@ -1645,7 +1645,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 304
+        "rank": 261
       }
     },
     {
@@ -1653,10 +1653,10 @@
       "topic": 1,
       "question": "猫",
       "options": {
-        "A": "くに",
-        "B": "にん",
+        "A": "ねこう",
+        "B": "ねっこ",
         "C": "ねこ",
-        "D": "まい"
+        "D": "ねっこう"
       },
       "correct_answer": [
         "C"
@@ -1683,7 +1683,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 640
+        "rank": 635
       }
     },
     {
@@ -1721,7 +1721,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 230
+        "rank": 179
       }
     },
     {
@@ -1759,7 +1759,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 293
+        "rank": 245
       }
     },
     {
@@ -1797,7 +1797,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 368
+        "rank": 325
       }
     },
     {
@@ -1835,7 +1835,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 424
+        "rank": 394
       }
     },
     {
@@ -1844,8 +1844,8 @@
       "question": "外国人",
       "options": {
         "A": "がいこくじん",
-        "B": "がいこくにん",
-        "C": "げこくじん",
+        "B": "げこくじん",
+        "C": "がいこくにん",
         "D": "げこくにん"
       },
       "correct_answer": [
@@ -1873,7 +1873,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 359
+        "rank": 317
       }
     },
     {
@@ -1881,10 +1881,10 @@
       "topic": 1,
       "question": "今日",
       "options": {
-        "A": "けい",
+        "A": "きょ",
         "B": "ぎょう",
         "C": "きょう",
-        "D": "くすり"
+        "D": "ぎょ"
       },
       "correct_answer": [
         "C"
@@ -1911,7 +1911,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 97
+        "rank": 55
       }
     },
     {
@@ -1949,7 +1949,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 447
+        "rank": 420
       }
     },
     {
@@ -1987,7 +1987,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 284
+        "rank": 233
       }
     },
     {
@@ -2025,7 +2025,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 158
+        "rank": 119
       }
     },
     {
@@ -2063,7 +2063,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 205
+        "rank": 152
       }
     },
     {
@@ -2073,8 +2073,8 @@
       "options": {
         "A": "りょり",
         "B": "りょうり",
-        "C": "せんげつ",
-        "D": "せんせい"
+        "C": "げんかん",
+        "D": "まいばん"
       },
       "correct_answer": [
         "B"
@@ -2101,7 +2101,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 77
+        "rank": 44
       }
     },
     {
@@ -2139,7 +2139,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 334
+        "rank": 288
       }
     },
     {
@@ -2177,7 +2177,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 505
+        "rank": 481
       }
     },
     {
@@ -2215,7 +2215,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 225
+        "rank": 172
       }
     },
     {
@@ -2223,10 +2223,10 @@
       "topic": 1,
       "question": "丁度",
       "options": {
-        "A": "ちょうどう",
+        "A": "ちょど",
         "B": "ちょうど",
-        "C": "ちょうと",
-        "D": "ちょうとう"
+        "C": "じょうど",
+        "D": "じょど"
       },
       "correct_answer": [
         "B"
@@ -2253,7 +2253,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 628
+        "rank": 620
       }
     },
     {
@@ -2261,10 +2261,10 @@
       "topic": 1,
       "question": "弟",
       "options": {
-        "A": "ゆうめい",
+        "A": "おとうとう",
         "B": "おとうと",
-        "C": "どようび",
-        "D": "こうえん"
+        "C": "おっとうと",
+        "D": "おっとうとう"
       },
       "correct_answer": [
         "B"
@@ -2291,7 +2291,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 298
+        "rank": 339
       }
     },
     {
@@ -2301,8 +2301,8 @@
       "options": {
         "A": "いちにち",
         "B": "いちじつ",
-        "C": "くだもの",
-        "D": "げんかん"
+        "C": "いつにち",
+        "D": "いつじつ"
       },
       "correct_answer": [
         "A"
@@ -2329,7 +2329,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 236
+        "rank": 187
       }
     },
     {
@@ -2367,7 +2367,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 496
+        "rank": 596
       }
     },
     {
@@ -2405,7 +2405,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 637
+        "rank": 631
       }
     },
     {
@@ -2415,8 +2415,8 @@
       "options": {
         "A": "くち",
         "B": "ぐち",
-        "C": "ひき",
-        "D": "まん"
+        "C": "くつ",
+        "D": "ぐつ"
       },
       "correct_answer": [
         "A"
@@ -2443,7 +2443,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 191
+        "rank": 318
       }
     },
     {
@@ -2452,8 +2452,8 @@
       "question": "～時（～じ）\n（（助數詞）～點鐘）",
       "options": {
         "A": "～ち",
-        "B": "～し",
-        "C": "～に",
+        "B": "～ご",
+        "C": "～め",
         "D": "～じ"
       },
       "correct_answer": [
@@ -2481,7 +2481,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 17
+        "rank": 92
       }
     },
     {
@@ -2519,7 +2519,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 213
+        "rank": 170
       }
     },
     {
@@ -2557,7 +2557,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 295
+        "rank": 247
       }
     },
     {
@@ -2595,7 +2595,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 188
+        "rank": 150
       }
     },
     {
@@ -2603,10 +2603,10 @@
       "topic": 1,
       "question": "食堂",
       "options": {
-        "A": "しょくど",
-        "B": "じきどう",
+        "A": "じきどう",
+        "B": "しょくとう",
         "C": "しょくどう",
-        "D": "じきど"
+        "D": "じきとう"
       },
       "correct_answer": [
         "C"
@@ -2633,7 +2633,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 317
+        "rank": 270
       }
     },
     {
@@ -2671,7 +2671,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 527
+        "rank": 504
       }
     },
     {
@@ -2679,10 +2679,10 @@
       "topic": 1,
       "question": "窓",
       "options": {
-        "A": "さん",
+        "A": "まどう",
         "B": "まど",
-        "C": "かぜ",
-        "D": "にし"
+        "C": "まと",
+        "D": "まとう"
       },
       "correct_answer": [
         "B"
@@ -2709,7 +2709,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 234
+        "rank": 185
       }
     },
     {
@@ -2719,8 +2719,8 @@
       "options": {
         "A": "はは",
         "B": "ばは",
-        "C": "ぱは",
-        "D": "もん"
+        "C": "はば",
+        "D": "ばば"
       },
       "correct_answer": [
         "A"
@@ -2747,7 +2747,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 71
+        "rank": 40
       }
     },
     {
@@ -2785,7 +2785,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 595
+        "rank": 582
       }
     },
     {
@@ -2794,9 +2794,9 @@
       "question": "赤",
       "options": {
         "A": "あか",
-        "B": "もん",
-        "C": "そと",
-        "D": "がわ"
+        "B": "あが",
+        "C": "あっか",
+        "D": "うえ"
       },
       "correct_answer": [
         "A"
@@ -2823,7 +2823,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 376
+        "rank": 332
       }
     },
     {
@@ -2861,7 +2861,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 454
+        "rank": 429
       }
     },
     {
@@ -2871,8 +2871,8 @@
       "options": {
         "A": "ひゃく",
         "B": "ぴゃく",
-        "C": "びゃく",
-        "D": "そうじ"
+        "C": "ひゃき",
+        "D": "ぴゃき"
       },
       "correct_answer": [
         "A"
@@ -2899,7 +2899,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 423
+        "rank": 710
       }
     },
     {
@@ -2907,10 +2907,10 @@
       "topic": 1,
       "question": "緑",
       "options": {
-        "A": "ふたり",
+        "A": "みとり",
         "B": "みどり",
-        "C": "やおや",
-        "D": "かんじ"
+        "C": "つくえ",
+        "D": "ところ"
       },
       "correct_answer": [
         "B"
@@ -2937,7 +2937,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 526
+        "rank": 503
       }
     },
     {
@@ -2975,7 +2975,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 381
+        "rank": 338
       }
     },
     {
@@ -3013,7 +3013,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 154
+        "rank": 127
       }
     },
     {
@@ -3022,8 +3022,8 @@
       "question": "靴",
       "options": {
         "A": "ぐつ",
-        "B": "あお",
-        "C": "はん",
+        "B": "くち",
+        "C": "ぐち",
         "D": "くつ"
       },
       "correct_answer": [
@@ -3051,7 +3051,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 589
+        "rank": 576
       }
     },
     {
@@ -3089,7 +3089,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 509
+        "rank": 484
       }
     },
     {
@@ -3127,7 +3127,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 437
+        "rank": 408
       }
     },
     {
@@ -3165,7 +3165,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 707
+        "rank": 704
       }
     },
     {
@@ -3203,7 +3203,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 232
+        "rank": 183
       }
     },
     {
@@ -3241,7 +3241,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 343
+        "rank": 300
       }
     },
     {
@@ -3279,7 +3279,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 100
+        "rank": 84
       }
     },
     {
@@ -3289,8 +3289,8 @@
       "options": {
         "A": "ちかん",
         "B": "じかん",
-        "C": "じっかん",
-        "D": "ちっかん"
+        "C": "じがん",
+        "D": "ちがん"
       },
       "correct_answer": [
         "B"
@@ -3317,7 +3317,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 44
+        "rank": 21
       }
     },
     {
@@ -3355,7 +3355,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 126
+        "rank": 82
       }
     },
     {
@@ -3363,10 +3363,10 @@
       "topic": 1,
       "question": "色",
       "options": {
-        "A": "へた",
-        "B": "さい",
+        "A": "いろう",
+        "B": "ひと",
         "C": "いろ",
-        "D": "ちず"
+        "D": "とり"
       },
       "correct_answer": [
         "C"
@@ -3393,7 +3393,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 216
+        "rank": 286
       }
     },
     {
@@ -3431,7 +3431,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 453
+        "rank": 428
       }
     },
     {
@@ -3469,7 +3469,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 57
+        "rank": 28
       }
     },
     {
@@ -3478,9 +3478,9 @@
       "question": "黒",
       "options": {
         "A": "ぐろ",
-        "B": "はし",
+        "B": "くろう",
         "C": "くろ",
-        "D": "ちず"
+        "D": "ぐろう"
       },
       "correct_answer": [
         "C"
@@ -3507,7 +3507,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 251
+        "rank": 222
       }
     },
     {
@@ -3545,7 +3545,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 274
+        "rank": 221
       }
     },
     {
@@ -3553,9 +3553,9 @@
       "topic": 2,
       "question": "西",
       "options": {
-        "A": "かわ",
-        "B": "いち",
-        "C": "あし",
+        "A": "にっし",
+        "B": "にじ",
+        "C": "ひる",
         "D": "にし"
       },
       "correct_answer": [
@@ -3583,7 +3583,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 199
+        "rank": 523
       }
     },
     {
@@ -3591,10 +3591,10 @@
       "topic": 2,
       "question": "私（わたくし）\n（我（正式）、私事）",
       "options": {
-        "A": "ちかてつ",
-        "B": "こうえん",
+        "A": "わたくじ",
+        "B": "わたぐし",
         "C": "わたくし",
-        "D": "こんばん"
+        "D": "わたぐじ"
       },
       "correct_answer": [
         "C"
@@ -3621,7 +3621,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 15
+        "rank": 7
       }
     },
     {
@@ -3659,7 +3659,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 119
+        "rank": 73
       }
     },
     {
@@ -3697,7 +3697,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 226
+        "rank": 334
       }
     },
     {
@@ -3735,7 +3735,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 465
+        "rank": 439
       }
     },
     {
@@ -3743,10 +3743,10 @@
       "topic": 2,
       "question": "～杯",
       "options": {
-        "A": "～ぱい",
-        "B": "～ばい",
+        "A": "～ふん",
+        "B": "～さん",
         "C": "～はい",
-        "D": "～かた"
+        "D": "～はは"
       },
       "correct_answer": [
         "C"
@@ -3773,7 +3773,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 643
+        "rank": 638
       }
     },
     {
@@ -3811,7 +3811,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 62
+        "rank": 33
       }
     },
     {
@@ -3849,7 +3849,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 66
+        "rank": 35
       }
     },
     {
@@ -3887,7 +3887,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 328
+        "rank": 282
       }
     },
     {
@@ -3925,7 +3925,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 622
+        "rank": 614
       }
     },
     {
@@ -3963,7 +3963,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 325
+        "rank": 279
       }
     },
     {
@@ -3972,9 +3972,9 @@
       "question": "靴下",
       "options": {
         "A": "こうつした",
-        "B": "くっつした",
+        "B": "くずした",
         "C": "くつした",
-        "D": "こうっつした"
+        "D": "こうずした"
       },
       "correct_answer": [
         "C"
@@ -4001,7 +4001,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 590
+        "rank": 577
       }
     },
     {
@@ -4039,7 +4039,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 59
+        "rank": 62
       }
     },
     {
@@ -4047,10 +4047,10 @@
       "topic": 2,
       "question": "男",
       "options": {
-        "A": "そうじ",
-        "B": "みっか",
+        "A": "おどこ",
+        "B": "おとご",
         "C": "おとこ",
-        "D": "きょう"
+        "D": "おどご"
       },
       "correct_answer": [
         "C"
@@ -4077,7 +4077,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 362
+        "rank": 371
       }
     },
     {
@@ -4115,7 +4115,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 436
+        "rank": 407
       }
     },
     {
@@ -4153,7 +4153,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 657
+        "rank": 652
       }
     },
     {
@@ -4191,7 +4191,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 388
+        "rank": 352
       }
     },
     {
@@ -4229,7 +4229,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 690
+        "rank": 687
       }
     },
     {
@@ -4237,8 +4237,8 @@
       "topic": 2,
       "question": "宿題",
       "options": {
-        "A": "しゅくたい",
-        "B": "じゅくだい",
+        "A": "じゅくだい",
+        "B": "しゅくたい",
         "C": "じゅくたい",
         "D": "しゅくだい"
       },
@@ -4267,7 +4267,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 366
+        "rank": 322
       }
     },
     {
@@ -4305,7 +4305,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 445
+        "rank": 418
       }
     },
     {
@@ -4315,7 +4315,7 @@
       "options": {
         "A": "いしゅ",
         "B": "いず",
-        "C": "しろ",
+        "C": "けさ",
         "D": "いす"
       },
       "correct_answer": [
@@ -4343,7 +4343,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 692
+        "rank": 689
       }
     },
     {
@@ -4381,7 +4381,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 243
+        "rank": 195
       }
     },
     {
@@ -4419,7 +4419,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 515
+        "rank": 490
       }
     },
     {
@@ -4428,9 +4428,9 @@
       "question": "毎日",
       "options": {
         "A": "まいじつ",
-        "B": "どうぶつ",
+        "B": "まいにつ",
         "C": "まいにち",
-        "D": "こうちゃ"
+        "D": "まいにっち"
       },
       "correct_answer": [
         "C"
@@ -4457,7 +4457,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 185
+        "rank": 146
       }
     },
     {
@@ -4467,8 +4467,8 @@
       "options": {
         "A": "～どう",
         "B": "～ど",
-        "C": "～と",
-        "D": "～とう"
+        "C": "～ご",
+        "D": "～こ"
       },
       "correct_answer": [
         "B"
@@ -4495,7 +4495,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 323
+        "rank": 427
       }
     },
     {
@@ -4533,7 +4533,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 603
+        "rank": 591
       }
     },
     {
@@ -4542,9 +4542,9 @@
       "question": "鉛筆",
       "options": {
         "A": "えんひつ",
-        "B": "えぴつ",
+        "B": "えんぴち",
         "C": "えんぴつ",
-        "D": "えひつ"
+        "D": "えんひち"
       },
       "correct_answer": [
         "C"
@@ -4571,7 +4571,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 693
+        "rank": 690
       }
     },
     {
@@ -4609,7 +4609,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 102
+        "rank": 59
       }
     },
     {
@@ -4647,7 +4647,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 696
+        "rank": 693
       }
     },
     {
@@ -4685,7 +4685,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 177
+        "rank": 139
       }
     },
     {
@@ -4723,7 +4723,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 342
+        "rank": 299
       }
     },
     {
@@ -4761,7 +4761,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 574
+        "rank": 560
       }
     },
     {
@@ -4799,7 +4799,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 438
+        "rank": 409
       }
     },
     {
@@ -4837,7 +4837,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 256
+        "rank": 280
       }
     },
     {
@@ -4875,7 +4875,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 706
+        "rank": 703
       }
     },
     {
@@ -4913,7 +4913,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 684
+        "rank": 681
       }
     },
     {
@@ -4951,7 +4951,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 567
+        "rank": 552
       }
     },
     {
@@ -4959,10 +4959,10 @@
       "topic": 2,
       "question": "後",
       "options": {
-        "A": "くつ",
+        "A": "あど",
         "B": "あと",
-        "C": "にわ",
-        "D": "えき"
+        "C": "あとう",
+        "D": "あどう"
       },
       "correct_answer": [
         "B"
@@ -4989,7 +4989,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 68
+        "rank": 250
       }
     },
     {
@@ -4997,10 +4997,10 @@
       "topic": 2,
       "question": "横",
       "options": {
-        "A": "まえ",
-        "B": "さつ",
+        "A": "よこう",
+        "B": "よご",
         "C": "よこ",
-        "D": "れい"
+        "D": "よごう"
       },
       "correct_answer": [
         "C"
@@ -5065,7 +5065,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 470
+        "rank": 445
       }
     },
     {
@@ -5103,7 +5103,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 117
+        "rank": 72
       }
     },
     {
@@ -5141,7 +5141,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 297
+        "rank": 253
       }
     },
     {
@@ -5179,7 +5179,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 404
+        "rank": 375
       }
     },
     {
@@ -5190,7 +5190,7 @@
         "A": "はな",
         "B": "ばな",
         "C": "ぱな",
-        "D": "へや"
+        "D": "だれ"
       },
       "correct_answer": [
         "A"
@@ -5217,7 +5217,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 81
+        "rank": 76
       }
     },
     {
@@ -5255,7 +5255,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 254
+        "rank": 204
       }
     },
     {
@@ -5293,7 +5293,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 440
+        "rank": 411
       }
     },
     {
@@ -5331,7 +5331,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 25
+        "rank": 30
       }
     },
     {
@@ -5369,7 +5369,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 558
+        "rank": 543
       }
     },
     {
@@ -5407,7 +5407,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 406
+        "rank": 377
       }
     },
     {
@@ -5445,7 +5445,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 660
+        "rank": 655
       }
     },
     {
@@ -5453,9 +5453,9 @@
       "topic": 2,
       "question": "～冊",
       "options": {
-        "A": "～ざつ",
-        "B": "～くろ",
-        "C": "～えき",
+        "A": "～さち",
+        "B": "～さっつ",
+        "C": "～むら",
         "D": "～さつ"
       },
       "correct_answer": [
@@ -5483,7 +5483,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 335
+        "rank": 471
       }
     },
     {
@@ -5521,7 +5521,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 19
+        "rank": 80
       }
     },
     {
@@ -5532,7 +5532,7 @@
         "A": "ばな",
         "B": "はな",
         "C": "ぱな",
-        "D": "ほか"
+        "D": "あし"
       },
       "correct_answer": [
         "B"
@@ -5559,7 +5559,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 649
+        "rank": 644
       }
     },
     {
@@ -5568,9 +5568,9 @@
       "question": "紅茶",
       "options": {
         "A": "こうちゃ",
-        "B": "ごうちゃ",
-        "C": "こちゃ",
-        "D": "ごちゃ"
+        "B": "ごちゃ",
+        "C": "こうじゃ",
+        "D": "ごじゃ"
       },
       "correct_answer": [
         "A"
@@ -5597,7 +5597,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 700
+        "rank": 697
       }
     },
     {
@@ -5606,9 +5606,9 @@
       "question": "二十日",
       "options": {
         "A": "はつげ",
-        "B": "ばつか",
+        "B": "はずか",
         "C": "はつか",
-        "D": "ばつげ"
+        "D": "はずげ"
       },
       "correct_answer": [
         "C"
@@ -5635,7 +5635,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 648
+        "rank": 643
       }
     },
     {
@@ -5673,7 +5673,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 24
+        "rank": 12
       }
     },
     {
@@ -5711,7 +5711,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 450
+        "rank": 423
       }
     },
     {
@@ -5749,7 +5749,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 544
+        "rank": 530
       }
     },
     {
@@ -5787,7 +5787,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 581
+        "rank": 567
       }
     },
     {
@@ -5825,7 +5825,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 605
+        "rank": 593
       }
     },
     {
@@ -5863,7 +5863,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 492
+        "rank": 468
       }
     },
     {
@@ -5901,7 +5901,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 478
+        "rank": 455
       }
     },
     {
@@ -5939,7 +5939,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 181
+        "rank": 142
       }
     },
     {
@@ -5977,7 +5977,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 485
+        "rank": 461
       }
     },
     {
@@ -6015,7 +6015,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 246
+        "rank": 198
       }
     },
     {
@@ -6053,7 +6053,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 128
+        "rank": 83
       }
     },
     {
@@ -6063,8 +6063,8 @@
       "options": {
         "A": "じた",
         "B": "した",
-        "C": "とり",
-        "D": "あお"
+        "C": "しだ",
+        "D": "じだ"
       },
       "correct_answer": [
         "B"
@@ -6091,7 +6091,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 104
+        "rank": 108
       }
     },
     {
@@ -6129,7 +6129,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 471
+        "rank": 446
       }
     },
     {
@@ -6167,7 +6167,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 161
+        "rank": 121
       }
     },
     {
@@ -6205,7 +6205,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 67
+        "rank": 36
       }
     },
     {
@@ -6215,7 +6215,7 @@
       "options": {
         "A": "～ぜん",
         "B": "～ね",
-        "C": "～はこ",
+        "C": "～ちず",
         "D": "～ねん"
       },
       "correct_answer": [
@@ -6243,7 +6243,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 114
+        "rank": 232
       }
     },
     {
@@ -6281,7 +6281,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 162
+        "rank": 122
       }
     },
     {
@@ -6319,7 +6319,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 348
+        "rank": 306
       }
     },
     {
@@ -6357,7 +6357,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 6
+        "rank": 15
       }
     },
     {
@@ -6365,9 +6365,9 @@
       "topic": 2,
       "question": "風",
       "options": {
-        "A": "がぜ",
-        "B": "にし",
-        "C": "はし",
+        "A": "かぜい",
+        "B": "がぜ",
+        "C": "がぜい",
         "D": "かぜ"
       },
       "correct_answer": [
@@ -6395,7 +6395,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 183
+        "rank": 302
       }
     },
     {
@@ -6433,7 +6433,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 75
+        "rank": 56
       }
     },
     {
@@ -6443,8 +6443,8 @@
       "options": {
         "A": "そら",
         "B": "ぞら",
-        "C": "かぎ",
-        "D": "やま"
+        "C": "もの",
+        "D": "こえ"
       },
       "correct_answer": [
         "A"
@@ -6471,7 +6471,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 220
+        "rank": 227
       }
     },
     {
@@ -6509,7 +6509,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 345
+        "rank": 303
       }
     },
     {
@@ -6547,7 +6547,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 179
+        "rank": 140
       }
     },
     {
@@ -6585,7 +6585,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 165
+        "rank": 128
       }
     },
     {
@@ -6594,9 +6594,9 @@
       "question": "入口",
       "options": {
         "A": "いりぐち",
-        "B": "おとうと",
-        "C": "じょうぶ",
-        "D": "ひとつき"
+        "B": "いりくち",
+        "C": "いりぐっち",
+        "D": "いりくっち"
       },
       "correct_answer": [
         "A"
@@ -6623,7 +6623,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 536
+        "rank": 514
       }
     },
     {
@@ -6661,7 +6661,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 463
+        "rank": 436
       }
     },
     {
@@ -6699,7 +6699,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 391
+        "rank": 356
       }
     },
     {
@@ -6737,7 +6737,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 233
+        "rank": 184
       }
     },
     {
@@ -6775,7 +6775,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 493
+        "rank": 469
       }
     },
     {
@@ -6813,7 +6813,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 697
+        "rank": 694
       }
     },
     {
@@ -6851,7 +6851,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 477
+        "rank": 454
       }
     },
     {
@@ -6860,9 +6860,9 @@
       "question": "出口",
       "options": {
         "A": "でくち",
-        "B": "てぐち",
+        "B": "でぐつ",
         "C": "でぐち",
-        "D": "てくち"
+        "D": "でくつ"
       },
       "correct_answer": [
         "C"
@@ -6889,7 +6889,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 467
+        "rank": 442
       }
     },
     {
@@ -6927,7 +6927,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 572
+        "rank": 557
       }
     },
     {
@@ -6965,7 +6965,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 537
+        "rank": 515
       }
     },
     {
@@ -7003,7 +7003,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 546
+        "rank": 532
       }
     },
     {
@@ -7041,7 +7041,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 299
+        "rank": 255
       }
     },
     {
@@ -7079,7 +7079,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 435
+        "rank": 406
       }
     },
     {
@@ -7117,7 +7117,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 656
+        "rank": 651
       }
     },
     {
@@ -7155,7 +7155,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 499
+        "rank": 474
       }
     },
     {
@@ -7193,7 +7193,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 176
+        "rank": 138
       }
     },
     {
@@ -7202,8 +7202,8 @@
       "question": "隣",
       "options": {
         "A": "どなり",
-        "B": "ごはん",
-        "C": "じびき",
+        "B": "ごぜん",
+        "C": "おとな",
         "D": "となり"
       },
       "correct_answer": [
@@ -7231,7 +7231,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 510
+        "rank": 485
       }
     },
     {
@@ -7269,7 +7269,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 513
+        "rank": 487
       }
     },
     {
@@ -7307,7 +7307,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 508
+        "rank": 483
       }
     },
     {
@@ -7345,7 +7345,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 402
+        "rank": 369
       }
     },
     {
@@ -7383,7 +7383,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 472
+        "rank": 447
       }
     },
     {
@@ -7421,7 +7421,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 91
+        "rank": 51
       }
     },
     {
@@ -7459,7 +7459,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 318
+        "rank": 272
       }
     },
     {
@@ -7497,7 +7497,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 565
+        "rank": 550
       }
     },
     {
@@ -7535,7 +7535,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 370
+        "rank": 327
       }
     },
     {
@@ -7543,10 +7543,10 @@
       "topic": 3,
       "question": "頭",
       "options": {
-        "A": "となり",
+        "A": "あだま",
         "B": "あたま",
-        "C": "ぜんぶ",
-        "D": "かんじ"
+        "C": "あったま",
+        "D": "おとな"
       },
       "correct_answer": [
         "B"
@@ -7573,7 +7573,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 535
+        "rank": 513
       }
     },
     {
@@ -7582,9 +7582,9 @@
       "question": "道",
       "options": {
         "A": "みち",
-        "B": "にち",
-        "C": "はん",
-        "D": "なつ"
+        "B": "みつ",
+        "C": "みっち",
+        "D": "かい"
       },
       "correct_answer": [
         "A"
@@ -7611,7 +7611,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 311
+        "rank": 358
       }
     },
     {
@@ -7649,7 +7649,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 672
+        "rank": 667
       }
     },
     {
@@ -7687,7 +7687,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 32
+        "rank": 98
       }
     },
     {
@@ -7725,7 +7725,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 480
+        "rank": 457
       }
     },
     {
@@ -7763,7 +7763,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 186
+        "rank": 148
       }
     },
     {
@@ -7801,7 +7801,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 322
+        "rank": 276
       }
     },
     {
@@ -7811,8 +7811,8 @@
       "options": {
         "A": "ちてんしゃ",
         "B": "じてんしゃ",
-        "C": "じってんしゃ",
-        "D": "ちってんしゃ"
+        "C": "じてんじゃ",
+        "D": "ちてんじゃ"
       },
       "correct_answer": [
         "B"
@@ -7839,7 +7839,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 302
+        "rank": 259
       }
     },
     {
@@ -7847,9 +7847,9 @@
       "topic": 3,
       "question": "朝",
       "options": {
-        "A": "みち",
-        "B": "やま",
-        "C": "さん",
+        "A": "あっさ",
+        "B": "あざ",
+        "C": "いや",
         "D": "あさ"
       },
       "correct_answer": [
@@ -7877,7 +7877,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 106
+        "rank": 105
       }
     },
     {
@@ -7885,10 +7885,10 @@
       "topic": 3,
       "question": "橋",
       "options": {
-        "A": "ばし",
+        "A": "ぱし",
         "B": "はし",
-        "C": "ぱし",
-        "D": "くつ"
+        "C": "はじ",
+        "D": "ぱじ"
       },
       "correct_answer": [
         "B"
@@ -7915,7 +7915,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 396
+        "rank": 364
       }
     },
     {
@@ -7925,8 +7925,8 @@
       "options": {
         "A": "とり",
         "B": "どり",
-        "C": "はる",
-        "D": "とし"
+        "C": "かぜ",
+        "D": "うえ"
       },
       "correct_answer": [
         "A"
@@ -7953,7 +7953,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 331
+        "rank": 284
       }
     },
     {
@@ -7961,9 +7961,9 @@
       "topic": 3,
       "question": "時々",
       "options": {
-        "A": "ときとき",
-        "B": "どきどき",
-        "C": "どきとき",
+        "A": "どきどき",
+        "B": "とくどき",
+        "C": "どくどき",
         "D": "ときどき"
       },
       "correct_answer": [
@@ -7991,7 +7991,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 412
+        "rank": 383
       }
     },
     {
@@ -8029,7 +8029,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 271
+        "rank": 386
       }
     },
     {
@@ -8067,7 +8067,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 504
+        "rank": 480
       }
     },
     {
@@ -8078,7 +8078,7 @@
         "A": "へや",
         "B": "べや",
         "C": "ぺや",
-        "D": "ひる"
+        "D": "つぎ"
       },
       "correct_answer": [
         "A"
@@ -8105,7 +8105,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 245
+        "rank": 197
       }
     },
     {
@@ -8143,7 +8143,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 52
+        "rank": 27
       }
     },
     {
@@ -8181,7 +8181,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 146
+        "rank": 109
       }
     },
     {
@@ -8191,7 +8191,7 @@
       "options": {
         "A": "ば",
         "B": "ぱ",
-        "C": "え",
+        "C": "と",
         "D": "は"
       },
       "correct_answer": [
@@ -8219,7 +8219,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 642
+        "rank": 637
       }
     },
     {
@@ -8257,7 +8257,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 444
+        "rank": 416
       }
     },
     {
@@ -8295,7 +8295,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 413
+        "rank": 384
       }
     },
     {
@@ -8333,7 +8333,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 599
+        "rank": 586
       }
     },
     {
@@ -8343,8 +8343,8 @@
       "options": {
         "A": "かお",
         "B": "がお",
-        "C": "もん",
-        "D": "みせ"
+        "C": "かおう",
+        "D": "がおう"
       },
       "correct_answer": [
         "A"
@@ -8371,7 +8371,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 483
+        "rank": 459
       }
     },
     {
@@ -8409,7 +8409,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 196
+        "rank": 160
       }
     },
     {
@@ -8417,10 +8417,10 @@
       "topic": 3,
       "question": "一",
       "options": {
-        "A": "もん",
-        "B": "にく",
+        "A": "いつ",
+        "B": "あめ",
         "C": "いち",
-        "D": "あめ"
+        "D": "とお"
       },
       "correct_answer": [
         "C"
@@ -8447,7 +8447,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 30
+        "rank": 155
       }
     },
     {
@@ -8485,7 +8485,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 168
+        "rank": 132
       }
     },
     {
@@ -8523,7 +8523,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 561
+        "rank": 546
       }
     },
     {
@@ -8561,7 +8561,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 469
+        "rank": 444
       }
     },
     {
@@ -8599,7 +8599,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 310
+        "rank": 265
       }
     },
     {
@@ -8637,7 +8637,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 661
+        "rank": 656
       }
     },
     {
@@ -8675,7 +8675,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 664
+        "rank": 659
       }
     },
     {
@@ -8713,7 +8713,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 76
+        "rank": 42
       }
     },
     {
@@ -8751,7 +8751,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 608
+        "rank": 598
       }
     },
     {
@@ -8789,7 +8789,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 375
+        "rank": 331
       }
     },
     {
@@ -8798,9 +8798,9 @@
       "question": "白",
       "options": {
         "A": "しろ",
-        "B": "じろ",
-        "C": "みせ",
-        "D": "とし"
+        "B": "しろう",
+        "C": "じろ",
+        "D": "じろう"
       },
       "correct_answer": [
         "A"
@@ -8827,7 +8827,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 278
+        "rank": 292
       }
     },
     {
@@ -8865,7 +8865,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 665
+        "rank": 660
       }
     },
     {
@@ -8903,7 +8903,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 123
+        "rank": 78
       }
     },
     {
@@ -8913,8 +8913,8 @@
       "options": {
         "A": "たいどころ",
         "B": "だいどころ",
-        "C": "じどうしゃ",
-        "D": "べんきょう"
+        "C": "だいどっころ",
+        "D": "たいどっころ"
       },
       "correct_answer": [
         "B"
@@ -8941,7 +8941,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 621
+        "rank": 613
       }
     },
     {
@@ -8979,7 +8979,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 201
+        "rank": 161
       }
     },
     {
@@ -9017,7 +9017,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 353
+        "rank": 311
       }
     },
     {
@@ -9028,7 +9028,7 @@
         "A": "け",
         "B": "き",
         "C": "ぎ",
-        "D": "し"
+        "D": "く"
       },
       "correct_answer": [
         "B"
@@ -9055,7 +9055,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 61
+        "rank": 103
       }
     },
     {
@@ -9063,10 +9063,10 @@
       "topic": 3,
       "question": "秋",
       "options": {
-        "A": "なつ",
-        "B": "さつ",
+        "A": "あく",
+        "B": "あぎ",
         "C": "あき",
-        "D": "いみ"
+        "D": "あっき"
       },
       "correct_answer": [
         "C"
@@ -9093,7 +9093,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 426
+        "rank": 396
       }
     },
     {
@@ -9131,7 +9131,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 671
+        "rank": 666
       }
     },
     {
@@ -9139,10 +9139,10 @@
       "topic": 3,
       "question": "茶碗",
       "options": {
-        "A": "ちゃわ",
+        "A": "じゃわん",
         "B": "ちゃわん",
-        "C": "ゆうはん",
-        "D": "きょねん"
+        "C": "ちゃわ",
+        "D": "じゃわ"
       },
       "correct_answer": [
         "B"
@@ -9169,7 +9169,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 627
+        "rank": 619
       }
     },
     {
@@ -9207,7 +9207,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 268
+        "rank": 216
       }
     },
     {
@@ -9245,7 +9245,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 10
+        "rank": 4
       }
     },
     {
@@ -9283,7 +9283,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 618
+        "rank": 610
       }
     },
     {
@@ -9321,7 +9321,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 442
+        "rank": 414
       }
     },
     {
@@ -9330,8 +9330,8 @@
       "question": "～回",
       "options": {
         "A": "～え",
-        "B": "～がい",
-        "C": "～ちず",
+        "B": "～せい",
+        "C": "～あね",
         "D": "～かい"
       },
       "correct_answer": [
@@ -9359,7 +9359,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 200
+        "rank": 341
       }
     },
     {
@@ -9397,7 +9397,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 270
+        "rank": 218
       }
     },
     {
@@ -9435,7 +9435,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 223
+        "rank": 176
       }
     },
     {
@@ -9473,7 +9473,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 138
+        "rank": 102
       }
     },
     {
@@ -9481,10 +9481,10 @@
       "topic": 3,
       "question": "～日",
       "options": {
-        "A": "～なん",
+        "A": "～につ",
         "B": "～にち",
-        "C": "～えん",
-        "D": "～せい"
+        "C": "～にっち",
+        "D": "～みみ"
       },
       "correct_answer": [
         "B"
@@ -9511,7 +9511,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 1
+        "rank": 25
       }
     },
     {
@@ -9549,7 +9549,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 503
+        "rank": 479
       }
     },
     {
@@ -9587,7 +9587,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 647
+        "rank": 642
       }
     },
     {
@@ -9625,7 +9625,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 277
+        "rank": 225
       }
     },
     {
@@ -9663,7 +9663,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 683
+        "rank": 680
       }
     },
     {
@@ -9701,7 +9701,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 49
+        "rank": 71
       }
     },
     {
@@ -9711,8 +9711,8 @@
       "options": {
         "A": "じつようび",
         "B": "にちようび",
-        "C": "にちよび",
-        "D": "じつよび"
+        "C": "にちようひ",
+        "D": "じつようひ"
       },
       "correct_answer": [
         "B"
@@ -9739,7 +9739,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 147
+        "rank": 110
       }
     },
     {
@@ -9777,7 +9777,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 50
+        "rank": 24
       }
     },
     {
@@ -9815,7 +9815,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 394
+        "rank": 360
       }
     },
     {
@@ -9826,7 +9826,7 @@
         "A": "～こう",
         "B": "～ごう",
         "C": "～ご",
-        "D": "～こうう"
+        "D": "～え"
       },
       "correct_answer": [
         "C"
@@ -9853,7 +9853,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 90
+        "rank": 191
       }
     },
     {
@@ -9891,7 +9891,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 668
+        "rank": 663
       }
     },
     {
@@ -9929,7 +9929,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 519
+        "rank": 494
       }
     },
     {
@@ -9938,8 +9938,8 @@
       "question": "音楽",
       "options": {
         "A": "おんかく",
-        "B": "おがく",
-        "C": "おかく",
+        "B": "おんがき",
+        "C": "おんかき",
         "D": "おんがく"
       },
       "correct_answer": [
@@ -9967,7 +9967,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 272
+        "rank": 219
       }
     },
     {
@@ -9978,7 +9978,7 @@
         "A": "もん",
         "B": "ぶん",
         "C": "も",
-        "D": "くに"
+        "D": "ちち"
       },
       "correct_answer": [
         "A"
@@ -10005,7 +10005,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 460
+        "rank": 674
       }
     },
     {
@@ -10043,7 +10043,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 93
+        "rank": 52
       }
     },
     {
@@ -10052,9 +10052,9 @@
       "question": "夕方",
       "options": {
         "A": "ゆうがた",
-        "B": "ゆうはん",
-        "C": "せんせい",
-        "D": "だいがく"
+        "B": "ゆがた",
+        "C": "ゆうかた",
+        "D": "ゆかた"
       },
       "correct_answer": [
         "A"
@@ -10081,7 +10081,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 358
+        "rank": 316
       }
     },
     {
@@ -10119,7 +10119,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 314
+        "rank": 268
       }
     },
     {
@@ -10157,7 +10157,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 501
+        "rank": 477
       }
     },
     {
@@ -10166,9 +10166,9 @@
       "question": "外（そと）\n（外面）",
       "options": {
         "A": "そと",
-        "B": "ぞと",
-        "C": "ふゆ",
-        "D": "かお"
+        "B": "そど",
+        "C": "ぞと",
+        "D": "ぞど"
       },
       "correct_answer": [
         "A"
@@ -10195,7 +10195,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 142
+        "rank": 275
       }
     },
     {
@@ -10233,7 +10233,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 475
+        "rank": 452
       }
     },
     {
@@ -10271,7 +10271,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 208
+        "rank": 380
       }
     },
     {
@@ -10309,7 +10309,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 534
+        "rank": 512
       }
     },
     {
@@ -10347,7 +10347,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 409
+        "rank": 603
       }
     },
     {
@@ -10385,7 +10385,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 439
+        "rank": 410
       }
     },
     {
@@ -10394,9 +10394,9 @@
       "question": "零",
       "options": {
         "A": "れ",
-        "B": "やま",
+        "B": "いま",
         "C": "れい",
-        "D": "ひる"
+        "D": "はな"
       },
       "correct_answer": [
         "C"
@@ -10431,10 +10431,10 @@
       "topic": 4,
       "question": "外（ほか）\n（其他、別處）",
       "options": {
-        "A": "ぼか",
-        "B": "ぽか",
+        "A": "ぽか",
+        "B": "ほっか",
         "C": "ほか",
-        "D": "あさ"
+        "D": "ぽっか"
       },
       "correct_answer": [
         "C"
@@ -10461,7 +10461,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 143
+        "rank": 283
       }
     },
     {
@@ -10499,7 +10499,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 654
+        "rank": 649
       }
     },
     {
@@ -10507,10 +10507,10 @@
       "topic": 4,
       "question": "色々",
       "options": {
-        "A": "ほんとう",
+        "A": "いろいろう",
         "B": "いろいろ",
-        "C": "たいせつ",
-        "D": "ふうとう"
+        "C": "せっけん",
+        "D": "たてもの"
       },
       "correct_answer": [
         "B"
@@ -10537,7 +10537,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 557
+        "rank": 542
       }
     },
     {
@@ -10575,7 +10575,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 262
+        "rank": 241
       }
     },
     {
@@ -10583,10 +10583,10 @@
       "topic": 4,
       "question": "～月",
       "options": {
-        "A": "～かつ",
-        "B": "～じん",
+        "A": "～がち",
+        "B": "～がっつ",
         "C": "～がつ",
-        "D": "～あと"
+        "D": "～いぬ"
       },
       "correct_answer": [
         "C"
@@ -10613,7 +10613,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 35
+        "rank": 145
       }
     },
     {
@@ -10651,7 +10651,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 169
+        "rank": 143
       }
     },
     {
@@ -10689,7 +10689,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 630
+        "rank": 623
       }
     },
     {
@@ -10727,7 +10727,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 548
+        "rank": 534
       }
     },
     {
@@ -10765,7 +10765,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 151
+        "rank": 117
       }
     },
     {
@@ -10803,7 +10803,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 214
+        "rank": 171
       }
     },
     {
@@ -10841,7 +10841,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 667
+        "rank": 662
       }
     },
     {
@@ -10879,7 +10879,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 418
+        "rank": 389
       }
     },
     {
@@ -10887,10 +10887,10 @@
       "topic": 4,
       "question": "～本",
       "options": {
-        "A": "～ぼん",
-        "B": "～ほ",
+        "A": "～ほ",
+        "B": "～あめ",
         "C": "～ほん",
-        "D": "～ぼ"
+        "D": "～にち"
       },
       "correct_answer": [
         "C"
@@ -10917,7 +10917,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 7
+        "rank": 61
       }
     },
     {
@@ -10927,7 +10927,7 @@
       "options": {
         "A": "やわや",
         "B": "やおうや",
-        "C": "やわうや",
+        "C": "えいが",
         "D": "やおや"
       },
       "correct_answer": [
@@ -10955,7 +10955,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 678
+        "rank": 675
       }
     },
     {
@@ -10963,9 +10963,9 @@
       "topic": 4,
       "question": "話",
       "options": {
-        "A": "ばなし",
-        "B": "ぱなし",
-        "C": "ようか",
+        "A": "ぱなし",
+        "B": "はなっし",
+        "C": "ぱなっし",
         "D": "はなし"
       },
       "correct_answer": [
@@ -10993,7 +10993,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 45
+        "rank": 87
       }
     },
     {
@@ -11003,8 +11003,8 @@
       "options": {
         "A": "しち",
         "B": "じち",
-        "C": "へた",
-        "D": "くち"
+        "C": "しつ",
+        "D": "じつ"
       },
       "correct_answer": [
         "A"
@@ -11031,7 +11031,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 466
+        "rank": 521
       }
     },
     {
@@ -11069,7 +11069,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 266
+        "rank": 213
       }
     },
     {
@@ -11078,8 +11078,8 @@
       "question": "御飯",
       "options": {
         "A": "こうはん",
-        "B": "ごうはん",
-        "C": "こううはん",
+        "B": "ごばん",
+        "C": "こうばん",
         "D": "ごはん"
       },
       "correct_answer": [
@@ -11107,7 +11107,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 598
+        "rank": 585
       }
     },
     {
@@ -11145,7 +11145,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 371
+        "rank": 354
       }
     },
     {
@@ -11153,10 +11153,10 @@
       "topic": 4,
       "question": "肉",
       "options": {
-        "A": "へた",
-        "B": "あし",
+        "A": "にき",
+        "B": "にぐ",
         "C": "にく",
-        "D": "かた"
+        "D": "にっく"
       },
       "correct_answer": [
         "C"
@@ -11183,7 +11183,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 468
+        "rank": 443
       }
     },
     {
@@ -11221,7 +11221,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 152
+        "rank": 113
       }
     },
     {
@@ -11259,7 +11259,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 708
+        "rank": 705
       }
     },
     {
@@ -11297,7 +11297,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 41
+        "rank": 19
       }
     },
     {
@@ -11335,7 +11335,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 255
+        "rank": 205
       }
     },
     {
@@ -11373,7 +11373,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 84
+        "rank": 236
       }
     },
     {
@@ -11411,7 +11411,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 194
+        "rank": 158
       }
     },
     {
@@ -11449,7 +11449,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 528
+        "rank": 505
       }
     },
     {
@@ -11487,7 +11487,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 127
+        "rank": 437
       }
     },
     {
@@ -11495,10 +11495,10 @@
       "topic": 4,
       "question": "～側",
       "options": {
-        "A": "～かわ",
+        "A": "～さい",
         "B": "～がわ",
-        "C": "～いぬ",
-        "D": "～ひる"
+        "C": "～ばん",
+        "D": "～はち"
       },
       "correct_answer": [
         "B"
@@ -11525,7 +11525,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 582
+        "rank": 568
       }
     },
     {
@@ -11533,10 +11533,10 @@
       "topic": 4,
       "question": "東",
       "options": {
-        "A": "ぴがし",
+        "A": "ひかし",
         "B": "ひがし",
-        "C": "びがし",
-        "D": "ごぜん"
+        "C": "ひがっし",
+        "D": "ひかっし"
       },
       "correct_answer": [
         "B"
@@ -11563,7 +11563,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 129
+        "rank": 393
       }
     },
     {
@@ -11601,7 +11601,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 486
+        "rank": 462
       }
     },
     {
@@ -11639,7 +11639,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 679
+        "rank": 676
       }
     },
     {
@@ -11647,10 +11647,10 @@
       "topic": 4,
       "question": "左",
       "options": {
-        "A": "ぴだり",
+        "A": "びだり",
         "B": "ひだり",
-        "C": "びだり",
-        "D": "きっぷ"
+        "C": "ひたり",
+        "D": "びたり"
       },
       "correct_answer": [
         "B"
@@ -11677,7 +11677,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 541
+        "rank": 525
       }
     },
     {
@@ -11686,9 +11686,9 @@
       "question": "傘",
       "options": {
         "A": "がさ",
-        "B": "いえ",
+        "B": "かざ",
         "C": "かさ",
-        "D": "よる"
+        "D": "がざ"
       },
       "correct_answer": [
         "C"
@@ -11715,7 +11715,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 577
+        "rank": 563
       }
     },
     {
@@ -11753,7 +11753,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 411
+        "rank": 382
       }
     },
     {
@@ -11762,8 +11762,8 @@
       "question": "冬",
       "options": {
         "A": "ぷゆ",
-        "B": "ぶゆ",
-        "C": "ばん",
+        "B": "ふゆう",
+        "C": "ぷゆう",
         "D": "ふゆ"
       },
       "correct_answer": [
@@ -11791,7 +11791,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 357
+        "rank": 315
       }
     },
     {
@@ -11800,9 +11800,9 @@
       "question": "先",
       "options": {
         "A": "ざき",
-        "B": "まど",
+        "B": "さく",
         "C": "さき",
-        "D": "えき"
+        "D": "ざく"
       },
       "correct_answer": [
         "C"
@@ -11829,7 +11829,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 31
+        "rank": 588
       }
     },
     {
@@ -11867,7 +11867,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 85
+        "rank": 53
       }
     },
     {
@@ -11905,7 +11905,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 635
+        "rank": 629
       }
     },
     {
@@ -11943,7 +11943,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 74
+        "rank": 41
       }
     },
     {
@@ -11981,7 +11981,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 385
+        "rank": 349
       }
     },
     {
@@ -12019,7 +12019,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 240
+        "rank": 192
       }
     },
     {
@@ -12057,7 +12057,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 613
+        "rank": 605
       }
     },
     {
@@ -12095,7 +12095,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 538
+        "rank": 516
       }
     },
     {
@@ -12133,7 +12133,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 82
+        "rank": 47
       }
     },
     {
@@ -12142,9 +12142,9 @@
       "question": "七日",
       "options": {
         "A": "なんのか",
-        "B": "じかん",
+        "B": "なのが",
         "C": "なのか",
-        "D": "からだ"
+        "D": "なのっか"
       },
       "correct_answer": [
         "C"
@@ -12171,7 +12171,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 638
+        "rank": 633
       }
     },
     {
@@ -12180,9 +12180,9 @@
       "question": "所",
       "options": {
         "A": "ところ",
-        "B": "どころ",
-        "C": "ざっし",
-        "D": "おとな"
+        "B": "ところう",
+        "C": "どころ",
+        "D": "どころう"
       },
       "correct_answer": [
         "A"
@@ -12209,7 +12209,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 112
+        "rank": 312
       }
     },
     {
@@ -12247,7 +12247,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 560
+        "rank": 545
       }
     },
     {
@@ -12257,8 +12257,8 @@
       "options": {
         "A": "くるま",
         "B": "ぐるま",
-        "C": "にもつ",
-        "D": "めがね"
+        "C": "きのう",
+        "D": "きいろ"
       },
       "correct_answer": [
         "A"
@@ -12285,7 +12285,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 78
+        "rank": 237
       }
     },
     {
@@ -12323,7 +12323,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 22
+        "rank": 11
       }
     },
     {
@@ -12361,7 +12361,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 650
+        "rank": 645
       }
     },
     {
@@ -12372,7 +12372,7 @@
         "A": "ぱる",
         "B": "はる",
         "C": "ばる",
-        "D": "いや"
+        "D": "かみ"
       },
       "correct_answer": [
         "B"
@@ -12399,7 +12399,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 327
+        "rank": 295
       }
     },
     {
@@ -12437,7 +12437,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 354
+        "rank": 632
       }
     },
     {
@@ -12448,7 +12448,7 @@
         "A": "ぴま",
         "B": "ひま",
         "C": "びま",
-        "D": "やま"
+        "D": "ねん"
       },
       "correct_answer": [
         "B"
@@ -12475,7 +12475,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 658
+        "rank": 653
       }
     },
     {
@@ -12483,9 +12483,9 @@
       "topic": 4,
       "question": "～個",
       "options": {
-        "A": "～ご",
-        "B": "～こう",
-        "C": "～ごう",
+        "A": "～こう",
+        "B": "～て",
+        "C": "～き",
         "D": "～こ"
       },
       "correct_answer": [
@@ -12513,7 +12513,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 593
+        "rank": 580
       }
     },
     {
@@ -12551,7 +12551,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 107
+        "rank": 348
       }
     },
     {
@@ -12589,7 +12589,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 502
+        "rank": 478
       }
     },
     {
@@ -12627,7 +12627,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 367
+        "rank": 323
       }
     },
     {
@@ -12665,7 +12665,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 374
+        "rank": 330
       }
     },
     {
@@ -12676,7 +12676,7 @@
         "A": "で",
         "B": "こ",
         "C": "て",
-        "D": "や"
+        "D": "ご"
       },
       "correct_answer": [
         "C"
@@ -12703,7 +12703,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 88
+        "rank": 391
       }
     },
     {
@@ -12741,7 +12741,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 280
+        "rank": 226
       }
     },
     {
@@ -12779,7 +12779,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 634
+        "rank": 627
       }
     },
     {
@@ -12817,7 +12817,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 105
+        "rank": 60
       }
     },
     {
@@ -12855,7 +12855,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 703
+        "rank": 700
       }
     },
     {
@@ -12864,9 +12864,9 @@
       "question": "店",
       "options": {
         "A": "みせ",
-        "B": "あめ",
-        "C": "あお",
-        "D": "ほか"
+        "B": "みぜ",
+        "C": "みせい",
+        "D": "みぜい"
       },
       "correct_answer": [
         "A"
@@ -12893,7 +12893,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 38
+        "rank": 22
       }
     },
     {
@@ -12931,7 +12931,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 101
+        "rank": 85
       }
     },
     {
@@ -12969,7 +12969,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 568
+        "rank": 553
       }
     },
     {
@@ -13007,7 +13007,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 192
+        "rank": 156
       }
     },
     {
@@ -13045,7 +13045,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 636
+        "rank": 630
       }
     },
     {
@@ -13083,7 +13083,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 652
+        "rank": 647
       }
     },
     {
@@ -13121,7 +13121,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 377
+        "rank": 333
       }
     },
     {
@@ -13159,7 +13159,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 462
+        "rank": 435
       }
     },
     {
@@ -13167,10 +13167,10 @@
       "topic": 4,
       "question": "妹",
       "options": {
-        "A": "ちかてつ",
-        "B": "まいあさ",
+        "A": "いもうとう",
+        "B": "いもうど",
         "C": "いもうと",
-        "D": "どようび"
+        "D": "いもうどう"
       },
       "correct_answer": [
         "C"
@@ -13197,7 +13197,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 261
+        "rank": 208
       }
     },
     {
@@ -13235,7 +13235,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 497
+        "rank": 597
       }
     },
     {
@@ -13273,7 +13273,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 612
+        "rank": 604
       }
     },
     {
@@ -13311,7 +13311,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 609
+        "rank": 599
       }
     },
     {
@@ -13349,7 +13349,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 20
+        "rank": 502
       }
     },
     {
@@ -13387,7 +13387,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 449
+        "rank": 422
       }
     },
     {
@@ -13425,7 +13425,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 556
+        "rank": 450
       }
     },
     {
@@ -13463,7 +13463,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 681
+        "rank": 678
       }
     },
     {
@@ -13471,9 +13471,9 @@
       "topic": 4,
       "question": "～匹",
       "options": {
-        "A": "～びき",
-        "B": "～ぴき",
-        "C": "～かみ",
+        "A": "～ひく",
+        "B": "～ひぎ",
+        "C": "～ひっき",
         "D": "～ひき"
       },
       "correct_answer": [
@@ -13501,7 +13501,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 653
+        "rank": 648
       }
     },
     {
@@ -13539,7 +13539,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 474
+        "rank": 449
       }
     },
     {
@@ -13577,7 +13577,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 231
+        "rank": 181
       }
     },
     {
@@ -13615,7 +13615,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 5
+        "rank": 2
       }
     },
     {
@@ -13653,7 +13653,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 149
+        "rank": 111
       }
     },
     {
@@ -13691,7 +13691,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 691
+        "rank": 688
       }
     },
     {
@@ -13729,7 +13729,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 689
+        "rank": 686
       }
     },
     {
@@ -13767,7 +13767,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 153
+        "rank": 114
       }
     },
     {
@@ -13805,7 +13805,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 670
+        "rank": 665
       }
     },
     {
@@ -13843,7 +13843,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 680
+        "rank": 677
       }
     },
     {
@@ -13881,7 +13881,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 60
+        "rank": 29
       }
     },
     {
@@ -13919,7 +13919,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 132
+        "rank": 126
       }
     },
     {
@@ -13929,8 +13929,8 @@
       "options": {
         "A": "がみ",
         "B": "かみ",
-        "C": "まど",
-        "D": "よる"
+        "C": "はい",
+        "D": "まど"
       },
       "correct_answer": [
         "B"
@@ -13957,7 +13957,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 235
+        "rank": 362
       }
     },
     {
@@ -13995,7 +13995,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 198
+        "rank": 238
       }
     },
     {
@@ -14033,7 +14033,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 316
+        "rank": 269
       }
     },
     {
@@ -14071,7 +14071,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 321
+        "rank": 475
       }
     },
     {
@@ -14109,7 +14109,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 532
+        "rank": 510
       }
     },
     {
@@ -14117,9 +14117,9 @@
       "topic": 5,
       "question": "一日（ついたち）\n（一號、一天）",
       "options": {
-        "A": "ついだち",
-        "B": "きょねん",
-        "C": "わたくし",
+        "A": "ずいたち",
+        "B": "ついだち",
+        "C": "ずいだち",
         "D": "ついたち"
       },
       "correct_answer": [
@@ -14147,7 +14147,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 242
+        "rank": 194
       }
     },
     {
@@ -14185,7 +14185,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 269
+        "rank": 217
       }
     },
     {
@@ -14223,7 +14223,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 206
+        "rank": 165
       }
     },
     {
@@ -14261,7 +14261,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 566
+        "rank": 551
       }
     },
     {
@@ -14299,7 +14299,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 441
+        "rank": 412
       }
     },
     {
@@ -14337,7 +14337,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 481
+        "rank": 458
       }
     },
     {
@@ -14347,8 +14347,8 @@
       "options": {
         "A": "もくよび",
         "B": "もくようび",
-        "C": "もくようひ",
-        "D": "もくよひ"
+        "C": "もくようぴ",
+        "D": "もくよぴ"
       },
       "correct_answer": [
         "B"
@@ -14375,7 +14375,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 312
+        "rank": 266
       }
     },
     {
@@ -14413,7 +14413,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 695
+        "rank": 692
       }
     },
     {
@@ -14451,7 +14451,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 570
+        "rank": 555
       }
     },
     {
@@ -14489,7 +14489,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 479
+        "rank": 456
       }
     },
     {
@@ -14527,7 +14527,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 54
+        "rank": 31
       }
     },
     {
@@ -14537,8 +14537,8 @@
       "options": {
         "A": "いつか",
         "B": "いつげ",
-        "C": "いつが",
-        "D": "いっか"
+        "C": "いちか",
+        "D": "いちげ"
       },
       "correct_answer": [
         "A"
@@ -14565,7 +14565,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 430
+        "rank": 400
       }
     },
     {
@@ -14575,8 +14575,8 @@
       "options": {
         "A": "まん",
         "B": "ま",
-        "C": "まち",
-        "D": "そら"
+        "C": "うみ",
+        "D": "ふく"
       },
       "correct_answer": [
         "A"
@@ -14603,7 +14603,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 397
+        "rank": 713
       }
     },
     {
@@ -14641,7 +14641,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 530
+        "rank": 508
       }
     },
     {
@@ -14679,7 +14679,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 288
+        "rank": 254
       }
     },
     {
@@ -14717,7 +14717,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 360
+        "rank": 402
       }
     },
     {
@@ -14755,7 +14755,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 351
+        "rank": 308
       }
     },
     {
@@ -14793,7 +14793,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 446
+        "rank": 419
       }
     },
     {
@@ -14803,8 +14803,8 @@
       "options": {
         "A": "はち",
         "B": "ばち",
-        "C": "ぱち",
-        "D": "がわ"
+        "C": "はつ",
+        "D": "ばつ"
       },
       "correct_answer": [
         "A"
@@ -14831,7 +14831,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 422
+        "rank": 524
       }
     },
     {
@@ -14869,7 +14869,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 320
+        "rank": 274
       }
     },
     {
@@ -14907,7 +14907,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 305
+        "rank": 324
       }
     },
     {
@@ -14945,7 +14945,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 547
+        "rank": 533
       }
     },
     {
@@ -14983,7 +14983,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 588
+        "rank": 575
       }
     },
     {
@@ -15021,7 +15021,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 387
+        "rank": 351
       }
     },
     {
@@ -15059,7 +15059,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 405
+        "rank": 376
       }
     },
     {
@@ -15097,7 +15097,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 355
+        "rank": 314
       }
     },
     {
@@ -15107,8 +15107,8 @@
       "options": {
         "A": "げんき",
         "B": "がいんき",
-        "C": "かんき",
-        "D": "けんき"
+        "C": "げんく",
+        "D": "がいんく"
       },
       "correct_answer": [
         "A"
@@ -15135,7 +15135,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 263
+        "rank": 209
       }
     },
     {
@@ -15143,10 +15143,10 @@
       "topic": 5,
       "question": "～番",
       "options": {
-        "A": "～はん",
+        "A": "～ば",
         "B": "～ばん",
-        "C": "～ば",
-        "D": "～は"
+        "C": "～みみ",
+        "D": "～かい"
       },
       "correct_answer": [
         "B"
@@ -15173,7 +15173,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 339
+        "rank": 496
       }
     },
     {
@@ -15211,7 +15211,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 432
+        "rank": 403
       }
     },
     {
@@ -15249,7 +15249,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 163
+        "rank": 123
       }
     },
     {
@@ -15287,7 +15287,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 491
+        "rank": 467
       }
     },
     {
@@ -15325,7 +15325,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 659
+        "rank": 654
       }
     },
     {
@@ -15363,7 +15363,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 281
+        "rank": 228
       }
     },
     {
@@ -15371,10 +15371,10 @@
       "topic": 5,
       "question": "五",
       "options": {
-        "A": "こう",
+        "A": "ごう",
         "B": "ご",
-        "C": "ごう",
-        "D": "こうう"
+        "C": "こ",
+        "D": "こう"
       },
       "correct_answer": [
         "B"
@@ -15401,7 +15401,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 373
+        "rank": 441
       }
     },
     {
@@ -15439,7 +15439,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 677
+        "rank": 672
       }
     },
     {
@@ -15477,7 +15477,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 587
+        "rank": 574
       }
     },
     {
@@ -15515,7 +15515,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 46
+        "rank": 23
       }
     },
     {
@@ -15553,7 +15553,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 500
+        "rank": 476
       }
     },
     {
@@ -15591,7 +15591,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 701
+        "rank": 698
       }
     },
     {
@@ -15629,7 +15629,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 145
+        "rank": 107
       }
     },
     {
@@ -15667,7 +15667,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 336
+        "rank": 289
       }
     },
     {
@@ -15705,7 +15705,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 675
+        "rank": 670
       }
     },
     {
@@ -15743,7 +15743,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 109
+        "rank": 63
       }
     },
     {
@@ -15781,7 +15781,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 606
+        "rank": 594
       }
     },
     {
@@ -15789,10 +15789,10 @@
       "topic": 5,
       "question": "卵",
       "options": {
-        "A": "だまご",
+        "A": "たまごう",
         "B": "たまご",
-        "C": "みっか",
-        "D": "わたし"
+        "C": "だまご",
+        "D": "だまごう"
       },
       "correct_answer": [
         "B"
@@ -15819,7 +15819,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 624
+        "rank": 616
       }
     },
     {
@@ -15827,10 +15827,10 @@
       "topic": 5,
       "question": "～時（～とき）\n（（接尾）～的時候）",
       "options": {
-        "A": "～どき",
+        "A": "～とく",
         "B": "～とき",
-        "C": "～はこ",
-        "D": "～しお"
+        "C": "～とっき",
+        "D": "～とぎ"
       },
       "correct_answer": [
         "B"
@@ -15857,7 +15857,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 18
+        "rank": 93
       }
     },
     {
@@ -15866,9 +15866,9 @@
       "question": "天気",
       "options": {
         "A": "でんき",
-        "B": "とおか",
+        "B": "てんく",
         "C": "てんき",
-        "D": "くすり"
+        "D": "でんく"
       },
       "correct_answer": [
         "C"
@@ -15895,7 +15895,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 224
+        "rank": 177
       }
     },
     {
@@ -15933,7 +15933,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 290
+        "rank": 570
       }
     },
     {
@@ -15971,7 +15971,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 578
+        "rank": 564
       }
     },
     {
@@ -16009,7 +16009,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 682
+        "rank": 679
       }
     },
     {
@@ -16017,9 +16017,9 @@
       "topic": 5,
       "question": "六",
       "options": {
-        "A": "くつ",
-        "B": "とり",
-        "C": "ほん",
+        "A": "ろき",
+        "B": "ろぐ",
+        "C": "ろっく",
         "D": "ろく"
       },
       "correct_answer": [
@@ -16047,7 +16047,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 398
+        "rank": 526
       }
     },
     {
@@ -16085,7 +16085,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 525
+        "rank": 501
       }
     },
     {
@@ -16123,7 +16123,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 140
+        "rank": 100
       }
     },
     {
@@ -16161,7 +16161,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 333
+        "rank": 287
       }
     },
     {
@@ -16199,7 +16199,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 289
+        "rank": 256
       }
     },
     {
@@ -16208,8 +16208,8 @@
       "question": "～歳",
       "options": {
         "A": "～せつ",
-        "B": "～ざい",
-        "C": "～よこ",
+        "B": "～むら",
+        "C": "～ほか",
         "D": "～さい"
       },
       "correct_answer": [
@@ -16237,7 +16237,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 219
+        "rank": 345
       }
     },
     {
@@ -16275,7 +16275,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 553
+        "rank": 539
       }
     },
     {
@@ -16313,7 +16313,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 294
+        "rank": 246
       }
     },
     {
@@ -16351,7 +16351,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 324
+        "rank": 277
       }
     },
     {
@@ -16389,7 +16389,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 476
+        "rank": 453
       }
     },
     {
@@ -16427,7 +16427,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 197
+        "rank": 313
       }
     },
     {
@@ -16465,7 +16465,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 490
+        "rank": 466
       }
     },
     {
@@ -16503,7 +16503,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 157
+        "rank": 118
       }
     },
     {
@@ -16541,7 +16541,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 552
+        "rank": 538
       }
     },
     {
@@ -16550,9 +16550,9 @@
       "question": "～中（～ちゅう）\n（（接尾）～期間、正在～）",
       "options": {
         "A": "～ちゅ",
-        "B": "～ひゃく",
+        "B": "～きれい",
         "C": "～ちゅう",
-        "D": "～じぶん"
+        "D": "～かびん"
       },
       "correct_answer": [
         "C"
@@ -16579,7 +16579,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 28
+        "rank": 182
       }
     },
     {
@@ -16587,10 +16587,10 @@
       "topic": 5,
       "question": "雪",
       "options": {
-        "A": "こえ",
+        "A": "ゆく",
         "B": "ゆき",
-        "C": "ほん",
-        "D": "しお"
+        "C": "ゆっき",
+        "D": "ゆぎ"
       },
       "correct_answer": [
         "B"
@@ -16617,7 +16617,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 425
+        "rank": 395
       }
     },
     {
@@ -16655,7 +16655,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 529
+        "rank": 506
       }
     },
     {
@@ -16664,9 +16664,9 @@
       "question": "私（わたし）\n（我）",
       "options": {
         "A": "わたし",
-        "B": "ひがし",
-        "C": "かぞく",
-        "D": "げんき"
+        "B": "わったし",
+        "C": "わたじ",
+        "D": "わったじ"
       },
       "correct_answer": [
         "A"
@@ -16693,7 +16693,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 14
+        "rank": 6
       }
     },
     {
@@ -16731,7 +16731,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 96
+        "rank": 54
       }
     },
     {
@@ -16769,7 +16769,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 365
+        "rank": 321
       }
     },
     {
@@ -16807,7 +16807,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 131
+        "rank": 343
       }
     },
     {
@@ -16817,8 +16817,8 @@
       "options": {
         "A": "てんき",
         "B": "でんき",
-        "C": "うわぎ",
-        "D": "めがね"
+        "C": "でんく",
+        "D": "てんく"
       },
       "correct_answer": [
         "B"
@@ -16845,7 +16845,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 452
+        "rank": 426
       }
     },
     {
@@ -16853,9 +16853,9 @@
       "topic": 5,
       "question": "荷物",
       "options": {
-        "A": "にぶつ",
+        "A": "にもち",
         "B": "にんもつ",
-        "C": "むいか",
+        "C": "にんもち",
         "D": "にもつ"
       },
       "correct_answer": [
@@ -16883,7 +16883,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 338
+        "rank": 294
       }
     },
     {
@@ -16921,7 +16921,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 133
+        "rank": 95
       }
     },
     {
@@ -16959,7 +16959,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 252
+        "rank": 202
       }
     },
     {
@@ -16997,7 +16997,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 340
+        "rank": 296
       }
     },
     {
@@ -17035,7 +17035,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 137
+        "rank": 244
       }
     },
     {
@@ -17045,8 +17045,8 @@
       "options": {
         "A": "ざかな",
         "B": "さかな",
-        "C": "たまご",
-        "D": "ようか"
+        "C": "さっかな",
+        "D": "ざっかな"
       },
       "correct_answer": [
         "B"
@@ -17073,7 +17073,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 258
+        "rank": 206
       }
     },
     {
@@ -17111,7 +17111,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 209
+        "rank": 167
       }
     },
     {
@@ -17149,7 +17149,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 285
+        "rank": 235
       }
     },
     {
@@ -17160,7 +17160,7 @@
         "A": "ぴる",
         "B": "ひる",
         "C": "びる",
-        "D": "はん"
+        "D": "えん"
       },
       "correct_answer": [
         "B"
@@ -17225,7 +17225,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 350
+        "rank": 307
       }
     },
     {
@@ -17263,7 +17263,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 669
+        "rank": 664
       }
     },
     {
@@ -17301,7 +17301,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 543
+        "rank": 529
       }
     },
     {
@@ -17339,7 +17339,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 139
+        "rank": 99
       }
     },
     {
@@ -17377,7 +17377,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 36
+        "rank": 16
       }
     },
     {
@@ -17415,7 +17415,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 507
+        "rank": 621
       }
     },
     {
@@ -17453,7 +17453,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 308
+        "rank": 263
       }
     },
     {
@@ -17491,7 +17491,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 712
+        "rank": 711
       }
     },
     {
@@ -17529,7 +17529,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 431
+        "rank": 401
       }
     },
     {
@@ -17537,9 +17537,9 @@
       "topic": 6,
       "question": "池",
       "options": {
-        "A": "ふく",
-        "B": "はな",
-        "C": "あに",
+        "A": "いげ",
+        "B": "いけい",
+        "C": "いげい",
         "D": "いけ"
       },
       "correct_answer": [
@@ -17567,7 +17567,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 554
+        "rank": 540
       }
     },
     {
@@ -17577,8 +17577,8 @@
       "options": {
         "A": "～じかん",
         "B": "～ちかん",
-        "C": "～じっかん",
-        "D": "～ちっかん"
+        "C": "～じがん",
+        "D": "～ちがん"
       },
       "correct_answer": [
         "A"
@@ -17605,7 +17605,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 42
+        "rank": 290
       }
     },
     {
@@ -17643,7 +17643,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 407
+        "rank": 378
       }
     },
     {
@@ -17681,7 +17681,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 70
+        "rank": 39
       }
     },
     {
@@ -17690,9 +17690,9 @@
       "question": "人",
       "options": {
         "A": "ひと",
-        "B": "ぴと",
-        "C": "びと",
-        "D": "きた"
+        "B": "ひとう",
+        "C": "ぴと",
+        "D": "ぴとう"
       },
       "correct_answer": [
         "A"
@@ -17719,7 +17719,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 13
+        "rank": 10
       }
     },
     {
@@ -17757,7 +17757,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 713
+        "rank": 712
       }
     },
     {
@@ -17795,7 +17795,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 282
+        "rank": 229
       }
     },
     {
@@ -17805,8 +17805,8 @@
       "options": {
         "A": "ふく",
         "B": "ぶく",
-        "C": "ぷく",
-        "D": "はん"
+        "C": "ふき",
+        "D": "ぶき"
       },
       "correct_answer": [
         "A"
@@ -17833,7 +17833,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 663
+        "rank": 658
       }
     },
     {
@@ -17871,7 +17871,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 514
+        "rank": 489
       }
     },
     {
@@ -17909,7 +17909,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 512
+        "rank": 486
       }
     },
     {
@@ -17947,7 +17947,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 392
+        "rank": 357
       }
     },
     {
@@ -17985,7 +17985,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 134
+        "rank": 96
       }
     },
     {
@@ -17994,9 +17994,9 @@
       "question": "眼鏡",
       "options": {
         "A": "めがね",
-        "B": "めかね",
-        "C": "めんがね",
-        "D": "さとう"
+        "B": "めがねい",
+        "C": "めかね",
+        "D": "めかねい"
       },
       "correct_answer": [
         "A"
@@ -18061,7 +18061,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 148
+        "rank": 147
       }
     },
     {
@@ -18099,7 +18099,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 237
+        "rank": 220
       }
     },
     {
@@ -18137,7 +18137,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 23
+        "rank": 13
       }
     },
     {
@@ -18175,7 +18175,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 583
+        "rank": 569
       }
     },
     {
@@ -18213,7 +18213,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 222
+        "rank": 175
       }
     },
     {
@@ -18251,7 +18251,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 2
+        "rank": 104
       }
     },
     {
@@ -18289,7 +18289,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 511
+        "rank": 628
       }
     },
     {
@@ -18327,7 +18327,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 221
+        "rank": 381
       }
     },
     {
@@ -18365,7 +18365,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 378
+        "rank": 335
       }
     },
     {
@@ -18403,7 +18403,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 291
+        "rank": 242
       }
     },
     {
@@ -18441,7 +18441,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 257
+        "rank": 673
       }
     },
     {
@@ -18452,7 +18452,7 @@
         "A": "みくか",
         "B": "みか",
         "C": "みっか",
-        "D": "となり"
+        "D": "せびろ"
       },
       "correct_answer": [
         "C"
@@ -18479,7 +18479,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 393
+        "rank": 359
       }
     },
     {
@@ -18517,7 +18517,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 363
+        "rank": 372
       }
     },
     {
@@ -18555,7 +18555,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 518
+        "rank": 493
       }
     },
     {
@@ -18593,7 +18593,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 21
+        "rank": 9
       }
     },
     {
@@ -18631,7 +18631,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 564
+        "rank": 549
       }
     },
     {
@@ -18669,7 +18669,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 585
+        "rank": 572
       }
     },
     {
@@ -18677,9 +18677,9 @@
       "topic": 6,
       "question": "歌",
       "options": {
-        "A": "みぎ",
-        "B": "しお",
-        "C": "むら",
+        "A": "うだ",
+        "B": "はな",
+        "C": "よこ",
         "D": "うた"
       },
       "correct_answer": [
@@ -18707,7 +18707,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 344
+        "rank": 301
       }
     },
     {
@@ -18745,7 +18745,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 427
+        "rank": 397
       }
     },
     {
@@ -18783,7 +18783,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 125
+        "rank": 81
       }
     },
     {
@@ -18821,7 +18821,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 417
+        "rank": 517
       }
     },
     {
@@ -18859,7 +18859,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 159
+        "rank": 527
       }
     },
     {
@@ -18867,10 +18867,10 @@
       "topic": 6,
       "question": "夏",
       "options": {
-        "A": "こえ",
-        "B": "ちち",
+        "A": "なち",
+        "B": "なっつ",
         "C": "なつ",
-        "D": "うみ"
+        "D": "あさ"
       },
       "correct_answer": [
         "C"
@@ -18897,7 +18897,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 87
+        "rank": 212
       }
     },
     {
@@ -18935,7 +18935,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 341
+        "rank": 297
       }
     },
     {
@@ -18973,7 +18973,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 542
+        "rank": 528
       }
     },
     {
@@ -19011,7 +19011,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 144
+        "rank": 106
       }
     },
     {
@@ -19049,7 +19049,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 382
+        "rank": 340
       }
     },
     {
@@ -19087,7 +19087,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 283
+        "rank": 231
       }
     },
     {
@@ -19096,9 +19096,9 @@
       "question": "大勢",
       "options": {
         "A": "わおぜい",
-        "B": "おうおぜい",
+        "B": "おおぜ",
         "C": "おおぜい",
-        "D": "わうおぜい"
+        "D": "わおぜ"
       },
       "correct_answer": [
         "C"
@@ -19125,7 +19125,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 562
+        "rank": 547
       }
     },
     {
@@ -19163,7 +19163,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 136
+        "rank": 252
       }
     },
     {
@@ -19201,7 +19201,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 276
+        "rank": 224
       }
     },
     {
@@ -19239,7 +19239,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 629
+        "rank": 622
       }
     },
     {
@@ -19277,7 +19277,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 545
+        "rank": 531
       }
     },
     {
@@ -19315,7 +19315,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 390
+        "rank": 355
       }
     },
     {
@@ -19353,7 +19353,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 248
+        "rank": 363
       }
     },
     {
@@ -19391,7 +19391,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 694
+        "rank": 691
       }
     },
     {
@@ -19400,8 +19400,8 @@
       "question": "英語",
       "options": {
         "A": "えいごう",
-        "B": "えいこう",
-        "C": "えいこうう",
+        "B": "えいこ",
+        "C": "えいこう",
         "D": "えいご"
       },
       "correct_answer": [
@@ -19429,7 +19429,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 416
+        "rank": 388
       }
     },
     {
@@ -19467,7 +19467,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 555
+        "rank": 541
       }
     },
     {
@@ -19505,7 +19505,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 103
+        "rank": 417
       }
     },
     {
@@ -19513,9 +19513,9 @@
       "topic": 6,
       "question": "一番",
       "options": {
-        "A": "いちはん",
-        "B": "いちば",
-        "C": "いちは",
+        "A": "いつばん",
+        "B": "いちぱん",
+        "C": "いつぱん",
         "D": "いちばん"
       },
       "correct_answer": [
@@ -19543,7 +19543,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 380
+        "rank": 337
       }
     },
     {
@@ -19581,7 +19581,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 337
+        "rank": 291
       }
     },
     {
@@ -19619,7 +19619,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 347
+        "rank": 305
       }
     },
     {
@@ -19629,8 +19629,8 @@
       "options": {
         "A": "あじた",
         "B": "あした",
-        "C": "あっした",
-        "D": "あんした"
+        "C": "あしだ",
+        "D": "あじだ"
       },
       "correct_answer": [
         "B"
@@ -19657,7 +19657,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 332
+        "rank": 285
       }
     },
     {
@@ -19695,7 +19695,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 399
+        "rank": 366
       }
     },
     {
@@ -19733,7 +19733,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 498
+        "rank": 473
       }
     },
     {
@@ -19771,7 +19771,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 99
+        "rank": 58
       }
     },
     {
@@ -19809,7 +19809,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 55
+        "rank": 26
       }
     },
     {
@@ -19847,7 +19847,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 120
+        "rank": 74
       }
     },
     {
@@ -19856,9 +19856,9 @@
       "question": "医者",
       "options": {
         "A": "いじゃ",
-        "B": "おんな",
+        "B": "からだ",
         "C": "いしゃ",
-        "D": "やおや"
+        "D": "ふたり"
       },
       "correct_answer": [
         "C"
@@ -19885,7 +19885,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 429
+        "rank": 399
       }
     },
     {
@@ -19893,9 +19893,9 @@
       "topic": 6,
       "question": "水",
       "options": {
-        "A": "ちち",
-        "B": "にち",
-        "C": "とし",
+        "A": "みす",
+        "B": "いろ",
+        "C": "にん",
         "D": "みず"
       },
       "correct_answer": [
@@ -19923,7 +19923,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 89
+        "rank": 125
       }
     },
     {
@@ -19932,8 +19932,8 @@
       "question": "川／河",
       "options": {
         "A": "がわ",
-        "B": "かさ",
-        "C": "れい",
+        "B": "うた",
+        "C": "さい",
         "D": "かわ"
       },
       "correct_answer": [
@@ -19961,7 +19961,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 95
+        "rank": 186
       }
     },
     {
@@ -19999,7 +19999,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 461
+        "rank": 507
       }
     },
     {
@@ -20037,7 +20037,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 674
+        "rank": 669
       }
     },
     {
@@ -20075,7 +20075,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 204
+        "rank": 164
       }
     },
     {
@@ -20113,7 +20113,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 309
+        "rank": 264
       }
     },
     {
@@ -20151,7 +20151,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 415
+        "rank": 387
       }
     },
     {
@@ -20189,7 +20189,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 167
+        "rank": 413
       }
     },
     {
@@ -20198,8 +20198,8 @@
       "question": "薬",
       "options": {
         "A": "ぐすり",
-        "B": "きのう",
-        "C": "はがき",
+        "B": "くずり",
+        "C": "ぐずり",
         "D": "くすり"
       },
       "correct_answer": [
@@ -20227,7 +20227,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 420
+        "rank": 390
       }
     },
     {
@@ -20265,7 +20265,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 202
+        "rank": 162
       }
     },
     {
@@ -20275,8 +20275,8 @@
       "options": {
         "A": "ぎた",
         "B": "きた",
-        "C": "みせ",
-        "D": "こえ"
+        "C": "きった",
+        "D": "ぎった"
       },
       "correct_answer": [
         "B"
@@ -20303,7 +20303,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 315
+        "rank": 440
       }
     },
     {
@@ -20341,7 +20341,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 615
+        "rank": 607
       }
     },
     {
@@ -20379,7 +20379,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 403
+        "rank": 370
       }
     },
     {
@@ -20417,7 +20417,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 686
+        "rank": 683
       }
     },
     {
@@ -20455,7 +20455,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 571
+        "rank": 556
       }
     },
     {
@@ -20493,7 +20493,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 110
+        "rank": 66
       }
     },
     {
@@ -20531,7 +20531,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 39
+        "rank": 17
       }
     },
     {
@@ -20569,7 +20569,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 631
+        "rank": 624
       }
     },
     {
@@ -20607,7 +20607,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 244
+        "rank": 196
       }
     },
     {
@@ -20645,7 +20645,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 401
+        "rank": 368
       }
     },
     {
@@ -20683,7 +20683,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 171
+        "rank": 18
       }
     },
     {
@@ -20692,9 +20692,9 @@
       "question": "作文",
       "options": {
         "A": "さくぶん",
-        "B": "さくふん",
+        "B": "さくもん",
         "C": "ざくぶん",
-        "D": "ざくふん"
+        "D": "ざくもん"
       },
       "correct_answer": [
         "A"
@@ -20721,7 +20721,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 164
+        "rank": 124
       }
     },
     {
@@ -20759,7 +20759,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 33
+        "rank": 69
       }
     },
     {
@@ -20797,7 +20797,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 203
+        "rank": 163
       }
     },
     {
@@ -20835,7 +20835,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 687
+        "rank": 684
       }
     },
     {
@@ -20873,7 +20873,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 489
+        "rank": 465
       }
     },
     {
@@ -20911,7 +20911,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 98
+        "rank": 144
       }
     },
     {
@@ -20949,7 +20949,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 260
+        "rank": 248
       }
     },
     {
@@ -20957,9 +20957,9 @@
       "topic": 7,
       "question": "茶色",
       "options": {
-        "A": "ちゃいろう",
-        "B": "おととい",
-        "C": "しんぶん",
+        "A": "じゃいろ",
+        "B": "ちゃいろう",
+        "C": "じゃいろう",
         "D": "ちゃいろ"
       },
       "correct_answer": [
@@ -20987,7 +20987,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 626
+        "rank": 618
       }
     },
     {
@@ -21025,7 +21025,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 307
+        "rank": 278
       }
     },
     {
@@ -21063,7 +21063,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 602
+        "rank": 590
       }
     },
     {
@@ -21101,7 +21101,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 592
+        "rank": 579
       }
     },
     {
@@ -21139,7 +21139,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 155
+        "rank": 116
       }
     },
     {
@@ -21177,7 +21177,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 174
+        "rank": 136
       }
     },
     {
@@ -21186,9 +21186,9 @@
       "question": "四",
       "options": {
         "A": "じ",
-        "B": "え",
+        "B": "ど",
         "C": "し",
-        "D": "こ"
+        "D": "ご"
       },
       "correct_answer": [
         "C"
@@ -21215,7 +21215,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 421
+        "rank": 520
       }
     },
     {
@@ -21253,7 +21253,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 464
+        "rank": 438
       }
     },
     {
@@ -21264,7 +21264,7 @@
         "A": "まいぜん",
         "B": "まいねん",
         "C": "まいね",
-        "D": "たいせつ"
+        "D": "けっこう"
       },
       "correct_answer": [
         "B"
@@ -21291,7 +21291,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 346
+        "rank": 304
       }
     },
     {
@@ -21329,7 +21329,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 296
+        "rank": 251
       }
     },
     {
@@ -21367,7 +21367,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 329
+        "rank": 298
       }
     },
     {
@@ -21405,7 +21405,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 279
+        "rank": 293
       }
     },
     {
@@ -21413,10 +21413,10 @@
       "topic": 7,
       "question": "女",
       "options": {
-        "A": "ところ",
-        "B": "たぶん",
+        "A": "おな",
+        "B": "きっぷ",
         "C": "おんな",
-        "D": "むいか"
+        "D": "はなし"
       },
       "correct_answer": [
         "C"
@@ -21443,7 +21443,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 217
+        "rank": 189
       }
     },
     {
@@ -21453,8 +21453,8 @@
       "options": {
         "A": "ぱいざら",
         "B": "はいざら",
-        "C": "ばいざら",
-        "D": "ちゃいろ"
+        "C": "はいさら",
+        "D": "ぱいさら"
       },
       "correct_answer": [
         "B"
@@ -21481,7 +21481,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 644
+        "rank": 639
       }
     },
     {
@@ -21491,8 +21491,8 @@
       "options": {
         "A": "かた",
         "B": "がた",
-        "C": "かわ",
-        "D": "みち"
+        "C": "かった",
+        "D": "がった"
       },
       "correct_answer": [
         "A"
@@ -21519,7 +21519,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 116
+        "rank": 91
       }
     },
     {
@@ -21557,7 +21557,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 122
+        "rank": 77
       }
     },
     {
@@ -21595,7 +21595,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 63
+        "rank": 230
       }
     },
     {
@@ -21603,10 +21603,10 @@
       "topic": 7,
       "question": "病気",
       "options": {
-        "A": "ぴょうき",
+        "A": "びょうく",
         "B": "びょうき",
-        "C": "ひょうき",
-        "D": "おとうと"
+        "C": "ぴょうき",
+        "D": "ぴょうく"
       },
       "correct_answer": [
         "B"
@@ -21633,7 +21633,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 521
+        "rank": 497
       }
     },
     {
@@ -21671,7 +21671,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 523
+        "rank": 499
       }
     },
     {
@@ -21681,8 +21681,8 @@
       "options": {
         "A": "えき",
         "B": "やく",
-        "C": "ひま",
-        "D": "あお"
+        "C": "えく",
+        "D": "えっき"
       },
       "correct_answer": [
         "A"
@@ -21709,7 +21709,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 40
+        "rank": 57
       }
     },
     {
@@ -21747,7 +21747,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 69
+        "rank": 37
       }
     },
     {
@@ -21785,7 +21785,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 83
+        "rank": 48
       }
     },
     {
@@ -21793,10 +21793,10 @@
       "topic": 7,
       "question": "留学生",
       "options": {
-        "A": "りゅうがくじょう",
+        "A": "りゅうがくしょう",
         "B": "りゅがくせい",
         "C": "りゅうがくせい",
-        "D": "りゅがくじょう"
+        "D": "りゅがくしょう"
       },
       "correct_answer": [
         "C"
@@ -21823,7 +21823,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 259
+        "rank": 207
       }
     },
     {
@@ -21861,7 +21861,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 591
+        "rank": 578
       }
     },
     {
@@ -21899,7 +21899,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 273
+        "rank": 249
       }
     },
     {
@@ -21937,7 +21937,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 448
+        "rank": 421
       }
     },
     {
@@ -21975,7 +21975,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 488
+        "rank": 464
       }
     },
     {
@@ -21984,9 +21984,9 @@
       "question": "声",
       "options": {
         "A": "ごえ",
-        "B": "まど",
+        "B": "とり",
         "C": "こえ",
-        "D": "さん"
+        "D": "いぬ"
       },
       "correct_answer": [
         "C"
@@ -22013,7 +22013,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 301
+        "rank": 258
       }
     },
     {
@@ -22051,7 +22051,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 3
+        "rank": 1
       }
     },
     {
@@ -22059,10 +22059,10 @@
       "topic": 7,
       "question": "～分",
       "options": {
-        "A": "～ぷん",
+        "A": "～ふ",
         "B": "～ふん",
-        "C": "～ふ",
-        "D": "～ぷ"
+        "C": "～なつ",
+        "D": "～とお"
       },
       "correct_answer": [
         "B"
@@ -22089,7 +22089,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 53
+        "rank": 166
       }
     },
     {
@@ -22127,7 +22127,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 569
+        "rank": 554
       }
     },
     {
@@ -22165,7 +22165,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 241
+        "rank": 193
       }
     },
     {
@@ -22203,7 +22203,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 319
+        "rank": 273
       }
     },
     {
@@ -22241,7 +22241,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 193
+        "rank": 157
       }
     },
     {
@@ -22279,7 +22279,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 369
+        "rank": 326
       }
     },
     {
@@ -22317,7 +22317,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 264
+        "rank": 210
       }
     },
     {
@@ -22355,7 +22355,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 47
+        "rank": 451
       }
     },
     {
@@ -22393,7 +22393,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 522
+        "rank": 498
       }
     },
     {
@@ -22431,7 +22431,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 428
+        "rank": 398
       }
     },
     {
@@ -22469,7 +22469,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 175
+        "rank": 137
       }
     },
     {
@@ -22477,10 +22477,10 @@
       "topic": 7,
       "question": "雨",
       "options": {
-        "A": "とき",
+        "A": "あめい",
         "B": "あめ",
-        "C": "せん",
-        "D": "うえ"
+        "C": "ひと",
+        "D": "かみ"
       },
       "correct_answer": [
         "B"
@@ -22507,7 +22507,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 190
+        "rank": 154
       }
     },
     {
@@ -22517,8 +22517,8 @@
       "options": {
         "A": "～え",
         "B": "～かい",
-        "C": "～がい",
-        "D": "～まち"
+        "C": "～ちち",
+        "D": "～もの"
       },
       "correct_answer": [
         "B"
@@ -22545,7 +22545,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 482
+        "rank": 559
       }
     },
     {
@@ -22554,9 +22554,9 @@
       "question": "毎月",
       "options": {
         "A": "まいけつ",
-        "B": "かようび",
+        "B": "まいげち",
         "C": "まいげつ",
-        "D": "くだもの"
+        "D": "まいけち"
       },
       "correct_answer": [
         "C"
@@ -22583,7 +22583,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 458
+        "rank": 433
       }
     },
     {
@@ -22591,10 +22591,10 @@
       "topic": 7,
       "question": "父",
       "options": {
-        "A": "はし",
-        "B": "よこ",
+        "A": "じち",
+        "B": "ちつ",
         "C": "ちち",
-        "D": "だれ"
+        "D": "じつ"
       },
       "correct_answer": [
         "C"
@@ -22621,7 +22621,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 184
+        "rank": 149
       }
     },
     {
@@ -22659,7 +22659,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 625
+        "rank": 617
       }
     },
     {
@@ -22697,7 +22697,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 457
+        "rank": 432
       }
     },
     {
@@ -22735,7 +22735,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 386
+        "rank": 350
       }
     },
     {
@@ -22744,9 +22744,9 @@
       "question": "学生",
       "options": {
         "A": "がくせい",
-        "B": "がくじょう",
+        "B": "がくしょう",
         "C": "かくせい",
-        "D": "かくじょう"
+        "D": "かくしょう"
       },
       "correct_answer": [
         "A"
@@ -22773,7 +22773,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 80
+        "rank": 46
       }
     },
     {
@@ -22811,7 +22811,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 195
+        "rank": 159
       }
     },
     {
@@ -22849,7 +22849,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 408
+        "rank": 600
       }
     },
     {
@@ -22925,7 +22925,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 250
+        "rank": 201
       }
     },
     {
@@ -22963,7 +22963,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 43
+        "rank": 20
       }
     },
     {
@@ -23001,7 +23001,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 580
+        "rank": 566
       }
     },
     {
@@ -23009,10 +23009,10 @@
       "topic": 7,
       "question": "～人（～じん）\n（（接尾）～國人（國籍））",
       "options": {
-        "A": "～しん",
+        "A": "～じ",
         "B": "～じん",
-        "C": "～じ",
-        "D": "～し"
+        "C": "～こえ",
+        "D": "～ろく"
       },
       "correct_answer": [
         "B"
@@ -23039,7 +23039,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 11
+        "rank": 130
       }
     },
     {
@@ -23077,7 +23077,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 531
+        "rank": 509
       }
     },
     {
@@ -23115,7 +23115,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 623
+        "rank": 615
       }
     },
     {
@@ -23153,7 +23153,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 524
+        "rank": 500
       }
     },
     {
@@ -23191,7 +23191,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 211
+        "rank": 168
       }
     },
     {
@@ -23229,7 +23229,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 130
+        "rank": 88
       }
     },
     {
@@ -23267,7 +23267,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 576
+        "rank": 562
       }
     },
     {
@@ -23305,7 +23305,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 48
+        "rank": 70
       }
     },
     {
@@ -23343,7 +23343,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 253
+        "rank": 203
       }
     },
     {
@@ -23381,7 +23381,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 645
+        "rank": 640
       }
     },
     {
@@ -23419,7 +23419,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 614
+        "rank": 606
       }
     },
     {
@@ -23429,8 +23429,8 @@
       "options": {
         "A": "くに",
         "B": "ぐに",
-        "C": "なん",
-        "D": "はし"
+        "C": "まい",
+        "D": "はこ"
       },
       "correct_answer": [
         "A"
@@ -23457,7 +23457,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 56
+        "rank": 64
       }
     },
     {
@@ -23467,8 +23467,8 @@
       "options": {
         "A": "なん～",
         "B": "な～",
-        "C": "くに～",
-        "D": "ゆき～"
+        "C": "がつ～",
+        "D": "せん～"
       },
       "correct_answer": [
         "A"
@@ -23495,7 +23495,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 9
+        "rank": 488
       }
     },
     {
@@ -23533,7 +23533,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 189
+        "rank": 151
       }
     },
     {
@@ -23571,7 +23571,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 610
+        "rank": 601
       }
     },
     {
@@ -23609,7 +23609,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 662
+        "rank": 657
       }
     },
     {
@@ -23647,7 +23647,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 456
+        "rank": 431
       }
     },
     {
@@ -23685,7 +23685,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 86
+        "rank": 49
       }
     },
     {
@@ -23723,7 +23723,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 173
+        "rank": 135
       }
     },
     {
@@ -23761,7 +23761,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 639
+        "rank": 634
       }
     },
     {
@@ -23799,7 +23799,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 433
+        "rank": 404
       }
     },
     {
@@ -23837,7 +23837,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 300
+        "rank": 257
       }
     },
     {
@@ -23875,7 +23875,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 330
+        "rank": 329
       }
     },
     {
@@ -23913,7 +23913,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 267
+        "rank": 214
       }
     },
     {
@@ -23951,7 +23951,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 473
+        "rank": 448
       }
     },
     {
@@ -23989,7 +23989,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 633
+        "rank": 626
       }
     },
     {
@@ -23997,10 +23997,10 @@
       "topic": 8,
       "question": "次",
       "options": {
-        "A": "じん",
-        "B": "ひと",
+        "A": "ずぎ",
+        "B": "つき",
         "C": "つぎ",
-        "D": "えき"
+        "D": "もの"
       },
       "correct_answer": [
         "C"
@@ -24027,7 +24027,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 160
+        "rank": 120
       }
     },
     {
@@ -24065,7 +24065,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 287
+        "rank": 240
       }
     },
     {
@@ -24111,10 +24111,10 @@
       "topic": 8,
       "question": "毎朝",
       "options": {
-        "A": "ゆうがた",
+        "A": "まいあざ",
         "B": "まいあさ",
-        "C": "しつもん",
-        "D": "いっしょ"
+        "C": "まいあっさ",
+        "D": "ひこうき"
       },
       "correct_answer": [
         "B"
@@ -24141,7 +24141,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 247
+        "rank": 199
       }
     },
     {
@@ -24151,7 +24151,7 @@
       "options": {
         "A": "らいぜん",
         "B": "らいね",
-        "C": "おととい",
+        "C": "あさって",
         "D": "らいねん"
       },
       "correct_answer": [
@@ -24179,7 +24179,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 533
+        "rank": 511
       }
     },
     {
@@ -24190,7 +24190,7 @@
         "A": "こう",
         "B": "く",
         "C": "ぐ",
-        "D": "え"
+        "D": "に"
       },
       "correct_answer": [
         "B"
@@ -24217,7 +24217,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 419
+        "rank": 518
       }
     },
     {
@@ -24255,7 +24255,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 611
+        "rank": 602
       }
     },
     {
@@ -24293,7 +24293,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 364
+        "rank": 320
       }
     },
     {
@@ -24331,7 +24331,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 349
+        "rank": 342
       }
     },
     {
@@ -24369,7 +24369,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 135
+        "rank": 97
       }
     },
     {
@@ -24407,7 +24407,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 124
+        "rank": 79
       }
     },
     {
@@ -24445,7 +24445,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 108
+        "rank": 65
       }
     },
     {
@@ -24483,7 +24483,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 265
+        "rank": 211
       }
     },
     {
@@ -24493,8 +24493,8 @@
       "options": {
         "A": "だれ",
         "B": "たれ",
-        "C": "かい",
-        "D": "あめ"
+        "C": "だれい",
+        "D": "たれい"
       },
       "correct_answer": [
         "A"
@@ -24521,7 +24521,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 540
+        "rank": 522
       }
     },
     {
@@ -24529,9 +24529,9 @@
       "topic": 8,
       "question": "月曜日",
       "options": {
-        "A": "げつよび",
+        "A": "げつようぴ",
         "B": "げつようび",
-        "C": "げつようぴ",
+        "C": "げつよび",
         "D": "げつよぴ"
       },
       "correct_answer": [
@@ -24559,7 +24559,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 383
+        "rank": 344
       }
     },
     {
@@ -24597,7 +24597,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 563
+        "rank": 548
       }
     },
     {
@@ -24635,7 +24635,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 520
+        "rank": 495
       }
     },
     {
@@ -24673,7 +24673,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 666
+        "rank": 661
       }
     },
     {
@@ -24711,7 +24711,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 651
+        "rank": 646
       }
     },
     {
@@ -24749,7 +24749,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 356
+        "rank": 234
       }
     },
     {
@@ -24758,8 +24758,8 @@
       "question": "～円",
       "options": {
         "A": "～え",
-        "B": "～さき",
-        "C": "～した",
+        "B": "～くに",
+        "C": "～えき",
         "D": "～えん"
       },
       "correct_answer": [
@@ -24787,7 +24787,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 37
+        "rank": 133
       }
     },
     {
@@ -24825,7 +24825,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 586
+        "rank": 573
       }
     },
     {
@@ -24863,7 +24863,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 178
+        "rank": 709
       }
     },
     {
@@ -24901,7 +24901,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 459
+        "rank": 434
       }
     },
     {
@@ -24939,7 +24939,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 16
+        "rank": 8
       }
     },
     {
@@ -24949,8 +24949,8 @@
       "options": {
         "A": "～たい",
         "B": "～だい",
-        "C": "～いけ",
-        "D": "～なん"
+        "C": "～はい",
+        "D": "～あか"
       },
       "correct_answer": [
         "B"
@@ -24977,7 +24977,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 620
+        "rank": 612
       }
     },
     {
@@ -25015,7 +25015,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 699
+        "rank": 696
       }
     },
     {
@@ -25053,7 +25053,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 655
+        "rank": 650
       }
     },
     {
@@ -25091,7 +25091,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 64
+        "rank": 34
       }
     },
     {
@@ -25129,7 +25129,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 443
+        "rank": 415
       }
     },
     {
@@ -25167,7 +25167,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 619
+        "rank": 611
       }
     },
     {
@@ -25205,7 +25205,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 51
+        "rank": 38
       }
     },
     {
@@ -25243,7 +25243,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 596
+        "rank": 583
       }
     },
     {
@@ -25281,7 +25281,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 698
+        "rank": 695
       }
     },
     {
@@ -25319,7 +25319,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 384
+        "rank": 346
       }
     },
     {
@@ -25327,9 +25327,9 @@
       "topic": 8,
       "question": "姉",
       "options": {
-        "A": "へや",
-        "B": "いえ",
-        "C": "ろく",
+        "A": "あねい",
+        "B": "ほん",
+        "C": "ふん",
         "D": "あね"
       },
       "correct_answer": [
@@ -25357,7 +25357,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 180
+        "rank": 141
       }
     },
     {
@@ -25395,7 +25395,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 238
+        "rank": 373
       }
     },
     {
@@ -25404,9 +25404,9 @@
       "question": "中",
       "options": {
         "A": "なか",
-        "B": "いけ",
-        "C": "こえ",
-        "D": "やま"
+        "B": "なが",
+        "C": "なっか",
+        "D": "かど"
       },
       "correct_answer": [
         "A"
@@ -25433,7 +25433,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 29
+        "rank": 43
       }
     },
     {
@@ -25471,7 +25471,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 113
+        "rank": 68
       }
     },
     {
@@ -25509,7 +25509,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 517
+        "rank": 492
       }
     },
     {
@@ -25547,7 +25547,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 484
+        "rank": 460
       }
     },
     {
@@ -25585,7 +25585,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 170
+        "rank": 271
       }
     },
     {
@@ -25623,7 +25623,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 111
+        "rank": 67
       }
     },
     {
@@ -25633,7 +25633,7 @@
       "options": {
         "A": "なん",
         "B": "な",
-        "C": "まえ",
+        "C": "ろく",
         "D": "あき"
       },
       "correct_answer": [
@@ -25661,7 +25661,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 8
+        "rank": 3
       }
     },
     {
@@ -25699,7 +25699,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 600
+        "rank": 587
       }
     },
     {
@@ -25737,7 +25737,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 616
+        "rank": 608
       }
     },
     {
@@ -25746,8 +25746,8 @@
       "question": "箸",
       "options": {
         "A": "ばし",
-        "B": "ぱし",
-        "C": "かぜ",
+        "B": "はじ",
+        "C": "ばじ",
         "D": "はし"
       },
       "correct_answer": [
@@ -25775,7 +25775,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 646
+        "rank": 641
       }
     },
     {
@@ -25813,7 +25813,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 65
+        "rank": 32
       }
     },
     {
@@ -25851,7 +25851,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 275
+        "rank": 223
       }
     },
     {
@@ -25889,7 +25889,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 379
+        "rank": 336
       }
     },
     {
@@ -25927,7 +25927,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 549
+        "rank": 535
       }
     },
     {
@@ -25965,7 +25965,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 121
+        "rank": 75
       }
     },
     {
@@ -26003,7 +26003,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 352
+        "rank": 310
       }
     },
     {
@@ -26041,7 +26041,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 227
+        "rank": 188
       }
     },
     {
@@ -26079,7 +26079,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 632
+        "rank": 625
       }
     },
     {
@@ -26117,7 +26117,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 584
+        "rank": 571
       }
     },
     {
@@ -26155,7 +26155,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 617
+        "rank": 609
       }
     },
     {
@@ -26163,8 +26163,8 @@
       "topic": 8,
       "question": "二十歳",
       "options": {
-        "A": "ぱたち",
-        "B": "はたじ",
+        "A": "はたじ",
+        "B": "ぱたち",
         "C": "はたち",
         "D": "ぱたじ"
       },
@@ -26193,7 +26193,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 711
+        "rank": 708
       }
     },
     {
@@ -26231,7 +26231,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 710
+        "rank": 707
       }
     },
     {
@@ -26269,7 +26269,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 414
+        "rank": 385
       }
     },
     {
@@ -26307,7 +26307,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 455
+        "rank": 430
       }
     },
     {
@@ -26315,9 +26315,9 @@
       "topic": 8,
       "question": "十（とお）\n（十）",
       "options": {
-        "A": "どお",
-        "B": "ろく",
-        "C": "よる",
+        "A": "とおう",
+        "B": "どお",
+        "C": "どおう",
         "D": "とお"
       },
       "correct_answer": [
@@ -26345,7 +26345,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 709
+        "rank": 706
       }
     },
     {
@@ -26354,9 +26354,9 @@
       "question": "上着",
       "options": {
         "A": "うわぎ",
-        "B": "えいご",
-        "C": "いしゃ",
-        "D": "ざっし"
+        "B": "うわき",
+        "C": "みどり",
+        "D": "きって"
       },
       "correct_answer": [
         "A"
@@ -26383,7 +26383,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 559
+        "rank": 544
       }
     },
     {
@@ -26391,10 +26391,10 @@
       "topic": 8,
       "question": "～中（～じゅう）\n（（接尾）整個～、～期間）",
       "options": {
-        "A": "～じゅ",
+        "A": "～ちょう",
         "B": "～じゅう",
-        "C": "～しゅう",
-        "D": "～しゅ"
+        "C": "～じゅ",
+        "D": "～みなみ"
       },
       "correct_answer": [
         "B"
@@ -26421,7 +26421,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 27
+        "rank": 180
       }
     },
     {
@@ -26459,7 +26459,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 26
+        "rank": 153
       }
     },
     {
@@ -26467,9 +26467,9 @@
       "topic": 8,
       "question": "年",
       "options": {
-        "A": "どし",
-        "B": "にち",
-        "C": "あか",
+        "A": "とじ",
+        "B": "どし",
+        "C": "どじ",
         "D": "とし"
       },
       "correct_answer": [
@@ -26497,7 +26497,7 @@
         "kind": "reading",
         "same": true,
         "trap": false,
-        "rank": 115
+        "rank": 392
       }
     },
     {
@@ -26535,7 +26535,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 72
+        "rank": 50
       }
     },
     {
@@ -26544,9 +26544,9 @@
       "question": "足／脚",
       "options": {
         "A": "あし",
-        "B": "なか",
-        "C": "ゆき",
-        "D": "いま"
+        "B": "あじ",
+        "C": "あっし",
+        "D": "いえ"
       },
       "correct_answer": [
         "A"
@@ -26573,7 +26573,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 400
+        "rank": 367
       }
     },
     {
@@ -26582,8 +26582,8 @@
       "question": "鍵",
       "options": {
         "A": "がぎ",
-        "B": "はし",
-        "C": "もの",
+        "B": "かき",
+        "C": "がき",
         "D": "かぎ"
       },
       "correct_answer": [
@@ -26611,7 +26611,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 575
+        "rank": 561
       }
     },
     {
@@ -26649,7 +26649,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 79
+        "rank": 45
       }
     },
     {
@@ -26687,7 +26687,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 92
+        "rank": 115
       }
     },
     {
@@ -26725,7 +26725,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 573
+        "rank": 558
       }
     },
     {
@@ -26735,8 +26735,8 @@
       "options": {
         "A": "かど",
         "B": "がど",
-        "C": "まえ",
-        "D": "とし"
+        "C": "かどう",
+        "D": "がどう"
       },
       "correct_answer": [
         "A"
@@ -26763,7 +26763,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 579
+        "rank": 565
       }
     },
     {
@@ -26801,7 +26801,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 118
+        "rank": 94
       }
     },
     {
@@ -26809,10 +26809,10 @@
       "topic": 8,
       "question": "青",
       "options": {
-        "A": "だれ",
+        "A": "あおう",
         "B": "あお",
-        "C": "やま",
-        "D": "さつ"
+        "C": "だい",
+        "D": "よる"
       },
       "correct_answer": [
         "B"
@@ -26839,7 +26839,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 210
+        "rank": 365
       }
     },
     {
@@ -26877,7 +26877,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 372
+        "rank": 328
       }
     },
     {
@@ -26915,7 +26915,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 434
+        "rank": 405
       }
     },
     {
@@ -26925,8 +26925,8 @@
       "options": {
         "A": "えいか",
         "B": "えいが",
-        "C": "よっか",
-        "D": "じゅう"
+        "C": "そうじ",
+        "D": "めがね"
       },
       "correct_answer": [
         "B"
@@ -26953,7 +26953,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 361
+        "rank": 319
       }
     },
     {
@@ -26991,7 +26991,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 494
+        "rank": 470
       }
     },
     {
@@ -27029,7 +27029,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 688
+        "rank": 685
       }
     },
     {
@@ -27067,7 +27067,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 34
+        "rank": 14
       }
     },
     {
@@ -27105,7 +27105,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 597
+        "rank": 584
       }
     },
     {
@@ -27143,7 +27143,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 601
+        "rank": 589
       }
     },
     {
@@ -27151,10 +27151,10 @@
       "topic": 8,
       "question": "飴",
       "options": {
-        "A": "あさ",
-        "B": "さん",
+        "A": "あめい",
+        "B": "かお",
         "C": "あめ",
-        "D": "ひと"
+        "D": "あさ"
       },
       "correct_answer": [
         "C"
@@ -27181,7 +27181,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 550
+        "rank": 536
       }
     },
     {
@@ -27219,7 +27219,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 150
+        "rank": 112
       }
     },
     {
@@ -27257,7 +27257,7 @@
         "kind": "meaning",
         "same": false,
         "trap": false,
-        "rank": 451
+        "rank": 424
       }
     },
     {
@@ -27268,7 +27268,7 @@
         "A": "むいか",
         "B": "むいげ",
         "C": "むいが",
-        "D": "かぞく"
+        "D": "かてい"
       },
       "correct_answer": [
         "A"
@@ -27295,7 +27295,7 @@
         "kind": "reading",
         "same": false,
         "trap": true,
-        "rank": 676
+        "rank": 671
       }
     }
   ]

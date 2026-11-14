@@ -187,10 +187,15 @@ function looseFind(re, text) {
 }
 const STOP_AFTER = new Set([..."るたいうくすつぬぶむぐだてでんずし"]);
 const PARTICLE = new Set([..."をはへものよねがにとやか"]);
-function extendInflection(ja, end) {
+// full: the dictionary form itself was matched, so a particle may follow at once (見通し|が)
+function extendInflection(ja, end, full = false) {
+  const first = full ? end - 1 : end;
   let j = end;
   while (j < ja.length && HIRA.test(ja[j])) {
-    if (j > end && PARTICLE.has(ja[j]) && STOP_AFTER.has(ja[j - 1]) && !(ja[j] === "か" && /[っら]/.test(ja[j + 1] ?? ""))) break;
+    if (j > first && PARTICLE.has(ja[j]) && STOP_AFTER.has(ja[j - 1]) && !(ja[j] === "か" && /[っら]/.test(ja[j + 1] ?? ""))) break;
+    // stop after the te-form (【立ち去って】しまった) and before こと (【害する】ことになる)
+    if (j > end && /[てで]/.test(ja[j - 1])) break;
+    if (j > first && ja.startsWith("こと", j)) break;
     j++;
   }
   return j;
@@ -199,11 +204,12 @@ function extendInflection(ja, end) {
 function findWord(ja, main, reading, pos) {
   const conj = pos === "verb" || pos === "adj";
   const tries = [];
-  for (const f of wordForms(main)) tries.push({ key: f, infl: conj && inflects(f) });
-  for (const f of wordForms(main)) if (conj && inflects(f)) tries.push({ key: stemOf(f), infl: true });
+  for (const f of wordForms(main)) tries.push({ key: f, infl: conj && inflects(f), full: true });
+  // stem match: inflected verbs/adjectives, and words the source mis-tags (おっかなくて, ありふれた)
+  for (const f of wordForms(main)) if (inflects(f) && [...stemOf(f)].length >= (HAN.test(f) ? 1 : 2)) tries.push({ key: stemOf(f), infl: true });
   for (const t of tries) {
     const i = ja.indexOf(t.key);
-    if (i >= 0) return [i, t.infl ? extendInflection(ja, i + t.key.length) : i + t.key.length];
+    if (i >= 0) return [i, t.infl ? extendInflection(ja, i + t.key.length, !!t.full) : i + t.key.length];
   }
   for (const f of wordForms(main)) {
     const re = looseRe(f);
@@ -297,7 +303,7 @@ function readingEdits(r, seg) {
     const singleMora = u && morae(r.slice(u[0], u[1])).length === 1;
     // long vowel
     if (i > 0 && lastOfUnit && !starts?.has(i) && ((c === "う" && (O_ROW.has(r[i - 1]) || U_ROW.has(r[i - 1]))) || (c === "い" && E_ROW.has(r[i - 1])))) E.push({ i, j: i + 1, rep: "", type: "long" });
-    const insOk = !seg ? !SMALL.has(next) : ends.has(i + 1) && singleMora;
+    const insOk = !seg ? i === r.length - 1 : ends.has(i + 1) && singleMora;
     if (insOk && (O_ROW.has(c) || /[ゅゆ]/.test(c)) && next !== "う") E.push({ i: i + 1, j: i + 1, rep: "う", type: "long" });
     if (insOk && E_ROW.has(c) && next !== "い" && i > 0) E.push({ i: i + 1, j: i + 1, rep: "い", type: "long" });
     // dakuten / handakuten (on the first sound of a kanji's unit)
@@ -309,33 +315,52 @@ function readingEdits(r, seg) {
     if (i > 0 && boundary && KSTP.test(r.slice(i)) && !/[っんーうい]/.test(r[i - 1])) E.push({ i, j: i, rep: "っ", type: "sokuon" });
     // 撥音
     if (c === "ん" && i > 0 && lastOfUnit) E.push({ i, j: i + 1, rep: "", type: "hatsuon" });
-    if (i > 0 && boundary && !/[あいうえおやゆよわんっ]/.test(c) && !/[んっうい]/.test(r[i - 1])) E.push({ i, j: i, rep: "ん", type: "hatsuon" });
+    if (seg && i > 0 && boundary && !/[あいうえおやゆよわんっ]/.test(c) && !/[んっうい]/.test(r[i - 1])) E.push({ i, j: i, rep: "ん", type: "hatsuon" });
+    // unit-final く↔き, つ↔ち (力 りょく/りき, 一 いつ/いち); ち→じ, つ→ず on a unit's first sound
+    if (seg && i > 0 && lastOfUnit && !starts.has(i)) {
+      const swap = { く: "き", き: "く", つ: "ち", ち: "つ" }[c];
+      if (swap) E.push({ i, j: i + 1, rep: swap, type: "final" });
+    }
+    if (seg && starts.has(i) && (c === "ち" || c === "つ")) E.push({ i, j: i + 1, rep: c === "ち" ? "じ" : "ず", type: "daku" });
     // confusable on'yomi: a whole unit only, so never without a segmentation
     if (seg && starts.has(i)) for (const [from, tos] of ONYOMI_MAP) {
       if (r.startsWith(from, i) && ends.has(i + from.length)) for (const to of tos) E.push({ i, j: i + from.length, rep: to, type: "onyomi" });
     }
   }
+  if (seg) for (const e of E) e.u = seg.findIndex(([a, b]) => (e.i < e.j ? e.i >= a && e.i < b : e.i > a && e.i <= b));
   return E;
 }
 const applyEdits = (r, edits) => [...edits].sort((a, b) => b.i - a.i).reduce((s, e) => s.slice(0, e.i) + e.rep + s.slice(e.j), r);
 const disjoint = (a, b) => a.j < b.i || b.j < a.i || (a.i === a.j && b.i === b.j ? a.i !== b.i : (a.j <= b.i && a.i < b.i) || (b.j <= a.i && b.i < a.i));
-const TYPE_PREF = { onyomi: 0, long: 1, daku: 2, sokuon: 3, hatsuon: 4 };
+const TYPE_PREF = { onyomi: 0, long: 1, daku: 2, sokuon: 3, final: 3, hatsuon: 4 };
 // Three near misses: preferably a 2×2 grid {e1, e2, e1+e2} so the correct reading is not the odd one out.
-function nearMisses(r, nKanji, forbidden, rand) {
-  const keyed = readingEdits(r, segment(r, nKanji)).map((e) => ({ e, k: TYPE_PREF[e.type] + rand() * 3 }));
-  const edits = keyed.sort((a, b) => a.k - b.k).map((x) => x.e);
+// suffix: a counter/suffix (～匹) whose first sound changes by rendaku (さんびき), so voicing it is no error
+function nearMisses(r, nKanji, forbidden, rand, suffix = false) {
+  const seg = segment(r, nKanji);
+  const keep = (E) => (suffix ? E.filter((e) => !(e.type === "daku" && e.i === 0)) : E);
+  const order = (E) => E.map((e) => ({ e, k: TYPE_PREF[e.type] + rand() * 3 })).sort((a, b) => a.k - b.k).map((x) => x.e);
   const ok = (s) => s !== r && validReading(s) && !forbidden.has(s);
-  for (let x = 0; x < edits.length; x++) {
-    for (let y = x + 1; y < edits.length; y++) {
-      const a = edits[x], b = edits[y];
-      if (a.type === b.type && a.type !== "onyomi" && a.type !== "daku") continue;
-      if (!disjoint(a, b)) continue;
-      const s1 = applyEdits(r, [a]), s2 = applyEdits(r, [b]), s3 = applyEdits(r, [a, b]);
-      if ([s1, s2, s3].every(ok) && new Set([s1, s2, s3]).size === 3) return { list: [s1, s2, s3], how: "grid" };
+  const grid = (edits) => {
+    for (let x = 0; x < edits.length; x++) {
+      for (let y = x + 1; y < edits.length; y++) {
+        const a = edits[x], b = edits[y];
+        if (a.type === b.type && a.type !== "onyomi" && a.type !== "daku") continue;
+        if (!disjoint(a, b)) continue;
+        // an on'yomi swap replaces its whole unit: nothing else may touch that unit
+        if (a.u !== undefined && a.u === b.u && (a.type === "onyomi" || b.type === "onyomi")) continue;
+        const s1 = applyEdits(r, [a]), s2 = applyEdits(r, [b]), s3 = applyEdits(r, [a, b]);
+        if ([s1, s2, s3].every(ok) && new Set([s1, s2, s3]).size === 3) return [s1, s2, s3];
+      }
     }
-  }
+    return null;
+  };
+  const segEdits = order(keep(readingEdits(r, seg)));
+  // without a segmentation (or when it allows too little) fall back to position-free rules, no on'yomi swaps
+  const freeEdits = seg ? order(keep(readingEdits(r, null))) : segEdits;
+  const g = grid(segEdits) ?? (seg ? grid(freeEdits) : null);
+  if (g) return { list: g, how: "grid" };
   const singles = [];
-  for (const e of edits) { const s = applyEdits(r, [e]); if (ok(s) && !singles.includes(s)) singles.push(s); if (singles.length === 3) break; }
+  for (const e of [...segEdits, ...freeEdits]) { const s = applyEdits(r, [e]); if (ok(s) && !singles.includes(s)) singles.push(s); if (singles.length === 3) break; }
   return { list: singles, how: singles.length === 3 ? "rule" : "fallback" };
 }
 
@@ -355,14 +380,19 @@ function papers(L) {
   }
   return paperText.get(key);
 }
-function countIn(text, key, needHiraAfter) {
+// Occurrences of `key`; `after` (regex) must match the next character when given. A one-kanji key
+// counts only standing alone (日 not in 毎日), and a short kana word must not be the tail of a longer
+// kana word (ずれ in いずれ): only a particle may precede it.
+function countIn(text, key, after) {
   if (!key) return 0;
-  // a short kana word must not be the tail of a longer kana word (ずれ in いずれ): only a particle may precede it
   const kanaKey = !HAN.test(key) && [...key].length <= 3;
+  const oneKanji = [...key].length === 1 && HAN.test(key);
   let n = 0;
   for (let i = text.indexOf(key); i >= 0; i = text.indexOf(key, i + key.length)) {
-    if (needHiraAfter && !HIRA.test(text[i + key.length] ?? "")) continue;
-    if (kanaKey && KANA.test(text[i - 1] ?? "") && !/[のがをにはともでへや]/.test(text[i - 1])) continue;
+    const prev = text[i - 1] ?? "", next = text[i + key.length] ?? "";
+    if (after && !after.test(next)) continue;
+    if (oneKanji && (HAN.test(prev) || HAN.test(next))) continue;
+    if (kanaKey && KANA.test(prev) && !/[のがをにはともでへや]/.test(prev)) continue;
     n++;
   }
   return n;
@@ -370,12 +400,24 @@ function countIn(text, key, needHiraAfter) {
 function frequency(text, main) {
   const keys = new Map();
   for (const f of wordForms(main)) {
-    if (inflects(f) && HAN.test(f)) keys.set(stemOf(f), /する$/.test(f) ? false : true);
-    else keys.set(f, false);
+    if (inflects(f) && HAN.test(f)) {
+      // inflecting word: the form minus its last kana (生か for 生かす, 美し for 美しい); する verbs: noun + し/さ/す/せ
+      if (/する$/.test(f) && f.length > 2) keys.set(f.slice(0, -2), /^[しさすせ]/);
+      else keys.set(f.slice(0, -1), null);
+    } else keys.set(f, null);
   }
+  // affixes count only attached to a word: ～日 after a kanji or digit, 最～ before a kanji
+  const suffix = /^～/.test(main), prefix = /～$/.test(main) && !suffix;
   let n = 0;
-  for (const [k, h] of keys) n += countIn(text, k, h);
-  return n;
+  for (const [k, after] of keys) {
+    if (suffix || prefix) {
+      for (let i = text.indexOf(k); i >= 0; i = text.indexOf(k, i + k.length)) {
+        if (suffix ? /[\p{Script=Han}々0-9０-９〇一二三四五六七八九十百千]/u.test(text[i - 1] ?? "") : HAN.test(text[i + k.length] ?? "")) n++;
+      }
+    } else n += countIn(text, k, after);
+  }
+  // an affix is mostly met inside longer words, which are cards of their own: rank it lower
+  return suffix || prefix ? Math.floor(n / 4) : n;
 }
 
 // ---------- build one level ----------
@@ -467,7 +509,7 @@ function buildLevel(L) {
       const forbidden = new Set([...forbidFor(w)].map((r) => r.replace(/（[^）]*）/g, "").replace(/～/g, "")));
       const rand = rng(`vocab-reading:n${L}:${w.id}`);
       const nKanji = [...w.ja.main.split("／")[0].replace(/～|（[^）]*）/g, "")].length;
-      let { list, how } = nearMisses(core, nKanji, forbidden, rand);
+      let { list, how } = nearMisses(core, nKanji, forbidden, rand, pre === "～");
       if (list.length < 3) {
         const n = [...core].length;
         const pool = shuffle(readingPool, rand);

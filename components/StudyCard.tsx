@@ -5,13 +5,25 @@ import { CheckCircle2, Volume2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { moraDiff, normalizeReading, type MoraPart } from "@/lib/kana";
+import { moraDiff, normalizeReading, primaryReading, type MoraPart } from "@/lib/kana";
 import type { VocabInfo } from "@/lib/types";
 
-// Wrap the word (or, for conjugated verbs/adjectives, its kanji stem) in the sentence.
+// Wrap the word in the sentence. Words can carry variants and notes ("生ける,活ける（花を～）", "～心")
+// and appear conjugated (題する → 題した), so try each variant, then its stem without trailing kana,
+// then the variant minus its last character (いたわる → いたわっ…).
 function emphasise(sentence: string, word: string): ReactNode {
-  const stem = word.replace(/[぀-ゟ]+$/, "");
-  for (const w of [word, stem]) {
+  const forms = word
+    .replace(/[（(][^）)]*[）)]/g, "")
+    .replace(/[～~]/g, "")
+    .split(/[,，、・/／]/)
+    .map((w) => w.trim())
+    .filter(Boolean);
+  const candidates = [
+    ...forms,
+    ...forms.map((w) => w.replace(/[぀-ゟ]+$/, "")),
+    ...forms.filter((w) => w.length > 2).map((w) => w.slice(0, -1)),
+  ];
+  for (const w of candidates) {
     const i = w ? sentence.indexOf(w) : -1;
     if (i >= 0) {
       return (
@@ -73,7 +85,7 @@ export const StudyCard = forwardRef<HTMLDivElement, StudyCardProps>(function Stu
 ) {
   const showText = revealed || !hideFront;
   const diff =
-    revealed && typed && typedCorrect === false ? moraDiff(normalizeReading(typed), normalizeReading(vocab.reading)) : null;
+    revealed && typed && typedCorrect === false ? moraDiff(normalizeReading(typed), primaryReading(vocab.reading)) : null;
   const long = vocab.word.length > 6;
 
   return (

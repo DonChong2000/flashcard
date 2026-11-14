@@ -40,6 +40,8 @@ Both apps live on `donchong2000.github.io`, so they share localStorage and Cache
 
 Edit the `data-src/` inputs and rerun the build script rather than hand-editing generated decks. The data files are large: change top-level fields with a node one-liner, not by hand.
 
+Vocab sources (`data-src/vocab/n{L}.json`) carry `same` (all-kanji word that means the same in Chinese) and, for N2/N1, `ex: {ja, zh}` example sentences. Each built card has the `vocab` object of `data-src/vocab/CONTRACT.md` (kind, same, trap, past-paper frequency rank, ex) and decks set `study: true`. All-kanji words are "pick the reading" cards with rule-made near-miss readings (JLPT 問題1 style); kana words are "pick the meaning" cards; the example is shown with the word marked 【 】. `question_number` (source id), topic and correct letter must stay stable.
+
 ### Data pipeline
 
 Source files live in `data/*.json`. Before each build/dev, `scripts/process-data.mjs` runs and:

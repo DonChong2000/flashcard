@@ -10,12 +10,22 @@ export function liveKana(input: string): string {
   return toHiragana(input, { IMEMode: true });
 }
 
-// A reading field may list alternatives ("あした・あす").
+// A reading field may list alternatives ("あした・あす") and notes in brackets: "よって（よりどころ）"
+// (a gloss), "コンタクト（レンズ）" (an optional part), "さぞ（さぞや、さぞかし）" (variants).
+// Accept the bare form, the form with the bracket inlined, and each bracketed variant.
+const PAREN = /[（(]([^）)]*)[）)]/g;
 export function readingAlternatives(reading: string): string[] {
-  return reading
-    .split(/[、,，・／/;；]/)
-    .map((r) => normalizeReading(r.replace(/[()（）]/g, "")))
-    .filter(Boolean);
+  const out: string[] = [];
+  for (const part of reading.replace(/[～~]/g, "").split(/[,，;；/／・](?![^（(]*[）)])/)) {
+    out.push(part.replace(PAREN, ""), part.replace(PAREN, "$1"));
+    for (const m of part.matchAll(PAREN)) out.push(...m[1].split(/[、,，・]/));
+  }
+  return [...new Set(out.map(normalizeReading).filter(Boolean))];
+}
+
+// The reading to show in the diff and to speak: the first alternative, notes removed.
+export function primaryReading(reading: string): string {
+  return readingAlternatives(reading)[0] ?? "";
 }
 
 export function readingMatches(typed: string, reading: string): boolean {

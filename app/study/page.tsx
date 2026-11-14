@@ -23,7 +23,7 @@ import {
   type SrsStore,
 } from "@/lib/srs";
 import { formatInterval, getScheduler, GRADES, previewGrades, type Grade, type Scheduler } from "@/lib/fsrs";
-import { liveKana, readingMatches } from "@/lib/kana";
+import { liveKana, primaryReading, readingMatches } from "@/lib/kana";
 import { getJapaneseVoice, onVoicesChanged, speak } from "@/lib/speech";
 import { cn } from "@/lib/utils";
 import { BASE_PATH } from "@/lib/constants";
@@ -132,7 +132,7 @@ function StudyContent() {
   // Listening cards: speak the word when the card appears (browsers may require a first tap)
   useEffect(() => {
     if (!vocab || revealed || !listening) return;
-    speak(vocab.reading || vocab.word);
+    speak(primaryReading(vocab.reading) || vocab.word);
   }, [vocab, revealed, listening]);
 
   // Focus the reading input on devices with a mouse/keyboard; on phones typing is a tap away
@@ -174,7 +174,7 @@ function StudyContent() {
     }
     setRevealed(true);
     inputRef.current?.blur();
-    if (settings.autoPlay && hasVoice) speak(vocab.reading || vocab.word);
+    if (settings.autoPlay && hasVoice) speak(primaryReading(vocab.reading) || vocab.word);
   }
 
   function grade(g: Grade) {
@@ -336,7 +336,7 @@ function StudyContent() {
             canSpeak={hasVoice}
             typed={submittedTyped}
             typedCorrect={typedCorrect}
-            onSpeakWord={() => speak(vocab.reading || vocab.word)}
+            onSpeakWord={() => speak(primaryReading(vocab.reading) || vocab.word)}
             onSpeakExample={() => vocab.ex && speak(vocab.ex.ja)}
           />
         ) : (
