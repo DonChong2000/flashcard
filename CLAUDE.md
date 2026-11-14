@@ -116,7 +116,7 @@ On mount, `QuizContent` fetches questions, applies the filter (in-memory, one-ti
 
 ### PWA
 
-A manually-written service worker lives at `public/sw.js`. It uses three named caches `jpflashcard-{shell,static,data}-{VERSION}`. Bump `VERSION` when you need to invalidate all caches (e.g. after changing cached shell URLs or cache strategies). Cache Storage is per origin and shared with the old `/flashcard` app, so the activate handler deletes only caches starting with `CACHE_PREFIX` (`jpflashcard-`); never widen that filter. The old app's `sw.js` (v5 and earlier) deletes every cache not in its own list, so it can wipe `jpflashcard-*` caches when it activates; that only costs a refetch, and is fixed by giving the old app the same prefix filter.
+A manually-written service worker lives at `public/sw.js`. It uses three named caches `jpflashcard-{shell,static,data}-{VERSION}`. Bump `VERSION` when you need to invalidate all caches (e.g. after changing cached shell URLs or cache strategies). On activate, `precacheDecks()` downloads every deck's `all.json` and `topic-N.json` listed in the manifest into the data cache, so all decks work offline without being opened first (listening audio under `media/` is not precached). Cache Storage is per origin and shared with the old `/flashcard` app, so the activate handler deletes only caches starting with `CACHE_PREFIX` (`jpflashcard-`); never widen that filter. The old app's `sw.js` (v5 and earlier) deletes every cache not in its own list, so it can wipe `jpflashcard-*` caches when it activates; that only costs a refetch, and is fixed by giving the old app the same prefix filter.
 
 ### Tests
 

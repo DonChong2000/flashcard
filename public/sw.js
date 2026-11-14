@@ -1,4 +1,4 @@
-const VERSION = 'v6';
+const VERSION = 'v8';
 // Cache Storage is per origin, and the separate /flashcard/ app shares this
 // origin (donchong2000.github.io). Every cache name carries this app's prefix,
 // and activate only ever deletes caches with that prefix.
@@ -59,8 +59,35 @@ self.addEventListener('activate', (event) => {
         )
       )
       .then(() => self.clients.claim())
+      .then(() => precacheDecks())
   );
 });
+
+// Download every deck's JSON once the worker takes over, so all decks work
+// offline without being opened first. Listening audio is not included.
+async function precacheDecks() {
+  try {
+    const base = '/japanese-flashcard/data/';
+    const resp = await fetch(base + 'manifest.json', { cache: 'no-cache' });
+    if (!resp.ok) return;
+    const cache = await caches.open(CACHE_DATA);
+    await cache.put(base + 'manifest.json', resp.clone());
+    const manifest = await resp.json();
+    const urls = [];
+    for (const d of manifest.datasets || []) {
+      urls.push(`${base}${d.slug}/all.json`);
+      for (const t of d.topics || []) urls.push(`${base}${d.slug}/topic-${t}.json`);
+    }
+    for (let i = 0; i < urls.length; i += 8) {
+      await Promise.all(urls.slice(i, i + 8).map(async (u) => {
+        try {
+          const r = await fetch(u);
+          if (r.ok) await cache.put(u, r);
+        } catch {}
+      }));
+    }
+  } catch {}
+}
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;
@@ -143,6 +170,8 @@ async function networkFirstNavigate(request) {
   } catch {
     const cached =
       (await caches.match(request)) ||
+      (await caches.match(request, { ignoreSearch: true })) ||
+      (await caches.match(new URL(request.url).pathname.replace(/\/$/, '').replace(/\.html$/, ''))) ||
       (await caches.match('/japanese-flashcard/'));
     if (cached) return cached;
     return new Response('Offline \u2013 open the app while connected first.', {
