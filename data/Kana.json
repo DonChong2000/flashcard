@@ -1,4 +1,6 @@
 {
+  "name": "假名",
+  "order": 1,
   "total_questions": 208,
   "topic_names": {
     "1": "片假名",

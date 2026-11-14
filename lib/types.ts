@@ -26,7 +26,8 @@ export interface TopicFile {
 
 export interface DatasetMeta {
   slug: string;
-  name: string;
+  name: string; // source `name`, or the humanized slug
+  order: number; // source `order`, default 999; manifest is sorted by order then name
   totalQuestions: number;
   topics: number[];
   topicQuestions: Record<number, number[]>;

@@ -1,22 +1,23 @@
 {
-  "name": "Flashcards",
-  "short_name": "Flashcards",
-  "description": "Study exam questions with flashcards",
-  "start_url": "/flashcard/?source=pwa",
-  "scope": "/flashcard/",
+  "lang": "zh-Hant",
+  "name": "日語 Flashcards",
+  "short_name": "日語閃卡",
+  "description": "用閃卡學日語：假名、詞彙、JLPT 歷屆試題",
+  "start_url": "/japanese-flashcard/?source=pwa",
+  "scope": "/japanese-flashcard/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#fafaf9",
   "theme_color": "#404A5F",
   "icons": [
     {
-      "src": "/flashcard/icons/icon-192.png",
+      "src": "/japanese-flashcard/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/flashcard/icons/icon-512.png",
+      "src": "/japanese-flashcard/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

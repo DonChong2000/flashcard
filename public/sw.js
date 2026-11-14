@@ -1,18 +1,22 @@
-const VERSION = 'v5';
-const CACHE_SHELL  = `flashcard-shell-${VERSION}`;
-const CACHE_STATIC = `flashcard-static-${VERSION}`;
-const CACHE_DATA   = `flashcard-data-${VERSION}`;
+const VERSION = 'v6';
+// Cache Storage is per origin, and the separate /flashcard/ app shares this
+// origin (donchong2000.github.io). Every cache name carries this app's prefix,
+// and activate only ever deletes caches with that prefix.
+const CACHE_PREFIX = 'jpflashcard-';
+const CACHE_SHELL  = `${CACHE_PREFIX}shell-${VERSION}`;
+const CACHE_STATIC = `${CACHE_PREFIX}static-${VERSION}`;
+const CACHE_DATA   = `${CACHE_PREFIX}data-${VERSION}`;
 const ALL_CACHES   = [CACHE_SHELL, CACHE_STATIC, CACHE_DATA];
 
 const SHELL_URLS = [
-  '/flashcard/',
-  '/flashcard/quiz',
-  '/flashcard/manifest.webmanifest',
-  '/flashcard/data/manifest.json',
+  '/japanese-flashcard/',
+  '/japanese-flashcard/quiz',
+  '/japanese-flashcard/manifest.webmanifest',
+  '/japanese-flashcard/data/manifest.json',
 ];
 
 // HTML pages whose linked _next/static/ assets will be pre-cached at install
-const HTML_SHELL_URLS = ['/flashcard/', '/flashcard/quiz'];
+const HTML_SHELL_URLS = ['/japanese-flashcard/', '/japanese-flashcard/quiz'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -50,7 +54,7 @@ self.addEventListener('activate', (event) => {
       .then((keys) =>
         Promise.all(
           keys
-            .filter((k) => !ALL_CACHES.includes(k))
+            .filter((k) => k.startsWith(CACHE_PREFIX) && !ALL_CACHES.includes(k))
             .map((k) => caches.delete(k))
         )
       )
@@ -73,8 +77,8 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // /flashcard/data/** → network-first, cache on success, fallback to cache
-  if (path.startsWith('/flashcard/data/')) {
+  // /japanese-flashcard/data/** → network-first, cache on success, fallback to cache
+  if (path.startsWith('/japanese-flashcard/data/')) {
     event.respondWith(networkFirstData(request));
     return;
   }
@@ -139,7 +143,7 @@ async function networkFirstNavigate(request) {
   } catch {
     const cached =
       (await caches.match(request)) ||
-      (await caches.match('/flashcard/'));
+      (await caches.match('/japanese-flashcard/'));
     if (cached) return cached;
     return new Response('Offline \u2013 open the app while connected first.', {
       status: 503,
