@@ -3,7 +3,7 @@
 //
 // Stored shape: { v: 1, c: { [question_number]: SrsTuple } }. A tuple is
 //   [due, last, stability, stabilityFast, difficulty, state, reps, lapses, learningStep, scheduledDays, first]
-// with times in whole minutes since the Unix epoch (last = 0 before the first review) and floats
+// with times in whole minutes since the Unix epoch (last is rounded down; 0 before the first review) and floats
 // rounded to 4 decimals. ~60 bytes per card, so a fully studied N1 deck (2.7k cards) is ~160 KB.
 // Only cards that have been graded at least once are stored; a missing card is "new".
 
@@ -44,7 +44,7 @@ const toMin = (ms: number) => Math.round(ms / MIN);
 
 function encode(c: SrsCard): SrsTuple {
   return [
-    toMin(c.due), c.last === null ? 0 : toMin(c.last), r4(c.stability), r4(c.stabilityFast), r4(c.difficulty),
+    toMin(c.due), c.last === null ? 0 : Math.floor(c.last / MIN), r4(c.stability), r4(c.stabilityFast), r4(c.difficulty),
     c.state, c.reps, c.lapses, c.learningStep, r4(c.scheduledDays), toMin(c.first),
   ];
 }

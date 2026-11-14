@@ -1,4 +1,4 @@
-const VERSION = 'v8';
+const VERSION = 'v9';
 // Cache Storage is per origin, and the separate /flashcard/ app shares this
 // origin (donchong2000.github.io). Every cache name carries this app's prefix,
 // and activate only ever deletes caches with that prefix.
@@ -11,12 +11,13 @@ const ALL_CACHES   = [CACHE_SHELL, CACHE_STATIC, CACHE_DATA];
 const SHELL_URLS = [
   '/japanese-flashcard/',
   '/japanese-flashcard/quiz',
+  '/japanese-flashcard/study',
   '/japanese-flashcard/manifest.webmanifest',
   '/japanese-flashcard/data/manifest.json',
 ];
 
 // HTML pages whose linked _next/static/ assets will be pre-cached at install
-const HTML_SHELL_URLS = ['/japanese-flashcard/', '/japanese-flashcard/quiz'];
+const HTML_SHELL_URLS = ['/japanese-flashcard/', '/japanese-flashcard/quiz', '/japanese-flashcard/study'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

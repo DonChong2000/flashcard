@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2, Flame, Ellipsis } from "lucide-react";
+import { BookOpen, Brain, RefreshCw, Play, Download, Upload, Shuffle, SlidersHorizontal, ChevronDown, Cloud, Copy, Check, Link2, Flame, Ellipsis } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -21,6 +21,7 @@ import {
   type ProgressExport,
 } from "@/lib/progress";
 import { getSelectedDataset, setSelectedDataset } from "@/lib/preferences";
+import { exportSrs, getSrs, getSrsSettings, importSrs, isSrsExport, resetSrs, srsSummary, type SrsExport, type SrsSummary } from "@/lib/srs";
 import { type ActivityDevices, getActivity, getActivityDevices, getStreak, isActivityDevices, mergeActivity, syncActivity } from "@/lib/activity";
 import {
   getSyncId,
@@ -57,7 +58,7 @@ export default function HomePage() {
   const [progress, setProgress] = useState<ProgressStore>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; activity?: ActivityDevices; slug: string; totalQuestions: number; source: "file" | "remote" } | null>(null);
+  const [pendingImport, setPendingImport] = useState<{ data: ProgressExport; activity?: ActivityDevices; srs?: SrsExport; slug: string; totalQuestions: number; source: "file" | "remote" } | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [syncId, setSyncIdState] = useState<string | null>(null);
   const [syncStatus, setSyncStatus] = useState<"idle" | "syncing">("idle");
@@ -66,6 +67,7 @@ export default function HomePage() {
   const [syncCardVisible, setSyncCardVisible] = useState(false);
   const syncCardTimerRef = useRef<number | null>(null);
   const [streak, setStreak] = useState<number | null>(null);
+  const [srs, setSrs] = useState<SrsSummary | null>(null);
   const menuRef = useRef<HTMLDetailsElement>(null);
 
   // Close the More menu on any click outside it
@@ -153,6 +155,12 @@ export default function HomePage() {
   }, [selectedSlug]);
 
   const dataset = useMemo(() => datasets.find((d) => d.slug === selectedSlug), [datasets, selectedSlug]);
+
+  function refreshSrs() {
+    setSrs(dataset?.study ? srsSummary(getSrs(dataset.slug), dataset.totalQuestions, getSrsSettings().newPerDay) : null);
+  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(refreshSrs, [dataset]);
   const randomSampleCount = Math.min(RANDOM_SAMPLE_SIZE, dataset?.totalQuestions ?? RANDOM_SAMPLE_SIZE);
 
   // Auto-sync (pull + push as needed) on homepage entry
@@ -316,16 +324,18 @@ export default function HomePage() {
   }
 
   function handleReset() {
-    if (confirm("Reset all progress for this dataset?")) {
+    if (confirm(dataset?.study ? "Reset all progress for this dataset, including its Study schedule?" : "Reset all progress for this dataset?")) {
       resetProgress(selectedSlug);
+      resetSrs(selectedSlug);
       setProgress({});
+      refreshSrs();
     }
   }
 
   function handleExport() {
     if (!dataset) return;
-    // Version 2 files carry the activity history too (all datasets, all devices)
-    const data = { ...exportProgress(selectedSlug, dataset.totalQuestions), version: 2, activity: getActivityDevices() };
+    // Version 2 added the activity history (all datasets, all devices); version 3 adds this deck's SRS state
+    const data = { ...exportProgress(selectedSlug, dataset.totalQuestions), version: 3, activity: getActivityDevices(), srs: exportSrs(selectedSlug) };
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -350,7 +360,8 @@ export default function HomePage() {
       try {
         const raw = JSON.parse(ev.target?.result as string);
         // Validate shape
-        if (raw.version !== 2) {
+        // Version 3 = version 2 + required `srs`; version 2 files (no SRS state) still import
+        if (raw.version !== 2 && raw.version !== 3) {
           alert(`Unknown export version "${raw.version}". Cannot import.`);
           return;
         }
@@ -367,10 +378,14 @@ export default function HomePage() {
           alert("Invalid progress file: activity history is missing or malformed.");
           return;
         }
+        if (raw.version === 3 && !isSrsExport(raw.srs)) {
+          alert("Invalid progress file: study (SRS) state is missing or malformed.");
+          return;
+        }
         if (raw.question_set !== selectedSlug) {
           if (!confirm(`This file is for "${raw.question_set}" but current dataset is "${selectedSlug}". Import anyway?`)) return;
         }
-        setPendingImport({ data: raw as ProgressExport, activity: raw.activity, slug: selectedSlug, totalQuestions: dataset.totalQuestions, source: "file" });
+        setPendingImport({ data: raw as ProgressExport, activity: raw.activity, srs: raw.version === 3 ? raw.srs : undefined, slug: selectedSlug, totalQuestions: dataset.totalQuestions, source: "file" });
       } catch {
         alert("Failed to parse file. Make sure it is a valid JSON progress export.");
       }
@@ -380,8 +395,12 @@ export default function HomePage() {
 
   function handleImportConfirm(mode: "replace" | "merge") {
     if (!pendingImport) return;
-    const { slug, data, activity, totalQuestions, source } = pendingImport;
+    const { slug, data, activity, srs: srsData, totalQuestions, source } = pendingImport;
     importProgress(slug, data, totalQuestions, mode === "merge");
+    if (srsData) {
+      importSrs(slug, srsData, mode === "merge");
+      refreshSrs();
+    }
     // Activity is history, so it always merges, even on Replace
     if (activity) {
       mergeActivity(activity);
@@ -529,6 +548,25 @@ export default function HomePage() {
             onUnseenClick={() => go("all", "unseen")}
             onBookmarkedClick={() => go("all", "bookmarked")}
           />
+        )}
+
+        {/* Study (spaced repetition) — primary action on study decks */}
+        {dataset?.study && srs && (
+          <Button
+            onClick={() => router.push(`/study?dataset=${selectedSlug}`)}
+            className="w-full h-16 justify-between gap-3 px-5 text-base"
+            data-testid="study-button"
+          >
+            <span className="flex items-center gap-2 font-semibold">
+              <Brain className="!size-5" />
+              Study
+            </span>
+            <span className="flex items-center gap-3 text-sm font-normal">
+              <span><span className="font-semibold">{srs.due}</span> due</span>
+              <span><span className="font-semibold">{srs.newToday}</span> new</span>
+              <span className="opacity-70 hidden min-[380px]:inline">{srs.learned} learned</span>
+            </span>
+          </Button>
         )}
 
         {/* Quick actions */}
