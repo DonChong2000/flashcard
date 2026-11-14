@@ -40,7 +40,7 @@ const SYNC_HASH_RE = /^[A-Za-z0-9_-]{16,64}$/;
 function isProgressEmpty(p: ProgressExport): boolean {
   return !/[1-9a-f]/i.test(p.correct + p.incorrect + p.bookmarked);
 }
-const RANDOM_EXAM_SIZE = 65;
+const RANDOM_SAMPLE_SIZE = 20;
 
 interface TopicStats {
   topic: number;
@@ -153,6 +153,7 @@ export default function HomePage() {
   }, [selectedSlug]);
 
   const dataset = useMemo(() => datasets.find((d) => d.slug === selectedSlug), [datasets, selectedSlug]);
+  const randomSampleCount = Math.min(RANDOM_SAMPLE_SIZE, dataset?.totalQuestions ?? RANDOM_SAMPLE_SIZE);
 
   // Auto-sync (pull + push as needed) on homepage entry
   useEffect(() => {
@@ -484,7 +485,7 @@ export default function HomePage() {
             <div className="flex items-center gap-3 min-w-0">
               <BookOpen className="h-7 w-7 shrink-0 text-secondary-foreground" />
               <div className="min-w-0">
-                <h1 className="text-lg sm:text-xl md:text-2xl font-bold">Flashcards</h1>
+                <h1 className="text-lg sm:text-xl md:text-2xl font-bold">日語 Flashcards</h1>
                 {dataset && (
                   <p className="text-sm text-muted-foreground">{dataset.totalQuestions} questions</p>
                 )}
@@ -769,20 +770,20 @@ export default function HomePage() {
           <div className="space-y-3">
             <h2 className="text-lg font-semibold">Practice Sets</h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {/* Random exam card */}
+              {/* Random sample card */}
               <Card
                 className="cursor-pointer hover:shadow-md transition-shadow border-dashed"
-                onClick={() => router.push(`/quiz?dataset=${selectedSlug}&topic=all&filter=all&random=${RANDOM_EXAM_SIZE}`)}
+                onClick={() => router.push(`/quiz?dataset=${selectedSlug}&topic=all&filter=all&random=${RANDOM_SAMPLE_SIZE}`)}
               >
                 <CardContent className="p-4 space-y-3">
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary" className="gap-1">
                       <Shuffle className="h-3 w-3" />
-                      Random {RANDOM_EXAM_SIZE}
+                      Random {randomSampleCount}
                     </Badge>
-                    <span className="text-xs text-muted-foreground">{RANDOM_EXAM_SIZE} Qs</span>
+                    <span className="text-xs text-muted-foreground">{randomSampleCount} Qs</span>
                   </div>
-                  <p className="text-xs text-muted-foreground">Randomly sampled exam set</p>
+                  <p className="text-xs text-muted-foreground">Random mix from all practice sets</p>
                 </CardContent>
               </Card>
               {topicStats.map((ts) => {

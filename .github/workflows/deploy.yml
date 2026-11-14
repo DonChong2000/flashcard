@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          NEXT_PUBLIC_BASE_PATH: /flashcard
+          NEXT_PUBLIC_BASE_PATH: /japanese-flashcard
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

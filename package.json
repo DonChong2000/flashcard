@@ -1,5 +1,5 @@
 {
-  "name": "flashcard",
+  "name": "japanese-flashcard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "pnpm build && gh-pages -d out",
+    "build:decks": "node scripts/build-vocab.mjs && node scripts/build-headfirst.mjs",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "jest": {
@@ -28,7 +29,9 @@
     "next": "^15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^2.6.0"
+    "tailwind-merge": "^2.6.0",
+    "ts-fsrs": "^6.0.0",
+    "wanakana": "^5.3.1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",

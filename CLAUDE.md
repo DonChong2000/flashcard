@@ -18,21 +18,37 @@ There is no `pnpm start` useful in dev — the app is a static export. `pnpm lin
 
 ## Architecture
 
-**Static Next.js export** deployed to GitHub Pages at `/flashcard`. No Next.js server or API routes — all page data is fetched client-side from pre-generated JSON in `public/data/`. The one server-side piece is a small **Cloudflare Worker** (`worker/`) used only for cross-device progress sync (see Sync below).
+**Japanese-learning flashcard app** (repo `japanese-flashcard`): a **static Next.js export** deployed to GitHub Pages at `/japanese-flashcard` (https://donchong2000.github.io/japanese-flashcard). It was split off from the older multi-subject `/flashcard` app (AWS/SAA, Jyutping banks removed). No Next.js server or API routes — all page data is fetched client-side from pre-generated JSON in `public/data/`. The one server-side piece is a small **Cloudflare Worker** (`worker/`) used only for cross-device progress sync (see Sync below).
 
 ### Deployment
 
 - **Site**: GitHub Actions (`.github/workflows/deploy.yml`) builds and deploys `out/` to GitHub Pages via `actions/deploy-pages@v4` on push to `main`. The `pnpm deploy` script (gh-pages package) is a manual fallback, not the CI path.
 - **Worker**: no CI — deploy manually with `wrangler deploy` from `worker/`.
 
+### Same origin as the old `/flashcard` app
+
+Both apps live on `donchong2000.github.io`, so they share localStorage and Cache Storage. On purpose, localStorage keys (`flashcard_progress_{slug}`, `flashcard_sync_id`, `flashcard_activity`, `flashcard_device_id`, …), deck slugs and the sync Worker URL are **unchanged**, so existing Kana/JLPT progress and sync carry over. Do not rename those keys or the existing `data/*.json` files (the filename is the slug). Cache names, by contrast, must stay app-specific: see PWA below.
+
+### Decks
+
+| Source | Built by | Display name / order |
+| --- | --- | --- |
+| `data/Kana.json` | hand-made | 假名 / 1 |
+| `data/Head-First.json` | `scripts/build-headfirst.mjs` from `data-src/head-first/` (cards derived from https://github.com/DonChong2000/head-first-japanese) | 深入淺出日語 / 10 |
+| `data/Vocab-N5.json` … `Vocab-N1.json` | `scripts/build-vocab.mjs` from `data-src/vocab/` (open-anki-jlpt-decks, MIT, based on the tanos.co.uk JLPT lists) | N5 詞彙 … N1 詞彙 / 21–25 |
+| `data/JLPT-N5.json` … `JLPT-N1.json` | JLPT past papers | JLPT N5 … N1 歷屆試題 / 31–35 |
+
+Edit the `data-src/` inputs and rerun the build script rather than hand-editing generated decks. The data files are large: change top-level fields with a node one-liner, not by hand.
+
 ### Data pipeline
 
 Source files live in `data/*.json`. Before each build/dev, `scripts/process-data.mjs` runs and:
 - Groups questions by `topic` field per source file
 - Writes `public/data/{slug}/topic-{N}.json` and `public/data/{slug}/all.json`
-- Writes `public/data/manifest.json` listing all datasets
+- Writes `public/data/manifest.json` listing all datasets, sorted by `order` (missing = 999) then `name`
+- Clears `public/data/` first, so removed decks don't linger
 
-Slug is derived from the filename (e.g. `SAA-C03.json` → `saa_c03`). To add a new question bank: drop a `.json` file in `data/` with the same schema (top-level `questions` array), rebuild.
+Slug is derived from the filename (e.g. `JLPT-N5.json` → `jlpt_n5`). To add a new question bank: drop a `.json` file in `data/` with the same schema (top-level `questions` array), rebuild.
 
 **Source JSON schema:**
 ```json
@@ -49,13 +65,15 @@ Slug is derived from the filename (e.g. `SAA-C03.json` → `saa_c03`). To add a 
 }
 ```
 
+Optional top-level `name` (display name, used by the dataset selector; falls back to the humanized slug) and `order` (number) pass through to the manifest. The first dataset in manifest order is the default selection when none is stored.
+
 Optional top-level `topic_names` (`{ "1": "易", ... }`) labels the practice-set cards and quiz header instead of "Practice Set N"; it passes through to the manifest as `topicNames`.
 
 Optional `image` / `audio` fields hold paths under `public/` (e.g. `media/jlpt_n5/2018-07/L1-1.mp3`); `QuestionCard` renders them with `BASE_PATH` prepended. The `JLPT-N5.json` to `JLPT-N1.json` files use them for their 聴解 (listening) questions, numbered after the reading ones so existing progress keys stay stable.
 
 ### Client data loading
 
-`lib/manifest.ts` fetches and caches `manifest.json` in a module-level singleton (no expiry). Topic JSON files are **not cached** — fetched fresh each quiz start. `BASE_PATH` (`/flashcard`) is prepended to all fetch URLs — set via `NEXT_PUBLIC_BASE_PATH` env var (defaults to `/flashcard`). Import it from `lib/constants.ts`.
+`lib/manifest.ts` fetches and caches `manifest.json` in a module-level singleton (no expiry). Topic JSON files are **not cached** — fetched fresh each quiz start. `BASE_PATH` (`/japanese-flashcard`) is prepended to all fetch URLs — set via `NEXT_PUBLIC_BASE_PATH` env var (defaults to `/japanese-flashcard`). Import it from `lib/constants.ts`.
 
 ### Local storage
 
@@ -73,7 +91,7 @@ In dev, `public/sw.js` caches the unhashed `_next/static/chunks/app/*/page.js`, 
 
 ### Sync (Cloudflare Worker + KV)
 
-- `worker/src/index.js` — Worker `flashcard-sync` (`worker/wrangler.toml`, KV binding `FLASHCARD_SYNC`) exposing `GET/PUT /sync/{hash}/{slug}` for progress snapshots (validates a `version: 1` schema). The reserved slug `_activity` holds `{ version: 1, devices: { [deviceId]: { day: count } } }`; `syncActivity` pulls it, merges with `mergeActivity`, then pushes the merged map; the displayed total is the sum over devices (`flashcard_device_id` names this one). It runs on home whenever the sync ID is known, on the Activity page, and after a file import.
+- `worker/src/index.js` — Worker `flashcard-sync` (shared with the old `/flashcard` app; deploying it affects both) (`worker/wrangler.toml`, KV binding `FLASHCARD_SYNC`) exposing `GET/PUT /sync/{hash}/{slug}` for progress snapshots (validates a `version: 1` schema). The reserved slug `_activity` holds `{ version: 1, devices: { [deviceId]: { day: count } } }`; `syncActivity` pulls it, merges with `mergeActivity`, then pushes the merged map; the displayed total is the sum over devices (`flashcard_device_id` names this one). It runs on home whenever the sync ID is known, on the Activity page, and after a file import.
 - `lib/constants.ts` — `SYNC_API` defaults to `https://flashcard-sync.donchong2000.workers.dev`, overridable via `NEXT_PUBLIC_SYNC_API`.
 - `lib/sync.ts` — client: generates/stores a sync ID in localStorage `flashcard_sync_id`; `pullRemote`/`pushRemote` talk to the Worker; `flashcard_last_synced_{slug}` keeps the last-synced snapshot for diffing.
 - `app/page.tsx` — auto pull/push on mount, adopts a foreign sync ID via `?sync=HASH` link or the "Enter Sync ID" prompt (needed on iOS home-screen PWAs, whose storage is separate from Safari so links never reach them), "Copy Link" shares it, plus a manual Sync button. Sync, Enter Sync ID, Export, Import and Reset Progress live in the home page's "More" menu (a native `<details>`); only Start All stays visible.
@@ -82,7 +100,7 @@ In dev, `public/sw.js` caches the unhashed `_next/static/chunks/app/*/page.js`, 
 
 `app/quiz/page.tsx` uses `useSearchParams` which requires a `<Suspense>` boundary for static export compatibility. The actual logic lives in `QuizContent` (inner component), wrapped by the exported `QuizPage`. URL params: `?dataset={slug}&topic={N|all}&filter={...}&random={N}&tags={...}`. Valid filters are `QUIZ_FILTERS` in `lib/types.ts`: `all | correct | incorrect | unseen | bookmarked | bookmarked+incorrect`.
 
-The `random` param shuffles the filtered question list and slices it to N questions; `random=all` shuffles without slicing. The custom quiz builder sends `random=all` when its Random Sample box is blank, so custom quizzes are always shuffled (the practice-set cards stay in order). The home page uses `RANDOM_EXAM_SIZE = 65` for its "Random exam" card.
+The `random` param shuffles the filtered question list and slices it to N questions; `random=all` shuffles without slicing. The custom quiz builder sends `random=all` when its Random Sample box is blank, so custom quizzes are always shuffled (the practice-set cards stay in order). The home page uses `RANDOM_SAMPLE_SIZE = 20` for its "Random N" card (label capped at the deck size).
 
 On mount, `QuizContent` fetches questions, applies the filter (in-memory, one-time), then seeks to the first unseen question. Filtering is not reactive — changing the filter requires a new navigation.
 
@@ -94,25 +112,25 @@ On mount, `QuizContent` fetches questions, applies the filter (in-memory, one-ti
 
 ### basePath
 
-`next.config.ts` sets `basePath: "/flashcard"`. Next.js automatically prepends this to all `router.push()` calls — do **not** include it manually. Only `fetch()` URLs need the prefix, using `BASE_PATH` imported from `lib/constants.ts`.
+`next.config.ts` sets `basePath: "/japanese-flashcard"`. Next.js automatically prepends this to all `router.push()` calls — do **not** include it manually. Only `fetch()` URLs need the prefix, using `BASE_PATH` imported from `lib/constants.ts`.
 
 ### PWA
 
-A manually-written service worker lives at `public/sw.js`. It uses three named caches keyed by a `VERSION` constant at the top of the file. Bump `VERSION` when you need to invalidate all caches (e.g. after changing cached shell URLs or cache strategies).
+A manually-written service worker lives at `public/sw.js`. It uses three named caches `jpflashcard-{shell,static,data}-{VERSION}`. Bump `VERSION` when you need to invalidate all caches (e.g. after changing cached shell URLs or cache strategies). On activate, `precacheDecks()` downloads every deck's `all.json` and `topic-N.json` listed in the manifest into the data cache, so all decks work offline without being opened first (listening audio under `media/` is not precached). Cache Storage is per origin and shared with the old `/flashcard` app, so the activate handler deletes only caches starting with `CACHE_PREFIX` (`jpflashcard-`); never widen that filter. The old app's `sw.js` (v5 and earlier) deletes every cache not in its own list, so it can wipe `jpflashcard-*` caches when it activates; that only costs a refetch, and is fixed by giving the old app the same prefix filter.
 
 ### Tests
 
-Jest with `--experimental-vm-modules`. Only `__tests__/data.test.mjs` exists — it validates source JSON schema (uniqueness, required fields, answer key consistency). No UI or component tests.
+Jest with `--experimental-vm-modules`. Only `__tests__/data.test.mjs` exists — it validates every `data/*.json` (uniqueness, required fields, answer key consistency, optional `name`/`order` types). No UI or component tests.
 
 ### Inspecting question data
 
 ```bash
 # Fetch a question by number (top 5 discussion comments only)
-node -e "const d=require('./data/SAA-C03.json'); const q={...d.questions.find(q=>q.question_number===86)}; q.discussion=q.discussion.slice(0,5); console.log(JSON.stringify(q,null,2))"
+node -e "const d=require('./data/JLPT-N5.json'); const q={...d.questions.find(q=>q.question_number===86)}; q.discussion=(q.discussion||[]).slice(0,5); console.log(JSON.stringify(q,null,2))"
 
-# List questions by tag
-node -e "const d=require('./data/SAA-C03.json'); d.questions.filter(q=>(q.tags||[]).includes('Databases')).forEach(q=>console.log('Q'+q.question_number, q.tags.join(', '),'|',q.question.slice(0,80)))"
+# List each deck's name, order and size
+node -e "for (const f of require('fs').readdirSync('data').filter(f=>f.endsWith('.json'))) { const d=require('./data/'+f); console.log(f, d.name, d.order, d.questions.length) }"
 
 # Search question text by keyword
-node -e "const d=require('./data/SAA-C03.json'); d.questions.filter(q=>q.question.toLowerCase().includes('rotate')).forEach(q=>console.log('Q'+q.question_number, q.question.slice(0,80)))"
+node -e "const d=require('./data/JLPT-N5.json'); d.questions.filter(q=>q.question.includes('学校')).forEach(q=>console.log('Q'+q.question_number, q.question.slice(0,80)))"
 ```

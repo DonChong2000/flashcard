@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFile, mkdir } from "fs/promises";
+import { readdir, readFile, writeFile, mkdir, rm } from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -10,6 +10,9 @@ const OUT_DIR = path.join(ROOT, "public", "data");
 function slugify(filename) {
   return path.basename(filename, ".json").replace(/[^a-z0-9]+/gi, "_").toLowerCase();
 }
+
+// Datasets without a top-level `order` sort after every ordered one.
+const DEFAULT_ORDER = 999;
 
 function humanize(slug) {
   return slug
@@ -34,6 +37,8 @@ async function main() {
     return;
   }
 
+  // Start clean so decks removed from data/ don't linger in public/data/ (and out/)
+  await rm(OUT_DIR, { recursive: true, force: true });
   await mkdir(OUT_DIR, { recursive: true });
 
   const datasets = [];
@@ -90,16 +95,21 @@ async function main() {
 
     datasets.push({
       slug,
-      name: humanize(slug),
+      name: typeof data.name === "string" && data.name.trim() ? data.name.trim() : humanize(slug),
+      order: typeof data.order === "number" ? data.order : DEFAULT_ORDER,
       totalQuestions: questions.length,
       topics,
       topicQuestions,
       tagQuestions,
       ...(data.topic_names && { topicNames: data.topic_names }),
+      ...(data.study === true && { study: true }),
     });
 
     console.log(`Processed ${file} → ${slug} (${questions.length} questions, ${topics.length} topics)`);
   }
+
+  // Sort by `order`, then display name; the first entry is the default selection.
+  datasets.sort((a, b) => a.order - b.order || a.name.localeCompare(b.name));
 
   const manifest = { datasets };
   await writeFile(path.join(OUT_DIR, "manifest.json"), JSON.stringify(manifest));

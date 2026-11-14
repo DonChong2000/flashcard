@@ -5,8 +5,8 @@ import { BASE_PATH } from "@/lib/constants";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flashcards",
-  description: "Study exam questions with flashcards",
+  title: "日語 Flashcards",
+  description: "用閃卡學日語：假名、詞彙、JLPT 歷屆試題",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="ja" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: `(function(){var t=localStorage.getItem('theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');})();` }} />
         <link rel="manifest" href={`${BASE_PATH}/manifest.webmanifest`} />
@@ -23,7 +23,7 @@ export default function RootLayout({
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#e7e8e5" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Flashcards" />
+        <meta name="apple-mobile-web-app-title" content="日語閃卡" />
         <link rel="apple-touch-icon" href={`${BASE_PATH}/icons/icon-192.png`} />
         <script dangerouslySetInnerHTML={{ __html: `if('serviceWorker'in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('${BASE_PATH}/sw.js',{scope:'${BASE_PATH}/'});});}` }} />
       </head>

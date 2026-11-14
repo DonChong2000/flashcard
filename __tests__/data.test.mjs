@@ -46,6 +46,19 @@ describe("data/*.json source files", () => {
     }
   });
 
+  test("optional top-level name is a non-empty string and order is a number", () => {
+    collectErrors((check) => {
+      for (const { file, data } of entries) {
+        if (data.name !== undefined) {
+          check(typeof data.name === "string" && data.name.trim().length > 0, `${file}: name must be a non-empty string`);
+        }
+        if (data.order !== undefined) {
+          check(typeof data.order === "number" && Number.isFinite(data.order), `${file}: order must be a finite number`);
+        }
+      }
+    });
+  });
+
   test("question_number is a positive integer, unique within each file", () => {
     collectErrors((check) => {
       for (const { file, data } of entries) {
