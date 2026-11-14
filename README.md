@@ -15,12 +15,13 @@ Live at: https://donchong2000.github.io/japanese-flashcard
 
 ## Features
 
+- **Study mode** for the vocabulary decks: spaced repetition (FSRS) with active recall: see the word and its example sentence, recall the reading and meaning, reveal, grade Again/Hard/Good/Easy. Due reviews first, then new words in order of how often they appear in past JLPT papers (20 a day by default). Optional typed readings (kana or romaji), listening cards and spoken audio (ja-JP speech). Works offline
 - Practice by set or all cards at once, plus a random 20-card mix
 - Filter to review only incorrect, unseen or bookmarked cards
 - Progress tracked in localStorage — persists across sessions
-- Export/import progress as JSON, plus cross-device sync via a small Cloudflare Worker
+- Export/import progress as JSON (including the Study schedule), plus cross-device sync of quiz progress via a small Cloudflare Worker (the Study schedule isn't synced; move it with Export/Import)
 - Daily activity heatmap and streak
-- Keyboard shortcuts: `1–6` select options, `Enter`/`Space` submit or advance, `→` advance after reveal, `B` bookmark
+- Keyboard shortcuts: `1–6` select options, `Enter`/`Space` submit or advance, `→` advance after reveal, `B` bookmark; in Study, `Space`/`Enter` reveals and `1–4` grade
 - Installable PWA, works offline after first visit
 
 ## Development
@@ -52,7 +53,7 @@ pnpm test     # validates data/*.json
 }
 ```
 
-`name` (display name), `order` (sort key, missing = 999) and `topic_names` (set labels) are optional. Questions may also carry `image` / `audio` paths under `public/`.
+`name` (display name), `order` (sort key, missing = 999) and `topic_names` (set labels) are optional. `"study": true` turns on Study mode for a deck whose questions carry a `vocab` object (see `data-src/vocab/CONTRACT.md`). Questions may also carry `image` / `audio` paths under `public/`.
 
 2. Run `pnpm dev` or `pnpm build` — the data processor generates `public/data/` automatically.
 
